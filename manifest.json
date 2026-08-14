@@ -9,4665 +9,5338 @@
  "sounds": [
   {
    "id": "10-billion",
-   "label": "10 billion",
+   "label": "10 billion (24k)",
    "file": "trump/10-billion.ogg",
    "group": "trump",
-   "ms": 2663
+   "ms": 2663,
+   "kbps": 24
   },
   {
    "id": "12",
-   "label": "12",
+   "label": "12 (24k)",
    "file": "trump/12.ogg",
    "group": "trump",
-   "ms": 2070
+   "ms": 2070,
+   "kbps": 24
   },
   {
    "id": "12-or-13",
-   "label": "12 or 13",
+   "label": "12 or 13 (24k)",
    "file": "trump/12-or-13.ogg",
    "group": "trump",
-   "ms": 3358
+   "ms": 3358,
+   "kbps": 24
   },
   {
    "id": "13",
-   "label": "13",
+   "label": "13 (24k)",
    "file": "trump/13.ogg",
    "group": "trump",
-   "ms": 2236
+   "ms": 2236,
+   "kbps": 24
   },
   {
    "id": "2-weeks",
-   "label": "2 weeks",
+   "label": "2 weeks (24k)",
    "file": "trump/2-weeks.ogg",
    "group": "trump",
-   "ms": 2079
+   "ms": 2079,
+   "kbps": 24
   },
   {
    "id": "25",
-   "label": "25",
+   "label": "25 (24k)",
    "file": "trump/25.ogg",
    "group": "trump",
-   "ms": 2514
+   "ms": 2514,
+   "kbps": 24
   },
   {
    "id": "35",
-   "label": "35",
+   "label": "35 (24k)",
    "file": "trump/35.ogg",
    "group": "trump",
-   "ms": 1793
+   "ms": 1793,
+   "kbps": 24
   },
   {
    "id": "45",
-   "label": "45",
+   "label": "45 (24k)",
    "file": "trump/45.ogg",
    "group": "trump",
-   "ms": 2140
+   "ms": 2140,
+   "kbps": 24
   },
   {
    "id": "50-percent",
-   "label": "50 percent",
+   "label": "50 percent (24k)",
    "file": "trump/50-percent.ogg",
    "group": "trump",
-   "ms": 1976
+   "ms": 1976,
+   "kbps": 24
   },
   {
    "id": "5th-avenue",
-   "label": "5th avenue",
+   "label": "5th avenue (24k)",
    "file": "trump/5th-avenue.ogg",
    "group": "trump",
-   "ms": 1560
+   "ms": 1560,
+   "kbps": 24
   },
   {
    "id": "9",
-   "label": "9",
+   "label": "9 (24k)",
    "file": "trump/9.ogg",
    "group": "trump",
-   "ms": 1832
+   "ms": 1832,
+   "kbps": 24
   },
   {
    "id": "9-years",
-   "label": "9 years",
+   "label": "9 years (24k)",
    "file": "trump/9-years.ogg",
    "group": "trump",
-   "ms": 3392
+   "ms": 3392,
+   "kbps": 24
   },
   {
    "id": "thomas-the-tank-engine-ft-donald-trump-bing-bong-original-so",
-   "label": "[THOMAS THE TANK ENGINE ft. DONALD TRUMP (Bing Bong) [ORIGINAL SOUND] ]",
+   "label": "[THOMAS THE TANK ENGINE ft. DONALD TRUMP (Bing Bong) [ORIGINAL SOUND] ] (24k)",
    "file": "trump/thomas-the-tank-engine-ft-donald-trump-bing-bong-original-so.ogg",
    "group": "trump",
-   "ms": 42728
+   "ms": 42728,
+   "kbps": 24
   },
   {
    "id": "a-woman-that-looks-like-that-has-to-have-special-scent",
-   "label": "A woman that looks like that has to have special scent",
+   "label": "A woman that looks like that has to have special scent (24k)",
    "file": "trump/a-woman-that-looks-like-that-has-to-have-special-scent.ogg",
    "group": "trump",
-   "ms": 4597
+   "ms": 4597,
+   "kbps": 24
   },
   {
    "id": "ah-i-m-smart",
-   "label": "Ah I'm smart",
+   "label": "Ah I'm smart (24k)",
    "file": "trump/ah-i-m-smart.ogg",
    "group": "trump",
-   "ms": 2028
+   "ms": 2028,
+   "kbps": 24
   },
   {
    "id": "ah-no",
-   "label": "Ah no",
+   "label": "Ah no (24k)",
    "file": "trump/ah-no.ogg",
    "group": "trump",
-   "ms": 1558
+   "ms": 1558,
+   "kbps": 24
   },
   {
    "id": "america",
-   "label": "America",
+   "label": "America (24k)",
    "file": "trump/america.ogg",
    "group": "trump",
-   "ms": 2523
+   "ms": 2523,
+   "kbps": 24
   },
   {
    "id": "america-first-trump",
-   "label": "America First!  trump",
+   "label": "America First!  trump (24k)",
    "file": "trump/america-first-trump.ogg",
    "group": "trump",
-   "ms": 3056
+   "ms": 3056,
+   "kbps": 24
   },
   {
    "id": "america-great-again",
-   "label": "America great again",
+   "label": "America great again (24k)",
    "file": "trump/america-great-again.ogg",
    "group": "trump",
-   "ms": 3909
+   "ms": 3909,
+   "kbps": 24
   },
   {
    "id": "and-i-made-a-lot-of-money-in-atlantic-city-and-i-m-very",
-   "label": "And I made a lot of money in atlantic city and i'm very",
+   "label": "And I made a lot of money in atlantic city and i'm very (24k)",
    "file": "trump/and-i-made-a-lot-of-money-in-atlantic-city-and-i-m-very.ogg",
    "group": "trump",
-   "ms": 4509
+   "ms": 4509,
+   "kbps": 24
   },
   {
    "id": "and-i-made-a-lot-of-money-in-atlantic-city-and-i-m-very-prou",
-   "label": "And I made a lot of money in Atlantic City and i'm very proud of it",
+   "label": "And I made a lot of money in Atlantic City and i'm very proud of it (24k)",
    "file": "trump/and-i-made-a-lot-of-money-in-atlantic-city-and-i-m-very-prou.ogg",
    "group": "trump",
-   "ms": 4109
+   "ms": 4109,
+   "kbps": 24
   },
   {
    "id": "and-i-will-tell-you-this-and-i-said-it-very-strongly",
-   "label": "And I will tell you this and i said it very strongly",
+   "label": "And I will tell you this and i said it very strongly (24k)",
    "file": "trump/and-i-will-tell-you-this-and-i-said-it-very-strongly.ogg",
    "group": "trump",
-   "ms": 3839
+   "ms": 3839,
+   "kbps": 24
   },
   {
    "id": "and-it-only-makes-common-sense",
-   "label": "And it only makes common sense",
+   "label": "And it only makes common sense (24k)",
    "file": "trump/and-it-only-makes-common-sense.ogg",
    "group": "trump",
-   "ms": 3629
+   "ms": 3629,
+   "kbps": 24
   },
   {
    "id": "and-now-they-re-beating-us-economically-they-are-not-our-fri",
-   "label": "And now they're beating us economically they are not our friends, believe me",
+   "label": "And now they're beating us economically they are not our friends, believe me (24k)",
    "file": "trump/and-now-they-re-beating-us-economically-they-are-not-our-fri.ogg",
    "group": "trump",
-   "ms": 4780
+   "ms": 4780,
+   "kbps": 24
   },
   {
    "id": "and-some-i-assume-are-good-people",
-   "label": "And some I assume are good people",
+   "label": "And some I assume are good people (24k)",
    "file": "trump/and-some-i-assume-are-good-people.ogg",
    "group": "trump",
-   "ms": 3038
+   "ms": 3038,
+   "kbps": 24
   },
   {
    "id": "and-that-is-a-nation-that-truly-has-no-clue-they-don-t",
-   "label": "And that is a nation that truly has no clue they don't",
+   "label": "And that is a nation that truly has no clue they don't (24k)",
    "file": "trump/and-that-is-a-nation-that-truly-has-no-clue-they-don-t.ogg",
    "group": "trump",
-   "ms": 7103
+   "ms": 7103,
+   "kbps": 24
   },
   {
    "id": "and-that-is-a-nation-that-truly-has-no-clue-they-don-t-know-",
-   "label": "And that is a nation that truly has no clue they don't know what they're doing",
+   "label": "And that is a nation that truly has no clue they don't know what they're doing (24k)",
    "file": "trump/and-that-is-a-nation-that-truly-has-no-clue-they-don-t-know-.ogg",
    "group": "trump",
-   "ms": 7303
+   "ms": 7303,
+   "kbps": 24
   },
   {
    "id": "and-the-answer-is",
-   "label": "And the answer is",
+   "label": "And the answer is (24k)",
    "file": "trump/and-the-answer-is.ogg",
    "group": "trump",
-   "ms": 3184
+   "ms": 3184,
+   "kbps": 24
   },
   {
    "id": "and-the-mexican-government-is-much-smarter-much-sharper-much",
-   "label": "And the Mexican government is much smarter, much sharper, much more cunning and they send the bad ones over because they don't want to pay for him they don't want to take care of him why should they .",
+   "label": "And the Mexican government is much smarter, much sharper, much more cunning and they send the bad ones over because they don't want to pay for him they don't want to take care of him why should they . (24k)",
    "file": "trump/and-the-mexican-government-is-much-smarter-much-sharper-much.ogg",
    "group": "trump",
-   "ms": 16742
+   "ms": 16742,
+   "kbps": 24
   },
   {
    "id": "and-we-need-a-truly-great-leader-now",
-   "label": "And we need a truly great leader now",
+   "label": "And we need a truly great leader now (24k)",
    "file": "trump/and-we-need-a-truly-great-leader-now.ogg",
    "group": "trump",
-   "ms": 3369
+   "ms": 3369,
+   "kbps": 24
   },
   {
    "id": "and-we-say-bye-bye",
-   "label": "And we say bye bye",
+   "label": "And we say bye bye (24k)",
    "file": "trump/and-we-say-bye-bye.ogg",
    "group": "trump",
-   "ms": 2315
+   "ms": 2315,
+   "kbps": 24
   },
   {
    "id": "and-we-will-make-america-great-again",
-   "label": "And we will make America great again",
+   "label": "And we will make America great again (24k)",
    "file": "trump/and-we-will-make-america-great-again.ogg",
    "group": "trump",
-   "ms": 5771
+   "ms": 5771,
+   "kbps": 24
   },
   {
    "id": "and-we-re-going-to-have-a-lot-of-fun-tonight",
-   "label": "And we're going to have a lot of fun tonight",
+   "label": "And we're going to have a lot of fun tonight (24k)",
    "file": "trump/and-we-re-going-to-have-a-lot-of-fun-tonight.ogg",
    "group": "trump",
-   "ms": 2960
+   "ms": 2960,
+   "kbps": 24
   },
   {
    "id": "and-we-re-going-to-load-it-up-with-some-bad-dudes",
-   "label": "And we're going to load it up with some bad dudes",
+   "label": "And we're going to load it up with some bad dudes (24k)",
    "file": "trump/and-we-re-going-to-load-it-up-with-some-bad-dudes.ogg",
    "group": "trump",
-   "ms": 5005
+   "ms": 5005,
+   "kbps": 24
   },
   {
    "id": "and-yes",
-   "label": "And yes",
+   "label": "And yes (24k)",
    "file": "trump/and-yes.ogg",
    "group": "trump",
-   "ms": 1688
+   "ms": 1688,
+   "kbps": 24
   },
   {
    "id": "and-yes-2",
-   "label": "And yes",
+   "label": "And yes (24k)",
    "file": "trump/and-yes-2.ogg",
    "group": "trump",
-   "ms": 1688
+   "ms": 1688,
+   "kbps": 24
   },
   {
    "id": "any-guy-that-can-do-a-body-slam-is-my-kind-of-guy-trump-slam",
-   "label": "Any guy that can do a body slam is my kind of guy  trump   slam   kind of guy",
+   "label": "Any guy that can do a body slam is my kind of guy  trump   slam   kind of guy (24k)",
    "file": "trump/any-guy-that-can-do-a-body-slam-is-my-kind-of-guy-trump-slam.ogg",
    "group": "trump",
-   "ms": 11857
+   "ms": 11857,
+   "kbps": 24
   },
   {
    "id": "are-there-any-russians-here-tonight-collusion-russians-campa",
-   "label": "Are there any Russians here tonight?  collusion  russians  campaign",
+   "label": "Are there any Russians here tonight?  collusion  russians  campaign (24k)",
    "file": "trump/are-there-any-russians-here-tonight-collusion-russians-campa.ogg",
    "group": "trump",
-   "ms": 17865
+   "ms": 17865,
+   "kbps": 24
   },
   {
    "id": "are-you-running-are-you-not-running",
-   "label": "Are you running? Are you not running?",
+   "label": "Are you running? Are you not running? (24k)",
    "file": "trump/are-you-running-are-you-not-running.ogg",
    "group": "trump",
-   "ms": 3717
+   "ms": 3717,
+   "kbps": 24
   },
   {
    "id": "aroused-aroused-to-get-it-aroused",
-   "label": "Aroused  aroused   to get it aroused",
+   "label": "Aroused  aroused   to get it aroused (24k)",
    "file": "trump/aroused-aroused-to-get-it-aroused.ogg",
    "group": "trump",
-   "ms": 9647
+   "ms": 9647,
+   "kbps": 24
   },
   {
    "id": "bad-for-me-to-say-that",
-   "label": "Bad for me to say that",
+   "label": "Bad for me to say that (24k)",
    "file": "trump/bad-for-me-to-say-that.ogg",
    "group": "trump",
-   "ms": 2829
+   "ms": 2829,
+   "kbps": 24
   },
   {
    "id": "bank-of-america",
-   "label": "Bank of America",
+   "label": "Bank of America (24k)",
    "file": "trump/bank-of-america.ogg",
    "group": "trump",
-   "ms": 9200
+   "ms": 9200,
+   "kbps": 24
   },
   {
    "id": "barack-obama",
-   "label": "Barack Obama",
+   "label": "Barack Obama (24k)",
    "file": "trump/barack-obama.ogg",
    "group": "trump",
-   "ms": 2680
+   "ms": 2680,
+   "kbps": 24
   },
   {
    "id": "barbie-girl-donald-trump-song",
-   "label": "Barbie Girl Donald Trump [Song]",
+   "label": "Barbie Girl Donald Trump [Song] (24k)",
    "file": "trump/barbie-girl-donald-trump-song.ogg",
    "group": "trump",
-   "ms": 15873
+   "ms": 15873,
+   "kbps": 24
   },
   {
    "id": "be-a-judge",
-   "label": "Be a judge",
+   "label": "Be a judge (24k)",
    "file": "trump/be-a-judge.ogg",
    "group": "trump",
-   "ms": 7376
+   "ms": 7376,
+   "kbps": 24
   },
   {
    "id": "be-poker-players",
-   "label": "Be poker players",
+   "label": "Be poker players (24k)",
    "file": "trump/be-poker-players.ogg",
    "group": "trump",
-   "ms": 4404
+   "ms": 4404,
+   "kbps": 24
   },
   {
    "id": "beat-mexico-at-the-border-they-re-laughing-at-us-at-our-stup",
-   "label": "Beat Mexico at the border. They're laughing at us, at our stupidity.",
+   "label": "Beat Mexico at the border. They're laughing at us, at our stupidity. (24k)",
    "file": "trump/beat-mexico-at-the-border-they-re-laughing-at-us-at-our-stup.ogg",
    "group": "trump",
-   "ms": 6877
+   "ms": 6877,
+   "kbps": 24
   },
   {
    "id": "beating-china",
-   "label": "Beating China",
+   "label": "Beating China (24k)",
    "file": "trump/beating-china.ogg",
    "group": "trump",
-   "ms": 19661
+   "ms": 19661,
+   "kbps": 24
   },
   {
    "id": "beating-us",
-   "label": "Beating us",
+   "label": "Beating us (24k)",
    "file": "trump/beating-us.ogg",
    "group": "trump",
-   "ms": 5015
+   "ms": 5015,
+   "kbps": 24
   },
   {
    "id": "because-our-leaders-are-stupid-our-politicians-are-stupid",
-   "label": "Because our leaders are stupid our politicians are stupid",
+   "label": "Because our leaders are stupid our politicians are stupid (24k)",
    "file": "trump/because-our-leaders-are-stupid-our-politicians-are-stupid.ogg",
    "group": "trump",
-   "ms": 4414
+   "ms": 4414,
+   "kbps": 24
   },
   {
    "id": "because-our-leaders-are-stupid-our-politicians-are-stupid-2",
-   "label": "Because our leaders are stupid our politicians are stupid",
+   "label": "Because our leaders are stupid our politicians are stupid (24k)",
    "file": "trump/because-our-leaders-are-stupid-our-politicians-are-stupid-2.ogg",
    "group": "trump",
-   "ms": 4814
+   "ms": 4814,
+   "kbps": 24
   },
   {
    "id": "because-you-d-be-in-jail",
-   "label": "Because you'd be in jail",
+   "label": "Because you'd be in jail (24k)",
    "file": "trump/because-you-d-be-in-jail.ogg",
    "group": "trump",
-   "ms": 2906
+   "ms": 2906,
+   "kbps": 24
   },
   {
    "id": "because-you-d-be-in-jail-trump-clinton",
-   "label": "Because you'd be in jail  trump  clinton",
+   "label": "Because you'd be in jail  trump  clinton (24k)",
    "file": "trump/because-you-d-be-in-jail-trump-clinton.ogg",
    "group": "trump",
-   "ms": 3533
+   "ms": 3533,
+   "kbps": 24
   },
   {
    "id": "bigger-and-better-and-stronger",
-   "label": "Bigger and better and stronger",
+   "label": "Bigger and better and stronger (24k)",
    "file": "trump/bigger-and-better-and-stronger.ogg",
    "group": "trump",
-   "ms": 6015
+   "ms": 6015,
+   "kbps": 24
   },
   {
    "id": "billions-and-billions-lot",
-   "label": "Billions and Billions    lot",
+   "label": "Billions and Billions    lot (24k)",
    "file": "trump/billions-and-billions-lot.ogg",
    "group": "trump",
-   "ms": 35753
+   "ms": 35753,
+   "kbps": 24
   },
   {
    "id": "bing-bong-remix",
-   "label": "Bing bong (remix)",
+   "label": "Bing bong (remix) (24k)",
    "file": "trump/bing-bong-remix.ogg",
    "group": "trump",
-   "ms": 11057
+   "ms": 11057,
+   "kbps": 24
   },
   {
    "id": "bomb-those-suckers",
-   "label": "Bomb those suckers",
+   "label": "Bomb those suckers (24k)",
    "file": "trump/bomb-those-suckers.ogg",
    "group": "trump",
-   "ms": 58296
+   "ms": 58296,
+   "kbps": 24
   },
   {
    "id": "boy-is-she-smart",
-   "label": "Boy is she smart",
+   "label": "Boy is she smart (24k)",
    "file": "trump/boy-is-she-smart.ogg",
    "group": "trump",
-   "ms": 1811
+   "ms": 1811,
+   "kbps": 24
   },
   {
    "id": "build-a-wall",
-   "label": "Build a wall",
+   "label": "Build a wall (24k)",
    "file": "trump/build-a-wall.ogg",
    "group": "trump",
-   "ms": 5903
+   "ms": 5903,
+   "kbps": 24
   },
   {
    "id": "build-a-wall-pt2",
-   "label": "Build a wall pt2",
+   "label": "Build a wall pt2 (24k)",
    "file": "trump/build-a-wall-pt2.ogg",
    "group": "trump",
-   "ms": 9256
+   "ms": 9256,
+   "kbps": 24
   },
   {
    "id": "bullshit",
-   "label": "Bullshit",
+   "label": "Bullshit (24k)",
    "file": "trump/bullshit.ogg",
    "group": "trump",
-   "ms": 2136
+   "ms": 2136,
+   "kbps": 24
   },
   {
    "id": "burny-sanders",
-   "label": "Burny Sanders",
+   "label": "Burny Sanders (24k)",
    "file": "trump/burny-sanders.ogg",
    "group": "trump",
-   "ms": 1723
+   "ms": 1723,
+   "kbps": 24
   },
   {
    "id": "but-actually-i-am",
-   "label": "But actually I am",
+   "label": "But actually I am (24k)",
    "file": "trump/but-actually-i-am.ogg",
    "group": "trump",
-   "ms": 3028
+   "ms": 3028,
+   "kbps": 24
   },
   {
    "id": "but-if-i-get-elected-president",
-   "label": "But if I get elected President",
+   "label": "But if I get elected President (24k)",
    "file": "trump/but-if-i-get-elected-president.ogg",
    "group": "trump",
-   "ms": 4194
+   "ms": 4194,
+   "kbps": 24
   },
   {
    "id": "but-if-i-get-elected-president-i-will-bring-it-back-bigger-a",
-   "label": "But if I get elected president I will bring it back bigger and better and stronger than ever before and we will make america great again",
+   "label": "But if I get elected president I will bring it back bigger and better and stronger than ever before and we will make america great again (24k)",
    "file": "trump/but-if-i-get-elected-president-i-will-bring-it-back-bigger-a.ogg",
    "group": "trump",
-   "ms": 15943
+   "ms": 15943,
+   "kbps": 24
   },
   {
    "id": "but-mr-trump-you-re-not-a-nice-person",
-   "label": "But Mr Trump, you're not a nice person",
+   "label": "But Mr Trump, you're not a nice person (24k)",
    "file": "trump/but-mr-trump-you-re-not-a-nice-person.ogg",
    "group": "trump",
-   "ms": 4325
+   "ms": 4325,
+   "kbps": 24
   },
   {
    "id": "but-we-don-t-know",
-   "label": "But we don't know",
+   "label": "But we don't know (24k)",
    "file": "trump/but-we-don-t-know.ogg",
    "group": "trump",
-   "ms": 2828
+   "ms": 2828,
+   "kbps": 24
   },
   {
    "id": "but-we-have-people-who-are-stupid",
-   "label": "But we have people who are stupid",
+   "label": "But we have people who are stupid (24k)",
    "file": "trump/but-we-have-people-who-are-stupid.ogg",
    "group": "trump",
-   "ms": 4039
+   "ms": 4039,
+   "kbps": 24
   },
   {
    "id": "buy-american-and-hire-american",
-   "label": "Buy American, and hire American",
+   "label": "Buy American, and hire American (24k)",
    "file": "trump/buy-american-and-hire-american.ogg",
    "group": "trump",
-   "ms": 4422
+   "ms": 4422,
+   "kbps": 24
   },
   {
    "id": "canada",
-   "label": "Canada",
+   "label": "Canada (24k)",
    "file": "trump/canada.ogg",
    "group": "trump",
-   "ms": 2227
+   "ms": 2227,
+   "kbps": 24
   },
   {
    "id": "check-out-the-ratings-to-be-true-ratings",
-   "label": "Check out the ratings  to be true  ratings",
+   "label": "Check out the ratings  to be true  ratings (24k)",
    "file": "trump/check-out-the-ratings-to-be-true-ratings.ogg",
    "group": "trump",
-   "ms": 2238
+   "ms": 2238,
+   "kbps": 24
   },
   {
    "id": "china",
-   "label": "China",
+   "label": "China (24k)",
    "file": "trump/china.ogg",
    "group": "trump",
-   "ms": 3437
+   "ms": 3437,
+   "kbps": 24
   },
   {
    "id": "china-china-china",
-   "label": "CHINA CHINA CHINA",
+   "label": "CHINA CHINA CHINA (24k)",
    "file": "trump/china-china-china.ogg",
    "group": "trump",
-   "ms": 3264
+   "ms": 3264,
+   "kbps": 24
   },
   {
    "id": "china-trump-know-china-very-well",
-   "label": "China!    trump  know china very well",
+   "label": "China!    trump  know china very well (24k)",
    "file": "trump/china-trump-know-china-very-well.ogg",
    "group": "trump",
-   "ms": 9647
+   "ms": 9647,
+   "kbps": 24
   },
   {
    "id": "china-china-china-trump-have-to-have-my-china",
-   "label": "China, China, China   trump  have to have my china",
+   "label": "China, China, China   trump  have to have my china (24k)",
    "file": "trump/china-china-china-trump-have-to-have-my-china.ogg",
    "group": "trump",
-   "ms": 9950
+   "ms": 9950,
+   "kbps": 24
   },
   {
    "id": "close-to-death-pt1",
-   "label": "Close to death pt1",
+   "label": "Close to death pt1 (24k)",
    "file": "trump/close-to-death-pt1.ogg",
    "group": "trump",
-   "ms": 3936
+   "ms": 3936,
+   "kbps": 24
   },
   {
    "id": "close-to-death-pt2",
-   "label": "Close to death pt2",
+   "label": "Close to death pt2 (24k)",
    "file": "trump/close-to-death-pt2.ogg",
    "group": "trump",
-   "ms": 4788
+   "ms": 4788,
+   "kbps": 24
   },
   {
    "id": "close-to-death-pt3",
-   "label": "Close to death pt3",
+   "label": "Close to death pt3 (24k)",
    "file": "trump/close-to-death-pt3.ogg",
    "group": "trump",
-   "ms": 6981
+   "ms": 6981,
+   "kbps": 24
   },
   {
    "id": "complete-and-total-disaster-and-total-disaster",
-   "label": "Complete and total disaster  and total disaster",
+   "label": "Complete and total disaster  and total disaster (24k)",
    "file": "trump/complete-and-total-disaster-and-total-disaster.ogg",
    "group": "trump",
-   "ms": 4353
+   "ms": 4353,
+   "kbps": 24
   },
   {
    "id": "congratulations",
-   "label": "Congratulations",
+   "label": "Congratulations (24k)",
    "file": "trump/congratulations.ogg",
    "group": "trump",
-   "ms": 2706
+   "ms": 2706,
+   "kbps": 24
   },
   {
    "id": "dialogue",
-   "label": "Dialogue",
+   "label": "Dialogue (24k)",
    "file": "trump/dialogue.ogg",
    "group": "trump",
-   "ms": 3256
+   "ms": 3256,
+   "kbps": 24
   },
   {
    "id": "disgraced-himself",
-   "label": "Disgraced himself",
+   "label": "Disgraced himself (24k)",
    "file": "trump/disgraced-himself.ogg",
    "group": "trump",
-   "ms": 3594
+   "ms": 3594,
+   "kbps": 24
   },
   {
    "id": "do-it-yourself",
-   "label": "Do it yourself",
+   "label": "Do it yourself (24k)",
    "file": "trump/do-it-yourself.ogg",
    "group": "trump",
-   "ms": 2176
+   "ms": 2176,
+   "kbps": 24
   },
   {
    "id": "do-you-want-to-set-up-the-meeting",
-   "label": "Do you want to set up the meeting",
+   "label": "Do you want to set up the meeting (24k)",
    "file": "trump/do-you-want-to-set-up-the-meeting.ogg",
    "group": "trump",
-   "ms": 1741
+   "ms": 1741,
+   "kbps": 24
   },
   {
    "id": "don-t-be-rude",
-   "label": "Don't be rude",
+   "label": "Don't be rude (24k)",
    "file": "trump/don-t-be-rude.ogg",
    "group": "trump",
-   "ms": 2576
+   "ms": 2576,
+   "kbps": 24
   },
   {
    "id": "don-t-beat-pt1",
-   "label": "Don't beat pt1",
+   "label": "Don't beat pt1 (24k)",
    "file": "trump/don-t-beat-pt1.ogg",
    "group": "trump",
-   "ms": 2943
+   "ms": 2943,
+   "kbps": 24
   },
   {
    "id": "don-t-beat-pt2",
-   "label": "Don't beat pt2",
+   "label": "Don't beat pt2 (24k)",
    "file": "trump/don-t-beat-pt2.ogg",
    "group": "trump",
-   "ms": 7784
+   "ms": 7784,
+   "kbps": 24
   },
   {
    "id": "don-t-beat-pt3",
-   "label": "Don't beat pt3",
+   "label": "Don't beat pt3 (24k)",
    "file": "trump/don-t-beat-pt3.ogg",
    "group": "trump",
-   "ms": 3988
+   "ms": 3988,
+   "kbps": 24
   },
   {
    "id": "don-t-beat-pt4",
-   "label": "Don't beat pt4",
+   "label": "Don't beat pt4 (24k)",
    "file": "trump/don-t-beat-pt4.ogg",
    "group": "trump",
-   "ms": 13478
+   "ms": 13478,
+   "kbps": 24
   },
   {
    "id": "don-t-beat-pt5",
-   "label": "Don't beat pt5",
+   "label": "Don't beat pt5 (24k)",
    "file": "trump/don-t-beat-pt5.ogg",
    "group": "trump",
-   "ms": 3988
+   "ms": 3988,
+   "kbps": 24
   },
   {
    "id": "don-t-believe-the-five-point-six",
-   "label": "Don't believe the five point six",
+   "label": "Don't believe the five point six (24k)",
    "file": "trump/don-t-believe-the-five-point-six.ogg",
    "group": "trump",
-   "ms": 2820
+   "ms": 2820,
+   "kbps": 24
   },
   {
    "id": "don-t-know-what-there-doing",
-   "label": "Don't know what there doing",
+   "label": "Don't know what there doing (24k)",
    "file": "trump/don-t-know-what-there-doing.ogg",
    "group": "trump",
-   "ms": 2959
+   "ms": 2959,
+   "kbps": 24
   },
   {
    "id": "don-t-vote-for",
-   "label": "Don't vote for",
+   "label": "Don't vote for (24k)",
    "file": "trump/don-t-vote-for.ogg",
    "group": "trump",
-   "ms": 3047
+   "ms": 3047,
+   "kbps": 24
   },
   {
    "id": "don-t-wanna-tell-you-everything",
-   "label": "Don't wanna tell you everything",
+   "label": "Don't wanna tell you everything (24k)",
    "file": "trump/don-t-wanna-tell-you-everything.ogg",
    "group": "trump",
-   "ms": 3204
+   "ms": 3204,
+   "kbps": 24
   },
   {
    "id": "donald-trump",
-   "label": "DONALD TRUMP",
+   "label": "DONALD TRUMP (24k)",
    "file": "trump/donald-trump.ogg",
    "group": "trump",
-   "ms": 17632
+   "ms": 17632,
+   "kbps": 24
   },
   {
    "id": "donald-trump-2",
-   "label": "Donald trump",
+   "label": "Donald trump (24k)",
    "file": "trump/donald-trump-2.ogg",
    "group": "trump",
-   "ms": 1645
+   "ms": 1645,
+   "kbps": 24
   },
   {
    "id": "donald-trump-jobs-jobs-jobs",
-   "label": "Donald Trump   Jobs, Jobs, Jobs",
+   "label": "Donald Trump   Jobs, Jobs, Jobs (24k)",
    "file": "trump/donald-trump-jobs-jobs-jobs.ogg",
    "group": "trump",
-   "ms": 4344
+   "ms": 4344,
+   "kbps": 24
   },
   {
    "id": "donald-trump-mistakes-turn-around",
-   "label": "Donald Trump   Mistakes Turn Around",
+   "label": "Donald Trump   Mistakes Turn Around (24k)",
    "file": "trump/donald-trump-mistakes-turn-around.ogg",
    "group": "trump",
-   "ms": 19590
+   "ms": 19590,
+   "kbps": 24
   },
   {
    "id": "donald-trump-ringtone",
-   "label": "Donald Trump   Ringtone",
+   "label": "Donald Trump   Ringtone (24k)",
    "file": "trump/donald-trump-ringtone.ogg",
    "group": "trump",
-   "ms": 7840
+   "ms": 7840,
+   "kbps": 24
   },
   {
    "id": "donald-trump-wrong",
-   "label": "Donald Trump 'WRONG'",
+   "label": "Donald Trump 'WRONG' (24k)",
    "file": "trump/donald-trump-wrong.ogg",
    "group": "trump",
-   "ms": 2453
+   "ms": 2453,
+   "kbps": 24
   },
   {
    "id": "donald-trump-2-2",
-   "label": "Donald Trump 2",
+   "label": "Donald Trump 2 (24k)",
    "file": "trump/donald-trump-2-2.ogg",
    "group": "trump",
-   "ms": 2056
+   "ms": 2056,
+   "kbps": 24
   },
   {
    "id": "donald-trump-discusses-locker-room-banter-commen",
-   "label": "Donald Trump Discusses 'Locker Room Banter,' Commen..",
+   "label": "Donald Trump Discusses 'Locker Room Banter,' Commen.. (24k)",
    "file": "trump/donald-trump-discusses-locker-room-banter-commen.ogg",
    "group": "trump",
-   "ms": 4353
+   "ms": 4353,
+   "kbps": 24
   },
   {
    "id": "donald-trump-has-small-hands",
-   "label": "Donald Trump has small hands",
+   "label": "Donald Trump has small hands (24k)",
    "file": "trump/donald-trump-has-small-hands.ogg",
    "group": "trump",
-   "ms": 2950
+   "ms": 2950,
+   "kbps": 24
   },
   {
    "id": "donald-trump-havana-song",
-   "label": "Donald Trump Havana [SONG]",
+   "label": "Donald Trump Havana [SONG] (24k)",
    "file": "trump/donald-trump-havana-song.ogg",
    "group": "trump",
-   "ms": 153025
+   "ms": 153025,
+   "kbps": 24
   },
   {
    "id": "donald-trump-lol-mix-song",
-   "label": "Donald Trump LOL Mix Song",
+   "label": "Donald Trump LOL Mix Song (24k)",
    "file": "trump/donald-trump-lol-mix-song.ogg",
    "group": "trump",
-   "ms": 104270
+   "ms": 104270,
+   "kbps": 24
   },
   {
    "id": "donald-trump-remix",
-   "label": "Donald Trump Remix",
+   "label": "Donald Trump Remix (24k)",
    "file": "trump/donald-trump-remix.ogg",
    "group": "trump",
-   "ms": 19452
+   "ms": 19452,
+   "kbps": 24
   },
   {
    "id": "donald-trump-singing-the-pokemon-theme-song-trump",
-   "label": "Donald Trump Singing The Pokemon Theme Song  trump",
+   "label": "Donald Trump Singing The Pokemon Theme Song  trump (24k)",
    "file": "trump/donald-trump-singing-the-pokemon-theme-song-trump.ogg",
    "group": "trump",
-   "ms": 31641
+   "ms": 31641,
+   "kbps": 24
   },
   {
    "id": "donald-trump-lie-to-the-fbi",
-   "label": "Donald Trump: Lie to the FBI!",
+   "label": "Donald Trump: Lie to the FBI! (24k)",
    "file": "trump/donald-trump-lie-to-the-fbi.ogg",
    "group": "trump",
-   "ms": 10796
+   "ms": 10796,
+   "kbps": 24
   },
   {
    "id": "donnie-done",
-   "label": "Donnie done",
+   "label": "Donnie done (24k)",
    "file": "trump/donnie-done.ogg",
    "group": "trump",
-   "ms": 2202
+   "ms": 2202,
+   "kbps": 24
   },
   {
    "id": "don-t-be-afraid-of-it-be-afraid-of-it-let-it-dominate-you-19",
-   "label": "Don\u2019t be afraid of it  be afraid of it  let it dominate you   19   trump",
+   "label": "Don\u2019t be afraid of it  be afraid of it  let it dominate you   19   trump (24k)",
    "file": "trump/don-t-be-afraid-of-it-be-afraid-of-it-let-it-dominate-you-19.ogg",
    "group": "trump",
-   "ms": 8661
+   "ms": 8661,
+   "kbps": 24
   },
   {
    "id": "drain-the-swamp-drump-to-drain-the-swamp-in-washington-dc",
-   "label": "Drain the swamp  drump  to drain the swamp in washington dc",
+   "label": "Drain the swamp  drump  to drain the swamp in washington dc (24k)",
    "file": "trump/drain-the-swamp-drump-to-drain-the-swamp-in-washington-dc.ogg",
    "group": "trump",
-   "ms": 7931
+   "ms": 7931,
+   "kbps": 24
   },
   {
    "id": "eight-billion-seven-hundred-and-thirty-seven-million-fi",
-   "label": "Eight billion seven hundred and thirty seven million fi",
+   "label": "Eight billion seven hundred and thirty seven million fi (24k)",
    "file": "trump/eight-billion-seven-hundred-and-thirty-seven-million-fi.ogg",
    "group": "trump",
-   "ms": 7077
+   "ms": 7077,
+   "kbps": 24
   },
   {
    "id": "eight-billion-seven-hundred-and-thirty-seven-million-five-hu",
-   "label": "Eight billion seven hundred and thirty seven million five hundred and forty thousand dollars",
+   "label": "Eight billion seven hundred and thirty seven million five hundred and forty thousand dollars (24k)",
    "file": "trump/eight-billion-seven-hundred-and-thirty-seven-million-five-hu.ogg",
    "group": "trump",
-   "ms": 5677
+   "ms": 5677,
+   "kbps": 24
   },
   {
    "id": "enter-legally",
-   "label": "Enter legally",
+   "label": "Enter legally (24k)",
    "file": "trump/enter-legally.ogg",
    "group": "trump",
-   "ms": 7802
+   "ms": 7802,
+   "kbps": 24
   },
   {
    "id": "eric",
-   "label": "Eric",
+   "label": "Eric (24k)",
    "file": "trump/eric.ogg",
    "group": "trump",
-   "ms": 1200
+   "ms": 1200,
+   "kbps": 24
   },
   {
    "id": "everything-s-computer-donald-trump",
-   "label": "Everything's computer! [Donald Trump]",
+   "label": "Everything's computer! [Donald Trump] (24k)",
    "file": "trump/everything-s-computer-donald-trump.ogg",
    "group": "trump",
-   "ms": 2880
+   "ms": 2880,
+   "kbps": 24
   },
   {
    "id": "fake-news-news-fake-news",
-   "label": "Fake news  news   fake news",
+   "label": "Fake news  news   fake news (24k)",
    "file": "trump/fake-news-news-fake-news.ogg",
    "group": "trump",
-   "ms": 6269
+   "ms": 6269,
+   "kbps": 24
   },
   {
    "id": "fantastic",
-   "label": "Fantastic",
+   "label": "Fantastic (24k)",
    "file": "trump/fantastic.ogg",
    "group": "trump",
-   "ms": 2462
+   "ms": 2462,
+   "kbps": 24
   },
   {
    "id": "filthy-language",
-   "label": "Filthy language",
+   "label": "Filthy language (24k)",
    "file": "trump/filthy-language.ogg",
    "group": "trump",
-   "ms": 3228
+   "ms": 3228,
+   "kbps": 24
   },
   {
    "id": "five-billion-we-spend-on-a-web-site",
-   "label": "Five billion we spend on a web site",
+   "label": "Five billion we spend on a web site (24k)",
    "file": "trump/five-billion-we-spend-on-a-web-site.ogg",
    "group": "trump",
-   "ms": 3681
+   "ms": 3681,
+   "kbps": 24
   },
   {
    "id": "for-many-many-many-many-years-to-come",
-   "label": "For many many many many years to come",
+   "label": "For many many many many years to come (24k)",
    "file": "trump/for-many-many-many-many-years-to-come.ogg",
    "group": "trump",
-   "ms": 5885
+   "ms": 5885,
+   "kbps": 24
   },
   {
    "id": "for-many-many-years-to-come",
-   "label": "For many many years to come",
+   "label": "For many many years to come (24k)",
    "file": "trump/for-many-many-years-to-come.ogg",
    "group": "trump",
-   "ms": 4118
+   "ms": 4118,
+   "kbps": 24
   },
   {
    "id": "four",
-   "label": "Four",
+   "label": "Four (24k)",
    "file": "trump/four.ogg",
    "group": "trump",
-   "ms": 3280
+   "ms": 3280,
+   "kbps": 24
   },
   {
    "id": "free-trade-can-be-wonderful-if-you-have-smart-people",
-   "label": "Free trade can be wonderful if you have smart people",
+   "label": "Free trade can be wonderful if you have smart people (24k)",
    "file": "trump/free-trade-can-be-wonderful-if-you-have-smart-people.ogg",
    "group": "trump",
-   "ms": 5866
+   "ms": 5866,
+   "kbps": 24
   },
   {
    "id": "friends-1",
-   "label": "Friends 1",
+   "label": "Friends 1 (24k)",
    "file": "trump/friends-1.ogg",
    "group": "trump",
-   "ms": 3792
+   "ms": 3792,
+   "kbps": 24
   },
   {
    "id": "friends-pt2",
-   "label": "Friends pt2",
+   "label": "Friends pt2 (24k)",
    "file": "trump/friends-pt2.ogg",
    "group": "trump",
-   "ms": 3306
+   "ms": 3306,
+   "kbps": 24
   },
   {
    "id": "from-this-day-forward-a-new-vision-will-govern-our-land",
-   "label": "From this day forward a new vision will govern our land",
+   "label": "From this day forward a new vision will govern our land (24k)",
    "file": "trump/from-this-day-forward-a-new-vision-will-govern-our-land.ogg",
    "group": "trump",
-   "ms": 7504
+   "ms": 7504,
+   "kbps": 24
   },
   {
    "id": "full-force",
-   "label": "Full force",
+   "label": "Full force (24k)",
    "file": "trump/full-force.ogg",
    "group": "trump",
-   "ms": 128840
+   "ms": 128840,
+   "kbps": 24
   },
   {
    "id": "gabe-the-dog-mario",
-   "label": "Gabe the dog mario",
+   "label": "Gabe the dog mario (24k)",
    "file": "trump/gabe-the-dog-mario.ogg",
    "group": "trump",
-   "ms": 32198
+   "ms": 32198,
+   "kbps": 24
   },
   {
    "id": "get-that-sob-off-the-field-he-s-fired-football-big-game",
-   "label": "Get that SOB off the field, he's fired!    football   big game",
+   "label": "Get that SOB off the field, he's fired!    football   big game (24k)",
    "file": "trump/get-that-sob-off-the-field-he-s-fired-football-big-game.ogg",
    "group": "trump",
-   "ms": 12545
+   "ms": 12545,
+   "kbps": 24
   },
   {
    "id": "go-ahead",
-   "label": "Go ahead",
+   "label": "Go ahead (24k)",
    "file": "trump/go-ahead.ogg",
    "group": "trump",
-   "ms": 1870
+   "ms": 1870,
+   "kbps": 24
   },
   {
    "id": "go-f-ck-themselves-trump-fuck-themselves",
-   "label": "Go F*ck Themselves  trump  fuck themselves",
+   "label": "Go F*ck Themselves  trump  fuck themselves (24k)",
    "file": "trump/go-f-ck-themselves-trump-fuck-themselves.ogg",
    "group": "trump",
-   "ms": 8853
+   "ms": 8853,
+   "kbps": 24
   },
   {
    "id": "god-bless-the-united-states-speech",
-   "label": "God Bless the United States   speech",
+   "label": "God Bless the United States   speech (24k)",
    "file": "trump/god-bless-the-united-states-speech.ogg",
    "group": "trump",
-   "ms": 5249
+   "ms": 5249,
+   "kbps": 24
   },
   {
    "id": "good-evening",
-   "label": "Good Evening",
+   "label": "Good Evening (24k)",
    "file": "trump/good-evening.ogg",
    "group": "trump",
-   "ms": 2862
+   "ms": 2862,
+   "kbps": 24
   },
   {
    "id": "good-morning",
-   "label": "Good morning",
+   "label": "Good morning (24k)",
    "file": "trump/good-morning.ogg",
    "group": "trump",
-   "ms": 1871
+   "ms": 1871,
+   "kbps": 24
   },
   {
    "id": "got-it-done",
-   "label": "Got it done",
+   "label": "Got it done (24k)",
    "file": "trump/got-it-done.ogg",
    "group": "trump",
-   "ms": 4020
+   "ms": 4020,
+   "kbps": 24
   },
   {
    "id": "grab-them-by-the-pussy",
-   "label": "Grab them by the pussy",
+   "label": "Grab them by the pussy (24k)",
    "file": "trump/grab-them-by-the-pussy.ogg",
    "group": "trump",
-   "ms": 2167
+   "ms": 2167,
+   "kbps": 24
   },
   {
    "id": "great-company",
-   "label": "Great company",
+   "label": "Great company (24k)",
    "file": "trump/great-company.ogg",
    "group": "trump",
-   "ms": 8280
+   "ms": 8280,
+   "kbps": 24
   },
   {
    "id": "great-great-wall",
-   "label": "Great Great Wall",
+   "label": "Great Great Wall (24k)",
    "file": "trump/great-great-wall.ogg",
    "group": "trump",
-   "ms": 9088
+   "ms": 9088,
+   "kbps": 24
   },
   {
    "id": "great-job-job-work-job-for-you-you-are-doing-great",
-   "label": "Great Job  job  work  job  for you  you  are doing great",
+   "label": "Great Job  job  work  job  for you  you  are doing great (24k)",
    "file": "trump/great-job-job-work-job-for-you-you-are-doing-great.ogg",
    "group": "trump",
-   "ms": 4456
+   "ms": 4456,
+   "kbps": 24
   },
   {
    "id": "hair-pt1",
-   "label": "Hair pt1",
+   "label": "Hair pt1 (24k)",
    "file": "trump/hair-pt1.ogg",
    "group": "trump",
-   "ms": 7617
+   "ms": 7617,
+   "kbps": 24
   },
   {
    "id": "hair-pt2",
-   "label": "Hair pt2",
+   "label": "Hair pt2 (24k)",
    "file": "trump/hair-pt2.ogg",
    "group": "trump",
-   "ms": 3507
+   "ms": 3507,
+   "kbps": 24
   },
   {
    "id": "have-a-good-time",
-   "label": "Have a good time!",
+   "label": "Have a good time! (24k)",
    "file": "trump/have-a-good-time.ogg",
    "group": "trump",
-   "ms": 1888
+   "ms": 1888,
+   "kbps": 24
   },
   {
    "id": "have-to-go",
-   "label": "Have to go",
+   "label": "Have to go (24k)",
    "file": "trump/have-to-go.ogg",
    "group": "trump",
-   "ms": 3002
+   "ms": 3002,
+   "kbps": 24
   },
   {
    "id": "have-to-make-deals",
-   "label": "Have to make deals",
+   "label": "Have to make deals (24k)",
    "file": "trump/have-to-make-deals.ogg",
    "group": "trump",
-   "ms": 16240
+   "ms": 16240,
+   "kbps": 24
   },
   {
    "id": "he-can-t-run",
-   "label": "He can't run",
+   "label": "He can't run (24k)",
    "file": "trump/he-can-t-run.ogg",
    "group": "trump",
-   "ms": 3664
+   "ms": 3664,
+   "kbps": 24
   },
   {
    "id": "he-did-a-great-job-trump-job",
-   "label": "He did a great job  trump  job",
+   "label": "He did a great job  trump  job (24k)",
    "file": "trump/he-did-a-great-job-trump-job.ogg",
    "group": "trump",
-   "ms": 4361
+   "ms": 4361,
+   "kbps": 24
   },
   {
    "id": "he-has-been-very-threatening-trump-jong-un-korea",
-   "label": "He has been very threatening     trump  jong un  korea",
+   "label": "He has been very threatening     trump  jong un  korea (24k)",
    "file": "trump/he-has-been-very-threatening-trump-jong-un-korea.ogg",
    "group": "trump",
-   "ms": 5738
+   "ms": 5738,
+   "kbps": 24
   },
   {
    "id": "he-is-a-sick-puppy",
-   "label": "He is a sick puppy",
+   "label": "He is a sick puppy (24k)",
    "file": "trump/he-is-a-sick-puppy.ogg",
    "group": "trump",
-   "ms": 2002
+   "ms": 2002,
+   "kbps": 24
   },
   {
    "id": "he-laughs",
-   "label": "He laughs",
+   "label": "He laughs (24k)",
    "file": "trump/he-laughs.ogg",
    "group": "trump",
-   "ms": 2497
+   "ms": 2497,
+   "kbps": 24
   },
   {
    "id": "healthcare-is-going-up-25-35-50",
-   "label": "Healthcare is going up 25 35 50%",
+   "label": "Healthcare is going up 25 35 50% (24k)",
    "file": "trump/healthcare-is-going-up-25-35-50.ogg",
    "group": "trump",
-   "ms": 6851
+   "ms": 6851,
+   "kbps": 24
   },
   {
    "id": "hello-everyone",
-   "label": "Hello everyone",
+   "label": "Hello everyone (24k)",
    "file": "trump/hello-everyone.ogg",
    "group": "trump",
-   "ms": 1688
+   "ms": 1688,
+   "kbps": 24
   },
   {
    "id": "hi-dani-done",
-   "label": "Hi dani done",
+   "label": "Hi dani done (24k)",
    "file": "trump/hi-dani-done.ogg",
    "group": "trump",
-   "ms": 3576
+   "ms": 3576,
+   "kbps": 24
   },
   {
    "id": "hi-this-is-trump-pt1",
-   "label": "Hi this is trump pt1",
+   "label": "Hi this is trump pt1 (24k)",
    "file": "trump/hi-this-is-trump-pt1.ogg",
    "group": "trump",
-   "ms": 5780
+   "ms": 5780,
+   "kbps": 24
   },
   {
    "id": "hi-this-is-trump-pt2",
-   "label": "Hi this is trump pt2",
+   "label": "Hi this is trump pt2 (24k)",
    "file": "trump/hi-this-is-trump-pt2.ogg",
    "group": "trump",
-   "ms": 14855
+   "ms": 14855,
+   "kbps": 24
   },
   {
    "id": "hi-this-is-trump-pt3",
-   "label": "Hi this is trump pt3",
+   "label": "Hi this is trump pt3 (24k)",
    "file": "trump/hi-this-is-trump-pt3.ogg",
    "group": "trump",
-   "ms": 4649
+   "ms": 4649,
+   "kbps": 24
   },
   {
    "id": "hillary",
-   "label": "Hillary",
+   "label": "Hillary (24k)",
    "file": "trump/hillary.ogg",
    "group": "trump",
-   "ms": 896
+   "ms": 896,
+   "kbps": 24
   },
   {
    "id": "hmm-that-s-strange",
-   "label": "Hmm that's strange",
+   "label": "Hmm that's strange (24k)",
    "file": "trump/hmm-that-s-strange.ogg",
    "group": "trump",
-   "ms": 2976
+   "ms": 2976,
+   "kbps": 24
   },
   {
    "id": "how-are-you",
-   "label": "How are you?",
+   "label": "How are you? (24k)",
    "file": "trump/how-are-you.ogg",
    "group": "trump",
-   "ms": 2936
+   "ms": 2936,
+   "kbps": 24
   },
   {
    "id": "how-is-the-situation-in-russia",
-   "label": "How is the situation in russia",
+   "label": "How is the situation in russia (24k)",
    "file": "trump/how-is-the-situation-in-russia.ogg",
    "group": "trump",
-   "ms": 1950
+   "ms": 1950,
+   "kbps": 24
   },
   {
    "id": "how-stupid-are-these-politicians-to-allow-this-to-happe",
-   "label": "How stupid are these politicians to allow this to happe",
+   "label": "How stupid are these politicians to allow this to happe (24k)",
    "file": "trump/how-stupid-are-these-politicians-to-allow-this-to-happe.ogg",
    "group": "trump",
-   "ms": 5737
+   "ms": 5737,
+   "kbps": 24
   },
   {
    "id": "how-stupid-are-these-politicians-to-allow-this-to-happen",
-   "label": "How stupid are these politicians to allow this to happen",
+   "label": "How stupid are these politicians to allow this to happen (24k)",
    "file": "trump/how-stupid-are-these-politicians-to-allow-this-to-happen.ogg",
    "group": "trump",
-   "ms": 6137
+   "ms": 6137,
+   "kbps": 24
   },
   {
    "id": "how-we-doing-in-syria",
-   "label": "How we doing in Syria?",
+   "label": "How we doing in Syria? (24k)",
    "file": "trump/how-we-doing-in-syria.ogg",
    "group": "trump",
-   "ms": 2532
+   "ms": 2532,
+   "kbps": 24
   },
   {
    "id": "huh",
-   "label": "Huh",
+   "label": "Huh (24k)",
    "file": "trump/huh.ogg",
    "group": "trump",
-   "ms": 1801
+   "ms": 1801,
+   "kbps": 24
   },
   {
    "id": "i-am-huge-fan-of-your-mother-trump-a-huge-fan-of-your-mother",
-   "label": "I am huge fan of your mother  trump  a huge fan of your mother  mother  joke  day",
+   "label": "I am huge fan of your mother  trump  a huge fan of your mother  mother  joke  day (24k)",
    "file": "trump/i-am-huge-fan-of-your-mother-trump-a-huge-fan-of-your-mother.ogg",
    "group": "trump",
-   "ms": 3570
+   "ms": 3570,
+   "kbps": 24
   },
   {
    "id": "i-am-officially-running",
-   "label": "I am officially running",
+   "label": "I am officially running (24k)",
    "file": "trump/i-am-officially-running.ogg",
    "group": "trump",
-   "ms": 2585
+   "ms": 2585,
+   "kbps": 24
   },
   {
    "id": "i-am-officially-running-for-president-of-the-united-sta",
-   "label": "I am officially running for President of the United Sta",
+   "label": "I am officially running for President of the United Sta (24k)",
    "file": "trump/i-am-officially-running-for-president-of-the-united-sta.ogg",
    "group": "trump",
-   "ms": 8827
+   "ms": 8827,
+   "kbps": 24
   },
   {
    "id": "i-am-officially-running-for-president-of-the-united-states",
-   "label": "I am officially running for president of the united states",
+   "label": "I am officially running for president of the united states (24k)",
    "file": "trump/i-am-officially-running-for-president-of-the-united-states.ogg",
    "group": "trump",
-   "ms": 5337
+   "ms": 5337,
+   "kbps": 24
   },
   {
    "id": "i-am-the-chosen-one-one-had-to-do-it-one",
-   "label": "I am the chosen one  one  had to do it  one",
+   "label": "I am the chosen one  one  had to do it  one (24k)",
    "file": "trump/i-am-the-chosen-one-one-had-to-do-it-one.ogg",
    "group": "trump",
-   "ms": 5849
+   "ms": 5849,
+   "kbps": 24
   },
   {
    "id": "i-beat-china-all-the-time",
-   "label": "I beat China all the time",
+   "label": "I beat China all the time (24k)",
    "file": "trump/i-beat-china-all-the-time.ogg",
    "group": "trump",
-   "ms": 8758
+   "ms": 8758,
+   "kbps": 24
   },
   {
    "id": "i-beat-china-all-the-time-when-was-the-last-time-you-saw-a-c",
-   "label": "I beat China all the time. When was the last time you saw a Chevrolet in Tokyo",
+   "label": "I beat China all the time. When was the last time you saw a Chevrolet in Tokyo (24k)",
    "file": "trump/i-beat-china-all-the-time-when-was-the-last-time-you-saw-a-c.ogg",
    "group": "trump",
-   "ms": 9158
+   "ms": 9158,
+   "kbps": 24
   },
   {
    "id": "i-built-a-net-worth-of-more-than-ten-billion-dollars-i",
-   "label": "I built a net worth of more than ten billion dollars i",
+   "label": "I built a net worth of more than ten billion dollars i (24k)",
    "file": "trump/i-built-a-net-worth-of-more-than-ten-billion-dollars-i.ogg",
    "group": "trump",
-   "ms": 8723
+   "ms": 8723,
+   "kbps": 24
   },
   {
    "id": "i-built-a-net-worth-of-more-than-ten-billion-dollars-i-have-",
-   "label": "I built a net worth of more than ten billion dollars I have a great great company I employ thousands of people",
+   "label": "I built a net worth of more than ten billion dollars I have a great great company I employ thousands of people (24k)",
    "file": "trump/i-built-a-net-worth-of-more-than-ten-billion-dollars-i-have-.ogg",
    "group": "trump",
-   "ms": 7723
+   "ms": 7723,
+   "kbps": 24
   },
   {
    "id": "i-could-shoot-somebody-and-not-lose-voters-avenue-voters-tru",
-   "label": "I could shoot somebody and not lose voters  avenue  voters  trump",
+   "label": "I could shoot somebody and not lose voters  avenue  voters  trump (24k)",
    "file": "trump/i-could-shoot-somebody-and-not-lose-voters-avenue-voters-tru.ogg",
    "group": "trump",
-   "ms": 8540
+   "ms": 8540,
+   "kbps": 24
   },
   {
    "id": "i-don-t-believe-i-ve-ever-met-him",
-   "label": "I don't believe I've ever met him",
+   "label": "I don't believe I've ever met him (24k)",
    "file": "trump/i-don-t-believe-i-ve-ever-met-him.ogg",
    "group": "trump",
-   "ms": 4841
+   "ms": 4841,
+   "kbps": 24
   },
   {
    "id": "i-don-t-care",
-   "label": "I don't care",
+   "label": "I don't care (24k)",
    "file": "trump/i-don-t-care.ogg",
    "group": "trump",
-   "ms": 2912
+   "ms": 2912,
+   "kbps": 24
   },
   {
    "id": "i-don-t-care-care-trump",
-   "label": "I don't care  care   trump",
+   "label": "I don't care  care   trump (24k)",
    "file": "trump/i-don-t-care-care-trump.ogg",
    "group": "trump",
-   "ms": 3742
+   "ms": 3742,
+   "kbps": 24
   },
   {
    "id": "i-don-t-give-a-damn",
-   "label": "I don't give a damn",
+   "label": "I don't give a damn (24k)",
    "file": "trump/i-don-t-give-a-damn.ogg",
    "group": "trump",
-   "ms": 1846
+   "ms": 1846,
+   "kbps": 24
   },
   {
    "id": "i-don-t-give-out-my-number-to-anybody",
-   "label": "I don't give out my number to anybody",
+   "label": "I don't give out my number to anybody (24k)",
    "file": "trump/i-don-t-give-out-my-number-to-anybody.ogg",
    "group": "trump",
-   "ms": 3655
+   "ms": 3655,
+   "kbps": 24
   },
   {
    "id": "i-don-t-hold-grudges-against-anybody",
-   "label": "I don't hold grudges against anybody",
+   "label": "I don't hold grudges against anybody (24k)",
    "file": "trump/i-don-t-hold-grudges-against-anybody.ogg",
    "group": "trump",
-   "ms": 3300
+   "ms": 3300,
+   "kbps": 24
   },
   {
    "id": "i-don-t-know",
-   "label": "I don't know",
+   "label": "I don't know (24k)",
    "file": "trump/i-don-t-know.ogg",
    "group": "trump",
-   "ms": 2800
+   "ms": 2800,
+   "kbps": 24
   },
   {
    "id": "i-don-t-like-her",
-   "label": "I don't like her",
+   "label": "I don't like her (24k)",
    "file": "trump/i-don-t-like-her.ogg",
    "group": "trump",
-   "ms": 1462
+   "ms": 1462,
+   "kbps": 24
   },
   {
    "id": "i-don-t-like-her-pt2",
-   "label": "I don't like her pt2",
+   "label": "I don't like her pt2 (24k)",
    "file": "trump/i-don-t-like-her-pt2.ogg",
    "group": "trump",
-   "ms": 12284
+   "ms": 12284,
+   "kbps": 24
   },
   {
    "id": "i-don-t-like-her-pt3",
-   "label": "I don't like her pt3",
+   "label": "I don't like her pt3 (24k)",
    "file": "trump/i-don-t-like-her-pt3.ogg",
    "group": "trump",
-   "ms": 3518
+   "ms": 3518,
+   "kbps": 24
   },
   {
    "id": "i-don-t-mind-having-a-big-beautiful-door-in-that-wall-s",
-   "label": "I don't mind having a big beautiful door in that wall s",
+   "label": "I don't mind having a big beautiful door in that wall s (24k)",
    "file": "trump/i-don-t-mind-having-a-big-beautiful-door-in-that-wall-s.ogg",
    "group": "trump",
-   "ms": 9210
+   "ms": 9210,
+   "kbps": 24
   },
   {
    "id": "i-don-t-mind-having-a-big-beautiful-door-in-that-wall-so-tha",
-   "label": "I don't mind having a big beautiful door in that wall so that people can come into this country legally",
+   "label": "I don't mind having a big beautiful door in that wall so that people can come into this country legally (24k)",
    "file": "trump/i-don-t-mind-having-a-big-beautiful-door-in-that-wall-so-tha.ogg",
    "group": "trump",
-   "ms": 7810
+   "ms": 7810,
+   "kbps": 24
   },
   {
    "id": "i-don-t-really-care-about-offending-people-care-craps-given-",
-   "label": "I don't really care about offending people  care  craps given  incorrect  people    summit  acosta",
+   "label": "I don't really care about offending people  care  craps given  incorrect  people    summit  acosta (24k)",
    "file": "trump/i-don-t-really-care-about-offending-people-care-craps-given-.ogg",
    "group": "trump",
-   "ms": 4744
+   "ms": 4744,
+   "kbps": 24
   },
   {
    "id": "i-don-t-remember",
-   "label": "I don't remember",
+   "label": "I don't remember (24k)",
    "file": "trump/i-don-t-remember.ogg",
    "group": "trump",
-   "ms": 2984
+   "ms": 2984,
+   "kbps": 24
   },
   {
    "id": "i-don-t-remember-maybe-that-s-what-i-said",
-   "label": "I don't remember maybe that's what I said",
+   "label": "I don't remember maybe that's what I said (24k)",
    "file": "trump/i-don-t-remember-maybe-that-s-what-i-said.ogg",
    "group": "trump",
-   "ms": 4256
+   "ms": 4256,
+   "kbps": 24
   },
   {
    "id": "i-don-t-think-it-s-going-to-happen",
-   "label": "I don't think it's going to happen",
+   "label": "I don't think it's going to happen (24k)",
    "file": "trump/i-don-t-think-it-s-going-to-happen.ogg",
    "group": "trump",
-   "ms": 3020
+   "ms": 3020,
+   "kbps": 24
   },
   {
    "id": "i-don-t-think-so",
-   "label": "I don't think so",
+   "label": "I don't think so (24k)",
    "file": "trump/i-don-t-think-so.ogg",
    "group": "trump",
-   "ms": 2123
+   "ms": 2123,
+   "kbps": 24
   },
   {
    "id": "i-don-t-think-so-darling-think-so-gonna-happen",
-   "label": "I don't think so darling  think so  gonna happen",
+   "label": "I don't think so darling  think so  gonna happen (24k)",
    "file": "trump/i-don-t-think-so-darling-think-so-gonna-happen.ogg",
    "group": "trump",
-   "ms": 2732
+   "ms": 2732,
+   "kbps": 24
   },
   {
    "id": "i-don-t-think-they-like-me-very-much",
-   "label": "I don't think they like me very much",
+   "label": "I don't think they like me very much (24k)",
    "file": "trump/i-don-t-think-they-like-me-very-much.ogg",
    "group": "trump",
-   "ms": 2202
+   "ms": 2202,
+   "kbps": 24
   },
   {
    "id": "i-don-t-wanna-tell-you",
-   "label": "I don't wanna tell you",
+   "label": "I don't wanna tell you (24k)",
    "file": "trump/i-don-t-wanna-tell-you.ogg",
    "group": "trump",
-   "ms": 7496
+   "ms": 7496,
+   "kbps": 24
   },
   {
    "id": "i-don-t-wanna-tell-you-pt2",
-   "label": "I don't wanna tell you pt2",
+   "label": "I don't wanna tell you pt2 (24k)",
    "file": "trump/i-don-t-wanna-tell-you-pt2.ogg",
    "group": "trump",
-   "ms": 10081
+   "ms": 10081,
+   "kbps": 24
   },
   {
    "id": "i-don-t-wanna-tell-you-pt3",
-   "label": "I don't wanna tell you pt3",
+   "label": "I don't wanna tell you pt3 (24k)",
    "file": "trump/i-don-t-wanna-tell-you-pt3.ogg",
    "group": "trump",
-   "ms": 22568
+   "ms": 22568,
+   "kbps": 24
   },
   {
    "id": "i-don-t-wear-a-toupe",
-   "label": "I don't wear a toupe",
+   "label": "I don't wear a toupe (24k)",
    "file": "trump/i-don-t-wear-a-toupe.ogg",
    "group": "trump",
-   "ms": 2446
+   "ms": 2446,
+   "kbps": 24
   },
   {
    "id": "i-fully-understand",
-   "label": "I fully understand",
+   "label": "I fully understand (24k)",
    "file": "trump/i-fully-understand.ogg",
    "group": "trump",
-   "ms": 2628
+   "ms": 2628,
+   "kbps": 24
   },
   {
    "id": "i-gotta-win",
-   "label": "I gotta win",
+   "label": "I gotta win (24k)",
    "file": "trump/i-gotta-win.ogg",
    "group": "trump",
-   "ms": 4169
+   "ms": 4169,
+   "kbps": 24
   },
   {
    "id": "i-had-1-beer-ford-beer",
-   "label": "I had 1 beer       ford  beer",
+   "label": "I had 1 beer       ford  beer (24k)",
    "file": "trump/i-had-1-beer-ford-beer.ogg",
    "group": "trump",
-   "ms": 6242
+   "ms": 6242,
+   "kbps": 24
   },
   {
    "id": "i-had-someone-behind-me-who-was-mumbling-distracting-pelosi",
-   "label": "I had someone behind me who was mumbling   distracting  pelosi",
+   "label": "I had someone behind me who was mumbling   distracting  pelosi (24k)",
    "file": "trump/i-had-someone-behind-me-who-was-mumbling-distracting-pelosi.ogg",
    "group": "trump",
-   "ms": 17047
+   "ms": 17047,
+   "kbps": 24
   },
   {
    "id": "i-hate-to-break-it-to-you-guys",
-   "label": "I hate to break it to you guys",
+   "label": "I hate to break it to you guys (24k)",
    "file": "trump/i-hate-to-break-it-to-you-guys.ogg",
    "group": "trump",
-   "ms": 2167
+   "ms": 2167,
+   "kbps": 24
   },
   {
    "id": "i-have-really-nothing-better-to-do",
-   "label": "I have really nothing better to do",
+   "label": "I have really nothing better to do (24k)",
    "file": "trump/i-have-really-nothing-better-to-do.ogg",
    "group": "trump",
-   "ms": 2402
+   "ms": 2402,
+   "kbps": 24
   },
   {
    "id": "i-have-so-many-friends",
-   "label": "I have so many friends",
+   "label": "I have so many friends (24k)",
    "file": "trump/i-have-so-many-friends.ogg",
    "group": "trump",
-   "ms": 1960
+   "ms": 1960,
+   "kbps": 24
   },
   {
    "id": "i-have-the-best-words-know-words-went-to-an-ivy-league-schoo",
-   "label": "I have the best words  know words  went to an ivy league school  educated",
+   "label": "I have the best words  know words  went to an ivy league school  educated (24k)",
    "file": "trump/i-have-the-best-words-know-words-went-to-an-ivy-league-schoo.ogg",
    "group": "trump",
-   "ms": 7949
+   "ms": 7949,
+   "kbps": 24
   },
   {
    "id": "i-hear-covfefe-teaser-house-do-you-hear-hear-hear-covfefe",
-   "label": "I hear covfefe      teaser  house  do you hear  hear  hear covfefe",
+   "label": "I hear covfefe      teaser  house  do you hear  hear  hear covfefe (24k)",
    "file": "trump/i-hear-covfefe-teaser-house-do-you-hear-hear-hear-covfefe.ogg",
    "group": "trump",
-   "ms": 2847
+   "ms": 2847,
+   "kbps": 24
   },
   {
    "id": "i-hire-people-they-do-a-web-site-it-costs-me-3-dollar",
-   "label": "I hire people, they do a web site, it costs me 3 dollar",
+   "label": "I hire people, they do a web site, it costs me 3 dollar (24k)",
    "file": "trump/i-hire-people-they-do-a-web-site-it-costs-me-3-dollar.ogg",
    "group": "trump",
-   "ms": 4014
+   "ms": 4014,
+   "kbps": 24
   },
   {
    "id": "i-hire-people-they-do-a-web-site-it-costs-me-3-dollars",
-   "label": "I hire people, they do a web site, it costs me 3 dollars",
+   "label": "I hire people, they do a web site, it costs me 3 dollars (24k)",
    "file": "trump/i-hire-people-they-do-a-web-site-it-costs-me-3-dollars.ogg",
    "group": "trump",
-   "ms": 4814
+   "ms": 4814,
+   "kbps": 24
   },
   {
    "id": "i-just-don-t-want-a-poor-person-does-that-make-sense",
-   "label": "I just don't want a poor person, does that make sense?",
+   "label": "I just don't want a poor person, does that make sense? (24k)",
    "file": "trump/i-just-don-t-want-a-poor-person-does-that-make-sense.ogg",
    "group": "trump",
-   "ms": 3125
+   "ms": 3125,
+   "kbps": 24
   },
   {
    "id": "i-just-sold-an-apartment-for-fifteen-million-dollars-to",
-   "label": "I just sold an apartment for fifteen million dollars to",
+   "label": "I just sold an apartment for fifteen million dollars to (24k)",
    "file": "trump/i-just-sold-an-apartment-for-fifteen-million-dollars-to.ogg",
    "group": "trump",
-   "ms": 5789
+   "ms": 5789,
+   "kbps": 24
   },
   {
    "id": "i-just-sold-an-apartment-for-fifteen-million-dollars-to-some",
-   "label": "I just sold an apartment for fifteen million dollars to somebody from china",
+   "label": "I just sold an apartment for fifteen million dollars to somebody from china (24k)",
    "file": "trump/i-just-sold-an-apartment-for-fifteen-million-dollars-to-some.ogg",
    "group": "trump",
-   "ms": 6789
+   "ms": 6789,
+   "kbps": 24
   },
   {
    "id": "i-just-want-them-to-suffer",
-   "label": "I just want them to suffer",
+   "label": "I just want them to suffer (24k)",
    "file": "trump/i-just-want-them-to-suffer.ogg",
    "group": "trump",
-   "ms": 3864
+   "ms": 3864,
+   "kbps": 24
   },
   {
    "id": "i-know-that",
-   "label": "I know that",
+   "label": "I know that (24k)",
    "file": "trump/i-know-that.ogg",
    "group": "trump",
-   "ms": 1784
+   "ms": 1784,
+   "kbps": 24
   },
   {
    "id": "i-know-words-i-have-the-best-words",
-   "label": "I know words I have the best words",
+   "label": "I know words I have the best words (24k)",
    "file": "trump/i-know-words-i-have-the-best-words.ogg",
    "group": "trump",
-   "ms": 3194
+   "ms": 3194,
+   "kbps": 24
   },
   {
    "id": "i-like-china",
-   "label": "I like China",
+   "label": "I like China (24k)",
    "file": "trump/i-like-china.ogg",
    "group": "trump",
-   "ms": 2297
+   "ms": 2297,
+   "kbps": 24
   },
   {
    "id": "i-like-debate-pt2",
-   "label": "I like debate pt2",
+   "label": "I like debate pt2 (24k)",
    "file": "trump/i-like-debate-pt2.ogg",
    "group": "trump",
-   "ms": 5259
+   "ms": 5259,
+   "kbps": 24
   },
   {
    "id": "i-like-debates-1",
-   "label": "I like debates 1",
+   "label": "I like debates 1 (24k)",
    "file": "trump/i-like-debates-1.ogg",
    "group": "trump",
-   "ms": 5872
+   "ms": 5872,
+   "kbps": 24
   },
   {
    "id": "i-like-debates-pt3",
-   "label": "I like debates pt3",
+   "label": "I like debates pt3 (24k)",
    "file": "trump/i-like-debates-pt3.ogg",
    "group": "trump",
-   "ms": 8802
+   "ms": 8802,
+   "kbps": 24
   },
   {
    "id": "i-love-china",
-   "label": "I love china",
+   "label": "I love china (24k)",
    "file": "trump/i-love-china.ogg",
    "group": "trump",
-   "ms": 3228
+   "ms": 3228,
+   "kbps": 24
   },
   {
    "id": "i-love-it",
-   "label": "I love it",
+   "label": "I love it (24k)",
    "file": "trump/i-love-it.ogg",
    "group": "trump",
-   "ms": 20368
+   "ms": 20368,
+   "kbps": 24
   },
   {
    "id": "i-love-mexicans",
-   "label": "I love mexicans",
+   "label": "I love mexicans (24k)",
    "file": "trump/i-love-mexicans.ogg",
    "group": "trump",
-   "ms": 7427
+   "ms": 7427,
+   "kbps": 24
   },
   {
    "id": "i-love-my-life-i-have-a-wonderful-family",
-   "label": "I love my life i have a wonderful family",
+   "label": "I love my life i have a wonderful family (24k)",
    "file": "trump/i-love-my-life-i-have-a-wonderful-family.ogg",
    "group": "trump",
-   "ms": 5709
+   "ms": 5709,
+   "kbps": 24
   },
   {
    "id": "i-love-the-mexican-people-and-their-spirit",
-   "label": "I love the Mexican people and their spirit",
+   "label": "I love the Mexican people and their spirit (24k)",
    "file": "trump/i-love-the-mexican-people-and-their-spirit.ogg",
    "group": "trump",
-   "ms": 2777
+   "ms": 2777,
+   "kbps": 24
   },
   {
    "id": "i-love-the-poorly-educated",
-   "label": "I love the poorly educated",
+   "label": "I love the poorly educated (24k)",
    "file": "trump/i-love-the-poorly-educated.ogg",
    "group": "trump",
-   "ms": 4030
+   "ms": 4030,
+   "kbps": 24
   },
   {
    "id": "i-love-the-poorly-educated-with-poorly-educated-voters-speec",
-   "label": "I love the poorly educated  with poorly educated  voters  speech",
+   "label": "I love the poorly educated  with poorly educated  voters  speech (24k)",
    "file": "trump/i-love-the-poorly-educated-with-poorly-educated-voters-speec.ogg",
    "group": "trump",
-   "ms": 6260
+   "ms": 6260,
+   "kbps": 24
   },
   {
    "id": "i-love-you",
-   "label": "I love you!",
+   "label": "I love you! (24k)",
    "file": "trump/i-love-you.ogg",
    "group": "trump",
-   "ms": 1984
+   "ms": 1984,
+   "kbps": 24
   },
   {
    "id": "i-mention-foodstamps",
-   "label": "I mention foodstamps..",
+   "label": "I mention foodstamps.. (24k)",
    "file": "trump/i-mention-foodstamps.ogg",
    "group": "trump",
-   "ms": 8845
+   "ms": 8845,
+   "kbps": 24
   },
   {
    "id": "i-never-heard-that-one-before",
-   "label": "I never heard that one before",
+   "label": "I never heard that one before (24k)",
    "file": "trump/i-never-heard-that-one-before.ogg",
    "group": "trump",
-   "ms": 4517
+   "ms": 4517,
+   "kbps": 24
   },
   {
    "id": "i-own-a-big-chunk-of-the-bank-of-america-building-in-twelve-",
-   "label": "I own a big chunk of the bank of america building in twelve ninety avenue of the americas that I got from china in a war",
+   "label": "I own a big chunk of the bank of america building in twelve ninety avenue of the americas that I got from china in a war (24k)",
    "file": "trump/i-own-a-big-chunk-of-the-bank-of-america-building-in-twelve-.ogg",
    "group": "trump",
-   "ms": 8829
+   "ms": 8829,
+   "kbps": 24
   },
   {
    "id": "i-run-i-win",
-   "label": "I run I win",
+   "label": "I run I win (24k)",
    "file": "trump/i-run-i-win.ogg",
    "group": "trump",
-   "ms": 2940
+   "ms": 2940,
+   "kbps": 24
   },
   {
    "id": "i-say-congratulations",
-   "label": "I say congratulations",
+   "label": "I say congratulations (24k)",
    "file": "trump/i-say-congratulations.ogg",
    "group": "trump",
-   "ms": 3559
+   "ms": 3559,
+   "kbps": 24
   },
   {
    "id": "i-say-it-all-the-time",
-   "label": "I say it all the time",
+   "label": "I say it all the time (24k)",
    "file": "trump/i-say-it-all-the-time.ogg",
    "group": "trump",
-   "ms": 3384
+   "ms": 3384,
+   "kbps": 24
   },
   {
    "id": "i-spent-a-long-time-making-my-shoes-beautiful",
-   "label": "I spent a long time making my shoes beautiful",
+   "label": "I spent a long time making my shoes beautiful (24k)",
    "file": "trump/i-spent-a-long-time-making-my-shoes-beautiful.ogg",
    "group": "trump",
-   "ms": 6537
+   "ms": 6537,
+   "kbps": 24
   },
   {
    "id": "i-think-he-s-got-a-huge-problem-trump-think-hes-got-a-huge-p",
-   "label": "I think he's got a huge problem  trump  think hes got a huge problem  got issues  problem",
+   "label": "I think he's got a huge problem  trump  think hes got a huge problem  got issues  problem (24k)",
    "file": "trump/i-think-he-s-got-a-huge-problem-trump-think-hes-got-a-huge-p.ogg",
    "group": "trump",
-   "ms": 2854
+   "ms": 2854,
+   "kbps": 24
   },
   {
    "id": "i-think-i-am-a-nice-person",
-   "label": "I think I am a nice person",
+   "label": "I think I am a nice person (24k)",
    "file": "trump/i-think-i-am-a-nice-person.ogg",
    "group": "trump",
-   "ms": 2880
+   "ms": 2880,
+   "kbps": 24
   },
   {
    "id": "i-think-the-big-problem-this-country-has-is-being-politicall",
-   "label": "I think the big problem this country has is being politically correct",
+   "label": "I think the big problem this country has is being politically correct (24k)",
    "file": "trump/i-think-the-big-problem-this-country-has-is-being-politicall.ogg",
    "group": "trump",
-   "ms": 6764
+   "ms": 6764,
+   "kbps": 24
   },
   {
    "id": "i-understand",
-   "label": "I understand",
+   "label": "I understand (24k)",
    "file": "trump/i-understand.ogg",
    "group": "trump",
-   "ms": 3115
+   "ms": 3115,
+   "kbps": 24
   },
   {
    "id": "i-understand-that-you-re-building-a-nice-two-point-five-bill",
-   "label": "I understand that you're building a nice two point five billion dollar car factory in mexico",
+   "label": "I understand that you're building a nice two point five billion dollar car factory in mexico (24k)",
    "file": "trump/i-understand-that-you-re-building-a-nice-two-point-five-bill.ogg",
    "group": "trump",
-   "ms": 8715
+   "ms": 8715,
+   "kbps": 24
   },
   {
    "id": "i-want-nothing-quid-pro-pro-trump-have-the-cameras-rolling",
-   "label": "I want nothing   quid pro pro  trump  have the cameras rolling",
+   "label": "I want nothing   quid pro pro  trump  have the cameras rolling (24k)",
    "file": "trump/i-want-nothing-quid-pro-pro-trump-have-the-cameras-rolling.ogg",
    "group": "trump",
-   "ms": 5738
+   "ms": 5738,
+   "kbps": 24
   },
   {
    "id": "i-want-to-build-a-wall",
-   "label": "I want to build a wall",
+   "label": "I want to build a wall (24k)",
    "file": "trump/i-want-to-build-a-wall.ogg",
    "group": "trump",
-   "ms": 2002
+   "ms": 2002,
+   "kbps": 24
   },
   {
    "id": "i-want-to-build-a-wall-i-m-going-to-build-a-wall",
-   "label": "I want to build a wall, I'm going to build a wall",
+   "label": "I want to build a wall, I'm going to build a wall (24k)",
    "file": "trump/i-want-to-build-a-wall-i-m-going-to-build-a-wall.ogg",
    "group": "trump",
-   "ms": 2307
+   "ms": 2307,
+   "kbps": 24
   },
   {
    "id": "i-want-to-go-to-the-toilet-and-do-a-poo-poo",
-   "label": "I want to go to the toilet and do a poo poo",
+   "label": "I want to go to the toilet and do a poo poo (24k)",
    "file": "trump/i-want-to-go-to-the-toilet-and-do-a-poo-poo.ogg",
    "group": "trump",
-   "ms": 5336
+   "ms": 5336,
+   "kbps": 24
   },
   {
    "id": "i-want-to-run-as-the-republican-nominee",
-   "label": "I want to run as the republican nominee",
+   "label": "I want to run as the republican nominee (24k)",
    "file": "trump/i-want-to-run-as-the-republican-nominee.ogg",
    "group": "trump",
-   "ms": 3073
+   "ms": 3073,
+   "kbps": 24
   },
   {
    "id": "i-want-to-win-i-want-to-make-our-country-great",
-   "label": "I want to win. I want to make our country great",
+   "label": "I want to win. I want to make our country great (24k)",
    "file": "trump/i-want-to-win-i-want-to-make-our-country-great.ogg",
    "group": "trump",
-   "ms": 4160
+   "ms": 4160,
+   "kbps": 24
   },
   {
    "id": "i-was-not-expecting-that-reaction-was-not-expecting-that-rea",
-   "label": "I was not expecting that reaction  was not expecting that reaction  ok    nations  trump",
+   "label": "I was not expecting that reaction  was not expecting that reaction  ok    nations  trump (24k)",
    "file": "trump/i-was-not-expecting-that-reaction-was-not-expecting-that-rea.ogg",
    "group": "trump",
-   "ms": 10343
+   "ms": 10343,
+   "kbps": 24
   },
   {
    "id": "i-wasn-t-sure-if-i-was-going-to-like-it",
-   "label": "I wasn't sure if i was going to like it",
+   "label": "I wasn't sure if i was going to like it (24k)",
    "file": "trump/i-wasn-t-sure-if-i-was-going-to-like-it.ogg",
    "group": "trump",
-   "ms": 1846
+   "ms": 1846,
+   "kbps": 24
   },
   {
    "id": "i-went-to-an-ivy-league-school",
-   "label": "I went to an Ivy League school",
+   "label": "I went to an Ivy League school (24k)",
    "file": "trump/i-went-to-an-ivy-league-school.ogg",
    "group": "trump",
-   "ms": 2464
+   "ms": 2464,
+   "kbps": 24
   },
   {
    "id": "i-will-be",
-   "label": "I will be",
+   "label": "I will be (24k)",
    "file": "trump/i-will-be.ogg",
    "group": "trump",
-   "ms": 3272
+   "ms": 3272,
+   "kbps": 24
   },
   {
    "id": "i-will-be-president-for-many-many-many-many-years-to-come",
-   "label": "I will be president for many many many many years to come",
+   "label": "I will be president for many many many many years to come (24k)",
    "file": "trump/i-will-be-president-for-many-many-many-many-years-to-come.ogg",
    "group": "trump",
-   "ms": 7923
+   "ms": 7923,
+   "kbps": 24
   },
   {
    "id": "i-will-be-president-for-many-many-years-to-come",
-   "label": "I will be president for many many years to come",
+   "label": "I will be president for many many years to come (24k)",
    "file": "trump/i-will-be-president-for-many-many-years-to-come.ogg",
    "group": "trump",
-   "ms": 6208
+   "ms": 6208,
+   "kbps": 24
   },
   {
    "id": "i-will-be-the-greatest-jobs-president-that-god-ever-cre",
-   "label": "I will be the greatest jobs president that God ever cre",
+   "label": "I will be the greatest jobs president that God ever cre (24k)",
    "file": "trump/i-will-be-the-greatest-jobs-president-that-god-ever-cre.ogg",
    "group": "trump",
-   "ms": 7348
+   "ms": 7348,
+   "kbps": 24
   },
   {
    "id": "i-will-be-the-greatest-jobs-president-that-god-ever-created",
-   "label": "I will be the greatest jobs president that god ever created",
+   "label": "I will be the greatest jobs president that god ever created (24k)",
    "file": "trump/i-will-be-the-greatest-jobs-president-that-god-ever-created.ogg",
    "group": "trump",
-   "ms": 7295
+   "ms": 7295,
+   "kbps": 24
   },
   {
    "id": "i-will-be-the-greatest-president-for-many-many-many-many-yea",
-   "label": "I will be the greatest president for many many many many years to come",
+   "label": "I will be the greatest president for many many many many years to come (24k)",
    "file": "trump/i-will-be-the-greatest-president-for-many-many-many-many-yea.ogg",
    "group": "trump",
-   "ms": 10281
+   "ms": 10281,
+   "kbps": 24
   },
   {
    "id": "i-will-be-the-greatest-president-for-many-many-years-to",
-   "label": "I will be the greatest president for many many years to",
+   "label": "I will be the greatest president for many many years to (24k)",
    "file": "trump/i-will-be-the-greatest-president-for-many-many-years-to.ogg",
    "group": "trump",
-   "ms": 7192
+   "ms": 7192,
+   "kbps": 24
   },
   {
    "id": "i-will-be-the-greatest-president-for-many-many-years-to-come",
-   "label": "I will be the greatest president for many many years to come",
+   "label": "I will be the greatest president for many many years to come (24k)",
    "file": "trump/i-will-be-the-greatest-president-for-many-many-years-to-come.ogg",
    "group": "trump",
-   "ms": 8592
+   "ms": 8592,
+   "kbps": 24
   },
   {
    "id": "i-will-be-the-greatest-president-that-god-ever-created",
-   "label": "I will be the greatest president that god ever created",
+   "label": "I will be the greatest president that god ever created (24k)",
    "file": "trump/i-will-be-the-greatest-president-that-god-ever-created.ogg",
    "group": "trump",
-   "ms": 6337
+   "ms": 6337,
+   "kbps": 24
   },
   {
    "id": "i-will-bring-it-back",
-   "label": "I will bring it back",
+   "label": "I will bring it back (24k)",
    "file": "trump/i-will-bring-it-back.ogg",
    "group": "trump",
-   "ms": 2176
+   "ms": 2176,
+   "kbps": 24
   },
   {
    "id": "i-will-build-a-great-great-wall-on-our-southern-border-and-i",
-   "label": "I will build a great great wall on our southern border and I will have mexico pay for that wall",
+   "label": "I will build a great great wall on our southern border and I will have mexico pay for that wall (24k)",
    "file": "trump/i-will-build-a-great-great-wall-on-our-southern-border-and-i.ogg",
    "group": "trump",
-   "ms": 8036
+   "ms": 8036,
+   "kbps": 24
   },
   {
    "id": "i-will-destroy-isis-pt1",
-   "label": "I will destroy isis pt1",
+   "label": "I will destroy isis pt1 (24k)",
    "file": "trump/i-will-destroy-isis-pt1.ogg",
    "group": "trump",
-   "ms": 1915
+   "ms": 1915,
+   "kbps": 24
   },
   {
    "id": "i-will-destroy-isis-pt2",
-   "label": "I will destroy isis pt2",
+   "label": "I will destroy isis pt2 (24k)",
    "file": "trump/i-will-destroy-isis-pt2.ogg",
    "group": "trump",
-   "ms": 3082
+   "ms": 3082,
+   "kbps": 24
   },
   {
    "id": "i-will-destroy-isis-pt3",
-   "label": "I will destroy isis pt3",
+   "label": "I will destroy isis pt3 (24k)",
    "file": "trump/i-will-destroy-isis-pt3.ogg",
    "group": "trump",
-   "ms": 4909
+   "ms": 4909,
+   "kbps": 24
   },
   {
    "id": "i-will-fight-for-you-with-every-breath-in-my-body-and-i-will",
-   "label": "I will fight for you with every breath in my body and I will never ever let you down",
+   "label": "I will fight for you with every breath in my body and I will never ever let you down (24k)",
    "file": "trump/i-will-fight-for-you-with-every-breath-in-my-body-and-i-will.ogg",
    "group": "trump",
-   "ms": 9794
+   "ms": 9794,
+   "kbps": 24
   },
   {
    "id": "i-will-immediately-terminate-president-obama-s-illegal",
-   "label": "I will immediately terminate president obama 's illegal",
+   "label": "I will immediately terminate president obama 's illegal (24k)",
    "file": "trump/i-will-immediately-terminate-president-obama-s-illegal.ogg",
    "group": "trump",
-   "ms": 10073
+   "ms": 10073,
+   "kbps": 24
   },
   {
    "id": "i-will-immediately-terminate-president-obama-s-illegal-execu",
-   "label": "I will immediately terminate president obama 's illegal executive order on immigration",
+   "label": "I will immediately terminate president obama 's illegal executive order on immigration (24k)",
    "file": "trump/i-will-immediately-terminate-president-obama-s-illegal-execu.ogg",
    "group": "trump",
-   "ms": 10473
+   "ms": 10473,
+   "kbps": 24
   },
   {
    "id": "i-will-tell-you-this-is-going-to-be-something-special",
-   "label": "I will tell you this is going to be something special",
+   "label": "I will tell you this is going to be something special (24k)",
    "file": "trump/i-will-tell-you-this-is-going-to-be-something-special.ogg",
    "group": "trump",
-   "ms": 3221
+   "ms": 3221,
+   "kbps": 24
   },
   {
    "id": "i-will-win",
-   "label": "I will win",
+   "label": "I will win (24k)",
    "file": "trump/i-will-win.ogg",
    "group": "trump",
-   "ms": 1862
+   "ms": 1862,
+   "kbps": 24
   },
   {
    "id": "i-will-win-long",
-   "label": "I will win long",
+   "label": "I will win long (24k)",
    "file": "trump/i-will-win-long.ogg",
    "group": "trump",
-   "ms": 24944
+   "ms": 24944,
+   "kbps": 24
   },
   {
    "id": "i-will-win-short",
-   "label": "I will win short",
+   "label": "I will win short (24k)",
    "file": "trump/i-will-win-short.ogg",
    "group": "trump",
-   "ms": 2681
+   "ms": 2681,
+   "kbps": 24
   },
   {
    "id": "i-won-t-be-doing-that",
-   "label": "I won't be doing that",
+   "label": "I won't be doing that (24k)",
    "file": "trump/i-won-t-be-doing-that.ogg",
    "group": "trump",
-   "ms": 2697
+   "ms": 2697,
+   "kbps": 24
   },
   {
    "id": "i-would-build-a-great-wall-and-nobody-builds-walls-better-th",
-   "label": "I would build a great wall, and nobody builds walls better than me believe me",
+   "label": "I would build a great wall, and nobody builds walls better than me believe me (24k)",
    "file": "trump/i-would-build-a-great-wall-and-nobody-builds-walls-better-th.ogg",
    "group": "trump",
-   "ms": 4953
+   "ms": 4953,
+   "kbps": 24
   },
   {
    "id": "i-would-just-bomb-those-suckers-it-up",
-   "label": "I would just bomb those suckers    it up",
+   "label": "I would just bomb those suckers    it up (24k)",
    "file": "trump/i-would-just-bomb-those-suckers-it-up.ogg",
    "group": "trump",
-   "ms": 12642
+   "ms": 12642,
+   "kbps": 24
   },
   {
    "id": "i-would-say-he-s-incompetent-but-i-don-t-want-to-do-tha",
-   "label": "I would say he's incompetent but i don't want to do tha",
+   "label": "I would say he's incompetent but i don't want to do tha (24k)",
    "file": "trump/i-would-say-he-s-incompetent-but-i-don-t-want-to-do-tha.ogg",
    "group": "trump",
-   "ms": 5310
+   "ms": 5310,
+   "kbps": 24
   },
   {
    "id": "i-would-say-he-s-incompetent-but-i-don-t-want-to-do-that-bec",
-   "label": "I would say he's incompetent but I don't want to do that because that's not nice",
+   "label": "I would say he's incompetent but I don't want to do that because that's not nice (24k)",
    "file": "trump/i-would-say-he-s-incompetent-but-i-don-t-want-to-do-that-bec.ogg",
    "group": "trump",
-   "ms": 5310
+   "ms": 5310,
+   "kbps": 24
   },
   {
    "id": "i-d-be-china-all-the-time",
-   "label": "I'd be china all the time",
+   "label": "I'd be china all the time (24k)",
    "file": "trump/i-d-be-china-all-the-time.ogg",
    "group": "trump",
-   "ms": 3342
+   "ms": 3342,
+   "kbps": 24
   },
   {
    "id": "i-d-love-that",
-   "label": "I'd love that",
+   "label": "I'd love that (24k)",
    "file": "trump/i-d-love-that.ogg",
    "group": "trump",
-   "ms": 1393
+   "ms": 1393,
+   "kbps": 24
   },
   {
    "id": "i-ll-do-the-next-best-thing",
-   "label": "I'll do the next best thing",
+   "label": "I'll do the next best thing (24k)",
    "file": "trump/i-ll-do-the-next-best-thing.ogg",
    "group": "trump",
-   "ms": 2784
+   "ms": 2784,
+   "kbps": 24
   },
   {
    "id": "i-m-a-nationalist",
-   "label": "I'm a nationalist",
+   "label": "I'm a nationalist (24k)",
    "file": "trump/i-m-a-nationalist.ogg",
    "group": "trump",
-   "ms": 8437
+   "ms": 8437,
+   "kbps": 24
   },
   {
    "id": "i-m-a-nice-guy",
-   "label": "I'm a nice guy",
+   "label": "I'm a nice guy (24k)",
    "file": "trump/i-m-a-nice-guy.ogg",
    "group": "trump",
-   "ms": 3054
+   "ms": 3054,
+   "kbps": 24
   },
   {
    "id": "i-m-donald-trump-and-i-approve-this-message",
-   "label": "I'm Donald Trump and I approve this message",
+   "label": "I'm Donald Trump and I approve this message (24k)",
    "file": "trump/i-m-donald-trump-and-i-approve-this-message.ogg",
    "group": "trump",
-   "ms": 5206
+   "ms": 5206,
+   "kbps": 24
   },
   {
    "id": "i-m-far-too-busy-a-fan-of-that-time-out",
-   "label": "I'm far too busy  a fan of that  time   out",
+   "label": "I'm far too busy  a fan of that  time   out (24k)",
    "file": "trump/i-m-far-too-busy-a-fan-of-that-time-out.ogg",
    "group": "trump",
-   "ms": 13069
+   "ms": 13069,
+   "kbps": 24
   },
   {
    "id": "i-m-gonna-bomb-the-sh-t-out-of-them",
-   "label": "I'm gonna bomb the sh*t out of them",
+   "label": "I'm gonna bomb the sh*t out of them (24k)",
    "file": "trump/i-m-gonna-bomb-the-sh-t-out-of-them.ogg",
    "group": "trump",
-   "ms": 3256
+   "ms": 3256,
+   "kbps": 24
   },
   {
    "id": "i-m-gonna-sign-on-this-bill-bill-act-dollars",
-   "label": "I'm gonna sign on this  bill  bill  act  dollars",
+   "label": "I'm gonna sign on this  bill  bill  act  dollars (24k)",
    "file": "trump/i-m-gonna-sign-on-this-bill-bill-act-dollars.ogg",
    "group": "trump",
-   "ms": 7252
+   "ms": 7252,
+   "kbps": 24
   },
   {
    "id": "i-m-gonna-tell-you-a-couple-of-stores",
-   "label": "I'm gonna tell you a couple of stores",
+   "label": "I'm gonna tell you a couple of stores (24k)",
    "file": "trump/i-m-gonna-tell-you-a-couple-of-stores.ogg",
    "group": "trump",
-   "ms": 3116
+   "ms": 3116,
+   "kbps": 24
   },
   {
    "id": "i-m-important-lip-reading-trump",
-   "label": "I'm important  lip reading   trump",
+   "label": "I'm important  lip reading   trump (24k)",
    "file": "trump/i-m-important-lip-reading-trump.ogg",
    "group": "trump",
-   "ms": 9543
+   "ms": 9543,
+   "kbps": 24
   },
   {
    "id": "i-m-no-fan",
-   "label": "I'm no fan",
+   "label": "I'm no fan (24k)",
    "file": "trump/i-m-no-fan.ogg",
    "group": "trump",
-   "ms": 1340
+   "ms": 1340,
+   "kbps": 24
   },
   {
    "id": "i-m-really-getting-used-to-being-president",
-   "label": "I'm really getting used to being President",
+   "label": "I'm really getting used to being President (24k)",
    "file": "trump/i-m-really-getting-used-to-being-president.ogg",
    "group": "trump",
-   "ms": 3933
+   "ms": 3933,
+   "kbps": 24
   },
   {
    "id": "i-m-really-rich",
-   "label": "I'm really rich",
+   "label": "I'm really rich (24k)",
    "file": "trump/i-m-really-rich.ogg",
    "group": "trump",
-   "ms": 1819
+   "ms": 1819,
+   "kbps": 24
   },
   {
    "id": "i-m-really-smart",
-   "label": "I'm really smart",
+   "label": "I'm really smart (24k)",
    "file": "trump/i-m-really-smart.ogg",
    "group": "trump",
-   "ms": 1236
+   "ms": 1236,
+   "kbps": 24
   },
   {
    "id": "i-m-sorry",
-   "label": "I'm sorry",
+   "label": "I'm sorry (24k)",
    "file": "trump/i-m-sorry.ogg",
    "group": "trump",
-   "ms": 1758
+   "ms": 1758,
+   "kbps": 24
   },
   {
    "id": "i-m-very-intelligent-trump-league",
-   "label": "I'm very intelligent  trump       league",
+   "label": "I'm very intelligent  trump       league (24k)",
    "file": "trump/i-m-very-intelligent-trump-league.ogg",
    "group": "trump",
-   "ms": 21654
+   "ms": 21654,
+   "kbps": 24
   },
   {
    "id": "i-ve-been-a-fan-of-yours-for-a-long-time-fan-like-you-are-aw",
-   "label": "I've been a fan of yours for a long time  fan  like you   are awesome",
+   "label": "I've been a fan of yours for a long time  fan  like you   are awesome (24k)",
    "file": "trump/i-ve-been-a-fan-of-yours-for-a-long-time-fan-like-you-are-aw.ogg",
    "group": "trump",
-   "ms": 6747
+   "ms": 6747,
+   "kbps": 24
   },
   {
    "id": "i-ve-been-very-nice-to-you-although-i-could-probably-not-be",
-   "label": "I've been very nice to you, although I could probably not be",
+   "label": "I've been very nice to you, although I could probably not be (24k)",
    "file": "trump/i-ve-been-very-nice-to-you-although-i-could-probably-not-be.ogg",
    "group": "trump",
-   "ms": 6311
+   "ms": 6311,
+   "kbps": 24
   },
   {
    "id": "i-ve-been-watching-you-for-the-last-couple-of-weeks",
-   "label": "I've been watching you for the last couple of weeks",
+   "label": "I've been watching you for the last couple of weeks (24k)",
    "file": "trump/i-ve-been-watching-you-for-the-last-couple-of-weeks.ogg",
    "group": "trump",
-   "ms": 3352
+   "ms": 3352,
+   "kbps": 24
   },
   {
    "id": "i-ve-dealt-with-russia",
-   "label": "I've dealt with Russia",
+   "label": "I've dealt with Russia (24k)",
    "file": "trump/i-ve-dealt-with-russia.ogg",
    "group": "trump",
-   "ms": 2063
+   "ms": 2063,
+   "kbps": 24
   },
   {
    "id": "i-ve-gotta-come-over-and-see-the-fake-news-news-story",
-   "label": "I've gotta come over and see the fake news  news  story",
+   "label": "I've gotta come over and see the fake news  news  story (24k)",
    "file": "trump/i-ve-gotta-come-over-and-see-the-fake-news-news-story.ogg",
    "group": "trump",
-   "ms": 6153
+   "ms": 6153,
+   "kbps": 24
   },
   {
    "id": "i-ve-just-received-a-call-from-secretary-clinton-donald-trum",
-   "label": "I've just received a call from Secretary Clinton  donald trump   trump",
+   "label": "I've just received a call from Secretary Clinton  donald trump   trump (24k)",
    "file": "trump/i-ve-just-received-a-call-from-secretary-clinton-donald-trum.ogg",
    "group": "trump",
-   "ms": 29848
+   "ms": 29848,
+   "kbps": 24
   },
   {
    "id": "i-ve-loved-doing-it",
-   "label": "I've loved doing it",
+   "label": "I've loved doing it (24k)",
    "file": "trump/i-ve-loved-doing-it.ogg",
    "group": "trump",
-   "ms": 10535
+   "ms": 10535,
+   "kbps": 24
   },
   {
    "id": "if-it-weren-t-for-me-you-wouldn-t-even-be-talking-about-ille",
-   "label": "If it weren't for me, you wouldn't even be talking about illegal immigration",
+   "label": "If it weren't for me, you wouldn't even be talking about illegal immigration (24k)",
    "file": "trump/if-it-weren-t-for-me-you-wouldn-t-even-be-talking-about-ille.ogg",
    "group": "trump",
-   "ms": 6564
+   "ms": 6564,
+   "kbps": 24
   },
   {
    "id": "if-ivanka-weren-t-my-daughter",
-   "label": "If Ivanka weren't my daughter..",
+   "label": "If Ivanka weren't my daughter.. (24k)",
    "file": "trump/if-ivanka-weren-t-my-daughter.ogg",
    "group": "trump",
-   "ms": 3856
+   "ms": 3856,
+   "kbps": 24
   },
   {
    "id": "if-that-s-ok",
-   "label": "If that's OK",
+   "label": "If that's OK (24k)",
    "file": "trump/if-that-s-ok.ogg",
    "group": "trump",
-   "ms": 1828
+   "ms": 1828,
+   "kbps": 24
   },
   {
    "id": "if-you-believe-that",
-   "label": "If you believe that",
+   "label": "If you believe that (24k)",
    "file": "trump/if-you-believe-that.ogg",
    "group": "trump",
-   "ms": 4944
+   "ms": 4944,
+   "kbps": 24
   },
   {
    "id": "if-you-keep-talking-i-ll-leave-talking",
-   "label": "If you keep talking, I'll leave  talking",
+   "label": "If you keep talking, I'll leave  talking (24k)",
    "file": "trump/if-you-keep-talking-i-ll-leave-talking.ogg",
    "group": "trump",
-   "ms": 9447
+   "ms": 9447,
+   "kbps": 24
   },
   {
    "id": "im-with-you",
-   "label": "Im with you",
+   "label": "Im with you (24k)",
    "file": "trump/im-with-you.ogg",
    "group": "trump",
-   "ms": 10582
+   "ms": 10582,
+   "kbps": 24
   },
   {
    "id": "in-texas",
-   "label": "In Texas",
+   "label": "In Texas (24k)",
    "file": "trump/in-texas.ogg",
    "group": "trump",
-   "ms": 2936
+   "ms": 2936,
+   "kbps": 24
   },
   {
    "id": "in-this-room-it-s-so-hot-maybe-i-ll-start-to-believe-it",
-   "label": "In this room it's so hot maybe I'll start to believe it",
+   "label": "In this room it's so hot maybe I'll start to believe it (24k)",
    "file": "trump/in-this-room-it-s-so-hot-maybe-i-ll-start-to-believe-it.ogg",
    "group": "trump",
-   "ms": 4718
+   "ms": 4718,
+   "kbps": 24
   },
   {
    "id": "in-this-room-it-s-so-hot-maybe-i-ll-start-to-believe-it-myse",
-   "label": "In this room it's so hot maybe I'll start to believe it myself",
+   "label": "In this room it's so hot maybe I'll start to believe it myself (24k)",
    "file": "trump/in-this-room-it-s-so-hot-maybe-i-ll-start-to-believe-it-myse.ogg",
    "group": "trump",
-   "ms": 4318
+   "ms": 4318,
+   "kbps": 24
   },
   {
    "id": "is-dead",
-   "label": "Is dead",
+   "label": "Is dead (24k)",
    "file": "trump/is-dead.ogg",
    "group": "trump",
-   "ms": 2202
+   "ms": 2202,
+   "kbps": 24
   },
   {
    "id": "isis",
-   "label": "ISIS",
+   "label": "ISIS (24k)",
    "file": "trump/isis.ogg",
    "group": "trump",
-   "ms": 2532
+   "ms": 2532,
+   "kbps": 24
   },
   {
    "id": "isis-can-t-cut-off-our-peoples-head",
-   "label": "ISIS can't cut off our peoples' head",
+   "label": "ISIS can't cut off our peoples' head (24k)",
    "file": "trump/isis-can-t-cut-off-our-peoples-head.ogg",
    "group": "trump",
-   "ms": 6680
+   "ms": 6680,
+   "kbps": 24
   },
   {
    "id": "isis-how-you-going-to-defeat-isis",
-   "label": "ISIS, how you going to defeat ISIS.",
+   "label": "ISIS, how you going to defeat ISIS. (24k)",
    "file": "trump/isis-how-you-going-to-defeat-isis.ogg",
    "group": "trump",
-   "ms": 32284
+   "ms": 32284,
+   "kbps": 24
   },
   {
    "id": "it-can-happen",
-   "label": "It can happen",
+   "label": "It can happen (24k)",
    "file": "trump/it-can-happen.ogg",
    "group": "trump",
-   "ms": 2123
+   "ms": 2123,
+   "kbps": 24
   },
   {
    "id": "it-comes-from-china-virus-19",
-   "label": "It comes from China    virus    19",
+   "label": "It comes from China    virus    19 (24k)",
    "file": "trump/it-comes-from-china-virus-19.ogg",
    "group": "trump",
-   "ms": 3342
+   "ms": 3342,
+   "kbps": 24
   },
   {
    "id": "it-does-take-guts",
-   "label": "It does take guts",
+   "label": "It does take guts (24k)",
    "file": "trump/it-does-take-guts.ogg",
    "group": "trump",
-   "ms": 3072
+   "ms": 3072,
+   "kbps": 24
   },
   {
    "id": "it-doesn-t-exist-folks",
-   "label": "It doesn't exist folks",
+   "label": "It doesn't exist folks (24k)",
    "file": "trump/it-doesn-t-exist-folks.ogg",
    "group": "trump",
-   "ms": 3333
+   "ms": 3333,
+   "kbps": 24
   },
   {
    "id": "it-don-t-matter",
-   "label": "It don' t matter",
+   "label": "It don' t matter (24k)",
    "file": "trump/it-don-t-matter.ogg",
    "group": "trump",
-   "ms": 2654
+   "ms": 2654,
+   "kbps": 24
   },
   {
    "id": "it-don-t-matter-2",
-   "label": "It don'-t matter",
+   "label": "It don'-t matter (24k)",
    "file": "trump/it-don-t-matter-2.ogg",
    "group": "trump",
-   "ms": 2472
+   "ms": 2472,
+   "kbps": 24
   },
   {
    "id": "it-was-terrifiic",
-   "label": "It was terrifiic",
+   "label": "It was terrifiic (24k)",
    "file": "trump/it-was-terrifiic.ogg",
    "group": "trump",
-   "ms": 9088
+   "ms": 9088,
+   "kbps": 24
   },
   {
    "id": "it-s-all-right",
-   "label": "It's all right",
+   "label": "It's all right (24k)",
    "file": "trump/it-s-all-right.ogg",
    "group": "trump",
-   "ms": 2393
+   "ms": 2393,
+   "kbps": 24
   },
   {
    "id": "it-s-been-a-great-success",
-   "label": "It's been a great success",
+   "label": "It's been a great success (24k)",
    "file": "trump/it-s-been-a-great-success.ogg",
    "group": "trump",
-   "ms": 1558
+   "ms": 1558,
+   "kbps": 24
   },
   {
    "id": "it-s-coming-from-all-over-south-and-latin-america-and-i",
-   "label": "It's coming from all over south and latin america and i",
+   "label": "It's coming from all over south and latin america and i (24k)",
    "file": "trump/it-s-coming-from-all-over-south-and-latin-america-and-i.ogg",
    "group": "trump",
-   "ms": 9837
+   "ms": 9837,
+   "kbps": 24
   },
   {
    "id": "it-s-coming-from-all-over-south-and-latin-america-and-it-s-c",
-   "label": "It's coming from all over south and latin america and it's coming probably probably from the middle east",
+   "label": "It's coming from all over south and latin america and it's coming probably probably from the middle east (24k)",
    "file": "trump/it-s-coming-from-all-over-south-and-latin-america-and-it-s-c.ogg",
    "group": "trump",
-   "ms": 9437
+   "ms": 9437,
+   "kbps": 24
   },
   {
    "id": "it-s-going-to-be-only-america-first",
-   "label": "It's going to be only America first",
+   "label": "It's going to be only America first (24k)",
    "file": "trump/it-s-going-to-be-only-america-first.ogg",
    "group": "trump",
-   "ms": 5702
+   "ms": 5702,
+   "kbps": 24
   },
   {
    "id": "it-s-not-easy-doing-what-i-do-trump-an-easy-job-job",
-   "label": "It's not easy doing what I do  trump  an easy job  job",
+   "label": "It's not easy doing what I do  trump  an easy job  job (24k)",
    "file": "trump/it-s-not-easy-doing-what-i-do-trump-an-easy-job-job.ogg",
    "group": "trump",
-   "ms": 4449
+   "ms": 4449,
+   "kbps": 24
   },
   {
    "id": "i-m-speaking-and-a-woman-is-mumbling-terribly-behind-me-pelo",
-   "label": "I\u2019m speaking and a woman is mumbling terribly behind me    pelosi",
+   "label": "I\u2019m speaking and a woman is mumbling terribly behind me    pelosi (24k)",
    "file": "trump/i-m-speaking-and-a-woman-is-mumbling-terribly-behind-me-pelo.ogg",
    "group": "trump",
-   "ms": 8444
+   "ms": 8444,
+   "kbps": 24
   },
   {
    "id": "japan",
-   "label": "Japan",
+   "label": "Japan (24k)",
    "file": "trump/japan.ogg",
    "group": "trump",
-   "ms": 3437
+   "ms": 3437,
+   "kbps": 24
   },
   {
    "id": "just-like-i-promised-right",
-   "label": "Just like i promised right",
+   "label": "Just like i promised right (24k)",
    "file": "trump/just-like-i-promised-right.ogg",
    "group": "trump",
-   "ms": 2498
+   "ms": 2498,
+   "kbps": 24
   },
   {
    "id": "just-sold",
-   "label": "Just sold",
+   "label": "Just sold (24k)",
    "file": "trump/just-sold.ogg",
    "group": "trump",
-   "ms": 6656
+   "ms": 6656,
+   "kbps": 24
   },
   {
    "id": "kiss-my-robustly-healthy-asscheeks-until-they-re-raw-and-ble",
-   "label": "Kiss my robustly healthy asscheeks until they're raw and bleeding from exhaustion",
+   "label": "Kiss my robustly healthy asscheeks until they're raw and bleeding from exhaustion (24k)",
    "file": "trump/kiss-my-robustly-healthy-asscheeks-until-they-re-raw-and-ble.ogg",
    "group": "trump",
-   "ms": 6392
+   "ms": 6392,
+   "kbps": 24
   },
   {
    "id": "komatsu-tractor-are-high-cost-much-money",
-   "label": "Komatsu Tractor  are high  cost  much money",
+   "label": "Komatsu Tractor  are high  cost  much money (24k)",
    "file": "trump/komatsu-tractor-are-high-cost-much-money.ogg",
    "group": "trump",
-   "ms": 6642
+   "ms": 6642,
+   "kbps": 24
   },
   {
    "id": "ladies-and-gentlemen-i-am-officially-running-for-presi",
-   "label": "Ladies and gentlemen, I am officially running for Presi",
+   "label": "Ladies and gentlemen, I am officially running for Presi (24k)",
    "file": "trump/ladies-and-gentlemen-i-am-officially-running-for-presi.ogg",
    "group": "trump",
-   "ms": 20087
+   "ms": 20087,
+   "kbps": 24
   },
   {
    "id": "ladies-and-gentlemen-i-am-officially-running-for-president-o",
-   "label": "Ladies and gentlemen, I am officially running for President of the United States, and we are going to make this country great again",
+   "label": "Ladies and gentlemen, I am officially running for President of the United States, and we are going to make this country great again (24k)",
    "file": "trump/ladies-and-gentlemen-i-am-officially-running-for-president-o.ogg",
    "group": "trump",
-   "ms": 20487
+   "ms": 20487,
+   "kbps": 24
   },
   {
    "id": "like-me",
-   "label": "Like me",
+   "label": "Like me (24k)",
    "file": "trump/like-me.ogg",
    "group": "trump",
-   "ms": 2288
+   "ms": 2288,
+   "kbps": 24
   },
   {
    "id": "lisa",
-   "label": "Lisa",
+   "label": "Lisa (24k)",
    "file": "trump/lisa.ogg",
    "group": "trump",
-   "ms": 2245
+   "ms": 2245,
+   "kbps": 24
   },
   {
    "id": "little-rocket-man",
-   "label": "Little rocket man",
+   "label": "Little rocket man (24k)",
    "file": "trump/little-rocket-man.ogg",
    "group": "trump",
-   "ms": 2428
+   "ms": 2428,
+   "kbps": 24
   },
   {
    "id": "london-radicalised",
-   "label": "London radicalised",
+   "label": "London radicalised (24k)",
    "file": "trump/london-radicalised.ogg",
    "group": "trump",
-   "ms": 12303
+   "ms": 12303,
+   "kbps": 24
   },
   {
    "id": "look-at-my-african-american-here-rally",
-   "label": "Look at my African American here    rally",
+   "label": "Look at my African American here    rally (24k)",
    "file": "trump/look-at-my-african-american-here-rally.ogg",
    "group": "trump",
-   "ms": 30022
+   "ms": 30022,
+   "kbps": 24
   },
   {
    "id": "look-at-our-economy",
-   "label": "Look at our economy",
+   "label": "Look at our economy (24k)",
    "file": "trump/look-at-our-economy.ogg",
    "group": "trump",
-   "ms": 10980
+   "ms": 10980,
+   "kbps": 24
   },
   {
    "id": "look-at-this-country",
-   "label": "Look at this country",
+   "label": "Look at this country (24k)",
    "file": "trump/look-at-this-country.ogg",
    "group": "trump",
-   "ms": 23832
+   "ms": 23832,
+   "kbps": 24
   },
   {
    "id": "look-at-this-guy",
-   "label": "Look at this guy",
+   "label": "Look at this guy (24k)",
    "file": "trump/look-at-this-guy.ogg",
    "group": "trump",
-   "ms": 2297
+   "ms": 2297,
+   "kbps": 24
   },
   {
    "id": "look-at-those-hands-hands-hands-they-small-hands-at-my-hands",
-   "label": "Look at those hands  hands  hands  they small hands  at my hands  trump",
+   "label": "Look at those hands  hands  hands  they small hands  at my hands  trump (24k)",
    "file": "trump/look-at-those-hands-hands-hands-they-small-hands-at-my-hands.ogg",
    "group": "trump",
-   "ms": 5832
+   "ms": 5832,
+   "kbps": 24
   },
   {
    "id": "lose-like-this",
-   "label": "Lose like this",
+   "label": "Lose like this (24k)",
    "file": "trump/lose-like-this.ogg",
    "group": "trump",
-   "ms": 3304
+   "ms": 3304,
+   "kbps": 24
   },
   {
    "id": "love-my-life-i-have-a-wonderful-family",
-   "label": "Love my life, I have a wonderful family",
+   "label": "Love my life, I have a wonderful family (24k)",
    "file": "trump/love-my-life-i-have-a-wonderful-family.ogg",
    "group": "trump",
-   "ms": 5866
+   "ms": 5866,
+   "kbps": 24
   },
   {
    "id": "love-the-competition",
-   "label": "Love the competition",
+   "label": "Love the competition (24k)",
    "file": "trump/love-the-competition.ogg",
    "group": "trump",
-   "ms": 2240
+   "ms": 2240,
+   "kbps": 24
   },
   {
    "id": "made-money",
-   "label": "Made money",
+   "label": "Made money (24k)",
    "file": "trump/made-money.ogg",
    "group": "trump",
-   "ms": 4849
+   "ms": 4849,
+   "kbps": 24
   },
   {
    "id": "maga-loves-black-people-america-great-again-american-trump",
-   "label": "MAGA loves black people  america great again  american  trump",
+   "label": "MAGA loves black people  america great again  american  trump (24k)",
    "file": "trump/maga-loves-black-people-america-great-again-american-trump.ogg",
    "group": "trump",
-   "ms": 11250
+   "ms": 11250,
+   "kbps": 24
   },
   {
    "id": "make-sure-you-get-out-and-vote",
-   "label": "Make sure you get out and vote",
+   "label": "Make sure you get out and vote (24k)",
    "file": "trump/make-sure-you-get-out-and-vote.ogg",
    "group": "trump",
-   "ms": 2767
+   "ms": 2767,
+   "kbps": 24
   },
   {
    "id": "making-our-product-s-stealing-our-companies-and-destro",
-   "label": "Making our product 's stealing our companies and destro",
+   "label": "Making our product 's stealing our companies and destro (24k)",
    "file": "trump/making-our-product-s-stealing-our-companies-and-destro.ogg",
    "group": "trump",
-   "ms": 6913
+   "ms": 6913,
+   "kbps": 24
   },
   {
    "id": "making-our-product-s-stealing-our-companies-and-destroying-o",
-   "label": "Making our product 's stealing our companies and destroying our jobs",
+   "label": "Making our product 's stealing our companies and destroying our jobs (24k)",
    "file": "trump/making-our-product-s-stealing-our-companies-and-destroying-o.ogg",
    "group": "trump",
-   "ms": 8113
+   "ms": 8113,
+   "kbps": 24
   },
   {
    "id": "malania-trump-says-hello",
-   "label": "Malania Trump Says Hello",
+   "label": "Malania Trump Says Hello (24k)",
    "file": "trump/malania-trump-says-hello.ogg",
    "group": "trump",
-   "ms": 4387
+   "ms": 4387,
+   "kbps": 24
   },
   {
    "id": "maybe-four",
-   "label": "Maybe four",
+   "label": "Maybe four (24k)",
    "file": "trump/maybe-four.ogg",
    "group": "trump",
-   "ms": 2498
+   "ms": 2498,
+   "kbps": 24
   },
   {
    "id": "mexico",
-   "label": "Mexico",
+   "label": "Mexico (24k)",
    "file": "trump/mexico.ogg",
    "group": "trump",
-   "ms": 2688
+   "ms": 2688,
+   "kbps": 24
   },
   {
    "id": "mexico-1",
-   "label": "Mexico 1",
+   "label": "Mexico 1 (24k)",
    "file": "trump/mexico-1.ogg",
    "group": "trump",
-   "ms": 2254
+   "ms": 2254,
+   "kbps": 24
   },
   {
    "id": "mexico-at-the-border",
-   "label": "Mexico at the border",
+   "label": "Mexico at the border (24k)",
    "file": "trump/mexico-at-the-border.ogg",
    "group": "trump",
-   "ms": 20704
+   "ms": 20704,
+   "kbps": 24
   },
   {
    "id": "mexico-behave",
-   "label": "Mexico behave",
+   "label": "Mexico behave (24k)",
    "file": "trump/mexico-behave.ogg",
    "group": "trump",
-   "ms": 10943
+   "ms": 10943,
+   "kbps": 24
   },
   {
    "id": "mexico-sending-rapists",
-   "label": "Mexico sending rapists",
+   "label": "Mexico sending rapists (24k)",
    "file": "trump/mexico-sending-rapists.ogg",
    "group": "trump",
-   "ms": 48886
+   "ms": 48886,
+   "kbps": 24
   },
   {
    "id": "mexico-will-start-behaving",
-   "label": "Mexico will start behaving.",
+   "label": "Mexico will start behaving. (24k)",
    "file": "trump/mexico-will-start-behaving.ogg",
    "group": "trump",
-   "ms": 10548
+   "ms": 10548,
+   "kbps": 24
   },
   {
    "id": "michelle",
-   "label": "Michelle",
+   "label": "Michelle (24k)",
    "file": "trump/michelle.ogg",
    "group": "trump",
-   "ms": 2210
+   "ms": 2210,
+   "kbps": 24
   },
   {
    "id": "mmm-hmm-hmm",
-   "label": "Mmm hmm     hmm",
+   "label": "Mmm hmm     hmm (24k)",
    "file": "trump/mmm-hmm-hmm.ogg",
    "group": "trump",
-   "ms": 1654
+   "ms": 1654,
+   "kbps": 24
   },
   {
    "id": "most-amazing-experience",
-   "label": "Most amazing experience",
+   "label": "Most amazing experience (24k)",
    "file": "trump/most-amazing-experience.ogg",
    "group": "trump",
-   "ms": 7809
+   "ms": 7809,
+   "kbps": 24
   },
   {
    "id": "mr-tough-guy",
-   "label": "Mr tough guy",
+   "label": "Mr tough guy (24k)",
    "file": "trump/mr-tough-guy.ogg",
    "group": "trump",
-   "ms": 2549
+   "ms": 2549,
+   "kbps": 24
   },
   {
    "id": "muslim-ban",
-   "label": "Muslim ban",
+   "label": "Muslim ban (24k)",
    "file": "trump/muslim-ban.ogg",
    "group": "trump",
-   "ms": 28540
+   "ms": 28540,
+   "kbps": 24
   },
   {
    "id": "mussolini-is-mussolini",
-   "label": "Mussolini Is Mussolini..",
+   "label": "Mussolini Is Mussolini.. (24k)",
    "file": "trump/mussolini-is-mussolini.ogg",
    "group": "trump",
-   "ms": 3576
+   "ms": 3576,
+   "kbps": 24
   },
   {
    "id": "my-call-was-perfect-call-call",
-   "label": "My call was perfect  call   call",
+   "label": "My call was perfect  call   call (24k)",
    "file": "trump/my-call-was-perfect-call-call.ogg",
    "group": "trump",
-   "ms": 3855
+   "ms": 3855,
+   "kbps": 24
   },
   {
    "id": "my-friend-snoop-dog",
-   "label": "My friend snoop dog",
+   "label": "My friend snoop dog (24k)",
    "file": "trump/my-friend-snoop-dog.ogg",
    "group": "trump",
-   "ms": 3394
+   "ms": 3394,
+   "kbps": 24
   },
   {
    "id": "my-friend-snoop-dog-2",
-   "label": "My friend, Snoop Dog.",
+   "label": "My friend, Snoop Dog. (24k)",
    "file": "trump/my-friend-snoop-dog-2.ogg",
    "group": "trump",
-   "ms": 2784
+   "ms": 2784,
+   "kbps": 24
   },
   {
    "id": "nasty-guy",
-   "label": "Nasty guy",
+   "label": "Nasty guy (24k)",
    "file": "trump/nasty-guy.ogg",
    "group": "trump",
-   "ms": 2873
+   "ms": 2873,
+   "kbps": 24
   },
   {
    "id": "nasty-person",
-   "label": "Nasty person",
+   "label": "Nasty person (24k)",
    "file": "trump/nasty-person.ogg",
    "group": "trump",
-   "ms": 2767
+   "ms": 2767,
+   "kbps": 24
   },
   {
    "id": "need-to-laugh",
-   "label": "Need to laugh",
+   "label": "Need to laugh (24k)",
    "file": "trump/need-to-laugh.ogg",
    "group": "trump",
-   "ms": 4612
+   "ms": 4612,
+   "kbps": 24
   },
   {
    "id": "net-worth",
-   "label": "Net worth",
+   "label": "Net worth (24k)",
    "file": "trump/net-worth.ogg",
    "group": "trump",
-   "ms": 7456
+   "ms": 7456,
+   "kbps": 24
   },
   {
    "id": "never-seen-that",
-   "label": "Never seen that",
+   "label": "Never seen that (24k)",
    "file": "trump/never-seen-that.ogg",
    "group": "trump",
-   "ms": 2167
+   "ms": 2167,
+   "kbps": 24
   },
   {
    "id": "new-2",
-   "label": "New 2",
+   "label": "New 2 (24k)",
    "file": "trump/new-2.ogg",
    "group": "trump",
-   "ms": 2567
+   "ms": 2567,
+   "kbps": 24
   },
   {
    "id": "new-to-this",
-   "label": "New to this",
+   "label": "New to this (24k)",
    "file": "trump/new-to-this.ogg",
    "group": "trump",
-   "ms": 3463
+   "ms": 3463,
+   "kbps": 24
   },
   {
    "id": "new-york-city",
-   "label": "New York city",
+   "label": "New York city (24k)",
    "file": "trump/new-york-city.ogg",
    "group": "trump",
-   "ms": 1752
+   "ms": 1752,
+   "kbps": 24
   },
   {
    "id": "nine-billion-two-hundred-and-forty-million-dollars",
-   "label": "Nine billion two hundred and forty million dollars",
+   "label": "Nine billion two hundred and forty million dollars (24k)",
    "file": "trump/nine-billion-two-hundred-and-forty-million-dollars.ogg",
    "group": "trump",
-   "ms": 7687
+   "ms": 7687,
+   "kbps": 24
   },
   {
    "id": "nineteen-seventy-eight",
-   "label": "Nineteen seventy eight",
+   "label": "Nineteen seventy eight (24k)",
    "file": "trump/nineteen-seventy-eight.ogg",
    "group": "trump",
-   "ms": 2324
+   "ms": 2324,
+   "kbps": 24
   },
   {
    "id": "no",
-   "label": "No",
+   "label": "No (24k)",
    "file": "trump/no.ogg",
    "group": "trump",
-   "ms": 2131
+   "ms": 2131,
+   "kbps": 24
   },
   {
    "id": "no-2",
-   "label": "No 2",
+   "label": "No 2 (24k)",
    "file": "trump/no-2.ogg",
    "group": "trump",
-   "ms": 3045
+   "ms": 3045,
+   "kbps": 24
   },
   {
    "id": "no-better-word-trump-better-word-than-stupid-smart-dead",
-   "label": "No better word   trump   better word than stupid  smart    dead",
+   "label": "No better word   trump   better word than stupid  smart    dead (24k)",
    "file": "trump/no-better-word-trump-better-word-than-stupid-smart-dead.ogg",
    "group": "trump",
-   "ms": 5562
+   "ms": 5562,
+   "kbps": 24
   },
   {
    "id": "no-i-didn-t-say-that-at-all-i-don-t-think-you-understo",
-   "label": "No I didn't say that at all, I don't think you understo",
+   "label": "No I didn't say that at all, I don't think you understo (24k)",
    "file": "trump/no-i-didn-t-say-that-at-all-i-don-t-think-you-understo.ogg",
    "group": "trump",
-   "ms": 4161
+   "ms": 4161,
+   "kbps": 24
   },
   {
    "id": "no-i-didn-t-say-that-at-all-i-don-t-think-you-understood-wha",
-   "label": "No I didn't say that at all, I don't think you understood what was said",
+   "label": "No I didn't say that at all, I don't think you understood what was said (24k)",
    "file": "trump/no-i-didn-t-say-that-at-all-i-don-t-think-you-understood-wha.ogg",
    "group": "trump",
-   "ms": 4561
+   "ms": 4561,
+   "kbps": 24
   },
   {
    "id": "no-not-you",
-   "label": "No not you",
+   "label": "No not you (24k)",
    "file": "trump/no-not-you.ogg",
    "group": "trump",
-   "ms": 2080
+   "ms": 2080,
+   "kbps": 24
   },
   {
    "id": "no-pt4",
-   "label": "No pt4",
+   "label": "No pt4 (24k)",
    "file": "trump/no-pt4.ogg",
    "group": "trump",
-   "ms": 1920
+   "ms": 1920,
+   "kbps": 24
   },
   {
    "id": "nobody-can-do-that",
-   "label": "Nobody can do that",
+   "label": "Nobody can do that (24k)",
    "file": "trump/nobody-can-do-that.ogg",
    "group": "trump",
-   "ms": 3224
+   "ms": 3224,
+   "kbps": 24
   },
   {
    "id": "nobody-can-do-that-like-maine",
-   "label": "Nobody can do that like maine",
+   "label": "Nobody can do that like maine (24k)",
    "file": "trump/nobody-can-do-that-like-maine.ogg",
    "group": "trump",
-   "ms": 3934
+   "ms": 3934,
+   "kbps": 24
   },
   {
    "id": "nobody-would-be-tougher-on-isis-than-donald-trump",
-   "label": "Nobody would be tougher on ISIS than Donald Trump",
+   "label": "Nobody would be tougher on ISIS than Donald Trump (24k)",
    "file": "trump/nobody-would-be-tougher-on-isis-than-donald-trump.ogg",
    "group": "trump",
-   "ms": 4962
+   "ms": 4962,
+   "kbps": 24
   },
   {
    "id": "nope",
-   "label": "Nope",
+   "label": "Nope (24k)",
    "file": "trump/nope.ogg",
    "group": "trump",
-   "ms": 1340
+   "ms": 1340,
+   "kbps": 24
   },
   {
    "id": "north-korea-best-not-make-any-more-threats-to-the-united-sta",
-   "label": "North Korea best not make any more threats to the United States  korea  states",
+   "label": "North Korea best not make any more threats to the United States  korea  states (24k)",
    "file": "trump/north-korea-best-not-make-any-more-threats-to-the-united-sta.ogg",
    "group": "trump",
-   "ms": 15636
+   "ms": 15636,
+   "kbps": 24
   },
   {
    "id": "not-vote-for-him",
-   "label": "Not vote for him",
+   "label": "Not vote for him (24k)",
    "file": "trump/not-vote-for-him.ogg",
    "group": "trump",
-   "ms": 2533
+   "ms": 2533,
+   "kbps": 24
   },
   {
    "id": "not-you",
-   "label": "Not you",
+   "label": "Not you (24k)",
    "file": "trump/not-you.ogg",
    "group": "trump",
-   "ms": 2279
+   "ms": 2279,
+   "kbps": 24
   },
   {
    "id": "obama",
-   "label": "Obama",
+   "label": "Obama (24k)",
    "file": "trump/obama.ogg",
    "group": "trump",
-   "ms": 2184
+   "ms": 2184,
+   "kbps": 24
   },
   {
    "id": "obama-care",
-   "label": "Obama care",
+   "label": "Obama care (24k)",
    "file": "trump/obama-care.ogg",
    "group": "trump",
-   "ms": 35125
+   "ms": 35125,
+   "kbps": 24
   },
   {
    "id": "obama-reply",
-   "label": "Obama reply",
+   "label": "Obama reply (24k)",
    "file": "trump/obama-reply.ogg",
    "group": "trump",
-   "ms": 30416
+   "ms": 30416,
+   "kbps": 24
   },
   {
    "id": "obama-roast",
-   "label": "Obama roast",
+   "label": "Obama roast (24k)",
    "file": "trump/obama-roast.ogg",
    "group": "trump",
-   "ms": 149877
+   "ms": 149877,
+   "kbps": 24
   },
   {
    "id": "obamacare",
-   "label": "Obamacare",
+   "label": "Obamacare (24k)",
    "file": "trump/obamacare.ogg",
    "group": "trump",
-   "ms": 1314
+   "ms": 1314,
+   "kbps": 24
   },
   {
    "id": "obamna",
-   "label": "Obamna",
+   "label": "Obamna (24k)",
    "file": "trump/obamna.ogg",
    "group": "trump",
-   "ms": 2384
+   "ms": 2384,
+   "kbps": 24
   },
   {
    "id": "of-course-i-m-joking",
-   "label": "Of course I'm joking",
+   "label": "Of course I'm joking (24k)",
    "file": "trump/of-course-i-m-joking.ogg",
    "group": "trump",
-   "ms": 2704
+   "ms": 2704,
+   "kbps": 24
   },
   {
    "id": "oil",
-   "label": "Oil",
+   "label": "Oil (24k)",
    "file": "trump/oil.ogg",
    "group": "trump",
-   "ms": 2123
+   "ms": 2123,
+   "kbps": 24
   },
   {
    "id": "oil-roberts-university",
-   "label": "Oil roberts university",
+   "label": "Oil roberts university (24k)",
    "file": "trump/oil-roberts-university.ogg",
    "group": "trump",
-   "ms": 3463
+   "ms": 3463,
+   "kbps": 24
   },
   {
    "id": "okahomma",
-   "label": "Okahomma",
+   "label": "Okahomma (24k)",
    "file": "trump/okahomma.ogg",
    "group": "trump",
-   "ms": 2480
+   "ms": 2480,
+   "kbps": 24
   },
   {
    "id": "okay",
-   "label": "Okay",
+   "label": "Okay (24k)",
    "file": "trump/okay.ogg",
    "group": "trump",
-   "ms": 1070
+   "ms": 1070,
+   "kbps": 24
   },
   {
    "id": "on-new-years-eve",
-   "label": "On new years eve",
+   "label": "On new years eve (24k)",
    "file": "trump/on-new-years-eve.ogg",
    "group": "trump",
-   "ms": 2671
+   "ms": 2671,
+   "kbps": 24
   },
   {
    "id": "one-point-three-trillion-dollars",
-   "label": "One point three trillion dollars",
+   "label": "One point three trillion dollars (24k)",
    "file": "trump/one-point-three-trillion-dollars.ogg",
    "group": "trump",
-   "ms": 3334
+   "ms": 3334,
+   "kbps": 24
   },
   {
    "id": "our-country-is-in-serious-trouble",
-   "label": "Our country is in serious trouble",
+   "label": "Our country is in serious trouble (24k)",
    "file": "trump/our-country-is-in-serious-trouble.ogg",
    "group": "trump",
-   "ms": 3822
+   "ms": 3822,
+   "kbps": 24
   },
   {
    "id": "our-country-needs-a-truly-great-leader",
-   "label": "Our country needs a truly great leader",
+   "label": "Our country needs a truly great leader (24k)",
    "file": "trump/our-country-needs-a-truly-great-leader.ogg",
    "group": "trump",
-   "ms": 6076
+   "ms": 6076,
+   "kbps": 24
   },
   {
    "id": "our-enemies-are-getting-stronger-and-stronger-by-the-da",
-   "label": "Our enemies are getting stronger and stronger by the da",
+   "label": "Our enemies are getting stronger and stronger by the da (24k)",
    "file": "trump/our-enemies-are-getting-stronger-and-stronger-by-the-da.ogg",
    "group": "trump",
-   "ms": 10647
+   "ms": 10647,
+   "kbps": 24
   },
   {
    "id": "our-enemies-are-getting-stronger-and-stronger-by-the-day-and",
-   "label": "Our enemies are getting stronger and stronger by the day and we as a country are getting weaker",
+   "label": "Our enemies are getting stronger and stronger by the day and we as a country are getting weaker (24k)",
    "file": "trump/our-enemies-are-getting-stronger-and-stronger-by-the-day-and.ogg",
    "group": "trump",
-   "ms": 10047
+   "ms": 10047,
+   "kbps": 24
   },
   {
    "id": "paris",
-   "label": "Paris",
+   "label": "Paris (24k)",
    "file": "trump/paris.ogg",
    "group": "trump",
-   "ms": 63966
+   "ms": 63966,
+   "kbps": 24
   },
   {
    "id": "part-of-the-reason-i-m-here-is-that-i-know-how-to-take",
-   "label": "Part of the reason i'm here is that i know how to take",
+   "label": "Part of the reason i'm here is that i know how to take (24k)",
    "file": "trump/part-of-the-reason-i-m-here-is-that-i-know-how-to-take.ogg",
    "group": "trump",
-   "ms": 4214
+   "ms": 4214,
+   "kbps": 24
   },
   {
    "id": "part-of-the-reason-i-m-here-is-that-i-know-how-to-take-a-jok",
-   "label": "Part of the reason i'm here is that I know how to take a joke",
+   "label": "Part of the reason i'm here is that I know how to take a joke (24k)",
    "file": "trump/part-of-the-reason-i-m-here-is-that-i-know-how-to-take-a-jok.ogg",
    "group": "trump",
-   "ms": 5414
+   "ms": 5414,
+   "kbps": 24
   },
   {
    "id": "pay-for-the-wall",
-   "label": "Pay for the wall",
+   "label": "Pay for the wall (24k)",
    "file": "trump/pay-for-the-wall.ogg",
    "group": "trump",
-   "ms": 1941
+   "ms": 1941,
+   "kbps": 24
   },
   {
    "id": "people-don-t-know-how-great-you-are",
-   "label": "People don't know how great you are..",
+   "label": "People don't know how great you are.. (24k)",
    "file": "trump/people-don-t-know-how-great-you-are.ogg",
    "group": "trump",
-   "ms": 8758
+   "ms": 8758,
+   "kbps": 24
   },
   {
    "id": "people-think-i-m-controversial-but-the-truth-is-i-mean",
-   "label": "People think i'm controversial but the truth is i mean",
+   "label": "People think i'm controversial but the truth is i mean (24k)",
    "file": "trump/people-think-i-m-controversial-but-the-truth-is-i-mean.ogg",
    "group": "trump",
-   "ms": 6224
+   "ms": 6224,
+   "kbps": 24
   },
   {
    "id": "people-think-i-m-controversial-but-the-truth-is-i-mean-nice-",
-   "label": "People think I'm controversial but the truth is I mean nice guy",
+   "label": "People think I'm controversial but the truth is I mean nice guy (24k)",
    "file": "trump/people-think-i-m-controversial-but-the-truth-is-i-mean-nice-.ogg",
    "group": "trump",
-   "ms": 6224
+   "ms": 6224,
+   "kbps": 24
   },
   {
    "id": "picture-of-me-from-behind",
-   "label": "Picture of me from behind",
+   "label": "Picture of me from behind (24k)",
    "file": "trump/picture-of-me-from-behind.ogg",
    "group": "trump",
-   "ms": 5755
+   "ms": 5755,
+   "kbps": 24
   },
   {
    "id": "political-bullshit",
-   "label": "Political bullshit",
+   "label": "Political bullshit (24k)",
    "file": "trump/political-bullshit.ogg",
    "group": "trump",
-   "ms": 3177
+   "ms": 3177,
+   "kbps": 24
   },
   {
    "id": "politicians",
-   "label": "Politicians",
+   "label": "Politicians (24k)",
    "file": "trump/politicians.ogg",
    "group": "trump",
-   "ms": 28669
+   "ms": 28669,
+   "kbps": 24
   },
   {
    "id": "politicians-are-all-talk-and-no-action",
-   "label": "Politicians are all talk and no action",
+   "label": "Politicians are all talk and no action (24k)",
    "file": "trump/politicians-are-all-talk-and-no-action.ogg",
    "group": "trump",
-   "ms": 4815
+   "ms": 4815,
+   "kbps": 24
   },
   {
    "id": "politicians-are-all-talk-no-action-nothing-is-going-to",
-   "label": "Politicians are all talk no action nothing is going to",
+   "label": "Politicians are all talk no action nothing is going to (24k)",
    "file": "trump/politicians-are-all-talk-no-action-nothing-is-going-to.ogg",
    "group": "trump",
-   "ms": 9865
+   "ms": 9865,
+   "kbps": 24
   },
   {
    "id": "politicians-are-all-talk-no-action-nothing-is-going-to-get-d",
-   "label": "Politicians are all talk no action nothing is going to get done they will not bring us believe maine to the promised land",
+   "label": "Politicians are all talk no action nothing is going to get done they will not bring us believe maine to the promised land (24k)",
    "file": "trump/politicians-are-all-talk-no-action-nothing-is-going-to-get-d.ogg",
    "group": "trump",
-   "ms": 9865
+   "ms": 9865,
+   "kbps": 24
   },
   {
    "id": "poor-guy",
-   "label": "Poor guy",
+   "label": "Poor guy (24k)",
    "file": "trump/poor-guy.ogg",
    "group": "trump",
-   "ms": 21412
+   "ms": 21412,
+   "kbps": 24
   },
   {
    "id": "president-obama",
-   "label": "President Obama",
+   "label": "President Obama (24k)",
    "file": "trump/president-obama.ogg",
    "group": "trump",
-   "ms": 2332
+   "ms": 2332,
+   "kbps": 24
   },
   {
    "id": "president-trump",
-   "label": "President trump",
+   "label": "President trump (24k)",
    "file": "trump/president-trump.ogg",
    "group": "trump",
-   "ms": 3263
+   "ms": 3263,
+   "kbps": 24
   },
   {
    "id": "prime-minister-of-canada",
-   "label": "Prime Minister of canada",
+   "label": "Prime Minister of canada (24k)",
    "file": "trump/prime-minister-of-canada.ogg",
    "group": "trump",
-   "ms": 3332
+   "ms": 3332,
+   "kbps": 24
   },
   {
    "id": "prison-soccer",
-   "label": "Prison soccer",
+   "label": "Prison soccer (24k)",
    "file": "trump/prison-soccer.ogg",
    "group": "trump",
-   "ms": 41576
+   "ms": 41576,
+   "kbps": 24
   },
   {
    "id": "proud-of-myself",
-   "label": "Proud of myself",
+   "label": "Proud of myself (24k)",
    "file": "trump/proud-of-myself.ogg",
    "group": "trump",
-   "ms": 3296
+   "ms": 3296,
+   "kbps": 24
   },
   {
    "id": "putin",
-   "label": "Putin",
+   "label": "Putin (24k)",
    "file": "trump/putin.ogg",
    "group": "trump",
-   "ms": 15122
+   "ms": 15122,
+   "kbps": 24
   },
   {
    "id": "question",
-   "label": "Question",
+   "label": "Question (24k)",
    "file": "trump/question.ogg",
    "group": "trump",
-   "ms": 4377
+   "ms": 4377,
+   "kbps": 24
   },
   {
    "id": "question-pt2",
-   "label": "Question pt2",
+   "label": "Question pt2 (24k)",
    "file": "trump/question-pt2.ogg",
    "group": "trump",
-   "ms": 4151
+   "ms": 4151,
+   "kbps": 24
   },
   {
    "id": "quiet-quiet",
-   "label": "Quiet, quiet",
+   "label": "Quiet, quiet (24k)",
    "file": "trump/quiet-quiet.ogg",
    "group": "trump",
-   "ms": 2602
+   "ms": 2602,
+   "kbps": 24
   },
   {
    "id": "quiet-quiet-quiet-quiet-talking-up",
-   "label": "Quiet, Quiet, Quiet  quiet  talking  up",
+   "label": "Quiet, Quiet, Quiet  quiet  talking  up (24k)",
    "file": "trump/quiet-quiet-quiet-quiet-talking-up.ogg",
    "group": "trump",
-   "ms": 5467
+   "ms": 5467,
+   "kbps": 24
   },
   {
    "id": "rocket-man",
-   "label": "Rocket man",
+   "label": "Rocket man (24k)",
    "file": "trump/rocket-man.ogg",
    "group": "trump",
-   "ms": 1323
+   "ms": 1323,
+   "kbps": 24
   },
   {
    "id": "run-for-president",
-   "label": "Run for president",
+   "label": "Run for president (24k)",
    "file": "trump/run-for-president.ogg",
    "group": "trump",
-   "ms": 2454
+   "ms": 2454,
+   "kbps": 24
   },
   {
    "id": "russia-if-you-re-listening",
-   "label": "Russia if you're listening",
+   "label": "Russia if you're listening (24k)",
    "file": "trump/russia-if-you-re-listening.ogg",
    "group": "trump",
-   "ms": 2716
+   "ms": 2716,
+   "kbps": 24
   },
   {
    "id": "saddam-hussein-pt1",
-   "label": "Saddam hussein pt1",
+   "label": "Saddam hussein pt1 (24k)",
    "file": "trump/saddam-hussein-pt1.ogg",
    "group": "trump",
-   "ms": 5336
+   "ms": 5336,
+   "kbps": 24
   },
   {
    "id": "saddam-hussein-pt2",
-   "label": "Saddam hussein pt2",
+   "label": "Saddam hussein pt2 (24k)",
    "file": "trump/saddam-hussein-pt2.ogg",
    "group": "trump",
-   "ms": 27952
+   "ms": 27952,
+   "kbps": 24
   },
   {
    "id": "saddam-hussein-pt3",
-   "label": "Saddam hussein pt3",
+   "label": "Saddam hussein pt3 (24k)",
    "file": "trump/saddam-hussein-pt3.ogg",
    "group": "trump",
-   "ms": 9576
+   "ms": 9576,
+   "kbps": 24
   },
   {
    "id": "see-what-happens",
-   "label": "See what happens",
+   "label": "See what happens (24k)",
    "file": "trump/see-what-happens.ogg",
    "group": "trump",
-   "ms": 4064
+   "ms": 4064,
+   "kbps": 24
   },
   {
    "id": "see-ya",
-   "label": "See ya",
+   "label": "See ya (24k)",
    "file": "trump/see-ya.ogg",
    "group": "trump",
-   "ms": 1862
+   "ms": 1862,
+   "kbps": 24
   },
   {
    "id": "self-funding",
-   "label": "Self funding",
+   "label": "Self funding (24k)",
    "file": "trump/self-funding.ogg",
    "group": "trump",
-   "ms": 2072
+   "ms": 2072,
+   "kbps": 24
   },
   {
    "id": "send-pt2",
-   "label": "Send pt2",
+   "label": "Send pt2 (24k)",
    "file": "trump/send-pt2.ogg",
    "group": "trump",
-   "ms": 5483
+   "ms": 5483,
+   "kbps": 24
   },
   {
    "id": "send-pt3",
-   "label": "Send pt3",
+   "label": "Send pt3 (24k)",
    "file": "trump/send-pt3.ogg",
    "group": "trump",
-   "ms": 4664
+   "ms": 4664,
+   "kbps": 24
   },
   {
    "id": "send-pt4",
-   "label": "Send pt4",
+   "label": "Send pt4 (24k)",
    "file": "trump/send-pt4.ogg",
    "group": "trump",
-   "ms": 6371
+   "ms": 6371,
+   "kbps": 24
   },
   {
    "id": "sends-pt1",
-   "label": "Sends pt1",
+   "label": "Sends pt1 (24k)",
    "file": "trump/sends-pt1.ogg",
    "group": "trump",
-   "ms": 5198
+   "ms": 5198,
+   "kbps": 24
   },
   {
    "id": "sends-pt5",
-   "label": "Sends pt5",
+   "label": "Sends pt5 (24k)",
    "file": "trump/sends-pt5.ogg",
    "group": "trump",
-   "ms": 8984
+   "ms": 8984,
+   "kbps": 24
   },
   {
    "id": "sends-pt6",
-   "label": "Sends pt6",
+   "label": "Sends pt6 (24k)",
    "file": "trump/sends-pt6.ogg",
    "group": "trump",
-   "ms": 16144
+   "ms": 16144,
+   "kbps": 24
   },
   {
    "id": "sergeant-burgdoll",
-   "label": "Sergeant burgdoll",
+   "label": "Sergeant burgdoll (24k)",
    "file": "trump/sergeant-burgdoll.ogg",
    "group": "trump",
-   "ms": 2255
+   "ms": 2255,
+   "kbps": 24
   },
   {
    "id": "she-choked-artist-trump-under-pressure",
-   "label": "She choked   artist  trump  under pressure",
+   "label": "She choked   artist  trump  under pressure (24k)",
    "file": "trump/she-choked-artist-trump-under-pressure.ogg",
    "group": "trump",
-   "ms": 15749
+   "ms": 15749,
+   "kbps": 24
   },
   {
    "id": "she-s-asking-a-question-don-t-be-rude",
-   "label": "She's asking a question don't be rude",
+   "label": "She's asking a question don't be rude (24k)",
    "file": "trump/she-s-asking-a-question-don-t-be-rude.ogg",
    "group": "trump",
-   "ms": 2081
+   "ms": 2081,
+   "kbps": 24
   },
   {
    "id": "should-i-tell-you",
-   "label": "Should I tell you",
+   "label": "Should I tell you (24k)",
    "file": "trump/should-i-tell-you.ogg",
    "group": "trump",
-   "ms": 4247
+   "ms": 4247,
+   "kbps": 24
   },
   {
    "id": "slap-trump-mcmahon-down-face",
-   "label": "Slap!  trump  mcmahon  down    face",
+   "label": "Slap!  trump  mcmahon  down    face (24k)",
    "file": "trump/slap-trump-mcmahon-down-face.ogg",
    "group": "trump",
-   "ms": 11553
+   "ms": 11553,
+   "kbps": 24
   },
   {
    "id": "sleepy-joe-joe-known-for-being-one-of-the-smart-ones-was-wea",
-   "label": "Sleepy Joe    joe  known for being one of the smart ones  was weak  trump  biden",
+   "label": "Sleepy Joe    joe  known for being one of the smart ones  was weak  trump  biden (24k)",
    "file": "trump/sleepy-joe-joe-known-for-being-one-of-the-smart-ones-was-wea.ogg",
    "group": "trump",
-   "ms": 14157
+   "ms": 14157,
+   "kbps": 24
   },
   {
    "id": "sleepy-joe-joe-trump-biden",
-   "label": "Sleepy Joe    joe  trump  biden",
+   "label": "Sleepy Joe    joe  trump  biden (24k)",
    "file": "trump/sleepy-joe-joe-trump-biden.ogg",
    "group": "trump",
-   "ms": 4238
+   "ms": 4238,
+   "kbps": 24
   },
   {
    "id": "small-potatoes",
-   "label": "Small potatoes",
+   "label": "Small potatoes (24k)",
    "file": "trump/small-potatoes.ogg",
    "group": "trump",
-   "ms": 3411
+   "ms": 3411,
+   "kbps": 24
   },
   {
    "id": "smart-person-person-me",
-   "label": "Smart Person   person  me",
+   "label": "Smart Person   person  me (24k)",
    "file": "trump/smart-person-person-me.ogg",
    "group": "trump",
-   "ms": 3856
+   "ms": 3856,
+   "kbps": 24
   },
   {
    "id": "snoop-dog",
-   "label": "Snoop dog",
+   "label": "Snoop dog (24k)",
    "file": "trump/snoop-dog.ogg",
    "group": "trump",
-   "ms": 1480
+   "ms": 1480,
+   "kbps": 24
   },
   {
    "id": "so-probably-i-will-sue-her-because-it-would-be-fun",
-   "label": "So probably I will sue her because it would be fun",
+   "label": "So probably I will sue her because it would be fun (24k)",
    "file": "trump/so-probably-i-will-sue-her-because-it-would-be-fun.ogg",
    "group": "trump",
-   "ms": 5312
+   "ms": 5312,
+   "kbps": 24
   },
   {
    "id": "so-shiny",
-   "label": "So shiny",
+   "label": "So shiny (24k)",
    "file": "trump/so-shiny.ogg",
    "group": "trump",
-   "ms": 3829
+   "ms": 3829,
+   "kbps": 24
   },
   {
    "id": "socialist-slash-communist",
-   "label": "Socialist slash communist",
+   "label": "Socialist slash communist (24k)",
    "file": "trump/socialist-slash-communist.ogg",
    "group": "trump",
-   "ms": 37880
+   "ms": 37880,
+   "kbps": 24
   },
   {
    "id": "somebody-s-doing-the-raping",
-   "label": "Somebody's Doing the Raping",
+   "label": "Somebody's Doing the Raping (24k)",
    "file": "trump/somebody-s-doing-the-raping.ogg",
    "group": "trump",
-   "ms": 4857
+   "ms": 4857,
+   "kbps": 24
   },
   {
    "id": "something-different-for-our-country",
-   "label": "Something different for our country",
+   "label": "Something different for our country (24k)",
    "file": "trump/something-different-for-our-country.ogg",
    "group": "trump",
-   "ms": 8224
+   "ms": 8224,
+   "kbps": 24
   },
   {
    "id": "south-carolina",
-   "label": "South carolina",
+   "label": "South carolina (24k)",
    "file": "trump/south-carolina.ogg",
    "group": "trump",
-   "ms": 2723
+   "ms": 2723,
+   "kbps": 24
   },
   {
    "id": "space-force",
-   "label": "Space Force",
+   "label": "Space Force (24k)",
    "file": "trump/space-force.ogg",
    "group": "trump",
-   "ms": 11064
+   "ms": 11064,
+   "kbps": 24
   },
   {
    "id": "star-wars-donald-trump",
-   "label": "Star wars donald trump",
+   "label": "Star wars donald trump (24k)",
    "file": "trump/star-wars-donald-trump.ogg",
    "group": "trump",
-   "ms": 116497
+   "ms": 116497,
+   "kbps": 24
   },
   {
    "id": "stop-now",
-   "label": "Stop now",
+   "label": "Stop now (24k)",
    "file": "trump/stop-now.ogg",
    "group": "trump",
-   "ms": 13939
+   "ms": 13939,
+   "kbps": 24
   },
   {
    "id": "stripped-our-country",
-   "label": "Stripped our country",
+   "label": "Stripped our country (24k)",
    "file": "trump/stripped-our-country.ogg",
    "group": "trump",
-   "ms": 5283
+   "ms": 5283,
+   "kbps": 24
   },
   {
    "id": "stupid",
-   "label": "Stupid",
+   "label": "Stupid (24k)",
    "file": "trump/stupid.ogg",
    "group": "trump",
-   "ms": 2714
+   "ms": 2714,
+   "kbps": 24
   },
   {
    "id": "stupid-people",
-   "label": "Stupid people",
+   "label": "Stupid people (24k)",
    "file": "trump/stupid-people.ogg",
    "group": "trump",
-   "ms": 1871
+   "ms": 1871,
+   "kbps": 24
   },
   {
    "id": "surprise-isis",
-   "label": "Surprise isis",
+   "label": "Surprise isis (24k)",
    "file": "trump/surprise-isis.ogg",
    "group": "trump",
-   "ms": 5083
+   "ms": 5083,
+   "kbps": 24
   },
   {
    "id": "syrians",
-   "label": "Syrians",
+   "label": "Syrians (24k)",
    "file": "trump/syrians.ogg",
    "group": "trump",
-   "ms": 38304
+   "ms": 38304,
+   "kbps": 24
   },
   {
    "id": "take-back-the-oil",
-   "label": "Take back the oil",
+   "label": "Take back the oil (24k)",
    "file": "trump/take-back-the-oil.ogg",
    "group": "trump",
-   "ms": 10448
+   "ms": 10448,
+   "kbps": 24
   },
   {
    "id": "tell-you-stories",
-   "label": "Tell you stories",
+   "label": "Tell you stories (24k)",
    "file": "trump/tell-you-stories.ogg",
    "group": "trump",
-   "ms": 3344
+   "ms": 3344,
+   "kbps": 24
   },
   {
    "id": "texas",
-   "label": "Texas",
+   "label": "Texas (24k)",
    "file": "trump/texas.ogg",
    "group": "trump",
-   "ms": 2705
+   "ms": 2705,
+   "kbps": 24
   },
   {
    "id": "than-ever-before",
-   "label": "Than ever before",
+   "label": "Than ever before (24k)",
    "file": "trump/than-ever-before.ogg",
    "group": "trump",
-   "ms": 3402
+   "ms": 3402,
+   "kbps": 24
   },
   {
    "id": "thank-you",
-   "label": "Thank you",
+   "label": "Thank you (24k)",
    "file": "trump/thank-you.ogg",
    "group": "trump",
-   "ms": 1923
+   "ms": 1923,
+   "kbps": 24
   },
   {
    "id": "thank-you-anthony-weiner",
-   "label": "Thank you Anthony Weiner",
+   "label": "Thank you Anthony Weiner (24k)",
    "file": "trump/thank-you-anthony-weiner.ogg",
    "group": "trump",
-   "ms": 3446
+   "ms": 3446,
+   "kbps": 24
   },
   {
    "id": "thank-you-darling",
-   "label": "Thank you darling",
+   "label": "Thank you darling (24k)",
    "file": "trump/thank-you-darling.ogg",
    "group": "trump",
-   "ms": 1445
+   "ms": 1445,
+   "kbps": 24
   },
   {
    "id": "thank-you-fellas",
-   "label": "Thank you fellas",
+   "label": "Thank you fellas (24k)",
    "file": "trump/thank-you-fellas.ogg",
    "group": "trump",
-   "ms": 2845
+   "ms": 2845,
+   "kbps": 24
   },
   {
    "id": "thank-you-very-much",
-   "label": "Thank you very much",
+   "label": "Thank you very much (24k)",
    "file": "trump/thank-you-very-much.ogg",
    "group": "trump",
-   "ms": 3384
+   "ms": 3384,
+   "kbps": 24
   },
   {
    "id": "thank-you-very-much-that-s-really-nice-thank-you",
-   "label": "Thank you very much that's really nice thank you",
+   "label": "Thank you very much that's really nice thank you (24k)",
    "file": "trump/thank-you-very-much-that-s-really-nice-thank-you.ogg",
    "group": "trump",
-   "ms": 3308
+   "ms": 3308,
+   "kbps": 24
   },
   {
    "id": "thank-you-very-much-appreciate-it",
-   "label": "Thank you very much, appreciate it",
+   "label": "Thank you very much, appreciate it (24k)",
    "file": "trump/thank-you-very-much-appreciate-it.ogg",
    "group": "trump",
-   "ms": 3106
+   "ms": 3106,
+   "kbps": 24
   },
   {
    "id": "that-call-was-perfect-call",
-   "label": "That call was perfect  call",
+   "label": "That call was perfect  call (24k)",
    "file": "trump/that-call-was-perfect-call.ogg",
    "group": "trump",
-   "ms": 4534
+   "ms": 4534,
+   "kbps": 24
   },
   {
    "id": "that-would-be-amazing",
-   "label": "That would be amazing",
+   "label": "That would be amazing (24k)",
    "file": "trump/that-would-be-amazing.ogg",
    "group": "trump",
-   "ms": 3360
+   "ms": 3360,
+   "kbps": 24
   },
   {
    "id": "that-s-beautiful-wow",
-   "label": "That's beautiful, wow!",
+   "label": "That's beautiful, wow! (24k)",
    "file": "trump/that-s-beautiful-wow.ogg",
    "group": "trump",
-   "ms": 3576
+   "ms": 3576,
+   "kbps": 24
   },
   {
    "id": "that-s-true",
-   "label": "That's true",
+   "label": "That's true (24k)",
    "file": "trump/that-s-true.ogg",
    "group": "trump",
-   "ms": 1105
+   "ms": 1105,
+   "kbps": 24
   },
   {
    "id": "the-american-dream",
-   "label": "The American Dream",
+   "label": "The American Dream (24k)",
    "file": "trump/the-american-dream.ogg",
    "group": "trump",
-   "ms": 3986
+   "ms": 3986,
+   "kbps": 24
   },
   {
    "id": "the-american-dream-is-dead",
-   "label": "The american dream is dead",
+   "label": "The american dream is dead (24k)",
    "file": "trump/the-american-dream-is-dead.ogg",
    "group": "trump",
-   "ms": 5101
+   "ms": 5101,
+   "kbps": 24
   },
   {
    "id": "the-american-dream-is-dead-hope",
-   "label": "The American dream is dead     hope",
+   "label": "The American dream is dead     hope (24k)",
    "file": "trump/the-american-dream-is-dead-hope.ogg",
    "group": "trump",
-   "ms": 5032
+   "ms": 5032,
+   "kbps": 24
   },
   {
    "id": "the-greatest-president-that-god-ever-created",
-   "label": "The greatest president that god ever created",
+   "label": "The greatest president that god ever created (24k)",
    "file": "trump/the-greatest-president-that-god-ever-created.ogg",
    "group": "trump",
-   "ms": 3787
+   "ms": 3787,
+   "kbps": 24
   },
   {
    "id": "the-likes-of-which-the-world-has-never-seen-before",
-   "label": "The likes of which the world has never seen before",
+   "label": "The likes of which the world has never seen before (24k)",
    "file": "trump/the-likes-of-which-the-world-has-never-seen-before.ogg",
    "group": "trump",
-   "ms": 5798
+   "ms": 5798,
+   "kbps": 24
   },
   {
    "id": "the-man-of-the-toupe",
-   "label": "The man of the toupe",
+   "label": "The man of the toupe (24k)",
    "file": "trump/the-man-of-the-toupe.ogg",
    "group": "trump",
-   "ms": 2447
+   "ms": 2447,
+   "kbps": 24
   },
   {
    "id": "the-mexican-government",
-   "label": "The mexican government",
+   "label": "The mexican government (24k)",
    "file": "trump/the-mexican-government.ogg",
    "group": "trump",
-   "ms": 1689
+   "ms": 1689,
+   "kbps": 24
   },
   {
    "id": "the-system-is-rigged",
-   "label": "The system is rigged",
+   "label": "The system is rigged (24k)",
    "file": "trump/the-system-is-rigged.ogg",
    "group": "trump",
-   "ms": 2349
+   "ms": 2349,
+   "kbps": 24
   },
   {
    "id": "the-systems-is-totally-rigged",
-   "label": "The systems is totally rigged",
+   "label": "The systems is totally rigged (24k)",
    "file": "trump/the-systems-is-totally-rigged.ogg",
    "group": "trump",
-   "ms": 3664
+   "ms": 3664,
+   "kbps": 24
   },
   {
    "id": "the-u-s-has-become-a-dumping-ground-for-everybody-elses",
-   "label": "The U S has become a dumping ground for everybody elses",
+   "label": "The U S has become a dumping ground for everybody elses (24k)",
    "file": "trump/the-u-s-has-become-a-dumping-ground-for-everybody-elses.ogg",
    "group": "trump",
-   "ms": 6643
+   "ms": 6643,
+   "kbps": 24
   },
   {
    "id": "the-u-s-has-become-a-dumping-ground-for-everybody-elses-prob",
-   "label": "The U S has become a dumping ground for everybody elses problems",
+   "label": "The U S has become a dumping ground for everybody elses problems (24k)",
    "file": "trump/the-u-s-has-become-a-dumping-ground-for-everybody-elses-prob.ogg",
    "group": "trump",
-   "ms": 8243
+   "ms": 8243,
+   "kbps": 24
   },
   {
    "id": "the-united-states-of-america",
-   "label": "The united states of america",
+   "label": "The united states of america (24k)",
    "file": "trump/the-united-states-of-america.ogg",
    "group": "trump",
-   "ms": 3002
+   "ms": 3002,
+   "kbps": 24
   },
   {
    "id": "the-world-is-waiting-for-you-to-be-president",
-   "label": "The world is waiting for you to be president",
+   "label": "The world is waiting for you to be president (24k)",
    "file": "trump/the-world-is-waiting-for-you-to-be-president.ogg",
    "group": "trump",
-   "ms": 2603
+   "ms": 2603,
+   "kbps": 24
   },
   {
    "id": "then-there-s-something-wrong-with-you-you-certainly-not",
-   "label": "Then there's something wrong with you you certainly not",
+   "label": "Then there's something wrong with you you certainly not (24k)",
    "file": "trump/then-there-s-something-wrong-with-you-you-certainly-not.ogg",
    "group": "trump",
-   "ms": 3221
+   "ms": 3221,
+   "kbps": 24
   },
   {
    "id": "then-there-s-something-wrong-with-you-you-certainly-not-very",
-   "label": "Then there's something wrong with you you certainly not very good",
+   "label": "Then there's something wrong with you you certainly not very good (24k)",
    "file": "trump/then-there-s-something-wrong-with-you-you-certainly-not-very.ogg",
    "group": "trump",
-   "ms": 3621
+   "ms": 3621,
+   "kbps": 24
   },
   {
    "id": "there-s-something-happening",
-   "label": "There's something happening",
+   "label": "There's something happening (24k)",
    "file": "trump/there-s-something-happening.ogg",
    "group": "trump",
-   "ms": 4824
+   "ms": 4824,
+   "kbps": 24
   },
   {
    "id": "these-are-corrupt-people",
-   "label": "These are corrupt people",
+   "label": "These are corrupt people (24k)",
    "file": "trump/these-are-corrupt-people.ogg",
    "group": "trump",
-   "ms": 6467
+   "ms": 6467,
+   "kbps": 24
   },
   {
    "id": "they-are-not-our-friend-believe-maine",
-   "label": "They are not our friend believe maine",
+   "label": "They are not our friend believe maine (24k)",
    "file": "trump/they-are-not-our-friend-believe-maine.ogg",
    "group": "trump",
-   "ms": 3394
+   "ms": 3394,
+   "kbps": 24
   },
   {
    "id": "they-are-rapists",
-   "label": "They are rapists",
+   "label": "They are rapists (24k)",
    "file": "trump/they-are-rapists.ogg",
    "group": "trump",
-   "ms": 1654
+   "ms": 1654,
+   "kbps": 24
   },
   {
    "id": "they-call-her-pocahontas",
-   "label": "They call her Pocahontas",
+   "label": "They call her Pocahontas (24k)",
    "file": "trump/they-call-her-pocahontas.ogg",
    "group": "trump",
-   "ms": 3272
+   "ms": 3272,
+   "kbps": 24
   },
   {
    "id": "they-can-t-even-count-their-votes-in-iowa-clue-rally",
-   "label": "They can't even count their votes in Iowa  clue    rally",
+   "label": "They can't even count their votes in Iowa  clue    rally (24k)",
    "file": "trump/they-can-t-even-count-their-votes-in-iowa-clue-rally.ogg",
    "group": "trump",
-   "ms": 8253
+   "ms": 8253,
+   "kbps": 24
   },
   {
    "id": "they-don-t-have-my-talent-my-money-or-especially-my-goo",
-   "label": "They don't have my talent my money or especially my goo",
+   "label": "They don't have my talent my money or especially my goo (24k)",
    "file": "trump/they-don-t-have-my-talent-my-money-or-especially-my-goo.ogg",
    "group": "trump",
-   "ms": 5153
+   "ms": 5153,
+   "kbps": 24
   },
   {
    "id": "they-don-t-have-my-talent-my-money-or-especially-my-good-loo",
-   "label": "They don't have my talent my money or especially my good looks",
+   "label": "They don't have my talent my money or especially my good looks (24k)",
    "file": "trump/they-don-t-have-my-talent-my-money-or-especially-my-good-loo.ogg",
    "group": "trump",
-   "ms": 5153
+   "ms": 5153,
+   "kbps": 24
   },
   {
    "id": "they-don-t-like-me",
-   "label": "They don't like me",
+   "label": "They don't like me (24k)",
    "file": "trump/they-don-t-like-me.ogg",
    "group": "trump",
-   "ms": 2240
+   "ms": 2240,
+   "kbps": 24
   },
   {
    "id": "they-send-their-cars-over-by-the-millions",
-   "label": "They send their cars over by the millions",
+   "label": "They send their cars over by the millions (24k)",
    "file": "trump/they-send-their-cars-over-by-the-millions.ogg",
    "group": "trump",
-   "ms": 4371
+   "ms": 4371,
+   "kbps": 24
   },
   {
    "id": "they-will-be-met-with-fire-and-fury-korea",
-   "label": "They will be met with fire and fury       korea",
+   "label": "They will be met with fire and fury       korea (24k)",
    "file": "trump/they-will-be-met-with-fire-and-fury-korea.ogg",
    "group": "trump",
-   "ms": 8845
+   "ms": 8845,
+   "kbps": 24
   },
   {
    "id": "they-re-bringing-crime",
-   "label": "They're bringing crime",
+   "label": "They're bringing crime (24k)",
    "file": "trump/they-re-bringing-crime.ogg",
    "group": "trump",
-   "ms": 1715
+   "ms": 1715,
+   "kbps": 24
   },
   {
    "id": "they-re-bringing-drugs-they-re-bringing-crime-their-rapists",
-   "label": "They're bringing drugs they're bringing crime their rapists",
+   "label": "They're bringing drugs they're bringing crime their rapists (24k)",
    "file": "trump/they-re-bringing-drugs-they-re-bringing-crime-their-rapists.ogg",
    "group": "trump",
-   "ms": 5658
+   "ms": 5658,
+   "kbps": 24
   },
   {
    "id": "they-re-bringing-drugs-they-re-bringing-crime",
-   "label": "They're bringing drugs, they're bringing crime",
+   "label": "They're bringing drugs, they're bringing crime (24k)",
    "file": "trump/they-re-bringing-drugs-they-re-bringing-crime.ogg",
    "group": "trump",
-   "ms": 4789
+   "ms": 4789,
+   "kbps": 24
   },
   {
    "id": "they-re-bringing-drugs-they-re-bringing-crime-they-re-rapist",
-   "label": "They're bringing drugs, they're bringing crime., they're rapists",
+   "label": "They're bringing drugs, they're bringing crime., they're rapists (24k)",
    "file": "trump/they-re-bringing-drugs-they-re-bringing-crime-they-re-rapist.ogg",
    "group": "trump",
-   "ms": 4589
+   "ms": 4589,
+   "kbps": 24
   },
   {
    "id": "they-re-rapists",
-   "label": "They're rapists",
+   "label": "They're rapists (24k)",
    "file": "trump/they-re-rapists.ogg",
    "group": "trump",
-   "ms": 1928
+   "ms": 1928,
+   "kbps": 24
   },
   {
    "id": "they-re-sending-people-that-have-lots-of-problems-and-t",
-   "label": "They're sending people that have lots of problems and t",
+   "label": "They're sending people that have lots of problems and t (24k)",
    "file": "trump/they-re-sending-people-that-have-lots-of-problems-and-t.ogg",
    "group": "trump",
-   "ms": 7165
+   "ms": 7165,
+   "kbps": 24
   },
   {
    "id": "they-re-sending-people-that-have-lots-of-problems-and-they-r",
-   "label": "They're sending people that have lots of problems and they're bringing those problems with us",
+   "label": "They're sending people that have lots of problems and they're bringing those problems with us (24k)",
    "file": "trump/they-re-sending-people-that-have-lots-of-problems-and-they-r.ogg",
    "group": "trump",
-   "ms": 8165
+   "ms": 8165,
+   "kbps": 24
   },
   {
    "id": "they-ve-done-so-much-to-ridicule-me-over-the-years",
-   "label": "They've done so much to ridicule me over the years",
+   "label": "They've done so much to ridicule me over the years (24k)",
    "file": "trump/they-ve-done-so-much-to-ridicule-me-over-the-years.ogg",
    "group": "trump",
-   "ms": 3352
+   "ms": 3352,
+   "kbps": 24
   },
   {
    "id": "this-great-country",
-   "label": "This great country",
+   "label": "This great country (24k)",
    "file": "trump/this-great-country.ogg",
    "group": "trump",
-   "ms": 13696
+   "ms": 13696,
+   "kbps": 24
   },
   {
    "id": "this-is-a-different-panel-than-i-ve-everything-s-computer-do",
-   "label": "This is a different panel than I've... everything's computer! [Donald Trump 2025]",
+   "label": "This is a different panel than I've... everything's computer! [Donald Trump 2025] (24k)",
    "file": "trump/this-is-a-different-panel-than-i-ve-everything-s-computer-do.ogg",
    "group": "trump",
-   "ms": 4361
+   "ms": 4361,
+   "kbps": 24
   },
   {
    "id": "this-was-an-attempted-overthrow-overthrow",
-   "label": "This was an attempted overthrow    overthrow",
+   "label": "This was an attempted overthrow    overthrow (24k)",
    "file": "trump/this-was-an-attempted-overthrow-overthrow.ogg",
    "group": "trump",
-   "ms": 5162
+   "ms": 5162,
+   "kbps": 24
   },
   {
    "id": "this-was-locker-room-talk-room-trump",
-   "label": "This was locker room talk  room   trump",
+   "label": "This was locker room talk  room   trump (24k)",
    "file": "trump/this-was-locker-room-talk-room-trump.ogg",
    "group": "trump",
-   "ms": 3333
+   "ms": 3333,
+   "kbps": 24
   },
   {
    "id": "tiffany",
-   "label": "Tiffany",
+   "label": "Tiffany (24k)",
    "file": "trump/tiffany.ogg",
    "group": "trump",
-   "ms": 1593
+   "ms": 1593,
+   "kbps": 24
   },
   {
    "id": "to-somebody-from-china",
-   "label": "To somebody from China",
+   "label": "To somebody from China (24k)",
    "file": "trump/to-somebody-from-china.ogg",
    "group": "trump",
-   "ms": 2689
+   "ms": 2689,
+   "kbps": 24
   },
   {
    "id": "today",
-   "label": "Today",
+   "label": "Today (24k)",
    "file": "trump/today.ogg",
    "group": "trump",
-   "ms": 1158
+   "ms": 1158,
+   "kbps": 24
   },
   {
    "id": "tough-situation",
-   "label": "Tough situation",
+   "label": "Tough situation (24k)",
    "file": "trump/tough-situation.ogg",
    "group": "trump",
-   "ms": 5353
+   "ms": 5353,
+   "kbps": 24
   },
   {
    "id": "traitor",
-   "label": "Traitor",
+   "label": "Traitor (24k)",
    "file": "trump/traitor.ogg",
    "group": "trump",
-   "ms": 3751
+   "ms": 3751,
+   "kbps": 24
   },
   {
    "id": "trump",
-   "label": "Trump",
+   "label": "Trump (24k)",
    "file": "trump/trump.ogg",
    "group": "trump",
-   "ms": 2967
+   "ms": 2967,
+   "kbps": 24
   },
   {
    "id": "trump-pick-up-the-phone",
-   "label": "Trump   Pick up the phone",
+   "label": "Trump   Pick up the phone (24k)",
    "file": "trump/trump-pick-up-the-phone.ogg",
    "group": "trump",
-   "ms": 11093
+   "ms": 11093,
+   "kbps": 24
   },
   {
    "id": "trump-very-stupid-people",
-   "label": "Trump   Very stupid people",
+   "label": "Trump   Very stupid people (24k)",
    "file": "trump/trump-very-stupid-people.ogg",
    "group": "trump",
-   "ms": 14837
+   "ms": 14837,
+   "kbps": 24
   },
   {
    "id": "trump-america-first",
-   "label": "Trump America First",
+   "label": "Trump America First (24k)",
    "file": "trump/trump-america-first.ogg",
    "group": "trump",
-   "ms": 8340
+   "ms": 8340,
+   "kbps": 24
   },
   {
    "id": "trump-bing-bong-mario",
-   "label": "Trump Bing Bong Mario",
+   "label": "Trump Bing Bong Mario (24k)",
    "file": "trump/trump-bing-bong-mario.ogg",
    "group": "trump",
-   "ms": 10649
+   "ms": 10649,
+   "kbps": 24
   },
   {
    "id": "trump-build-that-wall-chant",
-   "label": "Trump Build That Wall Chant",
+   "label": "Trump Build That Wall Chant (24k)",
    "file": "trump/trump-build-that-wall-chant.ogg",
    "group": "trump",
-   "ms": 13042
+   "ms": 13042,
+   "kbps": 24
   },
   {
    "id": "trump-get-em-outta-here",
-   "label": "Trump get em outta here!",
+   "label": "Trump get em outta here! (24k)",
    "file": "trump/trump-get-em-outta-here.ogg",
    "group": "trump",
-   "ms": 11267
+   "ms": 11267,
+   "kbps": 24
   },
   {
    "id": "trump-global-warming",
-   "label": "Trump Global Warming",
+   "label": "Trump Global Warming (24k)",
    "file": "trump/trump-global-warming.ogg",
    "group": "trump",
-   "ms": 13329
+   "ms": 13329,
+   "kbps": 24
   },
   {
    "id": "trump-happy",
-   "label": "Trump Happy",
+   "label": "Trump Happy (24k)",
    "file": "trump/trump-happy.ogg",
    "group": "trump",
-   "ms": 3108
+   "ms": 3108,
+   "kbps": 24
   },
   {
    "id": "trump-hiss-at-reporters",
-   "label": "Trump Hiss     at reporters",
+   "label": "Trump Hiss     at reporters (24k)",
    "file": "trump/trump-hiss-at-reporters.ogg",
    "group": "trump",
-   "ms": 4813
+   "ms": 4813,
+   "kbps": 24
   },
   {
    "id": "trump-i-am-going-to-build-a-wall-around-mexico",
-   "label": "Trump I Am Going To Build A Wall Around Mexico",
+   "label": "Trump I Am Going To Build A Wall Around Mexico (24k)",
    "file": "trump/trump-i-am-going-to-build-a-wall-around-mexico.ogg",
    "group": "trump",
-   "ms": 6946
+   "ms": 6946,
+   "kbps": 24
   },
   {
    "id": "trump-is-focused-like-a-laser-beam-on-the-deficit",
-   "label": "Trump is focused like a laser beam on the deficit: .",
+   "label": "Trump is focused like a laser beam on the deficit: . (24k)",
    "file": "trump/trump-is-focused-like-a-laser-beam-on-the-deficit.ogg",
    "group": "trump",
-   "ms": 6278
+   "ms": 6278,
+   "kbps": 24
   },
   {
    "id": "trump-is-focused-like-a-laser-beam-on-the-deficit-2",
-   "label": "Trump is focused like a laser beam on the deficit: ..",
+   "label": "Trump is focused like a laser beam on the deficit: .. (24k)",
    "file": "trump/trump-is-focused-like-a-laser-beam-on-the-deficit-2.ogg",
    "group": "trump",
-   "ms": 7478
+   "ms": 7478,
+   "kbps": 24
   },
   {
    "id": "trump-loves-puerto-rico-rico",
-   "label": "Trump Loves Puerto Rico     rico",
+   "label": "Trump Loves Puerto Rico     rico (24k)",
    "file": "trump/trump-loves-puerto-rico-rico.ogg",
    "group": "trump",
-   "ms": 14453
+   "ms": 14453,
+   "kbps": 24
   },
   {
    "id": "trump-mexico-border",
-   "label": "Trump Mexico border",
+   "label": "Trump Mexico border (24k)",
    "file": "trump/trump-mexico-border.ogg",
    "group": "trump",
-   "ms": 6880
+   "ms": 6880,
+   "kbps": 24
   },
   {
    "id": "trump-obama-cheerleader",
-   "label": "Trump Obama Cheerleader",
+   "label": "Trump Obama Cheerleader (24k)",
    "file": "trump/trump-obama-cheerleader.ogg",
    "group": "trump",
-   "ms": 13575
+   "ms": 13575,
+   "kbps": 24
   },
   {
    "id": "trump-saying-china",
-   "label": "Trump Saying China",
+   "label": "Trump Saying China (24k)",
    "file": "trump/trump-saying-china.ogg",
    "group": "trump",
-   "ms": 1984
+   "ms": 1984,
+   "kbps": 24
   },
   {
    "id": "trump-says-puerto-rico-rico",
-   "label": "Trump Says Puerto Rico    rico",
+   "label": "Trump Says Puerto Rico    rico (24k)",
    "file": "trump/trump-says-puerto-rico-rico.ogg",
    "group": "trump",
-   "ms": 3733
+   "ms": 3733,
+   "kbps": 24
   },
   {
    "id": "trump-takes-down-cnn-news-slam",
-   "label": "Trump takes down CNN    news  slam",
+   "label": "Trump takes down CNN    news  slam (24k)",
    "file": "trump/trump-takes-down-cnn-news-slam.ogg",
    "group": "trump",
-   "ms": 11457
+   "ms": 11457,
+   "kbps": 24
   },
   {
    "id": "trump-you-be-in-jail",
-   "label": "Trump You Be In Jail",
+   "label": "Trump You Be In Jail (24k)",
    "file": "trump/trump-you-be-in-jail.ogg",
    "group": "trump",
-   "ms": 2629
+   "ms": 2629,
+   "kbps": 24
   },
   {
    "id": "trump-i-am-going-to-build-a-wall-around-mexico-2",
-   "label": "Trump-I Am Going To Build A Wall Around Mexico",
+   "label": "Trump-I Am Going To Build A Wall Around Mexico (24k)",
    "file": "trump/trump-i-am-going-to-build-a-wall-around-mexico-2.ogg",
    "group": "trump",
-   "ms": 6920
+   "ms": 6920,
+   "kbps": 24
   },
   {
    "id": "turn-them-off",
-   "label": "Turn Them off",
+   "label": "Turn Them off (24k)",
    "file": "trump/turn-them-off.ogg",
    "group": "trump",
-   "ms": 2471
+   "ms": 2471,
+   "kbps": 24
   },
   {
    "id": "two",
-   "label": "Two",
+   "label": "Two (24k)",
    "file": "trump/two.ogg",
    "group": "trump",
-   "ms": 1740
+   "ms": 1740,
+   "kbps": 24
   },
   {
    "id": "two-hundred-and-forty",
-   "label": "Two hundred and forty",
+   "label": "Two hundred and forty (24k)",
    "file": "trump/two-hundred-and-forty.ogg",
    "group": "trump",
-   "ms": 3577
+   "ms": 3577,
+   "kbps": 24
   },
   {
    "id": "two-thousand-and-four",
-   "label": "Two thousand and four",
+   "label": "Two thousand and four (24k)",
    "file": "trump/two-thousand-and-four.ogg",
    "group": "trump",
-   "ms": 1428
+   "ms": 1428,
+   "kbps": 24
   },
   {
    "id": "two-thousand-and-seventeen",
-   "label": "Two thousand and seventeen",
+   "label": "Two thousand and seventeen (24k)",
    "file": "trump/two-thousand-and-seventeen.ogg",
    "group": "trump",
-   "ms": 2811
+   "ms": 2811,
+   "kbps": 24
   },
   {
    "id": "two-thousand-three-hundred",
-   "label": "Two thousand three hundred",
+   "label": "Two thousand three hundred (24k)",
    "file": "trump/two-thousand-three-hundred.ogg",
    "group": "trump",
-   "ms": 4143
+   "ms": 4143,
+   "kbps": 24
   },
   {
    "id": "two-weeks-later-the-place-was-blown-up",
-   "label": "Two weeks later the place was blown up",
+   "label": "Two weeks later the place was blown up (24k)",
    "file": "trump/two-weeks-later-the-place-was-blown-up.ogg",
    "group": "trump",
-   "ms": 3751
+   "ms": 3751,
+   "kbps": 24
   },
   {
    "id": "very-verry-unfair-process",
-   "label": "Very Verry Unfair Process",
+   "label": "Very Verry Unfair Process (24k)",
    "file": "trump/very-verry-unfair-process.ogg",
    "group": "trump",
-   "ms": 3316
+   "ms": 3316,
+   "kbps": 24
   },
   {
    "id": "very-very-large-a-brain-very-large-brain-respect",
-   "label": "Very, very, large a brain  very large brain    respect",
+   "label": "Very, very, large a brain  very large brain    respect (24k)",
    "file": "trump/very-very-large-a-brain-very-large-brain-respect.ogg",
    "group": "trump",
-   "ms": 8167
+   "ms": 8167,
+   "kbps": 24
   },
   {
    "id": "waste-of-time-waste-of-time",
-   "label": "Waste of time  waste of time",
+   "label": "Waste of time  waste of time (24k)",
    "file": "trump/waste-of-time-waste-of-time.ogg",
    "group": "trump",
-   "ms": 4954
+   "ms": 4954,
+   "kbps": 24
   },
   {
    "id": "we-appreciate-it-very-much-tim-apple-apple-cook-trump-name",
-   "label": "We appreciate it very much Tim Apple  apple   cook  trump  name",
+   "label": "We appreciate it very much Tim Apple  apple   cook  trump  name (24k)",
    "file": "trump/we-appreciate-it-very-much-tim-apple-apple-cook-trump-name.ogg",
    "group": "trump",
-   "ms": 2542
+   "ms": 2542,
+   "kbps": 24
   },
   {
    "id": "we-can-t-beat-mexico-at-the-border-or-in-trade",
-   "label": "We can't beat mexico at the border or in trade",
+   "label": "We can't beat mexico at the border or in trade (24k)",
    "file": "trump/we-can-t-beat-mexico-at-the-border-or-in-trade.ogg",
    "group": "trump",
-   "ms": 4405
+   "ms": 4405,
+   "kbps": 24
   },
   {
    "id": "we-can-t-do-anything-right-our-military-has-to-be-stren",
-   "label": "We can't do anything right our military has to be stren",
+   "label": "We can't do anything right our military has to be stren (24k)",
    "file": "trump/we-can-t-do-anything-right-our-military-has-to-be-stren.ogg",
    "group": "trump",
-   "ms": 14173
+   "ms": 14173,
+   "kbps": 24
   },
   {
    "id": "we-can-t-do-anything-right-our-military-has-to-be-strengthen",
-   "label": "We can't do anything right our military has to be strengthened our vets have to be taken care of we have to end obamacare and we have to make our country great again and I will do that",
+   "label": "We can't do anything right our military has to be strengthened our vets have to be taken care of we have to end obamacare and we have to make our country great again and I will do that (24k)",
    "file": "trump/we-can-t-do-anything-right-our-military-has-to-be-strengthen.ogg",
    "group": "trump",
-   "ms": 13173
+   "ms": 13173,
+   "kbps": 24
   },
   {
    "id": "we-did-keep-the-oil-the-oil-the-oil-oil-trump-kept-the-oil",
-   "label": "We did keep the oil  the oil  the oil  oil  trump    kept the oil",
+   "label": "We did keep the oil  the oil  the oil  oil  trump    kept the oil (24k)",
    "file": "trump/we-did-keep-the-oil-the-oil-the-oil-oil-trump-kept-the-oil.ogg",
    "group": "trump",
-   "ms": 4849
+   "ms": 4849,
+   "kbps": 24
   },
   {
    "id": "we-don-t-be-china-in-trade",
-   "label": "We don't be china in trade",
+   "label": "We don't be china in trade (24k)",
    "file": "trump/we-don-t-be-china-in-trade.ogg",
    "group": "trump",
-   "ms": 3464
+   "ms": 3464,
+   "kbps": 24
   },
   {
    "id": "we-don-t-beat-japan-with-their-millions-and-millions-of",
-   "label": "We don't beat japan with their millions and millions of",
+   "label": "We don't beat japan with their millions and millions of (24k)",
    "file": "trump/we-don-t-beat-japan-with-their-millions-and-millions-of.ogg",
    "group": "trump",
-   "ms": 5633
+   "ms": 5633,
+   "kbps": 24
   },
   {
    "id": "we-don-t-beat-japan-with-their-millions-and-millions-of-cars",
-   "label": "We don't beat japan with their millions and millions of cars coming into this country",
+   "label": "We don't beat japan with their millions and millions of cars coming into this country (24k)",
    "file": "trump/we-don-t-beat-japan-with-their-millions-and-millions-of-cars.ogg",
    "group": "trump",
-   "ms": 6033
+   "ms": 6033,
+   "kbps": 24
   },
   {
    "id": "we-don-t-have-victories-anymore",
-   "label": "We don't have victories anymore",
+   "label": "We don't have victories anymore (24k)",
    "file": "trump/we-don-t-have-victories-anymore.ogg",
    "group": "trump",
-   "ms": 4666
+   "ms": 4666,
+   "kbps": 24
   },
   {
    "id": "we-don-t-know-what-s-happening",
-   "label": "We don't know what's happening",
+   "label": "We don't know what's happening (24k)",
    "file": "trump/we-don-t-know-what-s-happening.ogg",
    "group": "trump",
-   "ms": 3211
+   "ms": 3211,
+   "kbps": 24
   },
   {
    "id": "we-don-t-win",
-   "label": "We don't win",
+   "label": "We don't win (24k)",
    "file": "trump/we-don-t-win.ogg",
    "group": "trump",
-   "ms": 2402
+   "ms": 2402,
+   "kbps": 24
   },
   {
    "id": "we-don-t-win-anymore",
-   "label": "We don't win anymore",
+   "label": "We don't win anymore (24k)",
    "file": "trump/we-don-t-win-anymore.ogg",
    "group": "trump",
-   "ms": 1793
+   "ms": 1793,
+   "kbps": 24
   },
   {
    "id": "we-don-t-know-3",
-   "label": "We don-t know 3",
+   "label": "We don-t know 3 (24k)",
    "file": "trump/we-don-t-know-3.ogg",
    "group": "trump",
-   "ms": 4184
+   "ms": 4184,
+   "kbps": 24
   },
   {
    "id": "we-have-a-president-who-doesn-t-have-a-clue",
-   "label": "We have a president who doesn't have a clue",
+   "label": "We have a president who doesn't have a clue (24k)",
    "file": "trump/we-have-a-president-who-doesn-t-have-a-clue.ogg",
    "group": "trump",
-   "ms": 4596
+   "ms": 4596,
+   "kbps": 24
   },
   {
    "id": "we-have-losers-we-have-losers-we-have-people-that-don-t",
-   "label": "We have losers we have losers we have people that don't",
+   "label": "We have losers we have losers we have people that don't (24k)",
    "file": "trump/we-have-losers-we-have-losers-we-have-people-that-don-t.ogg",
    "group": "trump",
-   "ms": 12519
+   "ms": 12519,
+   "kbps": 24
   },
   {
    "id": "we-have-losers-we-have-losers-we-have-people-that-don-t-have",
-   "label": "We have losers we have losers we have people that don't have it we have people that are morally corrupt we have people that are selling this country down the drain",
+   "label": "We have losers we have losers we have people that don't have it we have people that are morally corrupt we have people that are selling this country down the drain (24k)",
    "file": "trump/we-have-losers-we-have-losers-we-have-people-that-don-t-have.ogg",
    "group": "trump",
-   "ms": 11319
+   "ms": 11319,
+   "kbps": 24
   },
   {
    "id": "we-have-losers-we-have-losers",
-   "label": "We have losers, we have losers",
+   "label": "We have losers, we have losers (24k)",
    "file": "trump/we-have-losers-we-have-losers.ogg",
    "group": "trump",
-   "ms": 3334
+   "ms": 3334,
+   "kbps": 24
   },
   {
    "id": "we-have-people-in-washington-that-don-t-know-what-they",
-   "label": "We have people in washington that don't know what they'",
+   "label": "We have people in washington that don't know what they' (24k)",
    "file": "trump/we-have-people-in-washington-that-don-t-know-what-they.ogg",
    "group": "trump",
-   "ms": 5136
+   "ms": 5136,
+   "kbps": 24
   },
   {
    "id": "we-have-people-in-washington-that-don-t-know-what-they-re-do",
-   "label": "We have people in washington that don't know what they're doing",
+   "label": "We have people in washington that don't know what they're doing (24k)",
    "file": "trump/we-have-people-in-washington-that-don-t-know-what-they-re-do.ogg",
    "group": "trump",
-   "ms": 6336
+   "ms": 6336,
+   "kbps": 24
   },
   {
    "id": "we-have-people-that-are-morally-corrupt-we-have-people-that-",
-   "label": "We have people that are morally corrupt we have people that are selling this country down the drain",
+   "label": "We have people that are morally corrupt we have people that are selling this country down the drain (24k)",
    "file": "trump/we-have-people-that-are-morally-corrupt-we-have-people-that-.ogg",
    "group": "trump",
-   "ms": 6765
+   "ms": 6765,
+   "kbps": 24
   },
   {
    "id": "we-have-people-that-are-stupid",
-   "label": "We have people that are stupid",
+   "label": "We have people that are stupid (24k)",
    "file": "trump/we-have-people-that-are-stupid.ogg",
    "group": "trump",
-   "ms": 3552
+   "ms": 3552,
+   "kbps": 24
   },
   {
    "id": "we-must-protect-our-borders-from-the-ravages-of-other-c",
-   "label": "We must protect our borders from the ravages of other c",
+   "label": "We must protect our borders from the ravages of other c (24k)",
    "file": "trump/we-must-protect-our-borders-from-the-ravages-of-other-c.ogg",
    "group": "trump",
-   "ms": 5754
+   "ms": 5754,
+   "kbps": 24
   },
   {
    "id": "we-must-protect-our-borders-from-the-ravages-of-other-countr",
-   "label": "We must protect our borders from the ravages of other countries",
+   "label": "We must protect our borders from the ravages of other countries (24k)",
    "file": "trump/we-must-protect-our-borders-from-the-ravages-of-other-countr.ogg",
    "group": "trump",
-   "ms": 5554
+   "ms": 5554,
+   "kbps": 24
   },
   {
    "id": "we-need-energy-quickness-and-brains",
-   "label": "We need energy, quickness and brains",
+   "label": "We need energy, quickness and brains (24k)",
    "file": "trump/we-need-energy-quickness-and-brains.ogg",
    "group": "trump",
-   "ms": 6476
+   "ms": 6476,
+   "kbps": 24
   },
   {
    "id": "we-need-money",
-   "label": "We need money",
+   "label": "We need money (24k)",
    "file": "trump/we-need-money.ogg",
    "group": "trump",
-   "ms": 2671
+   "ms": 2671,
+   "kbps": 24
   },
   {
    "id": "we-need-somebody-that-can-take-the-brand-of-the-united-state",
-   "label": "We need somebody that can take the brand of the united states and make it great again",
+   "label": "We need somebody that can take the brand of the united states and make it great again (24k)",
    "file": "trump/we-need-somebody-that-can-take-the-brand-of-the-united-state.ogg",
    "group": "trump",
-   "ms": 10299
+   "ms": 10299,
+   "kbps": 24
   },
   {
    "id": "we-need-somebody-that-literally-will-take-this-country-and-m",
-   "label": "We need somebody that literally will take this country and make it great again",
+   "label": "We need somebody that literally will take this country and make it great again (24k)",
    "file": "trump/we-need-somebody-that-literally-will-take-this-country-and-m.ogg",
    "group": "trump",
-   "ms": 9872
+   "ms": 9872,
+   "kbps": 24
   },
   {
    "id": "we-need-to-build-a-wall-and-it-has-to-be-built-quickly",
-   "label": "We need to build a wall and it has to be built quickly",
+   "label": "We need to build a wall and it has to be built quickly (24k)",
    "file": "trump/we-need-to-build-a-wall-and-it-has-to-be-built-quickly.ogg",
    "group": "trump",
-   "ms": 6763
+   "ms": 6763,
+   "kbps": 24
   },
   {
    "id": "we-owe-china",
-   "label": "We owe China",
+   "label": "We owe China (24k)",
    "file": "trump/we-owe-china.ogg",
    "group": "trump",
-   "ms": 4824
+   "ms": 4824,
+   "kbps": 24
   },
   {
    "id": "we-owe-china-one-point-three-trillion-dollars",
-   "label": "We owe china one point three trillion dollars",
+   "label": "We owe china one point three trillion dollars (24k)",
    "file": "trump/we-owe-china-one-point-three-trillion-dollars.ogg",
    "group": "trump",
-   "ms": 5345
+   "ms": 5345,
+   "kbps": 24
   },
   {
    "id": "we-owe-japan-more-than-that",
-   "label": "We owe japan more than that",
+   "label": "We owe japan more than that (24k)",
    "file": "trump/we-owe-japan-more-than-that.ogg",
    "group": "trump",
-   "ms": 3621
+   "ms": 3621,
+   "kbps": 24
   },
   {
    "id": "we-owe-japan-pt2",
-   "label": "We owe japan pt2",
+   "label": "We owe japan pt2 (24k)",
    "file": "trump/we-owe-japan-pt2.ogg",
    "group": "trump",
-   "ms": 3482
+   "ms": 3482,
+   "kbps": 24
   },
   {
    "id": "we-re-not-getting-any-help",
-   "label": "We re not getting any help",
+   "label": "We re not getting any help (24k)",
    "file": "trump/we-re-not-getting-any-help.ogg",
    "group": "trump",
-   "ms": 1680
+   "ms": 1680,
+   "kbps": 24
   },
   {
    "id": "we-really-do-have-to-get-going",
-   "label": "We really do have to get going",
+   "label": "We really do have to get going (24k)",
    "file": "trump/we-really-do-have-to-get-going.ogg",
    "group": "trump",
-   "ms": 5056
+   "ms": 5056,
+   "kbps": 24
   },
   {
    "id": "we-want-deal",
-   "label": "We want deal!",
+   "label": "We want deal! (24k)",
    "file": "trump/we-want-deal.ogg",
    "group": "trump",
-   "ms": 1854
+   "ms": 1854,
+   "kbps": 24
   },
   {
    "id": "we-want-trump",
-   "label": "We want Trump",
+   "label": "We want Trump (24k)",
    "file": "trump/we-want-trump.ogg",
    "group": "trump",
-   "ms": 9116
+   "ms": 9116,
+   "kbps": 24
   },
   {
    "id": "we-will-have-a-space-force-force",
-   "label": "We will have a \"Space Force\"  force",
+   "label": "We will have a \"Space Force\"  force (24k)",
    "file": "trump/we-will-have-a-space-force-force.ogg",
    "group": "trump",
-   "ms": 11048
+   "ms": 11048,
+   "kbps": 24
   },
   {
    "id": "we-will-make-america-great-again",
-   "label": "We will make america great again",
+   "label": "We will make america great again (24k)",
    "file": "trump/we-will-make-america-great-again.ogg",
    "group": "trump",
-   "ms": 5849
+   "ms": 5849,
+   "kbps": 24
   },
   {
    "id": "we-will-make-america-proud-again",
-   "label": "We will make america proud again",
+   "label": "We will make america proud again (24k)",
    "file": "trump/we-will-make-america-proud-again.ogg",
    "group": "trump",
-   "ms": 3926
+   "ms": 3926,
+   "kbps": 24
   },
   {
    "id": "we-will-make-america-safe-again",
-   "label": "We will make america safe again",
+   "label": "We will make america safe again (24k)",
    "file": "trump/we-will-make-america-safe-again.ogg",
    "group": "trump",
-   "ms": 3569
+   "ms": 3569,
+   "kbps": 24
   },
   {
    "id": "we-will-make-america-strong-again",
-   "label": "We will make america strong again",
+   "label": "We will make america strong again (24k)",
    "file": "trump/we-will-make-america-strong-again.ogg",
    "group": "trump",
-   "ms": 4769
+   "ms": 4769,
+   "kbps": 24
   },
   {
    "id": "we-will-make-america-wealthy-again",
-   "label": "We will make america wealthy again",
+   "label": "We will make america wealthy again (24k)",
    "file": "trump/we-will-make-america-wealthy-again.ogg",
    "group": "trump",
-   "ms": 4926
+   "ms": 4926,
+   "kbps": 24
   },
   {
    "id": "we-re-dying-we-re-dying",
-   "label": "We're dying, we're dying",
+   "label": "We're dying, we're dying (24k)",
    "file": "trump/we-re-dying-we-re-dying.ogg",
    "group": "trump",
-   "ms": 3464
+   "ms": 3464,
+   "kbps": 24
   },
   {
    "id": "we-re-not-getting-any-help-2",
-   "label": "We're not getting any help",
+   "label": "We're not getting any help (24k)",
    "file": "trump/we-re-not-getting-any-help-2.ogg",
    "group": "trump",
-   "ms": 2272
+   "ms": 2272,
+   "kbps": 24
   },
   {
    "id": "well-i-don-t-have-to-really-get-into-specifics",
-   "label": "Well i don't have to really get into specifics",
+   "label": "Well i don't have to really get into specifics (24k)",
    "file": "trump/well-i-don-t-have-to-really-get-into-specifics.ogg",
    "group": "trump",
-   "ms": 4386
+   "ms": 4386,
+   "kbps": 24
   },
   {
    "id": "well-i-was-at-the-border-last-week",
-   "label": "Well I was at the border last week",
+   "label": "Well I was at the border last week (24k)",
    "file": "trump/well-i-was-at-the-border-last-week.ogg",
    "group": "trump",
-   "ms": 3829
+   "ms": 3829,
+   "kbps": 24
   },
   {
    "id": "well-the-pope-believes-in-global-warming-you-do-know-t",
-   "label": "Well the Pope believes in global warming, you do know t",
+   "label": "Well the Pope believes in global warming, you do know t (24k)",
    "file": "trump/well-the-pope-believes-in-global-warming-you-do-know-t.ogg",
    "group": "trump",
-   "ms": 3970
+   "ms": 3970,
+   "kbps": 24
   },
   {
    "id": "well-the-pope-believes-in-global-warming-you-do-know-that-ri",
-   "label": "Well the Pope believes in global warming, you do know that right",
+   "label": "Well the Pope believes in global warming, you do know that right (24k)",
    "file": "trump/well-the-pope-believes-in-global-warming-you-do-know-that-ri.ogg",
    "group": "trump",
-   "ms": 4770
+   "ms": 4770,
+   "kbps": 24
   },
   {
    "id": "wet-racoon-pt1",
-   "label": "Wet racoon pt1",
+   "label": "Wet racoon pt1 (24k)",
    "file": "trump/wet-racoon-pt1.ogg",
    "group": "trump",
-   "ms": 8278
+   "ms": 8278,
+   "kbps": 24
   },
   {
    "id": "wet-racoon-pt2",
-   "label": "Wet racoon pt2",
+   "label": "Wet racoon pt2 (24k)",
    "file": "trump/wet-racoon-pt2.ogg",
    "group": "trump",
-   "ms": 6816
+   "ms": 6816,
+   "kbps": 24
   },
   {
    "id": "what-a-beautiful-baby-trump",
-   "label": "What a beautiful baby!   trump",
+   "label": "What a beautiful baby!   trump (24k)",
    "file": "trump/what-a-beautiful-baby-trump.ogg",
    "group": "trump",
-   "ms": 11257
+   "ms": 11257,
+   "kbps": 24
   },
   {
    "id": "what-i-say-is-what-i-sayu",
-   "label": "What I say is what I sayu",
+   "label": "What I say is what I sayu (24k)",
    "file": "trump/what-i-say-is-what-i-sayu.ogg",
    "group": "trump",
-   "ms": 4013
+   "ms": 4013,
+   "kbps": 24
   },
   {
    "id": "what-the-hell-was-that-all-about-was-that-trump",
-   "label": "What the hell was that all about?   was that  trump",
+   "label": "What the hell was that all about?   was that  trump (24k)",
    "file": "trump/what-the-hell-was-that-all-about-was-that-trump.ogg",
    "group": "trump",
-   "ms": 3959
+   "ms": 3959,
+   "kbps": 24
   },
   {
    "id": "what-you-tell-me-doesn-t-necessarily-make-it-fact-hall-news-",
-   "label": "What you tell me doesn't necessarily make it fact  hall  news  it  trump",
+   "label": "What you tell me doesn't necessarily make it fact  hall  news  it  trump (24k)",
    "file": "trump/what-you-tell-me-doesn-t-necessarily-make-it-fact-hall-news-.ogg",
    "group": "trump",
-   "ms": 4170
+   "ms": 4170,
+   "kbps": 24
   },
   {
    "id": "what-s-going-on",
-   "label": "What's going on",
+   "label": "What's going on (24k)",
    "file": "trump/what-s-going-on.ogg",
    "group": "trump",
-   "ms": 4569
+   "ms": 4569,
+   "kbps": 24
   },
   {
    "id": "what-s-the-difference-between-a-wet-raccoon-and-donald-trump",
-   "label": "What's the difference between a wet raccoon and Donald Trump's hair?   wet raccoon doesnt have 7 billion fucking dollars  billion  dollars",
+   "label": "What's the difference between a wet raccoon and Donald Trump's hair?   wet raccoon doesnt have 7 billion fucking dollars  billion  dollars (24k)",
    "file": "trump/what-s-the-difference-between-a-wet-raccoon-and-donald-trump.ogg",
    "group": "trump",
-   "ms": 13957
+   "ms": 13957,
+   "kbps": 24
   },
   {
    "id": "when-do-we-beat-mexico-at-the-border-there-laughing-at-us-at",
-   "label": "When do we beat mexico at the border there laughing at us at our stupidity",
+   "label": "When do we beat mexico at the border there laughing at us at our stupidity (24k)",
    "file": "trump/when-do-we-beat-mexico-at-the-border-there-laughing-at-us-at.ogg",
    "group": "trump",
-   "ms": 5972
+   "ms": 5972,
+   "kbps": 24
   },
   {
    "id": "when-do-we-beat-mexico-at-the-border-they-re-laughing",
-   "label": "When do we beat Mexico at the border? They're laughing",
+   "label": "When do we beat Mexico at the border? They're laughing (24k)",
    "file": "trump/when-do-we-beat-mexico-at-the-border-they-re-laughing.ogg",
    "group": "trump",
-   "ms": 4831
+   "ms": 4831,
+   "kbps": 24
   },
   {
    "id": "when-do-we-beat-mexico-at-the-border-they-re-laughing-at-us",
-   "label": "When do we beat Mexico at the border? They're laughing at us",
+   "label": "When do we beat Mexico at the border? They're laughing at us (24k)",
    "file": "trump/when-do-we-beat-mexico-at-the-border-they-re-laughing-at-us.ogg",
    "group": "trump",
-   "ms": 4431
+   "ms": 4431,
+   "kbps": 24
   },
   {
    "id": "when-mexico-sends-its-people-they-re-not-sending-their",
-   "label": "When mexico sends its people they're not sending their",
+   "label": "When mexico sends its people they're not sending their (24k)",
    "file": "trump/when-mexico-sends-its-people-they-re-not-sending-their.ogg",
    "group": "trump",
-   "ms": 5815
+   "ms": 5815,
+   "kbps": 24
   },
   {
    "id": "when-mexico-sends-its-people-they-re-not-sending-their-best",
-   "label": "When mexico sends its people they're not sending their best",
+   "label": "When mexico sends its people they're not sending their best (24k)",
    "file": "trump/when-mexico-sends-its-people-they-re-not-sending-their-best.ogg",
    "group": "trump",
-   "ms": 5415
+   "ms": 5415,
+   "kbps": 24
   },
   {
    "id": "when-was-the-last-time-anybody-saw-us-beating-let-s-say",
-   "label": "When was the last time anybody saw us beating let's say",
+   "label": "When was the last time anybody saw us beating let's say (24k)",
    "file": "trump/when-was-the-last-time-anybody-saw-us-beating-let-s-say.ogg",
    "group": "trump",
-   "ms": 8827
+   "ms": 8827,
+   "kbps": 24
   },
   {
    "id": "when-was-the-last-time-anybody-saw-us-beating-let-s-say-chin",
-   "label": "When was the last time anybody saw us beating let's say china",
+   "label": "When was the last time anybody saw us beating let's say china (24k)",
    "file": "trump/when-was-the-last-time-anybody-saw-us-beating-let-s-say-chin.ogg",
    "group": "trump",
-   "ms": 8627
+   "ms": 8627,
+   "kbps": 24
   },
   {
    "id": "when-was-the-last-time-you-saw-chevrolet-in-tokyo",
-   "label": "When was the last time you saw chevrolet in tokyo",
+   "label": "When was the last time you saw chevrolet in tokyo (24k)",
    "file": "trump/when-was-the-last-time-you-saw-chevrolet-in-tokyo.ogg",
    "group": "trump",
-   "ms": 7251
+   "ms": 7251,
+   "kbps": 24
   },
   {
    "id": "when-was-the-last-time-you-saw-chevrolet-in-tokyo-2",
-   "label": "When was the last time you saw Chevrolet in Tokyo?",
+   "label": "When was the last time you saw Chevrolet in Tokyo? (24k)",
    "file": "trump/when-was-the-last-time-you-saw-chevrolet-in-tokyo-2.ogg",
    "group": "trump",
-   "ms": 5789
+   "ms": 5789,
+   "kbps": 24
   },
   {
    "id": "where-s-nick-pt3",
-   "label": "Where s nick pt3",
+   "label": "Where s nick pt3 (24k)",
    "file": "trump/where-s-nick-pt3.ogg",
    "group": "trump",
-   "ms": 15298
+   "ms": 15298,
+   "kbps": 24
   },
   {
    "id": "where-s-nick-pt2",
-   "label": "Where's Nick pt2",
+   "label": "Where's Nick pt2 (24k)",
    "file": "trump/where-s-nick-pt2.ogg",
    "group": "trump",
-   "ms": 2568
+   "ms": 2568,
+   "kbps": 24
   },
   {
    "id": "where-s-nick-wellard",
-   "label": "Where's Nick Wellard",
+   "label": "Where's Nick Wellard (24k)",
    "file": "trump/where-s-nick-wellard.ogg",
    "group": "trump",
-   "ms": 2664
+   "ms": 2664,
+   "kbps": 24
   },
   {
    "id": "where-s-nick-pt3-2",
-   "label": "Where-s nick pt3",
+   "label": "Where-s nick pt3 (24k)",
    "file": "trump/where-s-nick-pt3-2.ogg",
    "group": "trump",
-   "ms": 14696
+   "ms": 14696,
+   "kbps": 24
   },
   {
    "id": "who-s-number-one-with-hispanics",
-   "label": "Who's number one with hispanics",
+   "label": "Who's number one with hispanics (24k)",
    "file": "trump/who-s-number-one-with-hispanics.ogg",
    "group": "trump",
-   "ms": 2759
+   "ms": 2759,
+   "kbps": 24
   },
   {
    "id": "whoever-put-this-microphone-system-in",
-   "label": "Whoever put this microphone system in",
+   "label": "Whoever put this microphone system in (24k)",
    "file": "trump/whoever-put-this-microphone-system-in.ogg",
    "group": "trump",
-   "ms": 4571
+   "ms": 4571,
+   "kbps": 24
   },
   {
    "id": "why",
-   "label": "Why",
+   "label": "Why (24k)",
    "file": "trump/why.ogg",
    "group": "trump",
-   "ms": 1653
+   "ms": 1653,
+   "kbps": 24
   },
   {
    "id": "win-pt2",
-   "label": "Win pt2",
+   "label": "Win pt2 (24k)",
    "file": "trump/win-pt2.ogg",
    "group": "trump",
-   "ms": 29816
+   "ms": 29816,
+   "kbps": 24
   },
   {
    "id": "win-so-much-you-may-even-get-tired-of-winning-trump",
-   "label": "Win so much you may even get tired of winning  trump",
+   "label": "Win so much you may even get tired of winning  trump (24k)",
    "file": "trump/win-so-much-you-may-even-get-tired-of-winning-trump.ogg",
    "group": "trump",
-   "ms": 10544
+   "ms": 10544,
+   "kbps": 24
   },
   {
    "id": "windows-xp-trump-xp",
-   "label": "Windows XP Trump   xp",
+   "label": "Windows XP Trump   xp (24k)",
    "file": "trump/windows-xp-trump-xp.ogg",
    "group": "trump",
-   "ms": 3551
+   "ms": 3551,
+   "kbps": 24
   },
   {
    "id": "worst-trade-deal-ever-signed-deal-deal-dice-deal-ever-trump",
-   "label": "Worst Trade Deal Ever Signed  deal  deal  dice  deal ever  trump",
+   "label": "Worst Trade Deal Ever Signed  deal  deal  dice  deal ever  trump (24k)",
    "file": "trump/worst-trade-deal-ever-signed-deal-deal-dice-deal-ever-trump.ogg",
    "group": "trump",
-   "ms": 5198
+   "ms": 5198,
+   "kbps": 24
   },
   {
    "id": "wouldn-t-that-be-embarrasing",
-   "label": "Wouldn't that be embarrasing",
+   "label": "Wouldn't that be embarrasing (24k)",
    "file": "trump/wouldn-t-that-be-embarrasing.ogg",
    "group": "trump",
-   "ms": 2020
+   "ms": 2020,
+   "kbps": 24
   },
   {
    "id": "wrong",
-   "label": "WRONG",
+   "label": "WRONG (24k)",
    "file": "trump/wrong.ogg",
    "group": "trump",
-   "ms": 6171
+   "ms": 6171,
+   "kbps": 24
   },
   {
    "id": "wrong-trump",
-   "label": "Wrong        trump",
+   "label": "Wrong        trump (24k)",
    "file": "trump/wrong-trump.ogg",
    "group": "trump",
-   "ms": 5962
+   "ms": 5962,
+   "kbps": 24
   },
   {
    "id": "wrong-with-you",
-   "label": "Wrong with you",
+   "label": "Wrong with you (24k)",
    "file": "trump/wrong-with-you.ogg",
    "group": "trump",
-   "ms": 3152
+   "ms": 3152,
+   "kbps": 24
   },
   {
    "id": "wrong-wrong",
-   "label": "WRONG. WRONG",
+   "label": "WRONG. WRONG (24k)",
    "file": "trump/wrong-wrong.ogg",
    "group": "trump",
-   "ms": 4971
+   "ms": 4971,
+   "kbps": 24
   },
   {
    "id": "yeah",
-   "label": "Yeah",
+   "label": "Yeah (24k)",
    "file": "trump/yeah.ogg",
    "group": "trump",
-   "ms": 1244
+   "ms": 1244,
+   "kbps": 24
   },
   {
    "id": "yello",
-   "label": "Yello!",
+   "label": "Yello! (24k)",
    "file": "trump/yello.ogg",
    "group": "trump",
-   "ms": 1427
+   "ms": 1427,
+   "kbps": 24
   },
   {
    "id": "yes",
-   "label": "Yes",
+   "label": "Yes (24k)",
    "file": "trump/yes.ogg",
    "group": "trump",
-   "ms": 870
+   "ms": 870,
+   "kbps": 24
   },
   {
    "id": "you-are-a-rude-terrible-person-trump-person",
-   "label": "You are a rude terrible person  trump         person",
+   "label": "You are a rude terrible person  trump         person (24k)",
    "file": "trump/you-are-a-rude-terrible-person-trump-person.ogg",
    "group": "trump",
-   "ms": 2751
+   "ms": 2751,
+   "kbps": 24
   },
   {
    "id": "you-are-fake-news",
-   "label": "You are fake news",
+   "label": "You are fake news (24k)",
    "file": "trump/you-are-fake-news.ogg",
    "group": "trump",
-   "ms": 1680
+   "ms": 1680,
+   "kbps": 24
   },
   {
    "id": "you-are-fired",
-   "label": "You Are Fired",
+   "label": "You Are Fired (24k)",
    "file": "trump/you-are-fired.ogg",
    "group": "trump",
-   "ms": 2914
+   "ms": 2914,
+   "kbps": 24
   },
   {
    "id": "you-are-the-most-amazing-guy",
-   "label": "You are the most amazing guy",
+   "label": "You are the most amazing guy (24k)",
    "file": "trump/you-are-the-most-amazing-guy.ogg",
    "group": "trump",
-   "ms": 2802
+   "ms": 2802,
+   "kbps": 24
   },
   {
    "id": "you-gotta-get-out-to-vote",
-   "label": "You gotta get out to vote",
+   "label": "You gotta get out to vote (24k)",
    "file": "trump/you-gotta-get-out-to-vote.ogg",
    "group": "trump",
-   "ms": 3576
+   "ms": 3576,
+   "kbps": 24
   },
   {
    "id": "you-have-a-hard-time-convincing-people-that-you-re-smart",
-   "label": "You have a hard time convincing people that you're smart",
+   "label": "You have a hard time convincing people that you're smart (24k)",
    "file": "trump/you-have-a-hard-time-convincing-people-that-you-re-smart.ogg",
    "group": "trump",
-   "ms": 8549
+   "ms": 8549,
+   "kbps": 24
   },
   {
    "id": "you-have-everything-going-the-world-is-waiting-for-you",
-   "label": "You have everything going the world is waiting for you",
+   "label": "You have everything going the world is waiting for you (24k)",
    "file": "trump/you-have-everything-going-the-world-is-waiting-for-you.ogg",
    "group": "trump",
-   "ms": 5118
+   "ms": 5118,
+   "kbps": 24
   },
   {
    "id": "you-have-everything-going-the-world-is-waiting-for-you-to-be",
-   "label": "You have everything going the world is waiting for you to be president",
+   "label": "You have everything going the world is waiting for you to be president (24k)",
    "file": "trump/you-have-everything-going-the-world-is-waiting-for-you-to-be.ogg",
    "group": "trump",
-   "ms": 5918
+   "ms": 5918,
+   "kbps": 24
   },
   {
    "id": "you-know-what-i-said",
-   "label": "You know what I said",
+   "label": "You know what I said (24k)",
    "file": "trump/you-know-what-i-said.ogg",
    "group": "trump",
-   "ms": 2454
+   "ms": 2454,
+   "kbps": 24
   },
   {
    "id": "you-know-you-re-really-beautiful",
-   "label": "You know you're really beautiful",
+   "label": "You know you're really beautiful (24k)",
    "file": "trump/you-know-you-re-really-beautiful.ogg",
    "group": "trump",
-   "ms": 1715
+   "ms": 1715,
+   "kbps": 24
   },
   {
    "id": "you-think-biden-could-get-into-that-car",
-   "label": "You think Biden could get into that car?",
+   "label": "You think Biden could get into that car? (24k)",
    "file": "trump/you-think-biden-could-get-into-that-car.ogg",
    "group": "trump",
-   "ms": 3570
+   "ms": 3570,
+   "kbps": 24
   },
   {
    "id": "you-won-t-report-that",
-   "label": "You won't report that",
+   "label": "You won't report that (24k)",
    "file": "trump/you-won-t-report-that.ogg",
    "group": "trump",
-   "ms": 5544
+   "ms": 5544,
+   "kbps": 24
   },
   {
    "id": "you-d-probably-be-the-last-person-on-earth-i-d-tell-telling-",
-   "label": "You'd probably be the last person on Earth I'd tell  telling you  wouldnt tell you   comment",
+   "label": "You'd probably be the last person on Earth I'd tell  telling you  wouldnt tell you   comment (24k)",
    "file": "trump/you-d-probably-be-the-last-person-on-earth-i-d-tell-telling-.ogg",
    "group": "trump",
-   "ms": 5544
+   "ms": 5544,
+   "kbps": 24
   },
   {
    "id": "you-re-boy-scouts-but-you-know-life",
-   "label": "You're boy scouts, but you know life",
+   "label": "You're boy scouts, but you know life (24k)",
    "file": "trump/you-re-boy-scouts-but-you-know-life.ogg",
    "group": "trump",
-   "ms": 3509
+   "ms": 3509,
+   "kbps": 24
   },
   {
    "id": "you-re-brilliant-you-re-handsome-you-re-rich",
-   "label": "You're brilliant you're handsome you're rich",
+   "label": "You're brilliant you're handsome you're rich (24k)",
    "file": "trump/you-re-brilliant-you-re-handsome-you-re-rich.ogg",
    "group": "trump",
-   "ms": 4300
+   "ms": 4300,
+   "kbps": 24
   },
   {
    "id": "you-re-fired",
-   "label": "You're fired",
+   "label": "You're fired (24k)",
    "file": "trump/you-re-fired.ogg",
    "group": "trump",
-   "ms": 1314
+   "ms": 1314,
+   "kbps": 24
   },
   {
    "id": "you-re-going-to-have-to-do-something-with-china",
-   "label": "You're going to have to do something with China",
+   "label": "You're going to have to do something with China (24k)",
    "file": "trump/you-re-going-to-have-to-do-something-with-china.ogg",
    "group": "trump",
-   "ms": 27281
+   "ms": 27281,
+   "kbps": 24
   },
   {
    "id": "you-re-gonna-be-happy",
-   "label": "You're gonna be happy",
+   "label": "You're gonna be happy (24k)",
    "file": "trump/you-re-gonna-be-happy.ogg",
    "group": "trump",
-   "ms": 1706
+   "ms": 1706,
+   "kbps": 24
   },
   {
    "id": "you-re-not-a-nice-person",
-   "label": "You're not a nice person",
+   "label": "You're not a nice person (24k)",
    "file": "trump/you-re-not-a-nice-person.ogg",
    "group": "trump",
-   "ms": 2646
+   "ms": 2646,
+   "kbps": 24
   },
   {
    "id": "you-re-right",
-   "label": "You're right",
+   "label": "You're right (24k)",
    "file": "trump/you-re-right.ogg",
    "group": "trump",
-   "ms": 11527
+   "ms": 11527,
+   "kbps": 24
   },
   {
    "id": "you-ve-been-mean",
-   "label": "You've been mean",
+   "label": "You've been mean (24k)",
    "file": "trump/you-ve-been-mean.ogg",
    "group": "trump",
-   "ms": 7844
+   "ms": 7844,
+   "kbps": 24
   },
   {
    "id": "your-organisation-is-terrible",
-   "label": "Your organisation is terrible",
+   "label": "Your organisation is terrible (24k)",
    "file": "trump/your-organisation-is-terrible.ogg",
    "group": "trump",
-   "ms": 6042
+   "ms": 6042,
+   "kbps": 24
   },
   {
    "id": "your-organization-s-terrible",
-   "label": "Your organization's terrible",
+   "label": "Your organization's terrible (24k)",
    "file": "trump/your-organization-s-terrible.ogg",
    "group": "trump",
-   "ms": 2498
+   "ms": 2498,
+   "kbps": 24
   },
   {
    "id": "yuge",
-   "label": "YUGE",
+   "label": "YUGE (24k)",
    "file": "trump/yuge.ogg",
    "group": "trump",
-   "ms": 8131
+   "ms": 8131,
+   "kbps": 24
   }
- ]
+ ],
+ "encoding": {
+  "codec": "opus",
+  "channels": 1,
+  "sampleRate": 48000,
+  "targetKbps": 24,
+  "note": "Opus is VBR, so measured per-clip rates vary either side of the 24k target. The label is the target, which is the honest uniform statement \u2014 every clip was encoded identically."
+ }
 }
