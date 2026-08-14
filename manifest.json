@@ -1,0 +1,4673 @@
+{
+ "version": 1,
+ "groups": {
+  "trump": {
+   "title": "Donald Trump",
+   "searchOnly": true
+  }
+ },
+ "sounds": [
+  {
+   "id": "10-billion",
+   "label": "10 billion",
+   "file": "trump/10-billion.ogg",
+   "group": "trump",
+   "ms": 2663
+  },
+  {
+   "id": "12",
+   "label": "12",
+   "file": "trump/12.ogg",
+   "group": "trump",
+   "ms": 2070
+  },
+  {
+   "id": "12-or-13",
+   "label": "12 or 13",
+   "file": "trump/12-or-13.ogg",
+   "group": "trump",
+   "ms": 3358
+  },
+  {
+   "id": "13",
+   "label": "13",
+   "file": "trump/13.ogg",
+   "group": "trump",
+   "ms": 2236
+  },
+  {
+   "id": "2-weeks",
+   "label": "2 weeks",
+   "file": "trump/2-weeks.ogg",
+   "group": "trump",
+   "ms": 2079
+  },
+  {
+   "id": "25",
+   "label": "25",
+   "file": "trump/25.ogg",
+   "group": "trump",
+   "ms": 2514
+  },
+  {
+   "id": "35",
+   "label": "35",
+   "file": "trump/35.ogg",
+   "group": "trump",
+   "ms": 1793
+  },
+  {
+   "id": "45",
+   "label": "45",
+   "file": "trump/45.ogg",
+   "group": "trump",
+   "ms": 2140
+  },
+  {
+   "id": "50-percent",
+   "label": "50 percent",
+   "file": "trump/50-percent.ogg",
+   "group": "trump",
+   "ms": 1976
+  },
+  {
+   "id": "5th-avenue",
+   "label": "5th avenue",
+   "file": "trump/5th-avenue.ogg",
+   "group": "trump",
+   "ms": 1560
+  },
+  {
+   "id": "9",
+   "label": "9",
+   "file": "trump/9.ogg",
+   "group": "trump",
+   "ms": 1832
+  },
+  {
+   "id": "9-years",
+   "label": "9 years",
+   "file": "trump/9-years.ogg",
+   "group": "trump",
+   "ms": 3392
+  },
+  {
+   "id": "thomas-the-tank-engine-ft-donald-trump-bing-bong-original-so",
+   "label": "[THOMAS THE TANK ENGINE ft. DONALD TRUMP (Bing Bong) [ORIGINAL SOUND] ]",
+   "file": "trump/thomas-the-tank-engine-ft-donald-trump-bing-bong-original-so.ogg",
+   "group": "trump",
+   "ms": 42728
+  },
+  {
+   "id": "a-woman-that-looks-like-that-has-to-have-special-scent",
+   "label": "A woman that looks like that has to have special scent",
+   "file": "trump/a-woman-that-looks-like-that-has-to-have-special-scent.ogg",
+   "group": "trump",
+   "ms": 4597
+  },
+  {
+   "id": "ah-i-m-smart",
+   "label": "Ah I'm smart",
+   "file": "trump/ah-i-m-smart.ogg",
+   "group": "trump",
+   "ms": 2028
+  },
+  {
+   "id": "ah-no",
+   "label": "Ah no",
+   "file": "trump/ah-no.ogg",
+   "group": "trump",
+   "ms": 1558
+  },
+  {
+   "id": "america",
+   "label": "America",
+   "file": "trump/america.ogg",
+   "group": "trump",
+   "ms": 2523
+  },
+  {
+   "id": "america-first-trump",
+   "label": "America First!  trump",
+   "file": "trump/america-first-trump.ogg",
+   "group": "trump",
+   "ms": 3056
+  },
+  {
+   "id": "america-great-again",
+   "label": "America great again",
+   "file": "trump/america-great-again.ogg",
+   "group": "trump",
+   "ms": 3909
+  },
+  {
+   "id": "and-i-made-a-lot-of-money-in-atlantic-city-and-i-m-very",
+   "label": "And I made a lot of money in atlantic city and i'm very",
+   "file": "trump/and-i-made-a-lot-of-money-in-atlantic-city-and-i-m-very.ogg",
+   "group": "trump",
+   "ms": 4509
+  },
+  {
+   "id": "and-i-made-a-lot-of-money-in-atlantic-city-and-i-m-very-prou",
+   "label": "And I made a lot of money in Atlantic City and i'm very proud of it",
+   "file": "trump/and-i-made-a-lot-of-money-in-atlantic-city-and-i-m-very-prou.ogg",
+   "group": "trump",
+   "ms": 4109
+  },
+  {
+   "id": "and-i-will-tell-you-this-and-i-said-it-very-strongly",
+   "label": "And I will tell you this and i said it very strongly",
+   "file": "trump/and-i-will-tell-you-this-and-i-said-it-very-strongly.ogg",
+   "group": "trump",
+   "ms": 3839
+  },
+  {
+   "id": "and-it-only-makes-common-sense",
+   "label": "And it only makes common sense",
+   "file": "trump/and-it-only-makes-common-sense.ogg",
+   "group": "trump",
+   "ms": 3629
+  },
+  {
+   "id": "and-now-they-re-beating-us-economically-they-are-not-our-fri",
+   "label": "And now they're beating us economically they are not our friends, believe me",
+   "file": "trump/and-now-they-re-beating-us-economically-they-are-not-our-fri.ogg",
+   "group": "trump",
+   "ms": 4780
+  },
+  {
+   "id": "and-some-i-assume-are-good-people",
+   "label": "And some I assume are good people",
+   "file": "trump/and-some-i-assume-are-good-people.ogg",
+   "group": "trump",
+   "ms": 3038
+  },
+  {
+   "id": "and-that-is-a-nation-that-truly-has-no-clue-they-don-t",
+   "label": "And that is a nation that truly has no clue they don't",
+   "file": "trump/and-that-is-a-nation-that-truly-has-no-clue-they-don-t.ogg",
+   "group": "trump",
+   "ms": 7103
+  },
+  {
+   "id": "and-that-is-a-nation-that-truly-has-no-clue-they-don-t-know-",
+   "label": "And that is a nation that truly has no clue they don't know what they're doing",
+   "file": "trump/and-that-is-a-nation-that-truly-has-no-clue-they-don-t-know-.ogg",
+   "group": "trump",
+   "ms": 7303
+  },
+  {
+   "id": "and-the-answer-is",
+   "label": "And the answer is",
+   "file": "trump/and-the-answer-is.ogg",
+   "group": "trump",
+   "ms": 3184
+  },
+  {
+   "id": "and-the-mexican-government-is-much-smarter-much-sharper-much",
+   "label": "And the Mexican government is much smarter, much sharper, much more cunning and they send the bad ones over because they don't want to pay for him they don't want to take care of him why should they .",
+   "file": "trump/and-the-mexican-government-is-much-smarter-much-sharper-much.ogg",
+   "group": "trump",
+   "ms": 16742
+  },
+  {
+   "id": "and-we-need-a-truly-great-leader-now",
+   "label": "And we need a truly great leader now",
+   "file": "trump/and-we-need-a-truly-great-leader-now.ogg",
+   "group": "trump",
+   "ms": 3369
+  },
+  {
+   "id": "and-we-say-bye-bye",
+   "label": "And we say bye bye",
+   "file": "trump/and-we-say-bye-bye.ogg",
+   "group": "trump",
+   "ms": 2315
+  },
+  {
+   "id": "and-we-will-make-america-great-again",
+   "label": "And we will make America great again",
+   "file": "trump/and-we-will-make-america-great-again.ogg",
+   "group": "trump",
+   "ms": 5771
+  },
+  {
+   "id": "and-we-re-going-to-have-a-lot-of-fun-tonight",
+   "label": "And we're going to have a lot of fun tonight",
+   "file": "trump/and-we-re-going-to-have-a-lot-of-fun-tonight.ogg",
+   "group": "trump",
+   "ms": 2960
+  },
+  {
+   "id": "and-we-re-going-to-load-it-up-with-some-bad-dudes",
+   "label": "And we're going to load it up with some bad dudes",
+   "file": "trump/and-we-re-going-to-load-it-up-with-some-bad-dudes.ogg",
+   "group": "trump",
+   "ms": 5005
+  },
+  {
+   "id": "and-yes",
+   "label": "And yes",
+   "file": "trump/and-yes.ogg",
+   "group": "trump",
+   "ms": 1688
+  },
+  {
+   "id": "and-yes-2",
+   "label": "And yes",
+   "file": "trump/and-yes-2.ogg",
+   "group": "trump",
+   "ms": 1688
+  },
+  {
+   "id": "any-guy-that-can-do-a-body-slam-is-my-kind-of-guy-trump-slam",
+   "label": "Any guy that can do a body slam is my kind of guy  trump   slam   kind of guy",
+   "file": "trump/any-guy-that-can-do-a-body-slam-is-my-kind-of-guy-trump-slam.ogg",
+   "group": "trump",
+   "ms": 11857
+  },
+  {
+   "id": "are-there-any-russians-here-tonight-collusion-russians-campa",
+   "label": "Are there any Russians here tonight?  collusion  russians  campaign",
+   "file": "trump/are-there-any-russians-here-tonight-collusion-russians-campa.ogg",
+   "group": "trump",
+   "ms": 17865
+  },
+  {
+   "id": "are-you-running-are-you-not-running",
+   "label": "Are you running? Are you not running?",
+   "file": "trump/are-you-running-are-you-not-running.ogg",
+   "group": "trump",
+   "ms": 3717
+  },
+  {
+   "id": "aroused-aroused-to-get-it-aroused",
+   "label": "Aroused  aroused   to get it aroused",
+   "file": "trump/aroused-aroused-to-get-it-aroused.ogg",
+   "group": "trump",
+   "ms": 9647
+  },
+  {
+   "id": "bad-for-me-to-say-that",
+   "label": "Bad for me to say that",
+   "file": "trump/bad-for-me-to-say-that.ogg",
+   "group": "trump",
+   "ms": 2829
+  },
+  {
+   "id": "bank-of-america",
+   "label": "Bank of America",
+   "file": "trump/bank-of-america.ogg",
+   "group": "trump",
+   "ms": 9200
+  },
+  {
+   "id": "barack-obama",
+   "label": "Barack Obama",
+   "file": "trump/barack-obama.ogg",
+   "group": "trump",
+   "ms": 2680
+  },
+  {
+   "id": "barbie-girl-donald-trump-song",
+   "label": "Barbie Girl Donald Trump [Song]",
+   "file": "trump/barbie-girl-donald-trump-song.ogg",
+   "group": "trump",
+   "ms": 15873
+  },
+  {
+   "id": "be-a-judge",
+   "label": "Be a judge",
+   "file": "trump/be-a-judge.ogg",
+   "group": "trump",
+   "ms": 7376
+  },
+  {
+   "id": "be-poker-players",
+   "label": "Be poker players",
+   "file": "trump/be-poker-players.ogg",
+   "group": "trump",
+   "ms": 4404
+  },
+  {
+   "id": "beat-mexico-at-the-border-they-re-laughing-at-us-at-our-stup",
+   "label": "Beat Mexico at the border. They're laughing at us, at our stupidity.",
+   "file": "trump/beat-mexico-at-the-border-they-re-laughing-at-us-at-our-stup.ogg",
+   "group": "trump",
+   "ms": 6877
+  },
+  {
+   "id": "beating-china",
+   "label": "Beating China",
+   "file": "trump/beating-china.ogg",
+   "group": "trump",
+   "ms": 19661
+  },
+  {
+   "id": "beating-us",
+   "label": "Beating us",
+   "file": "trump/beating-us.ogg",
+   "group": "trump",
+   "ms": 5015
+  },
+  {
+   "id": "because-our-leaders-are-stupid-our-politicians-are-stupid",
+   "label": "Because our leaders are stupid our politicians are stupid",
+   "file": "trump/because-our-leaders-are-stupid-our-politicians-are-stupid.ogg",
+   "group": "trump",
+   "ms": 4414
+  },
+  {
+   "id": "because-our-leaders-are-stupid-our-politicians-are-stupid-2",
+   "label": "Because our leaders are stupid our politicians are stupid",
+   "file": "trump/because-our-leaders-are-stupid-our-politicians-are-stupid-2.ogg",
+   "group": "trump",
+   "ms": 4814
+  },
+  {
+   "id": "because-you-d-be-in-jail",
+   "label": "Because you'd be in jail",
+   "file": "trump/because-you-d-be-in-jail.ogg",
+   "group": "trump",
+   "ms": 2906
+  },
+  {
+   "id": "because-you-d-be-in-jail-trump-clinton",
+   "label": "Because you'd be in jail  trump  clinton",
+   "file": "trump/because-you-d-be-in-jail-trump-clinton.ogg",
+   "group": "trump",
+   "ms": 3533
+  },
+  {
+   "id": "bigger-and-better-and-stronger",
+   "label": "Bigger and better and stronger",
+   "file": "trump/bigger-and-better-and-stronger.ogg",
+   "group": "trump",
+   "ms": 6015
+  },
+  {
+   "id": "billions-and-billions-lot",
+   "label": "Billions and Billions    lot",
+   "file": "trump/billions-and-billions-lot.ogg",
+   "group": "trump",
+   "ms": 35753
+  },
+  {
+   "id": "bing-bong-remix",
+   "label": "Bing bong (remix)",
+   "file": "trump/bing-bong-remix.ogg",
+   "group": "trump",
+   "ms": 11057
+  },
+  {
+   "id": "bomb-those-suckers",
+   "label": "Bomb those suckers",
+   "file": "trump/bomb-those-suckers.ogg",
+   "group": "trump",
+   "ms": 58296
+  },
+  {
+   "id": "boy-is-she-smart",
+   "label": "Boy is she smart",
+   "file": "trump/boy-is-she-smart.ogg",
+   "group": "trump",
+   "ms": 1811
+  },
+  {
+   "id": "build-a-wall",
+   "label": "Build a wall",
+   "file": "trump/build-a-wall.ogg",
+   "group": "trump",
+   "ms": 5903
+  },
+  {
+   "id": "build-a-wall-pt2",
+   "label": "Build a wall pt2",
+   "file": "trump/build-a-wall-pt2.ogg",
+   "group": "trump",
+   "ms": 9256
+  },
+  {
+   "id": "bullshit",
+   "label": "Bullshit",
+   "file": "trump/bullshit.ogg",
+   "group": "trump",
+   "ms": 2136
+  },
+  {
+   "id": "burny-sanders",
+   "label": "Burny Sanders",
+   "file": "trump/burny-sanders.ogg",
+   "group": "trump",
+   "ms": 1723
+  },
+  {
+   "id": "but-actually-i-am",
+   "label": "But actually I am",
+   "file": "trump/but-actually-i-am.ogg",
+   "group": "trump",
+   "ms": 3028
+  },
+  {
+   "id": "but-if-i-get-elected-president",
+   "label": "But if I get elected President",
+   "file": "trump/but-if-i-get-elected-president.ogg",
+   "group": "trump",
+   "ms": 4194
+  },
+  {
+   "id": "but-if-i-get-elected-president-i-will-bring-it-back-bigger-a",
+   "label": "But if I get elected president I will bring it back bigger and better and stronger than ever before and we will make america great again",
+   "file": "trump/but-if-i-get-elected-president-i-will-bring-it-back-bigger-a.ogg",
+   "group": "trump",
+   "ms": 15943
+  },
+  {
+   "id": "but-mr-trump-you-re-not-a-nice-person",
+   "label": "But Mr Trump, you're not a nice person",
+   "file": "trump/but-mr-trump-you-re-not-a-nice-person.ogg",
+   "group": "trump",
+   "ms": 4325
+  },
+  {
+   "id": "but-we-don-t-know",
+   "label": "But we don't know",
+   "file": "trump/but-we-don-t-know.ogg",
+   "group": "trump",
+   "ms": 2828
+  },
+  {
+   "id": "but-we-have-people-who-are-stupid",
+   "label": "But we have people who are stupid",
+   "file": "trump/but-we-have-people-who-are-stupid.ogg",
+   "group": "trump",
+   "ms": 4039
+  },
+  {
+   "id": "buy-american-and-hire-american",
+   "label": "Buy American, and hire American",
+   "file": "trump/buy-american-and-hire-american.ogg",
+   "group": "trump",
+   "ms": 4422
+  },
+  {
+   "id": "canada",
+   "label": "Canada",
+   "file": "trump/canada.ogg",
+   "group": "trump",
+   "ms": 2227
+  },
+  {
+   "id": "check-out-the-ratings-to-be-true-ratings",
+   "label": "Check out the ratings  to be true  ratings",
+   "file": "trump/check-out-the-ratings-to-be-true-ratings.ogg",
+   "group": "trump",
+   "ms": 2238
+  },
+  {
+   "id": "china",
+   "label": "China",
+   "file": "trump/china.ogg",
+   "group": "trump",
+   "ms": 3437
+  },
+  {
+   "id": "china-china-china",
+   "label": "CHINA CHINA CHINA",
+   "file": "trump/china-china-china.ogg",
+   "group": "trump",
+   "ms": 3264
+  },
+  {
+   "id": "china-trump-know-china-very-well",
+   "label": "China!    trump  know china very well",
+   "file": "trump/china-trump-know-china-very-well.ogg",
+   "group": "trump",
+   "ms": 9647
+  },
+  {
+   "id": "china-china-china-trump-have-to-have-my-china",
+   "label": "China, China, China   trump  have to have my china",
+   "file": "trump/china-china-china-trump-have-to-have-my-china.ogg",
+   "group": "trump",
+   "ms": 9950
+  },
+  {
+   "id": "close-to-death-pt1",
+   "label": "Close to death pt1",
+   "file": "trump/close-to-death-pt1.ogg",
+   "group": "trump",
+   "ms": 3936
+  },
+  {
+   "id": "close-to-death-pt2",
+   "label": "Close to death pt2",
+   "file": "trump/close-to-death-pt2.ogg",
+   "group": "trump",
+   "ms": 4788
+  },
+  {
+   "id": "close-to-death-pt3",
+   "label": "Close to death pt3",
+   "file": "trump/close-to-death-pt3.ogg",
+   "group": "trump",
+   "ms": 6981
+  },
+  {
+   "id": "complete-and-total-disaster-and-total-disaster",
+   "label": "Complete and total disaster  and total disaster",
+   "file": "trump/complete-and-total-disaster-and-total-disaster.ogg",
+   "group": "trump",
+   "ms": 4353
+  },
+  {
+   "id": "congratulations",
+   "label": "Congratulations",
+   "file": "trump/congratulations.ogg",
+   "group": "trump",
+   "ms": 2706
+  },
+  {
+   "id": "dialogue",
+   "label": "Dialogue",
+   "file": "trump/dialogue.ogg",
+   "group": "trump",
+   "ms": 3256
+  },
+  {
+   "id": "disgraced-himself",
+   "label": "Disgraced himself",
+   "file": "trump/disgraced-himself.ogg",
+   "group": "trump",
+   "ms": 3594
+  },
+  {
+   "id": "do-it-yourself",
+   "label": "Do it yourself",
+   "file": "trump/do-it-yourself.ogg",
+   "group": "trump",
+   "ms": 2176
+  },
+  {
+   "id": "do-you-want-to-set-up-the-meeting",
+   "label": "Do you want to set up the meeting",
+   "file": "trump/do-you-want-to-set-up-the-meeting.ogg",
+   "group": "trump",
+   "ms": 1741
+  },
+  {
+   "id": "don-t-be-rude",
+   "label": "Don't be rude",
+   "file": "trump/don-t-be-rude.ogg",
+   "group": "trump",
+   "ms": 2576
+  },
+  {
+   "id": "don-t-beat-pt1",
+   "label": "Don't beat pt1",
+   "file": "trump/don-t-beat-pt1.ogg",
+   "group": "trump",
+   "ms": 2943
+  },
+  {
+   "id": "don-t-beat-pt2",
+   "label": "Don't beat pt2",
+   "file": "trump/don-t-beat-pt2.ogg",
+   "group": "trump",
+   "ms": 7784
+  },
+  {
+   "id": "don-t-beat-pt3",
+   "label": "Don't beat pt3",
+   "file": "trump/don-t-beat-pt3.ogg",
+   "group": "trump",
+   "ms": 3988
+  },
+  {
+   "id": "don-t-beat-pt4",
+   "label": "Don't beat pt4",
+   "file": "trump/don-t-beat-pt4.ogg",
+   "group": "trump",
+   "ms": 13478
+  },
+  {
+   "id": "don-t-beat-pt5",
+   "label": "Don't beat pt5",
+   "file": "trump/don-t-beat-pt5.ogg",
+   "group": "trump",
+   "ms": 3988
+  },
+  {
+   "id": "don-t-believe-the-five-point-six",
+   "label": "Don't believe the five point six",
+   "file": "trump/don-t-believe-the-five-point-six.ogg",
+   "group": "trump",
+   "ms": 2820
+  },
+  {
+   "id": "don-t-know-what-there-doing",
+   "label": "Don't know what there doing",
+   "file": "trump/don-t-know-what-there-doing.ogg",
+   "group": "trump",
+   "ms": 2959
+  },
+  {
+   "id": "don-t-vote-for",
+   "label": "Don't vote for",
+   "file": "trump/don-t-vote-for.ogg",
+   "group": "trump",
+   "ms": 3047
+  },
+  {
+   "id": "don-t-wanna-tell-you-everything",
+   "label": "Don't wanna tell you everything",
+   "file": "trump/don-t-wanna-tell-you-everything.ogg",
+   "group": "trump",
+   "ms": 3204
+  },
+  {
+   "id": "donald-trump",
+   "label": "DONALD TRUMP",
+   "file": "trump/donald-trump.ogg",
+   "group": "trump",
+   "ms": 17632
+  },
+  {
+   "id": "donald-trump-2",
+   "label": "Donald trump",
+   "file": "trump/donald-trump-2.ogg",
+   "group": "trump",
+   "ms": 1645
+  },
+  {
+   "id": "donald-trump-jobs-jobs-jobs",
+   "label": "Donald Trump   Jobs, Jobs, Jobs",
+   "file": "trump/donald-trump-jobs-jobs-jobs.ogg",
+   "group": "trump",
+   "ms": 4344
+  },
+  {
+   "id": "donald-trump-mistakes-turn-around",
+   "label": "Donald Trump   Mistakes Turn Around",
+   "file": "trump/donald-trump-mistakes-turn-around.ogg",
+   "group": "trump",
+   "ms": 19590
+  },
+  {
+   "id": "donald-trump-ringtone",
+   "label": "Donald Trump   Ringtone",
+   "file": "trump/donald-trump-ringtone.ogg",
+   "group": "trump",
+   "ms": 7840
+  },
+  {
+   "id": "donald-trump-wrong",
+   "label": "Donald Trump 'WRONG'",
+   "file": "trump/donald-trump-wrong.ogg",
+   "group": "trump",
+   "ms": 2453
+  },
+  {
+   "id": "donald-trump-2-2",
+   "label": "Donald Trump 2",
+   "file": "trump/donald-trump-2-2.ogg",
+   "group": "trump",
+   "ms": 2056
+  },
+  {
+   "id": "donald-trump-discusses-locker-room-banter-commen",
+   "label": "Donald Trump Discusses 'Locker Room Banter,' Commen..",
+   "file": "trump/donald-trump-discusses-locker-room-banter-commen.ogg",
+   "group": "trump",
+   "ms": 4353
+  },
+  {
+   "id": "donald-trump-has-small-hands",
+   "label": "Donald Trump has small hands",
+   "file": "trump/donald-trump-has-small-hands.ogg",
+   "group": "trump",
+   "ms": 2950
+  },
+  {
+   "id": "donald-trump-havana-song",
+   "label": "Donald Trump Havana [SONG]",
+   "file": "trump/donald-trump-havana-song.ogg",
+   "group": "trump",
+   "ms": 153025
+  },
+  {
+   "id": "donald-trump-lol-mix-song",
+   "label": "Donald Trump LOL Mix Song",
+   "file": "trump/donald-trump-lol-mix-song.ogg",
+   "group": "trump",
+   "ms": 104270
+  },
+  {
+   "id": "donald-trump-remix",
+   "label": "Donald Trump Remix",
+   "file": "trump/donald-trump-remix.ogg",
+   "group": "trump",
+   "ms": 19452
+  },
+  {
+   "id": "donald-trump-singing-the-pokemon-theme-song-trump",
+   "label": "Donald Trump Singing The Pokemon Theme Song  trump",
+   "file": "trump/donald-trump-singing-the-pokemon-theme-song-trump.ogg",
+   "group": "trump",
+   "ms": 31641
+  },
+  {
+   "id": "donald-trump-lie-to-the-fbi",
+   "label": "Donald Trump: Lie to the FBI!",
+   "file": "trump/donald-trump-lie-to-the-fbi.ogg",
+   "group": "trump",
+   "ms": 10796
+  },
+  {
+   "id": "donnie-done",
+   "label": "Donnie done",
+   "file": "trump/donnie-done.ogg",
+   "group": "trump",
+   "ms": 2202
+  },
+  {
+   "id": "don-t-be-afraid-of-it-be-afraid-of-it-let-it-dominate-you-19",
+   "label": "Don\u2019t be afraid of it  be afraid of it  let it dominate you   19   trump",
+   "file": "trump/don-t-be-afraid-of-it-be-afraid-of-it-let-it-dominate-you-19.ogg",
+   "group": "trump",
+   "ms": 8661
+  },
+  {
+   "id": "drain-the-swamp-drump-to-drain-the-swamp-in-washington-dc",
+   "label": "Drain the swamp  drump  to drain the swamp in washington dc",
+   "file": "trump/drain-the-swamp-drump-to-drain-the-swamp-in-washington-dc.ogg",
+   "group": "trump",
+   "ms": 7931
+  },
+  {
+   "id": "eight-billion-seven-hundred-and-thirty-seven-million-fi",
+   "label": "Eight billion seven hundred and thirty seven million fi",
+   "file": "trump/eight-billion-seven-hundred-and-thirty-seven-million-fi.ogg",
+   "group": "trump",
+   "ms": 7077
+  },
+  {
+   "id": "eight-billion-seven-hundred-and-thirty-seven-million-five-hu",
+   "label": "Eight billion seven hundred and thirty seven million five hundred and forty thousand dollars",
+   "file": "trump/eight-billion-seven-hundred-and-thirty-seven-million-five-hu.ogg",
+   "group": "trump",
+   "ms": 5677
+  },
+  {
+   "id": "enter-legally",
+   "label": "Enter legally",
+   "file": "trump/enter-legally.ogg",
+   "group": "trump",
+   "ms": 7802
+  },
+  {
+   "id": "eric",
+   "label": "Eric",
+   "file": "trump/eric.ogg",
+   "group": "trump",
+   "ms": 1200
+  },
+  {
+   "id": "everything-s-computer-donald-trump",
+   "label": "Everything's computer! [Donald Trump]",
+   "file": "trump/everything-s-computer-donald-trump.ogg",
+   "group": "trump",
+   "ms": 2880
+  },
+  {
+   "id": "fake-news-news-fake-news",
+   "label": "Fake news  news   fake news",
+   "file": "trump/fake-news-news-fake-news.ogg",
+   "group": "trump",
+   "ms": 6269
+  },
+  {
+   "id": "fantastic",
+   "label": "Fantastic",
+   "file": "trump/fantastic.ogg",
+   "group": "trump",
+   "ms": 2462
+  },
+  {
+   "id": "filthy-language",
+   "label": "Filthy language",
+   "file": "trump/filthy-language.ogg",
+   "group": "trump",
+   "ms": 3228
+  },
+  {
+   "id": "five-billion-we-spend-on-a-web-site",
+   "label": "Five billion we spend on a web site",
+   "file": "trump/five-billion-we-spend-on-a-web-site.ogg",
+   "group": "trump",
+   "ms": 3681
+  },
+  {
+   "id": "for-many-many-many-many-years-to-come",
+   "label": "For many many many many years to come",
+   "file": "trump/for-many-many-many-many-years-to-come.ogg",
+   "group": "trump",
+   "ms": 5885
+  },
+  {
+   "id": "for-many-many-years-to-come",
+   "label": "For many many years to come",
+   "file": "trump/for-many-many-years-to-come.ogg",
+   "group": "trump",
+   "ms": 4118
+  },
+  {
+   "id": "four",
+   "label": "Four",
+   "file": "trump/four.ogg",
+   "group": "trump",
+   "ms": 3280
+  },
+  {
+   "id": "free-trade-can-be-wonderful-if-you-have-smart-people",
+   "label": "Free trade can be wonderful if you have smart people",
+   "file": "trump/free-trade-can-be-wonderful-if-you-have-smart-people.ogg",
+   "group": "trump",
+   "ms": 5866
+  },
+  {
+   "id": "friends-1",
+   "label": "Friends 1",
+   "file": "trump/friends-1.ogg",
+   "group": "trump",
+   "ms": 3792
+  },
+  {
+   "id": "friends-pt2",
+   "label": "Friends pt2",
+   "file": "trump/friends-pt2.ogg",
+   "group": "trump",
+   "ms": 3306
+  },
+  {
+   "id": "from-this-day-forward-a-new-vision-will-govern-our-land",
+   "label": "From this day forward a new vision will govern our land",
+   "file": "trump/from-this-day-forward-a-new-vision-will-govern-our-land.ogg",
+   "group": "trump",
+   "ms": 7504
+  },
+  {
+   "id": "full-force",
+   "label": "Full force",
+   "file": "trump/full-force.ogg",
+   "group": "trump",
+   "ms": 128840
+  },
+  {
+   "id": "gabe-the-dog-mario",
+   "label": "Gabe the dog mario",
+   "file": "trump/gabe-the-dog-mario.ogg",
+   "group": "trump",
+   "ms": 32198
+  },
+  {
+   "id": "get-that-sob-off-the-field-he-s-fired-football-big-game",
+   "label": "Get that SOB off the field, he's fired!    football   big game",
+   "file": "trump/get-that-sob-off-the-field-he-s-fired-football-big-game.ogg",
+   "group": "trump",
+   "ms": 12545
+  },
+  {
+   "id": "go-ahead",
+   "label": "Go ahead",
+   "file": "trump/go-ahead.ogg",
+   "group": "trump",
+   "ms": 1870
+  },
+  {
+   "id": "go-f-ck-themselves-trump-fuck-themselves",
+   "label": "Go F*ck Themselves  trump  fuck themselves",
+   "file": "trump/go-f-ck-themselves-trump-fuck-themselves.ogg",
+   "group": "trump",
+   "ms": 8853
+  },
+  {
+   "id": "god-bless-the-united-states-speech",
+   "label": "God Bless the United States   speech",
+   "file": "trump/god-bless-the-united-states-speech.ogg",
+   "group": "trump",
+   "ms": 5249
+  },
+  {
+   "id": "good-evening",
+   "label": "Good Evening",
+   "file": "trump/good-evening.ogg",
+   "group": "trump",
+   "ms": 2862
+  },
+  {
+   "id": "good-morning",
+   "label": "Good morning",
+   "file": "trump/good-morning.ogg",
+   "group": "trump",
+   "ms": 1871
+  },
+  {
+   "id": "got-it-done",
+   "label": "Got it done",
+   "file": "trump/got-it-done.ogg",
+   "group": "trump",
+   "ms": 4020
+  },
+  {
+   "id": "grab-them-by-the-pussy",
+   "label": "Grab them by the pussy",
+   "file": "trump/grab-them-by-the-pussy.ogg",
+   "group": "trump",
+   "ms": 2167
+  },
+  {
+   "id": "great-company",
+   "label": "Great company",
+   "file": "trump/great-company.ogg",
+   "group": "trump",
+   "ms": 8280
+  },
+  {
+   "id": "great-great-wall",
+   "label": "Great Great Wall",
+   "file": "trump/great-great-wall.ogg",
+   "group": "trump",
+   "ms": 9088
+  },
+  {
+   "id": "great-job-job-work-job-for-you-you-are-doing-great",
+   "label": "Great Job  job  work  job  for you  you  are doing great",
+   "file": "trump/great-job-job-work-job-for-you-you-are-doing-great.ogg",
+   "group": "trump",
+   "ms": 4456
+  },
+  {
+   "id": "hair-pt1",
+   "label": "Hair pt1",
+   "file": "trump/hair-pt1.ogg",
+   "group": "trump",
+   "ms": 7617
+  },
+  {
+   "id": "hair-pt2",
+   "label": "Hair pt2",
+   "file": "trump/hair-pt2.ogg",
+   "group": "trump",
+   "ms": 3507
+  },
+  {
+   "id": "have-a-good-time",
+   "label": "Have a good time!",
+   "file": "trump/have-a-good-time.ogg",
+   "group": "trump",
+   "ms": 1888
+  },
+  {
+   "id": "have-to-go",
+   "label": "Have to go",
+   "file": "trump/have-to-go.ogg",
+   "group": "trump",
+   "ms": 3002
+  },
+  {
+   "id": "have-to-make-deals",
+   "label": "Have to make deals",
+   "file": "trump/have-to-make-deals.ogg",
+   "group": "trump",
+   "ms": 16240
+  },
+  {
+   "id": "he-can-t-run",
+   "label": "He can't run",
+   "file": "trump/he-can-t-run.ogg",
+   "group": "trump",
+   "ms": 3664
+  },
+  {
+   "id": "he-did-a-great-job-trump-job",
+   "label": "He did a great job  trump  job",
+   "file": "trump/he-did-a-great-job-trump-job.ogg",
+   "group": "trump",
+   "ms": 4361
+  },
+  {
+   "id": "he-has-been-very-threatening-trump-jong-un-korea",
+   "label": "He has been very threatening     trump  jong un  korea",
+   "file": "trump/he-has-been-very-threatening-trump-jong-un-korea.ogg",
+   "group": "trump",
+   "ms": 5738
+  },
+  {
+   "id": "he-is-a-sick-puppy",
+   "label": "He is a sick puppy",
+   "file": "trump/he-is-a-sick-puppy.ogg",
+   "group": "trump",
+   "ms": 2002
+  },
+  {
+   "id": "he-laughs",
+   "label": "He laughs",
+   "file": "trump/he-laughs.ogg",
+   "group": "trump",
+   "ms": 2497
+  },
+  {
+   "id": "healthcare-is-going-up-25-35-50",
+   "label": "Healthcare is going up 25 35 50%",
+   "file": "trump/healthcare-is-going-up-25-35-50.ogg",
+   "group": "trump",
+   "ms": 6851
+  },
+  {
+   "id": "hello-everyone",
+   "label": "Hello everyone",
+   "file": "trump/hello-everyone.ogg",
+   "group": "trump",
+   "ms": 1688
+  },
+  {
+   "id": "hi-dani-done",
+   "label": "Hi dani done",
+   "file": "trump/hi-dani-done.ogg",
+   "group": "trump",
+   "ms": 3576
+  },
+  {
+   "id": "hi-this-is-trump-pt1",
+   "label": "Hi this is trump pt1",
+   "file": "trump/hi-this-is-trump-pt1.ogg",
+   "group": "trump",
+   "ms": 5780
+  },
+  {
+   "id": "hi-this-is-trump-pt2",
+   "label": "Hi this is trump pt2",
+   "file": "trump/hi-this-is-trump-pt2.ogg",
+   "group": "trump",
+   "ms": 14855
+  },
+  {
+   "id": "hi-this-is-trump-pt3",
+   "label": "Hi this is trump pt3",
+   "file": "trump/hi-this-is-trump-pt3.ogg",
+   "group": "trump",
+   "ms": 4649
+  },
+  {
+   "id": "hillary",
+   "label": "Hillary",
+   "file": "trump/hillary.ogg",
+   "group": "trump",
+   "ms": 896
+  },
+  {
+   "id": "hmm-that-s-strange",
+   "label": "Hmm that's strange",
+   "file": "trump/hmm-that-s-strange.ogg",
+   "group": "trump",
+   "ms": 2976
+  },
+  {
+   "id": "how-are-you",
+   "label": "How are you?",
+   "file": "trump/how-are-you.ogg",
+   "group": "trump",
+   "ms": 2936
+  },
+  {
+   "id": "how-is-the-situation-in-russia",
+   "label": "How is the situation in russia",
+   "file": "trump/how-is-the-situation-in-russia.ogg",
+   "group": "trump",
+   "ms": 1950
+  },
+  {
+   "id": "how-stupid-are-these-politicians-to-allow-this-to-happe",
+   "label": "How stupid are these politicians to allow this to happe",
+   "file": "trump/how-stupid-are-these-politicians-to-allow-this-to-happe.ogg",
+   "group": "trump",
+   "ms": 5737
+  },
+  {
+   "id": "how-stupid-are-these-politicians-to-allow-this-to-happen",
+   "label": "How stupid are these politicians to allow this to happen",
+   "file": "trump/how-stupid-are-these-politicians-to-allow-this-to-happen.ogg",
+   "group": "trump",
+   "ms": 6137
+  },
+  {
+   "id": "how-we-doing-in-syria",
+   "label": "How we doing in Syria?",
+   "file": "trump/how-we-doing-in-syria.ogg",
+   "group": "trump",
+   "ms": 2532
+  },
+  {
+   "id": "huh",
+   "label": "Huh",
+   "file": "trump/huh.ogg",
+   "group": "trump",
+   "ms": 1801
+  },
+  {
+   "id": "i-am-huge-fan-of-your-mother-trump-a-huge-fan-of-your-mother",
+   "label": "I am huge fan of your mother  trump  a huge fan of your mother  mother  joke  day",
+   "file": "trump/i-am-huge-fan-of-your-mother-trump-a-huge-fan-of-your-mother.ogg",
+   "group": "trump",
+   "ms": 3570
+  },
+  {
+   "id": "i-am-officially-running",
+   "label": "I am officially running",
+   "file": "trump/i-am-officially-running.ogg",
+   "group": "trump",
+   "ms": 2585
+  },
+  {
+   "id": "i-am-officially-running-for-president-of-the-united-sta",
+   "label": "I am officially running for President of the United Sta",
+   "file": "trump/i-am-officially-running-for-president-of-the-united-sta.ogg",
+   "group": "trump",
+   "ms": 8827
+  },
+  {
+   "id": "i-am-officially-running-for-president-of-the-united-states",
+   "label": "I am officially running for president of the united states",
+   "file": "trump/i-am-officially-running-for-president-of-the-united-states.ogg",
+   "group": "trump",
+   "ms": 5337
+  },
+  {
+   "id": "i-am-the-chosen-one-one-had-to-do-it-one",
+   "label": "I am the chosen one  one  had to do it  one",
+   "file": "trump/i-am-the-chosen-one-one-had-to-do-it-one.ogg",
+   "group": "trump",
+   "ms": 5849
+  },
+  {
+   "id": "i-beat-china-all-the-time",
+   "label": "I beat China all the time",
+   "file": "trump/i-beat-china-all-the-time.ogg",
+   "group": "trump",
+   "ms": 8758
+  },
+  {
+   "id": "i-beat-china-all-the-time-when-was-the-last-time-you-saw-a-c",
+   "label": "I beat China all the time. When was the last time you saw a Chevrolet in Tokyo",
+   "file": "trump/i-beat-china-all-the-time-when-was-the-last-time-you-saw-a-c.ogg",
+   "group": "trump",
+   "ms": 9158
+  },
+  {
+   "id": "i-built-a-net-worth-of-more-than-ten-billion-dollars-i",
+   "label": "I built a net worth of more than ten billion dollars i",
+   "file": "trump/i-built-a-net-worth-of-more-than-ten-billion-dollars-i.ogg",
+   "group": "trump",
+   "ms": 8723
+  },
+  {
+   "id": "i-built-a-net-worth-of-more-than-ten-billion-dollars-i-have-",
+   "label": "I built a net worth of more than ten billion dollars I have a great great company I employ thousands of people",
+   "file": "trump/i-built-a-net-worth-of-more-than-ten-billion-dollars-i-have-.ogg",
+   "group": "trump",
+   "ms": 7723
+  },
+  {
+   "id": "i-could-shoot-somebody-and-not-lose-voters-avenue-voters-tru",
+   "label": "I could shoot somebody and not lose voters  avenue  voters  trump",
+   "file": "trump/i-could-shoot-somebody-and-not-lose-voters-avenue-voters-tru.ogg",
+   "group": "trump",
+   "ms": 8540
+  },
+  {
+   "id": "i-don-t-believe-i-ve-ever-met-him",
+   "label": "I don't believe I've ever met him",
+   "file": "trump/i-don-t-believe-i-ve-ever-met-him.ogg",
+   "group": "trump",
+   "ms": 4841
+  },
+  {
+   "id": "i-don-t-care",
+   "label": "I don't care",
+   "file": "trump/i-don-t-care.ogg",
+   "group": "trump",
+   "ms": 2912
+  },
+  {
+   "id": "i-don-t-care-care-trump",
+   "label": "I don't care  care   trump",
+   "file": "trump/i-don-t-care-care-trump.ogg",
+   "group": "trump",
+   "ms": 3742
+  },
+  {
+   "id": "i-don-t-give-a-damn",
+   "label": "I don't give a damn",
+   "file": "trump/i-don-t-give-a-damn.ogg",
+   "group": "trump",
+   "ms": 1846
+  },
+  {
+   "id": "i-don-t-give-out-my-number-to-anybody",
+   "label": "I don't give out my number to anybody",
+   "file": "trump/i-don-t-give-out-my-number-to-anybody.ogg",
+   "group": "trump",
+   "ms": 3655
+  },
+  {
+   "id": "i-don-t-hold-grudges-against-anybody",
+   "label": "I don't hold grudges against anybody",
+   "file": "trump/i-don-t-hold-grudges-against-anybody.ogg",
+   "group": "trump",
+   "ms": 3300
+  },
+  {
+   "id": "i-don-t-know",
+   "label": "I don't know",
+   "file": "trump/i-don-t-know.ogg",
+   "group": "trump",
+   "ms": 2800
+  },
+  {
+   "id": "i-don-t-like-her",
+   "label": "I don't like her",
+   "file": "trump/i-don-t-like-her.ogg",
+   "group": "trump",
+   "ms": 1462
+  },
+  {
+   "id": "i-don-t-like-her-pt2",
+   "label": "I don't like her pt2",
+   "file": "trump/i-don-t-like-her-pt2.ogg",
+   "group": "trump",
+   "ms": 12284
+  },
+  {
+   "id": "i-don-t-like-her-pt3",
+   "label": "I don't like her pt3",
+   "file": "trump/i-don-t-like-her-pt3.ogg",
+   "group": "trump",
+   "ms": 3518
+  },
+  {
+   "id": "i-don-t-mind-having-a-big-beautiful-door-in-that-wall-s",
+   "label": "I don't mind having a big beautiful door in that wall s",
+   "file": "trump/i-don-t-mind-having-a-big-beautiful-door-in-that-wall-s.ogg",
+   "group": "trump",
+   "ms": 9210
+  },
+  {
+   "id": "i-don-t-mind-having-a-big-beautiful-door-in-that-wall-so-tha",
+   "label": "I don't mind having a big beautiful door in that wall so that people can come into this country legally",
+   "file": "trump/i-don-t-mind-having-a-big-beautiful-door-in-that-wall-so-tha.ogg",
+   "group": "trump",
+   "ms": 7810
+  },
+  {
+   "id": "i-don-t-really-care-about-offending-people-care-craps-given-",
+   "label": "I don't really care about offending people  care  craps given  incorrect  people    summit  acosta",
+   "file": "trump/i-don-t-really-care-about-offending-people-care-craps-given-.ogg",
+   "group": "trump",
+   "ms": 4744
+  },
+  {
+   "id": "i-don-t-remember",
+   "label": "I don't remember",
+   "file": "trump/i-don-t-remember.ogg",
+   "group": "trump",
+   "ms": 2984
+  },
+  {
+   "id": "i-don-t-remember-maybe-that-s-what-i-said",
+   "label": "I don't remember maybe that's what I said",
+   "file": "trump/i-don-t-remember-maybe-that-s-what-i-said.ogg",
+   "group": "trump",
+   "ms": 4256
+  },
+  {
+   "id": "i-don-t-think-it-s-going-to-happen",
+   "label": "I don't think it's going to happen",
+   "file": "trump/i-don-t-think-it-s-going-to-happen.ogg",
+   "group": "trump",
+   "ms": 3020
+  },
+  {
+   "id": "i-don-t-think-so",
+   "label": "I don't think so",
+   "file": "trump/i-don-t-think-so.ogg",
+   "group": "trump",
+   "ms": 2123
+  },
+  {
+   "id": "i-don-t-think-so-darling-think-so-gonna-happen",
+   "label": "I don't think so darling  think so  gonna happen",
+   "file": "trump/i-don-t-think-so-darling-think-so-gonna-happen.ogg",
+   "group": "trump",
+   "ms": 2732
+  },
+  {
+   "id": "i-don-t-think-they-like-me-very-much",
+   "label": "I don't think they like me very much",
+   "file": "trump/i-don-t-think-they-like-me-very-much.ogg",
+   "group": "trump",
+   "ms": 2202
+  },
+  {
+   "id": "i-don-t-wanna-tell-you",
+   "label": "I don't wanna tell you",
+   "file": "trump/i-don-t-wanna-tell-you.ogg",
+   "group": "trump",
+   "ms": 7496
+  },
+  {
+   "id": "i-don-t-wanna-tell-you-pt2",
+   "label": "I don't wanna tell you pt2",
+   "file": "trump/i-don-t-wanna-tell-you-pt2.ogg",
+   "group": "trump",
+   "ms": 10081
+  },
+  {
+   "id": "i-don-t-wanna-tell-you-pt3",
+   "label": "I don't wanna tell you pt3",
+   "file": "trump/i-don-t-wanna-tell-you-pt3.ogg",
+   "group": "trump",
+   "ms": 22568
+  },
+  {
+   "id": "i-don-t-wear-a-toupe",
+   "label": "I don't wear a toupe",
+   "file": "trump/i-don-t-wear-a-toupe.ogg",
+   "group": "trump",
+   "ms": 2446
+  },
+  {
+   "id": "i-fully-understand",
+   "label": "I fully understand",
+   "file": "trump/i-fully-understand.ogg",
+   "group": "trump",
+   "ms": 2628
+  },
+  {
+   "id": "i-gotta-win",
+   "label": "I gotta win",
+   "file": "trump/i-gotta-win.ogg",
+   "group": "trump",
+   "ms": 4169
+  },
+  {
+   "id": "i-had-1-beer-ford-beer",
+   "label": "I had 1 beer       ford  beer",
+   "file": "trump/i-had-1-beer-ford-beer.ogg",
+   "group": "trump",
+   "ms": 6242
+  },
+  {
+   "id": "i-had-someone-behind-me-who-was-mumbling-distracting-pelosi",
+   "label": "I had someone behind me who was mumbling   distracting  pelosi",
+   "file": "trump/i-had-someone-behind-me-who-was-mumbling-distracting-pelosi.ogg",
+   "group": "trump",
+   "ms": 17047
+  },
+  {
+   "id": "i-hate-to-break-it-to-you-guys",
+   "label": "I hate to break it to you guys",
+   "file": "trump/i-hate-to-break-it-to-you-guys.ogg",
+   "group": "trump",
+   "ms": 2167
+  },
+  {
+   "id": "i-have-really-nothing-better-to-do",
+   "label": "I have really nothing better to do",
+   "file": "trump/i-have-really-nothing-better-to-do.ogg",
+   "group": "trump",
+   "ms": 2402
+  },
+  {
+   "id": "i-have-so-many-friends",
+   "label": "I have so many friends",
+   "file": "trump/i-have-so-many-friends.ogg",
+   "group": "trump",
+   "ms": 1960
+  },
+  {
+   "id": "i-have-the-best-words-know-words-went-to-an-ivy-league-schoo",
+   "label": "I have the best words  know words  went to an ivy league school  educated",
+   "file": "trump/i-have-the-best-words-know-words-went-to-an-ivy-league-schoo.ogg",
+   "group": "trump",
+   "ms": 7949
+  },
+  {
+   "id": "i-hear-covfefe-teaser-house-do-you-hear-hear-hear-covfefe",
+   "label": "I hear covfefe      teaser  house  do you hear  hear  hear covfefe",
+   "file": "trump/i-hear-covfefe-teaser-house-do-you-hear-hear-hear-covfefe.ogg",
+   "group": "trump",
+   "ms": 2847
+  },
+  {
+   "id": "i-hire-people-they-do-a-web-site-it-costs-me-3-dollar",
+   "label": "I hire people, they do a web site, it costs me 3 dollar",
+   "file": "trump/i-hire-people-they-do-a-web-site-it-costs-me-3-dollar.ogg",
+   "group": "trump",
+   "ms": 4014
+  },
+  {
+   "id": "i-hire-people-they-do-a-web-site-it-costs-me-3-dollars",
+   "label": "I hire people, they do a web site, it costs me 3 dollars",
+   "file": "trump/i-hire-people-they-do-a-web-site-it-costs-me-3-dollars.ogg",
+   "group": "trump",
+   "ms": 4814
+  },
+  {
+   "id": "i-just-don-t-want-a-poor-person-does-that-make-sense",
+   "label": "I just don't want a poor person, does that make sense?",
+   "file": "trump/i-just-don-t-want-a-poor-person-does-that-make-sense.ogg",
+   "group": "trump",
+   "ms": 3125
+  },
+  {
+   "id": "i-just-sold-an-apartment-for-fifteen-million-dollars-to",
+   "label": "I just sold an apartment for fifteen million dollars to",
+   "file": "trump/i-just-sold-an-apartment-for-fifteen-million-dollars-to.ogg",
+   "group": "trump",
+   "ms": 5789
+  },
+  {
+   "id": "i-just-sold-an-apartment-for-fifteen-million-dollars-to-some",
+   "label": "I just sold an apartment for fifteen million dollars to somebody from china",
+   "file": "trump/i-just-sold-an-apartment-for-fifteen-million-dollars-to-some.ogg",
+   "group": "trump",
+   "ms": 6789
+  },
+  {
+   "id": "i-just-want-them-to-suffer",
+   "label": "I just want them to suffer",
+   "file": "trump/i-just-want-them-to-suffer.ogg",
+   "group": "trump",
+   "ms": 3864
+  },
+  {
+   "id": "i-know-that",
+   "label": "I know that",
+   "file": "trump/i-know-that.ogg",
+   "group": "trump",
+   "ms": 1784
+  },
+  {
+   "id": "i-know-words-i-have-the-best-words",
+   "label": "I know words I have the best words",
+   "file": "trump/i-know-words-i-have-the-best-words.ogg",
+   "group": "trump",
+   "ms": 3194
+  },
+  {
+   "id": "i-like-china",
+   "label": "I like China",
+   "file": "trump/i-like-china.ogg",
+   "group": "trump",
+   "ms": 2297
+  },
+  {
+   "id": "i-like-debate-pt2",
+   "label": "I like debate pt2",
+   "file": "trump/i-like-debate-pt2.ogg",
+   "group": "trump",
+   "ms": 5259
+  },
+  {
+   "id": "i-like-debates-1",
+   "label": "I like debates 1",
+   "file": "trump/i-like-debates-1.ogg",
+   "group": "trump",
+   "ms": 5872
+  },
+  {
+   "id": "i-like-debates-pt3",
+   "label": "I like debates pt3",
+   "file": "trump/i-like-debates-pt3.ogg",
+   "group": "trump",
+   "ms": 8802
+  },
+  {
+   "id": "i-love-china",
+   "label": "I love china",
+   "file": "trump/i-love-china.ogg",
+   "group": "trump",
+   "ms": 3228
+  },
+  {
+   "id": "i-love-it",
+   "label": "I love it",
+   "file": "trump/i-love-it.ogg",
+   "group": "trump",
+   "ms": 20368
+  },
+  {
+   "id": "i-love-mexicans",
+   "label": "I love mexicans",
+   "file": "trump/i-love-mexicans.ogg",
+   "group": "trump",
+   "ms": 7427
+  },
+  {
+   "id": "i-love-my-life-i-have-a-wonderful-family",
+   "label": "I love my life i have a wonderful family",
+   "file": "trump/i-love-my-life-i-have-a-wonderful-family.ogg",
+   "group": "trump",
+   "ms": 5709
+  },
+  {
+   "id": "i-love-the-mexican-people-and-their-spirit",
+   "label": "I love the Mexican people and their spirit",
+   "file": "trump/i-love-the-mexican-people-and-their-spirit.ogg",
+   "group": "trump",
+   "ms": 2777
+  },
+  {
+   "id": "i-love-the-poorly-educated",
+   "label": "I love the poorly educated",
+   "file": "trump/i-love-the-poorly-educated.ogg",
+   "group": "trump",
+   "ms": 4030
+  },
+  {
+   "id": "i-love-the-poorly-educated-with-poorly-educated-voters-speec",
+   "label": "I love the poorly educated  with poorly educated  voters  speech",
+   "file": "trump/i-love-the-poorly-educated-with-poorly-educated-voters-speec.ogg",
+   "group": "trump",
+   "ms": 6260
+  },
+  {
+   "id": "i-love-you",
+   "label": "I love you!",
+   "file": "trump/i-love-you.ogg",
+   "group": "trump",
+   "ms": 1984
+  },
+  {
+   "id": "i-mention-foodstamps",
+   "label": "I mention foodstamps..",
+   "file": "trump/i-mention-foodstamps.ogg",
+   "group": "trump",
+   "ms": 8845
+  },
+  {
+   "id": "i-never-heard-that-one-before",
+   "label": "I never heard that one before",
+   "file": "trump/i-never-heard-that-one-before.ogg",
+   "group": "trump",
+   "ms": 4517
+  },
+  {
+   "id": "i-own-a-big-chunk-of-the-bank-of-america-building-in-twelve-",
+   "label": "I own a big chunk of the bank of america building in twelve ninety avenue of the americas that I got from china in a war",
+   "file": "trump/i-own-a-big-chunk-of-the-bank-of-america-building-in-twelve-.ogg",
+   "group": "trump",
+   "ms": 8829
+  },
+  {
+   "id": "i-run-i-win",
+   "label": "I run I win",
+   "file": "trump/i-run-i-win.ogg",
+   "group": "trump",
+   "ms": 2940
+  },
+  {
+   "id": "i-say-congratulations",
+   "label": "I say congratulations",
+   "file": "trump/i-say-congratulations.ogg",
+   "group": "trump",
+   "ms": 3559
+  },
+  {
+   "id": "i-say-it-all-the-time",
+   "label": "I say it all the time",
+   "file": "trump/i-say-it-all-the-time.ogg",
+   "group": "trump",
+   "ms": 3384
+  },
+  {
+   "id": "i-spent-a-long-time-making-my-shoes-beautiful",
+   "label": "I spent a long time making my shoes beautiful",
+   "file": "trump/i-spent-a-long-time-making-my-shoes-beautiful.ogg",
+   "group": "trump",
+   "ms": 6537
+  },
+  {
+   "id": "i-think-he-s-got-a-huge-problem-trump-think-hes-got-a-huge-p",
+   "label": "I think he's got a huge problem  trump  think hes got a huge problem  got issues  problem",
+   "file": "trump/i-think-he-s-got-a-huge-problem-trump-think-hes-got-a-huge-p.ogg",
+   "group": "trump",
+   "ms": 2854
+  },
+  {
+   "id": "i-think-i-am-a-nice-person",
+   "label": "I think I am a nice person",
+   "file": "trump/i-think-i-am-a-nice-person.ogg",
+   "group": "trump",
+   "ms": 2880
+  },
+  {
+   "id": "i-think-the-big-problem-this-country-has-is-being-politicall",
+   "label": "I think the big problem this country has is being politically correct",
+   "file": "trump/i-think-the-big-problem-this-country-has-is-being-politicall.ogg",
+   "group": "trump",
+   "ms": 6764
+  },
+  {
+   "id": "i-understand",
+   "label": "I understand",
+   "file": "trump/i-understand.ogg",
+   "group": "trump",
+   "ms": 3115
+  },
+  {
+   "id": "i-understand-that-you-re-building-a-nice-two-point-five-bill",
+   "label": "I understand that you're building a nice two point five billion dollar car factory in mexico",
+   "file": "trump/i-understand-that-you-re-building-a-nice-two-point-five-bill.ogg",
+   "group": "trump",
+   "ms": 8715
+  },
+  {
+   "id": "i-want-nothing-quid-pro-pro-trump-have-the-cameras-rolling",
+   "label": "I want nothing   quid pro pro  trump  have the cameras rolling",
+   "file": "trump/i-want-nothing-quid-pro-pro-trump-have-the-cameras-rolling.ogg",
+   "group": "trump",
+   "ms": 5738
+  },
+  {
+   "id": "i-want-to-build-a-wall",
+   "label": "I want to build a wall",
+   "file": "trump/i-want-to-build-a-wall.ogg",
+   "group": "trump",
+   "ms": 2002
+  },
+  {
+   "id": "i-want-to-build-a-wall-i-m-going-to-build-a-wall",
+   "label": "I want to build a wall, I'm going to build a wall",
+   "file": "trump/i-want-to-build-a-wall-i-m-going-to-build-a-wall.ogg",
+   "group": "trump",
+   "ms": 2307
+  },
+  {
+   "id": "i-want-to-go-to-the-toilet-and-do-a-poo-poo",
+   "label": "I want to go to the toilet and do a poo poo",
+   "file": "trump/i-want-to-go-to-the-toilet-and-do-a-poo-poo.ogg",
+   "group": "trump",
+   "ms": 5336
+  },
+  {
+   "id": "i-want-to-run-as-the-republican-nominee",
+   "label": "I want to run as the republican nominee",
+   "file": "trump/i-want-to-run-as-the-republican-nominee.ogg",
+   "group": "trump",
+   "ms": 3073
+  },
+  {
+   "id": "i-want-to-win-i-want-to-make-our-country-great",
+   "label": "I want to win. I want to make our country great",
+   "file": "trump/i-want-to-win-i-want-to-make-our-country-great.ogg",
+   "group": "trump",
+   "ms": 4160
+  },
+  {
+   "id": "i-was-not-expecting-that-reaction-was-not-expecting-that-rea",
+   "label": "I was not expecting that reaction  was not expecting that reaction  ok    nations  trump",
+   "file": "trump/i-was-not-expecting-that-reaction-was-not-expecting-that-rea.ogg",
+   "group": "trump",
+   "ms": 10343
+  },
+  {
+   "id": "i-wasn-t-sure-if-i-was-going-to-like-it",
+   "label": "I wasn't sure if i was going to like it",
+   "file": "trump/i-wasn-t-sure-if-i-was-going-to-like-it.ogg",
+   "group": "trump",
+   "ms": 1846
+  },
+  {
+   "id": "i-went-to-an-ivy-league-school",
+   "label": "I went to an Ivy League school",
+   "file": "trump/i-went-to-an-ivy-league-school.ogg",
+   "group": "trump",
+   "ms": 2464
+  },
+  {
+   "id": "i-will-be",
+   "label": "I will be",
+   "file": "trump/i-will-be.ogg",
+   "group": "trump",
+   "ms": 3272
+  },
+  {
+   "id": "i-will-be-president-for-many-many-many-many-years-to-come",
+   "label": "I will be president for many many many many years to come",
+   "file": "trump/i-will-be-president-for-many-many-many-many-years-to-come.ogg",
+   "group": "trump",
+   "ms": 7923
+  },
+  {
+   "id": "i-will-be-president-for-many-many-years-to-come",
+   "label": "I will be president for many many years to come",
+   "file": "trump/i-will-be-president-for-many-many-years-to-come.ogg",
+   "group": "trump",
+   "ms": 6208
+  },
+  {
+   "id": "i-will-be-the-greatest-jobs-president-that-god-ever-cre",
+   "label": "I will be the greatest jobs president that God ever cre",
+   "file": "trump/i-will-be-the-greatest-jobs-president-that-god-ever-cre.ogg",
+   "group": "trump",
+   "ms": 7348
+  },
+  {
+   "id": "i-will-be-the-greatest-jobs-president-that-god-ever-created",
+   "label": "I will be the greatest jobs president that god ever created",
+   "file": "trump/i-will-be-the-greatest-jobs-president-that-god-ever-created.ogg",
+   "group": "trump",
+   "ms": 7295
+  },
+  {
+   "id": "i-will-be-the-greatest-president-for-many-many-many-many-yea",
+   "label": "I will be the greatest president for many many many many years to come",
+   "file": "trump/i-will-be-the-greatest-president-for-many-many-many-many-yea.ogg",
+   "group": "trump",
+   "ms": 10281
+  },
+  {
+   "id": "i-will-be-the-greatest-president-for-many-many-years-to",
+   "label": "I will be the greatest president for many many years to",
+   "file": "trump/i-will-be-the-greatest-president-for-many-many-years-to.ogg",
+   "group": "trump",
+   "ms": 7192
+  },
+  {
+   "id": "i-will-be-the-greatest-president-for-many-many-years-to-come",
+   "label": "I will be the greatest president for many many years to come",
+   "file": "trump/i-will-be-the-greatest-president-for-many-many-years-to-come.ogg",
+   "group": "trump",
+   "ms": 8592
+  },
+  {
+   "id": "i-will-be-the-greatest-president-that-god-ever-created",
+   "label": "I will be the greatest president that god ever created",
+   "file": "trump/i-will-be-the-greatest-president-that-god-ever-created.ogg",
+   "group": "trump",
+   "ms": 6337
+  },
+  {
+   "id": "i-will-bring-it-back",
+   "label": "I will bring it back",
+   "file": "trump/i-will-bring-it-back.ogg",
+   "group": "trump",
+   "ms": 2176
+  },
+  {
+   "id": "i-will-build-a-great-great-wall-on-our-southern-border-and-i",
+   "label": "I will build a great great wall on our southern border and I will have mexico pay for that wall",
+   "file": "trump/i-will-build-a-great-great-wall-on-our-southern-border-and-i.ogg",
+   "group": "trump",
+   "ms": 8036
+  },
+  {
+   "id": "i-will-destroy-isis-pt1",
+   "label": "I will destroy isis pt1",
+   "file": "trump/i-will-destroy-isis-pt1.ogg",
+   "group": "trump",
+   "ms": 1915
+  },
+  {
+   "id": "i-will-destroy-isis-pt2",
+   "label": "I will destroy isis pt2",
+   "file": "trump/i-will-destroy-isis-pt2.ogg",
+   "group": "trump",
+   "ms": 3082
+  },
+  {
+   "id": "i-will-destroy-isis-pt3",
+   "label": "I will destroy isis pt3",
+   "file": "trump/i-will-destroy-isis-pt3.ogg",
+   "group": "trump",
+   "ms": 4909
+  },
+  {
+   "id": "i-will-fight-for-you-with-every-breath-in-my-body-and-i-will",
+   "label": "I will fight for you with every breath in my body and I will never ever let you down",
+   "file": "trump/i-will-fight-for-you-with-every-breath-in-my-body-and-i-will.ogg",
+   "group": "trump",
+   "ms": 9794
+  },
+  {
+   "id": "i-will-immediately-terminate-president-obama-s-illegal",
+   "label": "I will immediately terminate president obama 's illegal",
+   "file": "trump/i-will-immediately-terminate-president-obama-s-illegal.ogg",
+   "group": "trump",
+   "ms": 10073
+  },
+  {
+   "id": "i-will-immediately-terminate-president-obama-s-illegal-execu",
+   "label": "I will immediately terminate president obama 's illegal executive order on immigration",
+   "file": "trump/i-will-immediately-terminate-president-obama-s-illegal-execu.ogg",
+   "group": "trump",
+   "ms": 10473
+  },
+  {
+   "id": "i-will-tell-you-this-is-going-to-be-something-special",
+   "label": "I will tell you this is going to be something special",
+   "file": "trump/i-will-tell-you-this-is-going-to-be-something-special.ogg",
+   "group": "trump",
+   "ms": 3221
+  },
+  {
+   "id": "i-will-win",
+   "label": "I will win",
+   "file": "trump/i-will-win.ogg",
+   "group": "trump",
+   "ms": 1862
+  },
+  {
+   "id": "i-will-win-long",
+   "label": "I will win long",
+   "file": "trump/i-will-win-long.ogg",
+   "group": "trump",
+   "ms": 24944
+  },
+  {
+   "id": "i-will-win-short",
+   "label": "I will win short",
+   "file": "trump/i-will-win-short.ogg",
+   "group": "trump",
+   "ms": 2681
+  },
+  {
+   "id": "i-won-t-be-doing-that",
+   "label": "I won't be doing that",
+   "file": "trump/i-won-t-be-doing-that.ogg",
+   "group": "trump",
+   "ms": 2697
+  },
+  {
+   "id": "i-would-build-a-great-wall-and-nobody-builds-walls-better-th",
+   "label": "I would build a great wall, and nobody builds walls better than me believe me",
+   "file": "trump/i-would-build-a-great-wall-and-nobody-builds-walls-better-th.ogg",
+   "group": "trump",
+   "ms": 4953
+  },
+  {
+   "id": "i-would-just-bomb-those-suckers-it-up",
+   "label": "I would just bomb those suckers    it up",
+   "file": "trump/i-would-just-bomb-those-suckers-it-up.ogg",
+   "group": "trump",
+   "ms": 12642
+  },
+  {
+   "id": "i-would-say-he-s-incompetent-but-i-don-t-want-to-do-tha",
+   "label": "I would say he's incompetent but i don't want to do tha",
+   "file": "trump/i-would-say-he-s-incompetent-but-i-don-t-want-to-do-tha.ogg",
+   "group": "trump",
+   "ms": 5310
+  },
+  {
+   "id": "i-would-say-he-s-incompetent-but-i-don-t-want-to-do-that-bec",
+   "label": "I would say he's incompetent but I don't want to do that because that's not nice",
+   "file": "trump/i-would-say-he-s-incompetent-but-i-don-t-want-to-do-that-bec.ogg",
+   "group": "trump",
+   "ms": 5310
+  },
+  {
+   "id": "i-d-be-china-all-the-time",
+   "label": "I'd be china all the time",
+   "file": "trump/i-d-be-china-all-the-time.ogg",
+   "group": "trump",
+   "ms": 3342
+  },
+  {
+   "id": "i-d-love-that",
+   "label": "I'd love that",
+   "file": "trump/i-d-love-that.ogg",
+   "group": "trump",
+   "ms": 1393
+  },
+  {
+   "id": "i-ll-do-the-next-best-thing",
+   "label": "I'll do the next best thing",
+   "file": "trump/i-ll-do-the-next-best-thing.ogg",
+   "group": "trump",
+   "ms": 2784
+  },
+  {
+   "id": "i-m-a-nationalist",
+   "label": "I'm a nationalist",
+   "file": "trump/i-m-a-nationalist.ogg",
+   "group": "trump",
+   "ms": 8437
+  },
+  {
+   "id": "i-m-a-nice-guy",
+   "label": "I'm a nice guy",
+   "file": "trump/i-m-a-nice-guy.ogg",
+   "group": "trump",
+   "ms": 3054
+  },
+  {
+   "id": "i-m-donald-trump-and-i-approve-this-message",
+   "label": "I'm Donald Trump and I approve this message",
+   "file": "trump/i-m-donald-trump-and-i-approve-this-message.ogg",
+   "group": "trump",
+   "ms": 5206
+  },
+  {
+   "id": "i-m-far-too-busy-a-fan-of-that-time-out",
+   "label": "I'm far too busy  a fan of that  time   out",
+   "file": "trump/i-m-far-too-busy-a-fan-of-that-time-out.ogg",
+   "group": "trump",
+   "ms": 13069
+  },
+  {
+   "id": "i-m-gonna-bomb-the-sh-t-out-of-them",
+   "label": "I'm gonna bomb the sh*t out of them",
+   "file": "trump/i-m-gonna-bomb-the-sh-t-out-of-them.ogg",
+   "group": "trump",
+   "ms": 3256
+  },
+  {
+   "id": "i-m-gonna-sign-on-this-bill-bill-act-dollars",
+   "label": "I'm gonna sign on this  bill  bill  act  dollars",
+   "file": "trump/i-m-gonna-sign-on-this-bill-bill-act-dollars.ogg",
+   "group": "trump",
+   "ms": 7252
+  },
+  {
+   "id": "i-m-gonna-tell-you-a-couple-of-stores",
+   "label": "I'm gonna tell you a couple of stores",
+   "file": "trump/i-m-gonna-tell-you-a-couple-of-stores.ogg",
+   "group": "trump",
+   "ms": 3116
+  },
+  {
+   "id": "i-m-important-lip-reading-trump",
+   "label": "I'm important  lip reading   trump",
+   "file": "trump/i-m-important-lip-reading-trump.ogg",
+   "group": "trump",
+   "ms": 9543
+  },
+  {
+   "id": "i-m-no-fan",
+   "label": "I'm no fan",
+   "file": "trump/i-m-no-fan.ogg",
+   "group": "trump",
+   "ms": 1340
+  },
+  {
+   "id": "i-m-really-getting-used-to-being-president",
+   "label": "I'm really getting used to being President",
+   "file": "trump/i-m-really-getting-used-to-being-president.ogg",
+   "group": "trump",
+   "ms": 3933
+  },
+  {
+   "id": "i-m-really-rich",
+   "label": "I'm really rich",
+   "file": "trump/i-m-really-rich.ogg",
+   "group": "trump",
+   "ms": 1819
+  },
+  {
+   "id": "i-m-really-smart",
+   "label": "I'm really smart",
+   "file": "trump/i-m-really-smart.ogg",
+   "group": "trump",
+   "ms": 1236
+  },
+  {
+   "id": "i-m-sorry",
+   "label": "I'm sorry",
+   "file": "trump/i-m-sorry.ogg",
+   "group": "trump",
+   "ms": 1758
+  },
+  {
+   "id": "i-m-very-intelligent-trump-league",
+   "label": "I'm very intelligent  trump       league",
+   "file": "trump/i-m-very-intelligent-trump-league.ogg",
+   "group": "trump",
+   "ms": 21654
+  },
+  {
+   "id": "i-ve-been-a-fan-of-yours-for-a-long-time-fan-like-you-are-aw",
+   "label": "I've been a fan of yours for a long time  fan  like you   are awesome",
+   "file": "trump/i-ve-been-a-fan-of-yours-for-a-long-time-fan-like-you-are-aw.ogg",
+   "group": "trump",
+   "ms": 6747
+  },
+  {
+   "id": "i-ve-been-very-nice-to-you-although-i-could-probably-not-be",
+   "label": "I've been very nice to you, although I could probably not be",
+   "file": "trump/i-ve-been-very-nice-to-you-although-i-could-probably-not-be.ogg",
+   "group": "trump",
+   "ms": 6311
+  },
+  {
+   "id": "i-ve-been-watching-you-for-the-last-couple-of-weeks",
+   "label": "I've been watching you for the last couple of weeks",
+   "file": "trump/i-ve-been-watching-you-for-the-last-couple-of-weeks.ogg",
+   "group": "trump",
+   "ms": 3352
+  },
+  {
+   "id": "i-ve-dealt-with-russia",
+   "label": "I've dealt with Russia",
+   "file": "trump/i-ve-dealt-with-russia.ogg",
+   "group": "trump",
+   "ms": 2063
+  },
+  {
+   "id": "i-ve-gotta-come-over-and-see-the-fake-news-news-story",
+   "label": "I've gotta come over and see the fake news  news  story",
+   "file": "trump/i-ve-gotta-come-over-and-see-the-fake-news-news-story.ogg",
+   "group": "trump",
+   "ms": 6153
+  },
+  {
+   "id": "i-ve-just-received-a-call-from-secretary-clinton-donald-trum",
+   "label": "I've just received a call from Secretary Clinton  donald trump   trump",
+   "file": "trump/i-ve-just-received-a-call-from-secretary-clinton-donald-trum.ogg",
+   "group": "trump",
+   "ms": 29848
+  },
+  {
+   "id": "i-ve-loved-doing-it",
+   "label": "I've loved doing it",
+   "file": "trump/i-ve-loved-doing-it.ogg",
+   "group": "trump",
+   "ms": 10535
+  },
+  {
+   "id": "if-it-weren-t-for-me-you-wouldn-t-even-be-talking-about-ille",
+   "label": "If it weren't for me, you wouldn't even be talking about illegal immigration",
+   "file": "trump/if-it-weren-t-for-me-you-wouldn-t-even-be-talking-about-ille.ogg",
+   "group": "trump",
+   "ms": 6564
+  },
+  {
+   "id": "if-ivanka-weren-t-my-daughter",
+   "label": "If Ivanka weren't my daughter..",
+   "file": "trump/if-ivanka-weren-t-my-daughter.ogg",
+   "group": "trump",
+   "ms": 3856
+  },
+  {
+   "id": "if-that-s-ok",
+   "label": "If that's OK",
+   "file": "trump/if-that-s-ok.ogg",
+   "group": "trump",
+   "ms": 1828
+  },
+  {
+   "id": "if-you-believe-that",
+   "label": "If you believe that",
+   "file": "trump/if-you-believe-that.ogg",
+   "group": "trump",
+   "ms": 4944
+  },
+  {
+   "id": "if-you-keep-talking-i-ll-leave-talking",
+   "label": "If you keep talking, I'll leave  talking",
+   "file": "trump/if-you-keep-talking-i-ll-leave-talking.ogg",
+   "group": "trump",
+   "ms": 9447
+  },
+  {
+   "id": "im-with-you",
+   "label": "Im with you",
+   "file": "trump/im-with-you.ogg",
+   "group": "trump",
+   "ms": 10582
+  },
+  {
+   "id": "in-texas",
+   "label": "In Texas",
+   "file": "trump/in-texas.ogg",
+   "group": "trump",
+   "ms": 2936
+  },
+  {
+   "id": "in-this-room-it-s-so-hot-maybe-i-ll-start-to-believe-it",
+   "label": "In this room it's so hot maybe I'll start to believe it",
+   "file": "trump/in-this-room-it-s-so-hot-maybe-i-ll-start-to-believe-it.ogg",
+   "group": "trump",
+   "ms": 4718
+  },
+  {
+   "id": "in-this-room-it-s-so-hot-maybe-i-ll-start-to-believe-it-myse",
+   "label": "In this room it's so hot maybe I'll start to believe it myself",
+   "file": "trump/in-this-room-it-s-so-hot-maybe-i-ll-start-to-believe-it-myse.ogg",
+   "group": "trump",
+   "ms": 4318
+  },
+  {
+   "id": "is-dead",
+   "label": "Is dead",
+   "file": "trump/is-dead.ogg",
+   "group": "trump",
+   "ms": 2202
+  },
+  {
+   "id": "isis",
+   "label": "ISIS",
+   "file": "trump/isis.ogg",
+   "group": "trump",
+   "ms": 2532
+  },
+  {
+   "id": "isis-can-t-cut-off-our-peoples-head",
+   "label": "ISIS can't cut off our peoples' head",
+   "file": "trump/isis-can-t-cut-off-our-peoples-head.ogg",
+   "group": "trump",
+   "ms": 6680
+  },
+  {
+   "id": "isis-how-you-going-to-defeat-isis",
+   "label": "ISIS, how you going to defeat ISIS.",
+   "file": "trump/isis-how-you-going-to-defeat-isis.ogg",
+   "group": "trump",
+   "ms": 32284
+  },
+  {
+   "id": "it-can-happen",
+   "label": "It can happen",
+   "file": "trump/it-can-happen.ogg",
+   "group": "trump",
+   "ms": 2123
+  },
+  {
+   "id": "it-comes-from-china-virus-19",
+   "label": "It comes from China    virus    19",
+   "file": "trump/it-comes-from-china-virus-19.ogg",
+   "group": "trump",
+   "ms": 3342
+  },
+  {
+   "id": "it-does-take-guts",
+   "label": "It does take guts",
+   "file": "trump/it-does-take-guts.ogg",
+   "group": "trump",
+   "ms": 3072
+  },
+  {
+   "id": "it-doesn-t-exist-folks",
+   "label": "It doesn't exist folks",
+   "file": "trump/it-doesn-t-exist-folks.ogg",
+   "group": "trump",
+   "ms": 3333
+  },
+  {
+   "id": "it-don-t-matter",
+   "label": "It don' t matter",
+   "file": "trump/it-don-t-matter.ogg",
+   "group": "trump",
+   "ms": 2654
+  },
+  {
+   "id": "it-don-t-matter-2",
+   "label": "It don'-t matter",
+   "file": "trump/it-don-t-matter-2.ogg",
+   "group": "trump",
+   "ms": 2472
+  },
+  {
+   "id": "it-was-terrifiic",
+   "label": "It was terrifiic",
+   "file": "trump/it-was-terrifiic.ogg",
+   "group": "trump",
+   "ms": 9088
+  },
+  {
+   "id": "it-s-all-right",
+   "label": "It's all right",
+   "file": "trump/it-s-all-right.ogg",
+   "group": "trump",
+   "ms": 2393
+  },
+  {
+   "id": "it-s-been-a-great-success",
+   "label": "It's been a great success",
+   "file": "trump/it-s-been-a-great-success.ogg",
+   "group": "trump",
+   "ms": 1558
+  },
+  {
+   "id": "it-s-coming-from-all-over-south-and-latin-america-and-i",
+   "label": "It's coming from all over south and latin america and i",
+   "file": "trump/it-s-coming-from-all-over-south-and-latin-america-and-i.ogg",
+   "group": "trump",
+   "ms": 9837
+  },
+  {
+   "id": "it-s-coming-from-all-over-south-and-latin-america-and-it-s-c",
+   "label": "It's coming from all over south and latin america and it's coming probably probably from the middle east",
+   "file": "trump/it-s-coming-from-all-over-south-and-latin-america-and-it-s-c.ogg",
+   "group": "trump",
+   "ms": 9437
+  },
+  {
+   "id": "it-s-going-to-be-only-america-first",
+   "label": "It's going to be only America first",
+   "file": "trump/it-s-going-to-be-only-america-first.ogg",
+   "group": "trump",
+   "ms": 5702
+  },
+  {
+   "id": "it-s-not-easy-doing-what-i-do-trump-an-easy-job-job",
+   "label": "It's not easy doing what I do  trump  an easy job  job",
+   "file": "trump/it-s-not-easy-doing-what-i-do-trump-an-easy-job-job.ogg",
+   "group": "trump",
+   "ms": 4449
+  },
+  {
+   "id": "i-m-speaking-and-a-woman-is-mumbling-terribly-behind-me-pelo",
+   "label": "I\u2019m speaking and a woman is mumbling terribly behind me    pelosi",
+   "file": "trump/i-m-speaking-and-a-woman-is-mumbling-terribly-behind-me-pelo.ogg",
+   "group": "trump",
+   "ms": 8444
+  },
+  {
+   "id": "japan",
+   "label": "Japan",
+   "file": "trump/japan.ogg",
+   "group": "trump",
+   "ms": 3437
+  },
+  {
+   "id": "just-like-i-promised-right",
+   "label": "Just like i promised right",
+   "file": "trump/just-like-i-promised-right.ogg",
+   "group": "trump",
+   "ms": 2498
+  },
+  {
+   "id": "just-sold",
+   "label": "Just sold",
+   "file": "trump/just-sold.ogg",
+   "group": "trump",
+   "ms": 6656
+  },
+  {
+   "id": "kiss-my-robustly-healthy-asscheeks-until-they-re-raw-and-ble",
+   "label": "Kiss my robustly healthy asscheeks until they're raw and bleeding from exhaustion",
+   "file": "trump/kiss-my-robustly-healthy-asscheeks-until-they-re-raw-and-ble.ogg",
+   "group": "trump",
+   "ms": 6392
+  },
+  {
+   "id": "komatsu-tractor-are-high-cost-much-money",
+   "label": "Komatsu Tractor  are high  cost  much money",
+   "file": "trump/komatsu-tractor-are-high-cost-much-money.ogg",
+   "group": "trump",
+   "ms": 6642
+  },
+  {
+   "id": "ladies-and-gentlemen-i-am-officially-running-for-presi",
+   "label": "Ladies and gentlemen, I am officially running for Presi",
+   "file": "trump/ladies-and-gentlemen-i-am-officially-running-for-presi.ogg",
+   "group": "trump",
+   "ms": 20087
+  },
+  {
+   "id": "ladies-and-gentlemen-i-am-officially-running-for-president-o",
+   "label": "Ladies and gentlemen, I am officially running for President of the United States, and we are going to make this country great again",
+   "file": "trump/ladies-and-gentlemen-i-am-officially-running-for-president-o.ogg",
+   "group": "trump",
+   "ms": 20487
+  },
+  {
+   "id": "like-me",
+   "label": "Like me",
+   "file": "trump/like-me.ogg",
+   "group": "trump",
+   "ms": 2288
+  },
+  {
+   "id": "lisa",
+   "label": "Lisa",
+   "file": "trump/lisa.ogg",
+   "group": "trump",
+   "ms": 2245
+  },
+  {
+   "id": "little-rocket-man",
+   "label": "Little rocket man",
+   "file": "trump/little-rocket-man.ogg",
+   "group": "trump",
+   "ms": 2428
+  },
+  {
+   "id": "london-radicalised",
+   "label": "London radicalised",
+   "file": "trump/london-radicalised.ogg",
+   "group": "trump",
+   "ms": 12303
+  },
+  {
+   "id": "look-at-my-african-american-here-rally",
+   "label": "Look at my African American here    rally",
+   "file": "trump/look-at-my-african-american-here-rally.ogg",
+   "group": "trump",
+   "ms": 30022
+  },
+  {
+   "id": "look-at-our-economy",
+   "label": "Look at our economy",
+   "file": "trump/look-at-our-economy.ogg",
+   "group": "trump",
+   "ms": 10980
+  },
+  {
+   "id": "look-at-this-country",
+   "label": "Look at this country",
+   "file": "trump/look-at-this-country.ogg",
+   "group": "trump",
+   "ms": 23832
+  },
+  {
+   "id": "look-at-this-guy",
+   "label": "Look at this guy",
+   "file": "trump/look-at-this-guy.ogg",
+   "group": "trump",
+   "ms": 2297
+  },
+  {
+   "id": "look-at-those-hands-hands-hands-they-small-hands-at-my-hands",
+   "label": "Look at those hands  hands  hands  they small hands  at my hands  trump",
+   "file": "trump/look-at-those-hands-hands-hands-they-small-hands-at-my-hands.ogg",
+   "group": "trump",
+   "ms": 5832
+  },
+  {
+   "id": "lose-like-this",
+   "label": "Lose like this",
+   "file": "trump/lose-like-this.ogg",
+   "group": "trump",
+   "ms": 3304
+  },
+  {
+   "id": "love-my-life-i-have-a-wonderful-family",
+   "label": "Love my life, I have a wonderful family",
+   "file": "trump/love-my-life-i-have-a-wonderful-family.ogg",
+   "group": "trump",
+   "ms": 5866
+  },
+  {
+   "id": "love-the-competition",
+   "label": "Love the competition",
+   "file": "trump/love-the-competition.ogg",
+   "group": "trump",
+   "ms": 2240
+  },
+  {
+   "id": "made-money",
+   "label": "Made money",
+   "file": "trump/made-money.ogg",
+   "group": "trump",
+   "ms": 4849
+  },
+  {
+   "id": "maga-loves-black-people-america-great-again-american-trump",
+   "label": "MAGA loves black people  america great again  american  trump",
+   "file": "trump/maga-loves-black-people-america-great-again-american-trump.ogg",
+   "group": "trump",
+   "ms": 11250
+  },
+  {
+   "id": "make-sure-you-get-out-and-vote",
+   "label": "Make sure you get out and vote",
+   "file": "trump/make-sure-you-get-out-and-vote.ogg",
+   "group": "trump",
+   "ms": 2767
+  },
+  {
+   "id": "making-our-product-s-stealing-our-companies-and-destro",
+   "label": "Making our product 's stealing our companies and destro",
+   "file": "trump/making-our-product-s-stealing-our-companies-and-destro.ogg",
+   "group": "trump",
+   "ms": 6913
+  },
+  {
+   "id": "making-our-product-s-stealing-our-companies-and-destroying-o",
+   "label": "Making our product 's stealing our companies and destroying our jobs",
+   "file": "trump/making-our-product-s-stealing-our-companies-and-destroying-o.ogg",
+   "group": "trump",
+   "ms": 8113
+  },
+  {
+   "id": "malania-trump-says-hello",
+   "label": "Malania Trump Says Hello",
+   "file": "trump/malania-trump-says-hello.ogg",
+   "group": "trump",
+   "ms": 4387
+  },
+  {
+   "id": "maybe-four",
+   "label": "Maybe four",
+   "file": "trump/maybe-four.ogg",
+   "group": "trump",
+   "ms": 2498
+  },
+  {
+   "id": "mexico",
+   "label": "Mexico",
+   "file": "trump/mexico.ogg",
+   "group": "trump",
+   "ms": 2688
+  },
+  {
+   "id": "mexico-1",
+   "label": "Mexico 1",
+   "file": "trump/mexico-1.ogg",
+   "group": "trump",
+   "ms": 2254
+  },
+  {
+   "id": "mexico-at-the-border",
+   "label": "Mexico at the border",
+   "file": "trump/mexico-at-the-border.ogg",
+   "group": "trump",
+   "ms": 20704
+  },
+  {
+   "id": "mexico-behave",
+   "label": "Mexico behave",
+   "file": "trump/mexico-behave.ogg",
+   "group": "trump",
+   "ms": 10943
+  },
+  {
+   "id": "mexico-sending-rapists",
+   "label": "Mexico sending rapists",
+   "file": "trump/mexico-sending-rapists.ogg",
+   "group": "trump",
+   "ms": 48886
+  },
+  {
+   "id": "mexico-will-start-behaving",
+   "label": "Mexico will start behaving.",
+   "file": "trump/mexico-will-start-behaving.ogg",
+   "group": "trump",
+   "ms": 10548
+  },
+  {
+   "id": "michelle",
+   "label": "Michelle",
+   "file": "trump/michelle.ogg",
+   "group": "trump",
+   "ms": 2210
+  },
+  {
+   "id": "mmm-hmm-hmm",
+   "label": "Mmm hmm     hmm",
+   "file": "trump/mmm-hmm-hmm.ogg",
+   "group": "trump",
+   "ms": 1654
+  },
+  {
+   "id": "most-amazing-experience",
+   "label": "Most amazing experience",
+   "file": "trump/most-amazing-experience.ogg",
+   "group": "trump",
+   "ms": 7809
+  },
+  {
+   "id": "mr-tough-guy",
+   "label": "Mr tough guy",
+   "file": "trump/mr-tough-guy.ogg",
+   "group": "trump",
+   "ms": 2549
+  },
+  {
+   "id": "muslim-ban",
+   "label": "Muslim ban",
+   "file": "trump/muslim-ban.ogg",
+   "group": "trump",
+   "ms": 28540
+  },
+  {
+   "id": "mussolini-is-mussolini",
+   "label": "Mussolini Is Mussolini..",
+   "file": "trump/mussolini-is-mussolini.ogg",
+   "group": "trump",
+   "ms": 3576
+  },
+  {
+   "id": "my-call-was-perfect-call-call",
+   "label": "My call was perfect  call   call",
+   "file": "trump/my-call-was-perfect-call-call.ogg",
+   "group": "trump",
+   "ms": 3855
+  },
+  {
+   "id": "my-friend-snoop-dog",
+   "label": "My friend snoop dog",
+   "file": "trump/my-friend-snoop-dog.ogg",
+   "group": "trump",
+   "ms": 3394
+  },
+  {
+   "id": "my-friend-snoop-dog-2",
+   "label": "My friend, Snoop Dog.",
+   "file": "trump/my-friend-snoop-dog-2.ogg",
+   "group": "trump",
+   "ms": 2784
+  },
+  {
+   "id": "nasty-guy",
+   "label": "Nasty guy",
+   "file": "trump/nasty-guy.ogg",
+   "group": "trump",
+   "ms": 2873
+  },
+  {
+   "id": "nasty-person",
+   "label": "Nasty person",
+   "file": "trump/nasty-person.ogg",
+   "group": "trump",
+   "ms": 2767
+  },
+  {
+   "id": "need-to-laugh",
+   "label": "Need to laugh",
+   "file": "trump/need-to-laugh.ogg",
+   "group": "trump",
+   "ms": 4612
+  },
+  {
+   "id": "net-worth",
+   "label": "Net worth",
+   "file": "trump/net-worth.ogg",
+   "group": "trump",
+   "ms": 7456
+  },
+  {
+   "id": "never-seen-that",
+   "label": "Never seen that",
+   "file": "trump/never-seen-that.ogg",
+   "group": "trump",
+   "ms": 2167
+  },
+  {
+   "id": "new-2",
+   "label": "New 2",
+   "file": "trump/new-2.ogg",
+   "group": "trump",
+   "ms": 2567
+  },
+  {
+   "id": "new-to-this",
+   "label": "New to this",
+   "file": "trump/new-to-this.ogg",
+   "group": "trump",
+   "ms": 3463
+  },
+  {
+   "id": "new-york-city",
+   "label": "New York city",
+   "file": "trump/new-york-city.ogg",
+   "group": "trump",
+   "ms": 1752
+  },
+  {
+   "id": "nine-billion-two-hundred-and-forty-million-dollars",
+   "label": "Nine billion two hundred and forty million dollars",
+   "file": "trump/nine-billion-two-hundred-and-forty-million-dollars.ogg",
+   "group": "trump",
+   "ms": 7687
+  },
+  {
+   "id": "nineteen-seventy-eight",
+   "label": "Nineteen seventy eight",
+   "file": "trump/nineteen-seventy-eight.ogg",
+   "group": "trump",
+   "ms": 2324
+  },
+  {
+   "id": "no",
+   "label": "No",
+   "file": "trump/no.ogg",
+   "group": "trump",
+   "ms": 2131
+  },
+  {
+   "id": "no-2",
+   "label": "No 2",
+   "file": "trump/no-2.ogg",
+   "group": "trump",
+   "ms": 3045
+  },
+  {
+   "id": "no-better-word-trump-better-word-than-stupid-smart-dead",
+   "label": "No better word   trump   better word than stupid  smart    dead",
+   "file": "trump/no-better-word-trump-better-word-than-stupid-smart-dead.ogg",
+   "group": "trump",
+   "ms": 5562
+  },
+  {
+   "id": "no-i-didn-t-say-that-at-all-i-don-t-think-you-understo",
+   "label": "No I didn't say that at all, I don't think you understo",
+   "file": "trump/no-i-didn-t-say-that-at-all-i-don-t-think-you-understo.ogg",
+   "group": "trump",
+   "ms": 4161
+  },
+  {
+   "id": "no-i-didn-t-say-that-at-all-i-don-t-think-you-understood-wha",
+   "label": "No I didn't say that at all, I don't think you understood what was said",
+   "file": "trump/no-i-didn-t-say-that-at-all-i-don-t-think-you-understood-wha.ogg",
+   "group": "trump",
+   "ms": 4561
+  },
+  {
+   "id": "no-not-you",
+   "label": "No not you",
+   "file": "trump/no-not-you.ogg",
+   "group": "trump",
+   "ms": 2080
+  },
+  {
+   "id": "no-pt4",
+   "label": "No pt4",
+   "file": "trump/no-pt4.ogg",
+   "group": "trump",
+   "ms": 1920
+  },
+  {
+   "id": "nobody-can-do-that",
+   "label": "Nobody can do that",
+   "file": "trump/nobody-can-do-that.ogg",
+   "group": "trump",
+   "ms": 3224
+  },
+  {
+   "id": "nobody-can-do-that-like-maine",
+   "label": "Nobody can do that like maine",
+   "file": "trump/nobody-can-do-that-like-maine.ogg",
+   "group": "trump",
+   "ms": 3934
+  },
+  {
+   "id": "nobody-would-be-tougher-on-isis-than-donald-trump",
+   "label": "Nobody would be tougher on ISIS than Donald Trump",
+   "file": "trump/nobody-would-be-tougher-on-isis-than-donald-trump.ogg",
+   "group": "trump",
+   "ms": 4962
+  },
+  {
+   "id": "nope",
+   "label": "Nope",
+   "file": "trump/nope.ogg",
+   "group": "trump",
+   "ms": 1340
+  },
+  {
+   "id": "north-korea-best-not-make-any-more-threats-to-the-united-sta",
+   "label": "North Korea best not make any more threats to the United States  korea  states",
+   "file": "trump/north-korea-best-not-make-any-more-threats-to-the-united-sta.ogg",
+   "group": "trump",
+   "ms": 15636
+  },
+  {
+   "id": "not-vote-for-him",
+   "label": "Not vote for him",
+   "file": "trump/not-vote-for-him.ogg",
+   "group": "trump",
+   "ms": 2533
+  },
+  {
+   "id": "not-you",
+   "label": "Not you",
+   "file": "trump/not-you.ogg",
+   "group": "trump",
+   "ms": 2279
+  },
+  {
+   "id": "obama",
+   "label": "Obama",
+   "file": "trump/obama.ogg",
+   "group": "trump",
+   "ms": 2184
+  },
+  {
+   "id": "obama-care",
+   "label": "Obama care",
+   "file": "trump/obama-care.ogg",
+   "group": "trump",
+   "ms": 35125
+  },
+  {
+   "id": "obama-reply",
+   "label": "Obama reply",
+   "file": "trump/obama-reply.ogg",
+   "group": "trump",
+   "ms": 30416
+  },
+  {
+   "id": "obama-roast",
+   "label": "Obama roast",
+   "file": "trump/obama-roast.ogg",
+   "group": "trump",
+   "ms": 149877
+  },
+  {
+   "id": "obamacare",
+   "label": "Obamacare",
+   "file": "trump/obamacare.ogg",
+   "group": "trump",
+   "ms": 1314
+  },
+  {
+   "id": "obamna",
+   "label": "Obamna",
+   "file": "trump/obamna.ogg",
+   "group": "trump",
+   "ms": 2384
+  },
+  {
+   "id": "of-course-i-m-joking",
+   "label": "Of course I'm joking",
+   "file": "trump/of-course-i-m-joking.ogg",
+   "group": "trump",
+   "ms": 2704
+  },
+  {
+   "id": "oil",
+   "label": "Oil",
+   "file": "trump/oil.ogg",
+   "group": "trump",
+   "ms": 2123
+  },
+  {
+   "id": "oil-roberts-university",
+   "label": "Oil roberts university",
+   "file": "trump/oil-roberts-university.ogg",
+   "group": "trump",
+   "ms": 3463
+  },
+  {
+   "id": "okahomma",
+   "label": "Okahomma",
+   "file": "trump/okahomma.ogg",
+   "group": "trump",
+   "ms": 2480
+  },
+  {
+   "id": "okay",
+   "label": "Okay",
+   "file": "trump/okay.ogg",
+   "group": "trump",
+   "ms": 1070
+  },
+  {
+   "id": "on-new-years-eve",
+   "label": "On new years eve",
+   "file": "trump/on-new-years-eve.ogg",
+   "group": "trump",
+   "ms": 2671
+  },
+  {
+   "id": "one-point-three-trillion-dollars",
+   "label": "One point three trillion dollars",
+   "file": "trump/one-point-three-trillion-dollars.ogg",
+   "group": "trump",
+   "ms": 3334
+  },
+  {
+   "id": "our-country-is-in-serious-trouble",
+   "label": "Our country is in serious trouble",
+   "file": "trump/our-country-is-in-serious-trouble.ogg",
+   "group": "trump",
+   "ms": 3822
+  },
+  {
+   "id": "our-country-needs-a-truly-great-leader",
+   "label": "Our country needs a truly great leader",
+   "file": "trump/our-country-needs-a-truly-great-leader.ogg",
+   "group": "trump",
+   "ms": 6076
+  },
+  {
+   "id": "our-enemies-are-getting-stronger-and-stronger-by-the-da",
+   "label": "Our enemies are getting stronger and stronger by the da",
+   "file": "trump/our-enemies-are-getting-stronger-and-stronger-by-the-da.ogg",
+   "group": "trump",
+   "ms": 10647
+  },
+  {
+   "id": "our-enemies-are-getting-stronger-and-stronger-by-the-day-and",
+   "label": "Our enemies are getting stronger and stronger by the day and we as a country are getting weaker",
+   "file": "trump/our-enemies-are-getting-stronger-and-stronger-by-the-day-and.ogg",
+   "group": "trump",
+   "ms": 10047
+  },
+  {
+   "id": "paris",
+   "label": "Paris",
+   "file": "trump/paris.ogg",
+   "group": "trump",
+   "ms": 63966
+  },
+  {
+   "id": "part-of-the-reason-i-m-here-is-that-i-know-how-to-take",
+   "label": "Part of the reason i'm here is that i know how to take",
+   "file": "trump/part-of-the-reason-i-m-here-is-that-i-know-how-to-take.ogg",
+   "group": "trump",
+   "ms": 4214
+  },
+  {
+   "id": "part-of-the-reason-i-m-here-is-that-i-know-how-to-take-a-jok",
+   "label": "Part of the reason i'm here is that I know how to take a joke",
+   "file": "trump/part-of-the-reason-i-m-here-is-that-i-know-how-to-take-a-jok.ogg",
+   "group": "trump",
+   "ms": 5414
+  },
+  {
+   "id": "pay-for-the-wall",
+   "label": "Pay for the wall",
+   "file": "trump/pay-for-the-wall.ogg",
+   "group": "trump",
+   "ms": 1941
+  },
+  {
+   "id": "people-don-t-know-how-great-you-are",
+   "label": "People don't know how great you are..",
+   "file": "trump/people-don-t-know-how-great-you-are.ogg",
+   "group": "trump",
+   "ms": 8758
+  },
+  {
+   "id": "people-think-i-m-controversial-but-the-truth-is-i-mean",
+   "label": "People think i'm controversial but the truth is i mean",
+   "file": "trump/people-think-i-m-controversial-but-the-truth-is-i-mean.ogg",
+   "group": "trump",
+   "ms": 6224
+  },
+  {
+   "id": "people-think-i-m-controversial-but-the-truth-is-i-mean-nice-",
+   "label": "People think I'm controversial but the truth is I mean nice guy",
+   "file": "trump/people-think-i-m-controversial-but-the-truth-is-i-mean-nice-.ogg",
+   "group": "trump",
+   "ms": 6224
+  },
+  {
+   "id": "picture-of-me-from-behind",
+   "label": "Picture of me from behind",
+   "file": "trump/picture-of-me-from-behind.ogg",
+   "group": "trump",
+   "ms": 5755
+  },
+  {
+   "id": "political-bullshit",
+   "label": "Political bullshit",
+   "file": "trump/political-bullshit.ogg",
+   "group": "trump",
+   "ms": 3177
+  },
+  {
+   "id": "politicians",
+   "label": "Politicians",
+   "file": "trump/politicians.ogg",
+   "group": "trump",
+   "ms": 28669
+  },
+  {
+   "id": "politicians-are-all-talk-and-no-action",
+   "label": "Politicians are all talk and no action",
+   "file": "trump/politicians-are-all-talk-and-no-action.ogg",
+   "group": "trump",
+   "ms": 4815
+  },
+  {
+   "id": "politicians-are-all-talk-no-action-nothing-is-going-to",
+   "label": "Politicians are all talk no action nothing is going to",
+   "file": "trump/politicians-are-all-talk-no-action-nothing-is-going-to.ogg",
+   "group": "trump",
+   "ms": 9865
+  },
+  {
+   "id": "politicians-are-all-talk-no-action-nothing-is-going-to-get-d",
+   "label": "Politicians are all talk no action nothing is going to get done they will not bring us believe maine to the promised land",
+   "file": "trump/politicians-are-all-talk-no-action-nothing-is-going-to-get-d.ogg",
+   "group": "trump",
+   "ms": 9865
+  },
+  {
+   "id": "poor-guy",
+   "label": "Poor guy",
+   "file": "trump/poor-guy.ogg",
+   "group": "trump",
+   "ms": 21412
+  },
+  {
+   "id": "president-obama",
+   "label": "President Obama",
+   "file": "trump/president-obama.ogg",
+   "group": "trump",
+   "ms": 2332
+  },
+  {
+   "id": "president-trump",
+   "label": "President trump",
+   "file": "trump/president-trump.ogg",
+   "group": "trump",
+   "ms": 3263
+  },
+  {
+   "id": "prime-minister-of-canada",
+   "label": "Prime Minister of canada",
+   "file": "trump/prime-minister-of-canada.ogg",
+   "group": "trump",
+   "ms": 3332
+  },
+  {
+   "id": "prison-soccer",
+   "label": "Prison soccer",
+   "file": "trump/prison-soccer.ogg",
+   "group": "trump",
+   "ms": 41576
+  },
+  {
+   "id": "proud-of-myself",
+   "label": "Proud of myself",
+   "file": "trump/proud-of-myself.ogg",
+   "group": "trump",
+   "ms": 3296
+  },
+  {
+   "id": "putin",
+   "label": "Putin",
+   "file": "trump/putin.ogg",
+   "group": "trump",
+   "ms": 15122
+  },
+  {
+   "id": "question",
+   "label": "Question",
+   "file": "trump/question.ogg",
+   "group": "trump",
+   "ms": 4377
+  },
+  {
+   "id": "question-pt2",
+   "label": "Question pt2",
+   "file": "trump/question-pt2.ogg",
+   "group": "trump",
+   "ms": 4151
+  },
+  {
+   "id": "quiet-quiet",
+   "label": "Quiet, quiet",
+   "file": "trump/quiet-quiet.ogg",
+   "group": "trump",
+   "ms": 2602
+  },
+  {
+   "id": "quiet-quiet-quiet-quiet-talking-up",
+   "label": "Quiet, Quiet, Quiet  quiet  talking  up",
+   "file": "trump/quiet-quiet-quiet-quiet-talking-up.ogg",
+   "group": "trump",
+   "ms": 5467
+  },
+  {
+   "id": "rocket-man",
+   "label": "Rocket man",
+   "file": "trump/rocket-man.ogg",
+   "group": "trump",
+   "ms": 1323
+  },
+  {
+   "id": "run-for-president",
+   "label": "Run for president",
+   "file": "trump/run-for-president.ogg",
+   "group": "trump",
+   "ms": 2454
+  },
+  {
+   "id": "russia-if-you-re-listening",
+   "label": "Russia if you're listening",
+   "file": "trump/russia-if-you-re-listening.ogg",
+   "group": "trump",
+   "ms": 2716
+  },
+  {
+   "id": "saddam-hussein-pt1",
+   "label": "Saddam hussein pt1",
+   "file": "trump/saddam-hussein-pt1.ogg",
+   "group": "trump",
+   "ms": 5336
+  },
+  {
+   "id": "saddam-hussein-pt2",
+   "label": "Saddam hussein pt2",
+   "file": "trump/saddam-hussein-pt2.ogg",
+   "group": "trump",
+   "ms": 27952
+  },
+  {
+   "id": "saddam-hussein-pt3",
+   "label": "Saddam hussein pt3",
+   "file": "trump/saddam-hussein-pt3.ogg",
+   "group": "trump",
+   "ms": 9576
+  },
+  {
+   "id": "see-what-happens",
+   "label": "See what happens",
+   "file": "trump/see-what-happens.ogg",
+   "group": "trump",
+   "ms": 4064
+  },
+  {
+   "id": "see-ya",
+   "label": "See ya",
+   "file": "trump/see-ya.ogg",
+   "group": "trump",
+   "ms": 1862
+  },
+  {
+   "id": "self-funding",
+   "label": "Self funding",
+   "file": "trump/self-funding.ogg",
+   "group": "trump",
+   "ms": 2072
+  },
+  {
+   "id": "send-pt2",
+   "label": "Send pt2",
+   "file": "trump/send-pt2.ogg",
+   "group": "trump",
+   "ms": 5483
+  },
+  {
+   "id": "send-pt3",
+   "label": "Send pt3",
+   "file": "trump/send-pt3.ogg",
+   "group": "trump",
+   "ms": 4664
+  },
+  {
+   "id": "send-pt4",
+   "label": "Send pt4",
+   "file": "trump/send-pt4.ogg",
+   "group": "trump",
+   "ms": 6371
+  },
+  {
+   "id": "sends-pt1",
+   "label": "Sends pt1",
+   "file": "trump/sends-pt1.ogg",
+   "group": "trump",
+   "ms": 5198
+  },
+  {
+   "id": "sends-pt5",
+   "label": "Sends pt5",
+   "file": "trump/sends-pt5.ogg",
+   "group": "trump",
+   "ms": 8984
+  },
+  {
+   "id": "sends-pt6",
+   "label": "Sends pt6",
+   "file": "trump/sends-pt6.ogg",
+   "group": "trump",
+   "ms": 16144
+  },
+  {
+   "id": "sergeant-burgdoll",
+   "label": "Sergeant burgdoll",
+   "file": "trump/sergeant-burgdoll.ogg",
+   "group": "trump",
+   "ms": 2255
+  },
+  {
+   "id": "she-choked-artist-trump-under-pressure",
+   "label": "She choked   artist  trump  under pressure",
+   "file": "trump/she-choked-artist-trump-under-pressure.ogg",
+   "group": "trump",
+   "ms": 15749
+  },
+  {
+   "id": "she-s-asking-a-question-don-t-be-rude",
+   "label": "She's asking a question don't be rude",
+   "file": "trump/she-s-asking-a-question-don-t-be-rude.ogg",
+   "group": "trump",
+   "ms": 2081
+  },
+  {
+   "id": "should-i-tell-you",
+   "label": "Should I tell you",
+   "file": "trump/should-i-tell-you.ogg",
+   "group": "trump",
+   "ms": 4247
+  },
+  {
+   "id": "slap-trump-mcmahon-down-face",
+   "label": "Slap!  trump  mcmahon  down    face",
+   "file": "trump/slap-trump-mcmahon-down-face.ogg",
+   "group": "trump",
+   "ms": 11553
+  },
+  {
+   "id": "sleepy-joe-joe-known-for-being-one-of-the-smart-ones-was-wea",
+   "label": "Sleepy Joe    joe  known for being one of the smart ones  was weak  trump  biden",
+   "file": "trump/sleepy-joe-joe-known-for-being-one-of-the-smart-ones-was-wea.ogg",
+   "group": "trump",
+   "ms": 14157
+  },
+  {
+   "id": "sleepy-joe-joe-trump-biden",
+   "label": "Sleepy Joe    joe  trump  biden",
+   "file": "trump/sleepy-joe-joe-trump-biden.ogg",
+   "group": "trump",
+   "ms": 4238
+  },
+  {
+   "id": "small-potatoes",
+   "label": "Small potatoes",
+   "file": "trump/small-potatoes.ogg",
+   "group": "trump",
+   "ms": 3411
+  },
+  {
+   "id": "smart-person-person-me",
+   "label": "Smart Person   person  me",
+   "file": "trump/smart-person-person-me.ogg",
+   "group": "trump",
+   "ms": 3856
+  },
+  {
+   "id": "snoop-dog",
+   "label": "Snoop dog",
+   "file": "trump/snoop-dog.ogg",
+   "group": "trump",
+   "ms": 1480
+  },
+  {
+   "id": "so-probably-i-will-sue-her-because-it-would-be-fun",
+   "label": "So probably I will sue her because it would be fun",
+   "file": "trump/so-probably-i-will-sue-her-because-it-would-be-fun.ogg",
+   "group": "trump",
+   "ms": 5312
+  },
+  {
+   "id": "so-shiny",
+   "label": "So shiny",
+   "file": "trump/so-shiny.ogg",
+   "group": "trump",
+   "ms": 3829
+  },
+  {
+   "id": "socialist-slash-communist",
+   "label": "Socialist slash communist",
+   "file": "trump/socialist-slash-communist.ogg",
+   "group": "trump",
+   "ms": 37880
+  },
+  {
+   "id": "somebody-s-doing-the-raping",
+   "label": "Somebody's Doing the Raping",
+   "file": "trump/somebody-s-doing-the-raping.ogg",
+   "group": "trump",
+   "ms": 4857
+  },
+  {
+   "id": "something-different-for-our-country",
+   "label": "Something different for our country",
+   "file": "trump/something-different-for-our-country.ogg",
+   "group": "trump",
+   "ms": 8224
+  },
+  {
+   "id": "south-carolina",
+   "label": "South carolina",
+   "file": "trump/south-carolina.ogg",
+   "group": "trump",
+   "ms": 2723
+  },
+  {
+   "id": "space-force",
+   "label": "Space Force",
+   "file": "trump/space-force.ogg",
+   "group": "trump",
+   "ms": 11064
+  },
+  {
+   "id": "star-wars-donald-trump",
+   "label": "Star wars donald trump",
+   "file": "trump/star-wars-donald-trump.ogg",
+   "group": "trump",
+   "ms": 116497
+  },
+  {
+   "id": "stop-now",
+   "label": "Stop now",
+   "file": "trump/stop-now.ogg",
+   "group": "trump",
+   "ms": 13939
+  },
+  {
+   "id": "stripped-our-country",
+   "label": "Stripped our country",
+   "file": "trump/stripped-our-country.ogg",
+   "group": "trump",
+   "ms": 5283
+  },
+  {
+   "id": "stupid",
+   "label": "Stupid",
+   "file": "trump/stupid.ogg",
+   "group": "trump",
+   "ms": 2714
+  },
+  {
+   "id": "stupid-people",
+   "label": "Stupid people",
+   "file": "trump/stupid-people.ogg",
+   "group": "trump",
+   "ms": 1871
+  },
+  {
+   "id": "surprise-isis",
+   "label": "Surprise isis",
+   "file": "trump/surprise-isis.ogg",
+   "group": "trump",
+   "ms": 5083
+  },
+  {
+   "id": "syrians",
+   "label": "Syrians",
+   "file": "trump/syrians.ogg",
+   "group": "trump",
+   "ms": 38304
+  },
+  {
+   "id": "take-back-the-oil",
+   "label": "Take back the oil",
+   "file": "trump/take-back-the-oil.ogg",
+   "group": "trump",
+   "ms": 10448
+  },
+  {
+   "id": "tell-you-stories",
+   "label": "Tell you stories",
+   "file": "trump/tell-you-stories.ogg",
+   "group": "trump",
+   "ms": 3344
+  },
+  {
+   "id": "texas",
+   "label": "Texas",
+   "file": "trump/texas.ogg",
+   "group": "trump",
+   "ms": 2705
+  },
+  {
+   "id": "than-ever-before",
+   "label": "Than ever before",
+   "file": "trump/than-ever-before.ogg",
+   "group": "trump",
+   "ms": 3402
+  },
+  {
+   "id": "thank-you",
+   "label": "Thank you",
+   "file": "trump/thank-you.ogg",
+   "group": "trump",
+   "ms": 1923
+  },
+  {
+   "id": "thank-you-anthony-weiner",
+   "label": "Thank you Anthony Weiner",
+   "file": "trump/thank-you-anthony-weiner.ogg",
+   "group": "trump",
+   "ms": 3446
+  },
+  {
+   "id": "thank-you-darling",
+   "label": "Thank you darling",
+   "file": "trump/thank-you-darling.ogg",
+   "group": "trump",
+   "ms": 1445
+  },
+  {
+   "id": "thank-you-fellas",
+   "label": "Thank you fellas",
+   "file": "trump/thank-you-fellas.ogg",
+   "group": "trump",
+   "ms": 2845
+  },
+  {
+   "id": "thank-you-very-much",
+   "label": "Thank you very much",
+   "file": "trump/thank-you-very-much.ogg",
+   "group": "trump",
+   "ms": 3384
+  },
+  {
+   "id": "thank-you-very-much-that-s-really-nice-thank-you",
+   "label": "Thank you very much that's really nice thank you",
+   "file": "trump/thank-you-very-much-that-s-really-nice-thank-you.ogg",
+   "group": "trump",
+   "ms": 3308
+  },
+  {
+   "id": "thank-you-very-much-appreciate-it",
+   "label": "Thank you very much, appreciate it",
+   "file": "trump/thank-you-very-much-appreciate-it.ogg",
+   "group": "trump",
+   "ms": 3106
+  },
+  {
+   "id": "that-call-was-perfect-call",
+   "label": "That call was perfect  call",
+   "file": "trump/that-call-was-perfect-call.ogg",
+   "group": "trump",
+   "ms": 4534
+  },
+  {
+   "id": "that-would-be-amazing",
+   "label": "That would be amazing",
+   "file": "trump/that-would-be-amazing.ogg",
+   "group": "trump",
+   "ms": 3360
+  },
+  {
+   "id": "that-s-beautiful-wow",
+   "label": "That's beautiful, wow!",
+   "file": "trump/that-s-beautiful-wow.ogg",
+   "group": "trump",
+   "ms": 3576
+  },
+  {
+   "id": "that-s-true",
+   "label": "That's true",
+   "file": "trump/that-s-true.ogg",
+   "group": "trump",
+   "ms": 1105
+  },
+  {
+   "id": "the-american-dream",
+   "label": "The American Dream",
+   "file": "trump/the-american-dream.ogg",
+   "group": "trump",
+   "ms": 3986
+  },
+  {
+   "id": "the-american-dream-is-dead",
+   "label": "The american dream is dead",
+   "file": "trump/the-american-dream-is-dead.ogg",
+   "group": "trump",
+   "ms": 5101
+  },
+  {
+   "id": "the-american-dream-is-dead-hope",
+   "label": "The American dream is dead     hope",
+   "file": "trump/the-american-dream-is-dead-hope.ogg",
+   "group": "trump",
+   "ms": 5032
+  },
+  {
+   "id": "the-greatest-president-that-god-ever-created",
+   "label": "The greatest president that god ever created",
+   "file": "trump/the-greatest-president-that-god-ever-created.ogg",
+   "group": "trump",
+   "ms": 3787
+  },
+  {
+   "id": "the-likes-of-which-the-world-has-never-seen-before",
+   "label": "The likes of which the world has never seen before",
+   "file": "trump/the-likes-of-which-the-world-has-never-seen-before.ogg",
+   "group": "trump",
+   "ms": 5798
+  },
+  {
+   "id": "the-man-of-the-toupe",
+   "label": "The man of the toupe",
+   "file": "trump/the-man-of-the-toupe.ogg",
+   "group": "trump",
+   "ms": 2447
+  },
+  {
+   "id": "the-mexican-government",
+   "label": "The mexican government",
+   "file": "trump/the-mexican-government.ogg",
+   "group": "trump",
+   "ms": 1689
+  },
+  {
+   "id": "the-system-is-rigged",
+   "label": "The system is rigged",
+   "file": "trump/the-system-is-rigged.ogg",
+   "group": "trump",
+   "ms": 2349
+  },
+  {
+   "id": "the-systems-is-totally-rigged",
+   "label": "The systems is totally rigged",
+   "file": "trump/the-systems-is-totally-rigged.ogg",
+   "group": "trump",
+   "ms": 3664
+  },
+  {
+   "id": "the-u-s-has-become-a-dumping-ground-for-everybody-elses",
+   "label": "The U S has become a dumping ground for everybody elses",
+   "file": "trump/the-u-s-has-become-a-dumping-ground-for-everybody-elses.ogg",
+   "group": "trump",
+   "ms": 6643
+  },
+  {
+   "id": "the-u-s-has-become-a-dumping-ground-for-everybody-elses-prob",
+   "label": "The U S has become a dumping ground for everybody elses problems",
+   "file": "trump/the-u-s-has-become-a-dumping-ground-for-everybody-elses-prob.ogg",
+   "group": "trump",
+   "ms": 8243
+  },
+  {
+   "id": "the-united-states-of-america",
+   "label": "The united states of america",
+   "file": "trump/the-united-states-of-america.ogg",
+   "group": "trump",
+   "ms": 3002
+  },
+  {
+   "id": "the-world-is-waiting-for-you-to-be-president",
+   "label": "The world is waiting for you to be president",
+   "file": "trump/the-world-is-waiting-for-you-to-be-president.ogg",
+   "group": "trump",
+   "ms": 2603
+  },
+  {
+   "id": "then-there-s-something-wrong-with-you-you-certainly-not",
+   "label": "Then there's something wrong with you you certainly not",
+   "file": "trump/then-there-s-something-wrong-with-you-you-certainly-not.ogg",
+   "group": "trump",
+   "ms": 3221
+  },
+  {
+   "id": "then-there-s-something-wrong-with-you-you-certainly-not-very",
+   "label": "Then there's something wrong with you you certainly not very good",
+   "file": "trump/then-there-s-something-wrong-with-you-you-certainly-not-very.ogg",
+   "group": "trump",
+   "ms": 3621
+  },
+  {
+   "id": "there-s-something-happening",
+   "label": "There's something happening",
+   "file": "trump/there-s-something-happening.ogg",
+   "group": "trump",
+   "ms": 4824
+  },
+  {
+   "id": "these-are-corrupt-people",
+   "label": "These are corrupt people",
+   "file": "trump/these-are-corrupt-people.ogg",
+   "group": "trump",
+   "ms": 6467
+  },
+  {
+   "id": "they-are-not-our-friend-believe-maine",
+   "label": "They are not our friend believe maine",
+   "file": "trump/they-are-not-our-friend-believe-maine.ogg",
+   "group": "trump",
+   "ms": 3394
+  },
+  {
+   "id": "they-are-rapists",
+   "label": "They are rapists",
+   "file": "trump/they-are-rapists.ogg",
+   "group": "trump",
+   "ms": 1654
+  },
+  {
+   "id": "they-call-her-pocahontas",
+   "label": "They call her Pocahontas",
+   "file": "trump/they-call-her-pocahontas.ogg",
+   "group": "trump",
+   "ms": 3272
+  },
+  {
+   "id": "they-can-t-even-count-their-votes-in-iowa-clue-rally",
+   "label": "They can't even count their votes in Iowa  clue    rally",
+   "file": "trump/they-can-t-even-count-their-votes-in-iowa-clue-rally.ogg",
+   "group": "trump",
+   "ms": 8253
+  },
+  {
+   "id": "they-don-t-have-my-talent-my-money-or-especially-my-goo",
+   "label": "They don't have my talent my money or especially my goo",
+   "file": "trump/they-don-t-have-my-talent-my-money-or-especially-my-goo.ogg",
+   "group": "trump",
+   "ms": 5153
+  },
+  {
+   "id": "they-don-t-have-my-talent-my-money-or-especially-my-good-loo",
+   "label": "They don't have my talent my money or especially my good looks",
+   "file": "trump/they-don-t-have-my-talent-my-money-or-especially-my-good-loo.ogg",
+   "group": "trump",
+   "ms": 5153
+  },
+  {
+   "id": "they-don-t-like-me",
+   "label": "They don't like me",
+   "file": "trump/they-don-t-like-me.ogg",
+   "group": "trump",
+   "ms": 2240
+  },
+  {
+   "id": "they-send-their-cars-over-by-the-millions",
+   "label": "They send their cars over by the millions",
+   "file": "trump/they-send-their-cars-over-by-the-millions.ogg",
+   "group": "trump",
+   "ms": 4371
+  },
+  {
+   "id": "they-will-be-met-with-fire-and-fury-korea",
+   "label": "They will be met with fire and fury       korea",
+   "file": "trump/they-will-be-met-with-fire-and-fury-korea.ogg",
+   "group": "trump",
+   "ms": 8845
+  },
+  {
+   "id": "they-re-bringing-crime",
+   "label": "They're bringing crime",
+   "file": "trump/they-re-bringing-crime.ogg",
+   "group": "trump",
+   "ms": 1715
+  },
+  {
+   "id": "they-re-bringing-drugs-they-re-bringing-crime-their-rapists",
+   "label": "They're bringing drugs they're bringing crime their rapists",
+   "file": "trump/they-re-bringing-drugs-they-re-bringing-crime-their-rapists.ogg",
+   "group": "trump",
+   "ms": 5658
+  },
+  {
+   "id": "they-re-bringing-drugs-they-re-bringing-crime",
+   "label": "They're bringing drugs, they're bringing crime",
+   "file": "trump/they-re-bringing-drugs-they-re-bringing-crime.ogg",
+   "group": "trump",
+   "ms": 4789
+  },
+  {
+   "id": "they-re-bringing-drugs-they-re-bringing-crime-they-re-rapist",
+   "label": "They're bringing drugs, they're bringing crime., they're rapists",
+   "file": "trump/they-re-bringing-drugs-they-re-bringing-crime-they-re-rapist.ogg",
+   "group": "trump",
+   "ms": 4589
+  },
+  {
+   "id": "they-re-rapists",
+   "label": "They're rapists",
+   "file": "trump/they-re-rapists.ogg",
+   "group": "trump",
+   "ms": 1928
+  },
+  {
+   "id": "they-re-sending-people-that-have-lots-of-problems-and-t",
+   "label": "They're sending people that have lots of problems and t",
+   "file": "trump/they-re-sending-people-that-have-lots-of-problems-and-t.ogg",
+   "group": "trump",
+   "ms": 7165
+  },
+  {
+   "id": "they-re-sending-people-that-have-lots-of-problems-and-they-r",
+   "label": "They're sending people that have lots of problems and they're bringing those problems with us",
+   "file": "trump/they-re-sending-people-that-have-lots-of-problems-and-they-r.ogg",
+   "group": "trump",
+   "ms": 8165
+  },
+  {
+   "id": "they-ve-done-so-much-to-ridicule-me-over-the-years",
+   "label": "They've done so much to ridicule me over the years",
+   "file": "trump/they-ve-done-so-much-to-ridicule-me-over-the-years.ogg",
+   "group": "trump",
+   "ms": 3352
+  },
+  {
+   "id": "this-great-country",
+   "label": "This great country",
+   "file": "trump/this-great-country.ogg",
+   "group": "trump",
+   "ms": 13696
+  },
+  {
+   "id": "this-is-a-different-panel-than-i-ve-everything-s-computer-do",
+   "label": "This is a different panel than I've... everything's computer! [Donald Trump 2025]",
+   "file": "trump/this-is-a-different-panel-than-i-ve-everything-s-computer-do.ogg",
+   "group": "trump",
+   "ms": 4361
+  },
+  {
+   "id": "this-was-an-attempted-overthrow-overthrow",
+   "label": "This was an attempted overthrow    overthrow",
+   "file": "trump/this-was-an-attempted-overthrow-overthrow.ogg",
+   "group": "trump",
+   "ms": 5162
+  },
+  {
+   "id": "this-was-locker-room-talk-room-trump",
+   "label": "This was locker room talk  room   trump",
+   "file": "trump/this-was-locker-room-talk-room-trump.ogg",
+   "group": "trump",
+   "ms": 3333
+  },
+  {
+   "id": "tiffany",
+   "label": "Tiffany",
+   "file": "trump/tiffany.ogg",
+   "group": "trump",
+   "ms": 1593
+  },
+  {
+   "id": "to-somebody-from-china",
+   "label": "To somebody from China",
+   "file": "trump/to-somebody-from-china.ogg",
+   "group": "trump",
+   "ms": 2689
+  },
+  {
+   "id": "today",
+   "label": "Today",
+   "file": "trump/today.ogg",
+   "group": "trump",
+   "ms": 1158
+  },
+  {
+   "id": "tough-situation",
+   "label": "Tough situation",
+   "file": "trump/tough-situation.ogg",
+   "group": "trump",
+   "ms": 5353
+  },
+  {
+   "id": "traitor",
+   "label": "Traitor",
+   "file": "trump/traitor.ogg",
+   "group": "trump",
+   "ms": 3751
+  },
+  {
+   "id": "trump",
+   "label": "Trump",
+   "file": "trump/trump.ogg",
+   "group": "trump",
+   "ms": 2967
+  },
+  {
+   "id": "trump-pick-up-the-phone",
+   "label": "Trump   Pick up the phone",
+   "file": "trump/trump-pick-up-the-phone.ogg",
+   "group": "trump",
+   "ms": 11093
+  },
+  {
+   "id": "trump-very-stupid-people",
+   "label": "Trump   Very stupid people",
+   "file": "trump/trump-very-stupid-people.ogg",
+   "group": "trump",
+   "ms": 14837
+  },
+  {
+   "id": "trump-america-first",
+   "label": "Trump America First",
+   "file": "trump/trump-america-first.ogg",
+   "group": "trump",
+   "ms": 8340
+  },
+  {
+   "id": "trump-bing-bong-mario",
+   "label": "Trump Bing Bong Mario",
+   "file": "trump/trump-bing-bong-mario.ogg",
+   "group": "trump",
+   "ms": 10649
+  },
+  {
+   "id": "trump-build-that-wall-chant",
+   "label": "Trump Build That Wall Chant",
+   "file": "trump/trump-build-that-wall-chant.ogg",
+   "group": "trump",
+   "ms": 13042
+  },
+  {
+   "id": "trump-get-em-outta-here",
+   "label": "Trump get em outta here!",
+   "file": "trump/trump-get-em-outta-here.ogg",
+   "group": "trump",
+   "ms": 11267
+  },
+  {
+   "id": "trump-global-warming",
+   "label": "Trump Global Warming",
+   "file": "trump/trump-global-warming.ogg",
+   "group": "trump",
+   "ms": 13329
+  },
+  {
+   "id": "trump-happy",
+   "label": "Trump Happy",
+   "file": "trump/trump-happy.ogg",
+   "group": "trump",
+   "ms": 3108
+  },
+  {
+   "id": "trump-hiss-at-reporters",
+   "label": "Trump Hiss     at reporters",
+   "file": "trump/trump-hiss-at-reporters.ogg",
+   "group": "trump",
+   "ms": 4813
+  },
+  {
+   "id": "trump-i-am-going-to-build-a-wall-around-mexico",
+   "label": "Trump I Am Going To Build A Wall Around Mexico",
+   "file": "trump/trump-i-am-going-to-build-a-wall-around-mexico.ogg",
+   "group": "trump",
+   "ms": 6946
+  },
+  {
+   "id": "trump-is-focused-like-a-laser-beam-on-the-deficit",
+   "label": "Trump is focused like a laser beam on the deficit: .",
+   "file": "trump/trump-is-focused-like-a-laser-beam-on-the-deficit.ogg",
+   "group": "trump",
+   "ms": 6278
+  },
+  {
+   "id": "trump-is-focused-like-a-laser-beam-on-the-deficit-2",
+   "label": "Trump is focused like a laser beam on the deficit: ..",
+   "file": "trump/trump-is-focused-like-a-laser-beam-on-the-deficit-2.ogg",
+   "group": "trump",
+   "ms": 7478
+  },
+  {
+   "id": "trump-loves-puerto-rico-rico",
+   "label": "Trump Loves Puerto Rico     rico",
+   "file": "trump/trump-loves-puerto-rico-rico.ogg",
+   "group": "trump",
+   "ms": 14453
+  },
+  {
+   "id": "trump-mexico-border",
+   "label": "Trump Mexico border",
+   "file": "trump/trump-mexico-border.ogg",
+   "group": "trump",
+   "ms": 6880
+  },
+  {
+   "id": "trump-obama-cheerleader",
+   "label": "Trump Obama Cheerleader",
+   "file": "trump/trump-obama-cheerleader.ogg",
+   "group": "trump",
+   "ms": 13575
+  },
+  {
+   "id": "trump-saying-china",
+   "label": "Trump Saying China",
+   "file": "trump/trump-saying-china.ogg",
+   "group": "trump",
+   "ms": 1984
+  },
+  {
+   "id": "trump-says-puerto-rico-rico",
+   "label": "Trump Says Puerto Rico    rico",
+   "file": "trump/trump-says-puerto-rico-rico.ogg",
+   "group": "trump",
+   "ms": 3733
+  },
+  {
+   "id": "trump-takes-down-cnn-news-slam",
+   "label": "Trump takes down CNN    news  slam",
+   "file": "trump/trump-takes-down-cnn-news-slam.ogg",
+   "group": "trump",
+   "ms": 11457
+  },
+  {
+   "id": "trump-you-be-in-jail",
+   "label": "Trump You Be In Jail",
+   "file": "trump/trump-you-be-in-jail.ogg",
+   "group": "trump",
+   "ms": 2629
+  },
+  {
+   "id": "trump-i-am-going-to-build-a-wall-around-mexico-2",
+   "label": "Trump-I Am Going To Build A Wall Around Mexico",
+   "file": "trump/trump-i-am-going-to-build-a-wall-around-mexico-2.ogg",
+   "group": "trump",
+   "ms": 6920
+  },
+  {
+   "id": "turn-them-off",
+   "label": "Turn Them off",
+   "file": "trump/turn-them-off.ogg",
+   "group": "trump",
+   "ms": 2471
+  },
+  {
+   "id": "two",
+   "label": "Two",
+   "file": "trump/two.ogg",
+   "group": "trump",
+   "ms": 1740
+  },
+  {
+   "id": "two-hundred-and-forty",
+   "label": "Two hundred and forty",
+   "file": "trump/two-hundred-and-forty.ogg",
+   "group": "trump",
+   "ms": 3577
+  },
+  {
+   "id": "two-thousand-and-four",
+   "label": "Two thousand and four",
+   "file": "trump/two-thousand-and-four.ogg",
+   "group": "trump",
+   "ms": 1428
+  },
+  {
+   "id": "two-thousand-and-seventeen",
+   "label": "Two thousand and seventeen",
+   "file": "trump/two-thousand-and-seventeen.ogg",
+   "group": "trump",
+   "ms": 2811
+  },
+  {
+   "id": "two-thousand-three-hundred",
+   "label": "Two thousand three hundred",
+   "file": "trump/two-thousand-three-hundred.ogg",
+   "group": "trump",
+   "ms": 4143
+  },
+  {
+   "id": "two-weeks-later-the-place-was-blown-up",
+   "label": "Two weeks later the place was blown up",
+   "file": "trump/two-weeks-later-the-place-was-blown-up.ogg",
+   "group": "trump",
+   "ms": 3751
+  },
+  {
+   "id": "very-verry-unfair-process",
+   "label": "Very Verry Unfair Process",
+   "file": "trump/very-verry-unfair-process.ogg",
+   "group": "trump",
+   "ms": 3316
+  },
+  {
+   "id": "very-very-large-a-brain-very-large-brain-respect",
+   "label": "Very, very, large a brain  very large brain    respect",
+   "file": "trump/very-very-large-a-brain-very-large-brain-respect.ogg",
+   "group": "trump",
+   "ms": 8167
+  },
+  {
+   "id": "waste-of-time-waste-of-time",
+   "label": "Waste of time  waste of time",
+   "file": "trump/waste-of-time-waste-of-time.ogg",
+   "group": "trump",
+   "ms": 4954
+  },
+  {
+   "id": "we-appreciate-it-very-much-tim-apple-apple-cook-trump-name",
+   "label": "We appreciate it very much Tim Apple  apple   cook  trump  name",
+   "file": "trump/we-appreciate-it-very-much-tim-apple-apple-cook-trump-name.ogg",
+   "group": "trump",
+   "ms": 2542
+  },
+  {
+   "id": "we-can-t-beat-mexico-at-the-border-or-in-trade",
+   "label": "We can't beat mexico at the border or in trade",
+   "file": "trump/we-can-t-beat-mexico-at-the-border-or-in-trade.ogg",
+   "group": "trump",
+   "ms": 4405
+  },
+  {
+   "id": "we-can-t-do-anything-right-our-military-has-to-be-stren",
+   "label": "We can't do anything right our military has to be stren",
+   "file": "trump/we-can-t-do-anything-right-our-military-has-to-be-stren.ogg",
+   "group": "trump",
+   "ms": 14173
+  },
+  {
+   "id": "we-can-t-do-anything-right-our-military-has-to-be-strengthen",
+   "label": "We can't do anything right our military has to be strengthened our vets have to be taken care of we have to end obamacare and we have to make our country great again and I will do that",
+   "file": "trump/we-can-t-do-anything-right-our-military-has-to-be-strengthen.ogg",
+   "group": "trump",
+   "ms": 13173
+  },
+  {
+   "id": "we-did-keep-the-oil-the-oil-the-oil-oil-trump-kept-the-oil",
+   "label": "We did keep the oil  the oil  the oil  oil  trump    kept the oil",
+   "file": "trump/we-did-keep-the-oil-the-oil-the-oil-oil-trump-kept-the-oil.ogg",
+   "group": "trump",
+   "ms": 4849
+  },
+  {
+   "id": "we-don-t-be-china-in-trade",
+   "label": "We don't be china in trade",
+   "file": "trump/we-don-t-be-china-in-trade.ogg",
+   "group": "trump",
+   "ms": 3464
+  },
+  {
+   "id": "we-don-t-beat-japan-with-their-millions-and-millions-of",
+   "label": "We don't beat japan with their millions and millions of",
+   "file": "trump/we-don-t-beat-japan-with-their-millions-and-millions-of.ogg",
+   "group": "trump",
+   "ms": 5633
+  },
+  {
+   "id": "we-don-t-beat-japan-with-their-millions-and-millions-of-cars",
+   "label": "We don't beat japan with their millions and millions of cars coming into this country",
+   "file": "trump/we-don-t-beat-japan-with-their-millions-and-millions-of-cars.ogg",
+   "group": "trump",
+   "ms": 6033
+  },
+  {
+   "id": "we-don-t-have-victories-anymore",
+   "label": "We don't have victories anymore",
+   "file": "trump/we-don-t-have-victories-anymore.ogg",
+   "group": "trump",
+   "ms": 4666
+  },
+  {
+   "id": "we-don-t-know-what-s-happening",
+   "label": "We don't know what's happening",
+   "file": "trump/we-don-t-know-what-s-happening.ogg",
+   "group": "trump",
+   "ms": 3211
+  },
+  {
+   "id": "we-don-t-win",
+   "label": "We don't win",
+   "file": "trump/we-don-t-win.ogg",
+   "group": "trump",
+   "ms": 2402
+  },
+  {
+   "id": "we-don-t-win-anymore",
+   "label": "We don't win anymore",
+   "file": "trump/we-don-t-win-anymore.ogg",
+   "group": "trump",
+   "ms": 1793
+  },
+  {
+   "id": "we-don-t-know-3",
+   "label": "We don-t know 3",
+   "file": "trump/we-don-t-know-3.ogg",
+   "group": "trump",
+   "ms": 4184
+  },
+  {
+   "id": "we-have-a-president-who-doesn-t-have-a-clue",
+   "label": "We have a president who doesn't have a clue",
+   "file": "trump/we-have-a-president-who-doesn-t-have-a-clue.ogg",
+   "group": "trump",
+   "ms": 4596
+  },
+  {
+   "id": "we-have-losers-we-have-losers-we-have-people-that-don-t",
+   "label": "We have losers we have losers we have people that don't",
+   "file": "trump/we-have-losers-we-have-losers-we-have-people-that-don-t.ogg",
+   "group": "trump",
+   "ms": 12519
+  },
+  {
+   "id": "we-have-losers-we-have-losers-we-have-people-that-don-t-have",
+   "label": "We have losers we have losers we have people that don't have it we have people that are morally corrupt we have people that are selling this country down the drain",
+   "file": "trump/we-have-losers-we-have-losers-we-have-people-that-don-t-have.ogg",
+   "group": "trump",
+   "ms": 11319
+  },
+  {
+   "id": "we-have-losers-we-have-losers",
+   "label": "We have losers, we have losers",
+   "file": "trump/we-have-losers-we-have-losers.ogg",
+   "group": "trump",
+   "ms": 3334
+  },
+  {
+   "id": "we-have-people-in-washington-that-don-t-know-what-they",
+   "label": "We have people in washington that don't know what they'",
+   "file": "trump/we-have-people-in-washington-that-don-t-know-what-they.ogg",
+   "group": "trump",
+   "ms": 5136
+  },
+  {
+   "id": "we-have-people-in-washington-that-don-t-know-what-they-re-do",
+   "label": "We have people in washington that don't know what they're doing",
+   "file": "trump/we-have-people-in-washington-that-don-t-know-what-they-re-do.ogg",
+   "group": "trump",
+   "ms": 6336
+  },
+  {
+   "id": "we-have-people-that-are-morally-corrupt-we-have-people-that-",
+   "label": "We have people that are morally corrupt we have people that are selling this country down the drain",
+   "file": "trump/we-have-people-that-are-morally-corrupt-we-have-people-that-.ogg",
+   "group": "trump",
+   "ms": 6765
+  },
+  {
+   "id": "we-have-people-that-are-stupid",
+   "label": "We have people that are stupid",
+   "file": "trump/we-have-people-that-are-stupid.ogg",
+   "group": "trump",
+   "ms": 3552
+  },
+  {
+   "id": "we-must-protect-our-borders-from-the-ravages-of-other-c",
+   "label": "We must protect our borders from the ravages of other c",
+   "file": "trump/we-must-protect-our-borders-from-the-ravages-of-other-c.ogg",
+   "group": "trump",
+   "ms": 5754
+  },
+  {
+   "id": "we-must-protect-our-borders-from-the-ravages-of-other-countr",
+   "label": "We must protect our borders from the ravages of other countries",
+   "file": "trump/we-must-protect-our-borders-from-the-ravages-of-other-countr.ogg",
+   "group": "trump",
+   "ms": 5554
+  },
+  {
+   "id": "we-need-energy-quickness-and-brains",
+   "label": "We need energy, quickness and brains",
+   "file": "trump/we-need-energy-quickness-and-brains.ogg",
+   "group": "trump",
+   "ms": 6476
+  },
+  {
+   "id": "we-need-money",
+   "label": "We need money",
+   "file": "trump/we-need-money.ogg",
+   "group": "trump",
+   "ms": 2671
+  },
+  {
+   "id": "we-need-somebody-that-can-take-the-brand-of-the-united-state",
+   "label": "We need somebody that can take the brand of the united states and make it great again",
+   "file": "trump/we-need-somebody-that-can-take-the-brand-of-the-united-state.ogg",
+   "group": "trump",
+   "ms": 10299
+  },
+  {
+   "id": "we-need-somebody-that-literally-will-take-this-country-and-m",
+   "label": "We need somebody that literally will take this country and make it great again",
+   "file": "trump/we-need-somebody-that-literally-will-take-this-country-and-m.ogg",
+   "group": "trump",
+   "ms": 9872
+  },
+  {
+   "id": "we-need-to-build-a-wall-and-it-has-to-be-built-quickly",
+   "label": "We need to build a wall and it has to be built quickly",
+   "file": "trump/we-need-to-build-a-wall-and-it-has-to-be-built-quickly.ogg",
+   "group": "trump",
+   "ms": 6763
+  },
+  {
+   "id": "we-owe-china",
+   "label": "We owe China",
+   "file": "trump/we-owe-china.ogg",
+   "group": "trump",
+   "ms": 4824
+  },
+  {
+   "id": "we-owe-china-one-point-three-trillion-dollars",
+   "label": "We owe china one point three trillion dollars",
+   "file": "trump/we-owe-china-one-point-three-trillion-dollars.ogg",
+   "group": "trump",
+   "ms": 5345
+  },
+  {
+   "id": "we-owe-japan-more-than-that",
+   "label": "We owe japan more than that",
+   "file": "trump/we-owe-japan-more-than-that.ogg",
+   "group": "trump",
+   "ms": 3621
+  },
+  {
+   "id": "we-owe-japan-pt2",
+   "label": "We owe japan pt2",
+   "file": "trump/we-owe-japan-pt2.ogg",
+   "group": "trump",
+   "ms": 3482
+  },
+  {
+   "id": "we-re-not-getting-any-help",
+   "label": "We re not getting any help",
+   "file": "trump/we-re-not-getting-any-help.ogg",
+   "group": "trump",
+   "ms": 1680
+  },
+  {
+   "id": "we-really-do-have-to-get-going",
+   "label": "We really do have to get going",
+   "file": "trump/we-really-do-have-to-get-going.ogg",
+   "group": "trump",
+   "ms": 5056
+  },
+  {
+   "id": "we-want-deal",
+   "label": "We want deal!",
+   "file": "trump/we-want-deal.ogg",
+   "group": "trump",
+   "ms": 1854
+  },
+  {
+   "id": "we-want-trump",
+   "label": "We want Trump",
+   "file": "trump/we-want-trump.ogg",
+   "group": "trump",
+   "ms": 9116
+  },
+  {
+   "id": "we-will-have-a-space-force-force",
+   "label": "We will have a \"Space Force\"  force",
+   "file": "trump/we-will-have-a-space-force-force.ogg",
+   "group": "trump",
+   "ms": 11048
+  },
+  {
+   "id": "we-will-make-america-great-again",
+   "label": "We will make america great again",
+   "file": "trump/we-will-make-america-great-again.ogg",
+   "group": "trump",
+   "ms": 5849
+  },
+  {
+   "id": "we-will-make-america-proud-again",
+   "label": "We will make america proud again",
+   "file": "trump/we-will-make-america-proud-again.ogg",
+   "group": "trump",
+   "ms": 3926
+  },
+  {
+   "id": "we-will-make-america-safe-again",
+   "label": "We will make america safe again",
+   "file": "trump/we-will-make-america-safe-again.ogg",
+   "group": "trump",
+   "ms": 3569
+  },
+  {
+   "id": "we-will-make-america-strong-again",
+   "label": "We will make america strong again",
+   "file": "trump/we-will-make-america-strong-again.ogg",
+   "group": "trump",
+   "ms": 4769
+  },
+  {
+   "id": "we-will-make-america-wealthy-again",
+   "label": "We will make america wealthy again",
+   "file": "trump/we-will-make-america-wealthy-again.ogg",
+   "group": "trump",
+   "ms": 4926
+  },
+  {
+   "id": "we-re-dying-we-re-dying",
+   "label": "We're dying, we're dying",
+   "file": "trump/we-re-dying-we-re-dying.ogg",
+   "group": "trump",
+   "ms": 3464
+  },
+  {
+   "id": "we-re-not-getting-any-help-2",
+   "label": "We're not getting any help",
+   "file": "trump/we-re-not-getting-any-help-2.ogg",
+   "group": "trump",
+   "ms": 2272
+  },
+  {
+   "id": "well-i-don-t-have-to-really-get-into-specifics",
+   "label": "Well i don't have to really get into specifics",
+   "file": "trump/well-i-don-t-have-to-really-get-into-specifics.ogg",
+   "group": "trump",
+   "ms": 4386
+  },
+  {
+   "id": "well-i-was-at-the-border-last-week",
+   "label": "Well I was at the border last week",
+   "file": "trump/well-i-was-at-the-border-last-week.ogg",
+   "group": "trump",
+   "ms": 3829
+  },
+  {
+   "id": "well-the-pope-believes-in-global-warming-you-do-know-t",
+   "label": "Well the Pope believes in global warming, you do know t",
+   "file": "trump/well-the-pope-believes-in-global-warming-you-do-know-t.ogg",
+   "group": "trump",
+   "ms": 3970
+  },
+  {
+   "id": "well-the-pope-believes-in-global-warming-you-do-know-that-ri",
+   "label": "Well the Pope believes in global warming, you do know that right",
+   "file": "trump/well-the-pope-believes-in-global-warming-you-do-know-that-ri.ogg",
+   "group": "trump",
+   "ms": 4770
+  },
+  {
+   "id": "wet-racoon-pt1",
+   "label": "Wet racoon pt1",
+   "file": "trump/wet-racoon-pt1.ogg",
+   "group": "trump",
+   "ms": 8278
+  },
+  {
+   "id": "wet-racoon-pt2",
+   "label": "Wet racoon pt2",
+   "file": "trump/wet-racoon-pt2.ogg",
+   "group": "trump",
+   "ms": 6816
+  },
+  {
+   "id": "what-a-beautiful-baby-trump",
+   "label": "What a beautiful baby!   trump",
+   "file": "trump/what-a-beautiful-baby-trump.ogg",
+   "group": "trump",
+   "ms": 11257
+  },
+  {
+   "id": "what-i-say-is-what-i-sayu",
+   "label": "What I say is what I sayu",
+   "file": "trump/what-i-say-is-what-i-sayu.ogg",
+   "group": "trump",
+   "ms": 4013
+  },
+  {
+   "id": "what-the-hell-was-that-all-about-was-that-trump",
+   "label": "What the hell was that all about?   was that  trump",
+   "file": "trump/what-the-hell-was-that-all-about-was-that-trump.ogg",
+   "group": "trump",
+   "ms": 3959
+  },
+  {
+   "id": "what-you-tell-me-doesn-t-necessarily-make-it-fact-hall-news-",
+   "label": "What you tell me doesn't necessarily make it fact  hall  news  it  trump",
+   "file": "trump/what-you-tell-me-doesn-t-necessarily-make-it-fact-hall-news-.ogg",
+   "group": "trump",
+   "ms": 4170
+  },
+  {
+   "id": "what-s-going-on",
+   "label": "What's going on",
+   "file": "trump/what-s-going-on.ogg",
+   "group": "trump",
+   "ms": 4569
+  },
+  {
+   "id": "what-s-the-difference-between-a-wet-raccoon-and-donald-trump",
+   "label": "What's the difference between a wet raccoon and Donald Trump's hair?   wet raccoon doesnt have 7 billion fucking dollars  billion  dollars",
+   "file": "trump/what-s-the-difference-between-a-wet-raccoon-and-donald-trump.ogg",
+   "group": "trump",
+   "ms": 13957
+  },
+  {
+   "id": "when-do-we-beat-mexico-at-the-border-there-laughing-at-us-at",
+   "label": "When do we beat mexico at the border there laughing at us at our stupidity",
+   "file": "trump/when-do-we-beat-mexico-at-the-border-there-laughing-at-us-at.ogg",
+   "group": "trump",
+   "ms": 5972
+  },
+  {
+   "id": "when-do-we-beat-mexico-at-the-border-they-re-laughing",
+   "label": "When do we beat Mexico at the border? They're laughing",
+   "file": "trump/when-do-we-beat-mexico-at-the-border-they-re-laughing.ogg",
+   "group": "trump",
+   "ms": 4831
+  },
+  {
+   "id": "when-do-we-beat-mexico-at-the-border-they-re-laughing-at-us",
+   "label": "When do we beat Mexico at the border? They're laughing at us",
+   "file": "trump/when-do-we-beat-mexico-at-the-border-they-re-laughing-at-us.ogg",
+   "group": "trump",
+   "ms": 4431
+  },
+  {
+   "id": "when-mexico-sends-its-people-they-re-not-sending-their",
+   "label": "When mexico sends its people they're not sending their",
+   "file": "trump/when-mexico-sends-its-people-they-re-not-sending-their.ogg",
+   "group": "trump",
+   "ms": 5815
+  },
+  {
+   "id": "when-mexico-sends-its-people-they-re-not-sending-their-best",
+   "label": "When mexico sends its people they're not sending their best",
+   "file": "trump/when-mexico-sends-its-people-they-re-not-sending-their-best.ogg",
+   "group": "trump",
+   "ms": 5415
+  },
+  {
+   "id": "when-was-the-last-time-anybody-saw-us-beating-let-s-say",
+   "label": "When was the last time anybody saw us beating let's say",
+   "file": "trump/when-was-the-last-time-anybody-saw-us-beating-let-s-say.ogg",
+   "group": "trump",
+   "ms": 8827
+  },
+  {
+   "id": "when-was-the-last-time-anybody-saw-us-beating-let-s-say-chin",
+   "label": "When was the last time anybody saw us beating let's say china",
+   "file": "trump/when-was-the-last-time-anybody-saw-us-beating-let-s-say-chin.ogg",
+   "group": "trump",
+   "ms": 8627
+  },
+  {
+   "id": "when-was-the-last-time-you-saw-chevrolet-in-tokyo",
+   "label": "When was the last time you saw chevrolet in tokyo",
+   "file": "trump/when-was-the-last-time-you-saw-chevrolet-in-tokyo.ogg",
+   "group": "trump",
+   "ms": 7251
+  },
+  {
+   "id": "when-was-the-last-time-you-saw-chevrolet-in-tokyo-2",
+   "label": "When was the last time you saw Chevrolet in Tokyo?",
+   "file": "trump/when-was-the-last-time-you-saw-chevrolet-in-tokyo-2.ogg",
+   "group": "trump",
+   "ms": 5789
+  },
+  {
+   "id": "where-s-nick-pt3",
+   "label": "Where s nick pt3",
+   "file": "trump/where-s-nick-pt3.ogg",
+   "group": "trump",
+   "ms": 15298
+  },
+  {
+   "id": "where-s-nick-pt2",
+   "label": "Where's Nick pt2",
+   "file": "trump/where-s-nick-pt2.ogg",
+   "group": "trump",
+   "ms": 2568
+  },
+  {
+   "id": "where-s-nick-wellard",
+   "label": "Where's Nick Wellard",
+   "file": "trump/where-s-nick-wellard.ogg",
+   "group": "trump",
+   "ms": 2664
+  },
+  {
+   "id": "where-s-nick-pt3-2",
+   "label": "Where-s nick pt3",
+   "file": "trump/where-s-nick-pt3-2.ogg",
+   "group": "trump",
+   "ms": 14696
+  },
+  {
+   "id": "who-s-number-one-with-hispanics",
+   "label": "Who's number one with hispanics",
+   "file": "trump/who-s-number-one-with-hispanics.ogg",
+   "group": "trump",
+   "ms": 2759
+  },
+  {
+   "id": "whoever-put-this-microphone-system-in",
+   "label": "Whoever put this microphone system in",
+   "file": "trump/whoever-put-this-microphone-system-in.ogg",
+   "group": "trump",
+   "ms": 4571
+  },
+  {
+   "id": "why",
+   "label": "Why",
+   "file": "trump/why.ogg",
+   "group": "trump",
+   "ms": 1653
+  },
+  {
+   "id": "win-pt2",
+   "label": "Win pt2",
+   "file": "trump/win-pt2.ogg",
+   "group": "trump",
+   "ms": 29816
+  },
+  {
+   "id": "win-so-much-you-may-even-get-tired-of-winning-trump",
+   "label": "Win so much you may even get tired of winning  trump",
+   "file": "trump/win-so-much-you-may-even-get-tired-of-winning-trump.ogg",
+   "group": "trump",
+   "ms": 10544
+  },
+  {
+   "id": "windows-xp-trump-xp",
+   "label": "Windows XP Trump   xp",
+   "file": "trump/windows-xp-trump-xp.ogg",
+   "group": "trump",
+   "ms": 3551
+  },
+  {
+   "id": "worst-trade-deal-ever-signed-deal-deal-dice-deal-ever-trump",
+   "label": "Worst Trade Deal Ever Signed  deal  deal  dice  deal ever  trump",
+   "file": "trump/worst-trade-deal-ever-signed-deal-deal-dice-deal-ever-trump.ogg",
+   "group": "trump",
+   "ms": 5198
+  },
+  {
+   "id": "wouldn-t-that-be-embarrasing",
+   "label": "Wouldn't that be embarrasing",
+   "file": "trump/wouldn-t-that-be-embarrasing.ogg",
+   "group": "trump",
+   "ms": 2020
+  },
+  {
+   "id": "wrong",
+   "label": "WRONG",
+   "file": "trump/wrong.ogg",
+   "group": "trump",
+   "ms": 6171
+  },
+  {
+   "id": "wrong-trump",
+   "label": "Wrong        trump",
+   "file": "trump/wrong-trump.ogg",
+   "group": "trump",
+   "ms": 5962
+  },
+  {
+   "id": "wrong-with-you",
+   "label": "Wrong with you",
+   "file": "trump/wrong-with-you.ogg",
+   "group": "trump",
+   "ms": 3152
+  },
+  {
+   "id": "wrong-wrong",
+   "label": "WRONG. WRONG",
+   "file": "trump/wrong-wrong.ogg",
+   "group": "trump",
+   "ms": 4971
+  },
+  {
+   "id": "yeah",
+   "label": "Yeah",
+   "file": "trump/yeah.ogg",
+   "group": "trump",
+   "ms": 1244
+  },
+  {
+   "id": "yello",
+   "label": "Yello!",
+   "file": "trump/yello.ogg",
+   "group": "trump",
+   "ms": 1427
+  },
+  {
+   "id": "yes",
+   "label": "Yes",
+   "file": "trump/yes.ogg",
+   "group": "trump",
+   "ms": 870
+  },
+  {
+   "id": "you-are-a-rude-terrible-person-trump-person",
+   "label": "You are a rude terrible person  trump         person",
+   "file": "trump/you-are-a-rude-terrible-person-trump-person.ogg",
+   "group": "trump",
+   "ms": 2751
+  },
+  {
+   "id": "you-are-fake-news",
+   "label": "You are fake news",
+   "file": "trump/you-are-fake-news.ogg",
+   "group": "trump",
+   "ms": 1680
+  },
+  {
+   "id": "you-are-fired",
+   "label": "You Are Fired",
+   "file": "trump/you-are-fired.ogg",
+   "group": "trump",
+   "ms": 2914
+  },
+  {
+   "id": "you-are-the-most-amazing-guy",
+   "label": "You are the most amazing guy",
+   "file": "trump/you-are-the-most-amazing-guy.ogg",
+   "group": "trump",
+   "ms": 2802
+  },
+  {
+   "id": "you-gotta-get-out-to-vote",
+   "label": "You gotta get out to vote",
+   "file": "trump/you-gotta-get-out-to-vote.ogg",
+   "group": "trump",
+   "ms": 3576
+  },
+  {
+   "id": "you-have-a-hard-time-convincing-people-that-you-re-smart",
+   "label": "You have a hard time convincing people that you're smart",
+   "file": "trump/you-have-a-hard-time-convincing-people-that-you-re-smart.ogg",
+   "group": "trump",
+   "ms": 8549
+  },
+  {
+   "id": "you-have-everything-going-the-world-is-waiting-for-you",
+   "label": "You have everything going the world is waiting for you",
+   "file": "trump/you-have-everything-going-the-world-is-waiting-for-you.ogg",
+   "group": "trump",
+   "ms": 5118
+  },
+  {
+   "id": "you-have-everything-going-the-world-is-waiting-for-you-to-be",
+   "label": "You have everything going the world is waiting for you to be president",
+   "file": "trump/you-have-everything-going-the-world-is-waiting-for-you-to-be.ogg",
+   "group": "trump",
+   "ms": 5918
+  },
+  {
+   "id": "you-know-what-i-said",
+   "label": "You know what I said",
+   "file": "trump/you-know-what-i-said.ogg",
+   "group": "trump",
+   "ms": 2454
+  },
+  {
+   "id": "you-know-you-re-really-beautiful",
+   "label": "You know you're really beautiful",
+   "file": "trump/you-know-you-re-really-beautiful.ogg",
+   "group": "trump",
+   "ms": 1715
+  },
+  {
+   "id": "you-think-biden-could-get-into-that-car",
+   "label": "You think Biden could get into that car?",
+   "file": "trump/you-think-biden-could-get-into-that-car.ogg",
+   "group": "trump",
+   "ms": 3570
+  },
+  {
+   "id": "you-won-t-report-that",
+   "label": "You won't report that",
+   "file": "trump/you-won-t-report-that.ogg",
+   "group": "trump",
+   "ms": 5544
+  },
+  {
+   "id": "you-d-probably-be-the-last-person-on-earth-i-d-tell-telling-",
+   "label": "You'd probably be the last person on Earth I'd tell  telling you  wouldnt tell you   comment",
+   "file": "trump/you-d-probably-be-the-last-person-on-earth-i-d-tell-telling-.ogg",
+   "group": "trump",
+   "ms": 5544
+  },
+  {
+   "id": "you-re-boy-scouts-but-you-know-life",
+   "label": "You're boy scouts, but you know life",
+   "file": "trump/you-re-boy-scouts-but-you-know-life.ogg",
+   "group": "trump",
+   "ms": 3509
+  },
+  {
+   "id": "you-re-brilliant-you-re-handsome-you-re-rich",
+   "label": "You're brilliant you're handsome you're rich",
+   "file": "trump/you-re-brilliant-you-re-handsome-you-re-rich.ogg",
+   "group": "trump",
+   "ms": 4300
+  },
+  {
+   "id": "you-re-fired",
+   "label": "You're fired",
+   "file": "trump/you-re-fired.ogg",
+   "group": "trump",
+   "ms": 1314
+  },
+  {
+   "id": "you-re-going-to-have-to-do-something-with-china",
+   "label": "You're going to have to do something with China",
+   "file": "trump/you-re-going-to-have-to-do-something-with-china.ogg",
+   "group": "trump",
+   "ms": 27281
+  },
+  {
+   "id": "you-re-gonna-be-happy",
+   "label": "You're gonna be happy",
+   "file": "trump/you-re-gonna-be-happy.ogg",
+   "group": "trump",
+   "ms": 1706
+  },
+  {
+   "id": "you-re-not-a-nice-person",
+   "label": "You're not a nice person",
+   "file": "trump/you-re-not-a-nice-person.ogg",
+   "group": "trump",
+   "ms": 2646
+  },
+  {
+   "id": "you-re-right",
+   "label": "You're right",
+   "file": "trump/you-re-right.ogg",
+   "group": "trump",
+   "ms": 11527
+  },
+  {
+   "id": "you-ve-been-mean",
+   "label": "You've been mean",
+   "file": "trump/you-ve-been-mean.ogg",
+   "group": "trump",
+   "ms": 7844
+  },
+  {
+   "id": "your-organisation-is-terrible",
+   "label": "Your organisation is terrible",
+   "file": "trump/your-organisation-is-terrible.ogg",
+   "group": "trump",
+   "ms": 6042
+  },
+  {
+   "id": "your-organization-s-terrible",
+   "label": "Your organization's terrible",
+   "file": "trump/your-organization-s-terrible.ogg",
+   "group": "trump",
+   "ms": 2498
+  },
+  {
+   "id": "yuge",
+   "label": "YUGE",
+   "file": "trump/yuge.ogg",
+   "group": "trump",
+   "ms": 8131
+  }
+ ]
+}
