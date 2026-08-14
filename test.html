@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gather Farts — loopback harness</title>
+    <style>
+      :root { color-scheme: dark; }
+      body {
+        margin: 0; padding: 32px;
+        font: 15px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+        background: #16121f; color: #f4f1f7;
+      }
+      main { max-width: 640px; margin: 0 auto; }
+      h1 { font-size: 20px; margin: 0 0 4px; }
+      p.sub { margin: 0 0 24px; color: #b6a8cc; font-size: 13px; }
+      button {
+        font: inherit; font-weight: 600; cursor: pointer; color: #fff;
+        background: linear-gradient(180deg, #7e3ff2, #6429d6);
+        border: 1px solid rgba(255,255,255,.14); border-radius: 8px;
+        padding: 10px 16px;
+      }
+      button:hover { filter: brightness(1.14); }
+      button:disabled { opacity: .5; cursor: default; filter: none; }
+      .card {
+        background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.09);
+        border-radius: 12px; padding: 18px; margin-bottom: 16px;
+      }
+      .meter {
+        height: 22px; border-radius: 6px; overflow: hidden;
+        background: rgba(0,0,0,.45); border: 1px solid rgba(255,255,255,.1);
+      }
+      .meter > div {
+        height: 100%; width: 0%;
+        background: linear-gradient(90deg, #34d399, #fbbf24 72%, #f87171 92%);
+        transition: width .05s linear;
+      }
+      dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; margin: 0; font-size: 13px; }
+      dt { color: #b6a8cc; }
+      dd { margin: 0; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; word-break: break-all; }
+      .ok { color: #34d399; font-weight: 600; }
+      .bad { color: #f87171; font-weight: 600; }
+      label.check { display: flex; gap: 8px; align-items: center; font-size: 13px; color: #b6a8cc; margin-top: 14px; }
+      ol { font-size: 14px; color: #cfc4de; padding-left: 20px; }
+      code { background: rgba(255,255,255,.08); padding: 1px 5px; border-radius: 4px; font-size: 12px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Gather Farts — loopback harness</h1>
+      <p class="sub">
+        Verifies the mic tap without joining a real meeting. Serve this on port 8777
+        (<code>python3 -m http.server 8777</code>) so the userscript's
+        <code>@match</code> picks it up.
+      </p>
+
+      <div class="card">
+        <ol>
+          <li>Confirm the fart panel appears in the corner of this page.</li>
+          <li>Click <strong>Request microphone</strong> below.</li>
+          <li>The panel's dot should turn green and read "mic tap active".</li>
+          <li>Click a fart button — the meter below must jump. That meter reads the
+              stream <em>returned to the app</em>, so a spike proves the sound is
+              travelling out over what would be WebRTC.</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <button id="start">Request microphone</button>
+        <div style="height: 14px"></div>
+        <div class="meter"><div id="bar"></div></div>
+        <label class="check">
+          <input type="checkbox" id="loopback" />
+          Monitor the outgoing stream on my speakers (headphones only — feedback risk)
+        </label>
+      </div>
+
+      <div class="card">
+        <dl>
+          <dt>Status</dt><dd id="status">idle</dd>
+          <dt>Track label</dt><dd id="tlabel">—</dd>
+          <dt>Tap detected</dt><dd id="tapped">—</dd>
+          <dt>Peak level</dt><dd id="peak">—</dd>
+        </dl>
+      </div>
+    </main>
+
+    <audio id="sink" autoplay></audio>
+
+    <script>
+      const $ = (id) => document.getElementById(id);
+      let peak = 0;
+
+      $("start").addEventListener("click", async () => {
+        $("start").disabled = true;
+        $("status").textContent = "requesting…";
+        let stream;
+        try {
+          stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        } catch (err) {
+          $("status").innerHTML = '<span class="bad">' + err.name + ": " + err.message + "</span>";
+          $("start").disabled = false;
+          return;
+        }
+
+        const track = stream.getAudioTracks()[0];
+        $("status").innerHTML = '<span class="ok">stream acquired</span>';
+        $("tlabel").textContent = track.label || "(empty)";
+
+        // A destination-node track is what our patch hands back. The real device
+        // track carries the hardware's name instead.
+        const tapped = /MediaStreamAudioDestinationNode/i.test(track.label);
+        $("tapped").innerHTML = tapped
+          ? '<span class="ok">yes — userscript is intercepting</span>'
+          : '<span class="bad">no — raw device track (userscript not running, or loaded too late)</span>';
+
+        const ctx = new AudioContext();
+        const src = ctx.createMediaStreamSource(stream);
+        const analyser = ctx.createAnalyser();
+        analyser.fftSize = 1024;
+        src.connect(analyser);
+
+        $("loopback").addEventListener("change", (e) => {
+          $("sink").srcObject = e.target.checked ? stream : null;
+        });
+
+        const data = new Uint8Array(analyser.fftSize);
+        (function tick() {
+          analyser.getByteTimeDomainData(data);
+          let max = 0;
+          for (let i = 0; i < data.length; i++) {
+            const v = Math.abs(data[i] - 128) / 128;
+            if (v > max) max = v;
+          }
+          $("bar").style.width = Math.min(100, max * 140) + "%";
+          if (max > peak) {
+            peak = max;
+            $("peak").textContent = peak.toFixed(3);
+          }
+          requestAnimationFrame(tick);
+        })();
+      });
+    </script>
+  </body>
+</html>
