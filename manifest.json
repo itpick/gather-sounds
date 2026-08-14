@@ -4,9 +4,101 @@
   "trump": {
    "title": "Donald Trump",
    "searchOnly": true
+  },
+  "core": {
+   "title": "Bundled",
+   "searchOnly": false
   }
  },
  "sounds": [
+  {
+   "id": "brah",
+   "sortKey": "brah",
+   "label": "Brah (67k)",
+   "file": "core/brah.mp3",
+   "group": "core",
+   "kbps": 67
+  },
+  {
+   "id": "captain-on-the-bridge",
+   "sortKey": "captain-on-the-bridge",
+   "label": "Captain On The Bridge (68k)",
+   "file": "core/captain-on-the-bridge.mp3",
+   "group": "core",
+   "kbps": 68
+  },
+  {
+   "id": "i-love-blowin-things-up",
+   "sortKey": "i-love-blowin-things-up",
+   "label": "I Love Blowin Things Up (67k)",
+   "file": "core/i-love-blowin-things-up.mp3",
+   "group": "core",
+   "kbps": 67
+  },
+  {
+   "id": "jeopardy",
+   "sortKey": "jeopardy",
+   "label": "Jeopardy (64k)",
+   "file": "core/jeopardy.mp3",
+   "group": "core",
+   "kbps": 64
+  },
+  {
+   "id": "laughter",
+   "sortKey": "laughter",
+   "label": "Laughter (65k)",
+   "file": "core/laughter.mp3",
+   "group": "core",
+   "kbps": 65
+  },
+  {
+   "id": "that-was-easy",
+   "sortKey": "that-was-easy",
+   "label": "That Was Easy (353k)",
+   "file": "core/that-was-easy.wav",
+   "group": "core",
+   "kbps": 353
+  },
+  {
+   "id": "when-my-work-is-finished",
+   "sortKey": "when-my-work-is-finished",
+   "label": "When My Work Is Finished (65k)",
+   "file": "core/when-my-work-is-finished.mp3",
+   "group": "core",
+   "kbps": 65
+  },
+  {
+   "id": "white-noise",
+   "sortKey": "white-noise",
+   "label": "White Noise (64k)",
+   "file": "core/white-noise.mp3",
+   "group": "core",
+   "kbps": 64
+  },
+  {
+   "id": "z-applause",
+   "sortKey": "z-applause",
+   "label": "Applause (138k)",
+   "file": "core/z-applause.ogg",
+   "group": "core",
+   "kbps": 138
+  },
+  {
+   "id": "zz-quality-test-bells",
+   "sortKey": "zz-quality-test-bells",
+   "label": "Quality Test Bells (150k)",
+   "file": "core/zz-quality-test-bells.ogg",
+   "group": "core",
+   "kbps": 150
+  },
+  {
+   "id": "zz-quality-test-sweep",
+   "sortKey": "zz-quality-test-sweep",
+   "label": "Quality Test Sweep (146k)",
+   "file": "core/zz-quality-test-sweep.ogg",
+   "group": "core",
+   "kbps": 146
+  },
   {
    "id": "10-billion",
    "label": "10 billion (24k)",
