@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gather Music
 // @namespace    lucas.local
-// @version      1.1.0
+// @version      1.2.0
 // @description  Play music into a Gather call — to yourself, to the room, or both. Plus a Spotify remote for your own playback.
 // @author       Lucas
 // @match        https://app.gather.town/*
@@ -458,17 +458,62 @@
     }
   }
 
-  async function spotifyApi(path, method = "GET") {
+  async function spotifyApi(path, method = "GET", body = null) {
     const cfg = spotifyCfg();
     if (!cfg.token) throw new Error("not connected");
+    const headers = { Authorization: "Bearer " + cfg.token };
+    if (body) headers["Content-Type"] = "application/json";
     const res = await fetch("https://api.spotify.com/v1" + path, {
       method,
-      headers: { Authorization: "Bearer " + cfg.token },
+      headers,
+      body: body ? JSON.stringify(body) : undefined,
     });
-    if (res.status === 204) return null; // nothing playing
+    if (res.status === 204) return null; // nothing playing / command accepted
     if (res.status === 401) throw new Error("token expired — reconnect");
-    if (!res.ok) throw new Error("HTTP " + res.status);
+    if (res.status === 403) throw new Error("forbidden — Premium is required to control playback");
+    if (res.status === 404) throw new Error("no active device — start playback in Spotify once");
+    if (!res.ok) {
+      let detail = "";
+      try { detail = (await res.json())?.error?.message || ""; } catch (_) {}
+      throw new Error(`HTTP ${res.status}${detail ? " — " + detail : ""}`);
+    }
     return res.status === 202 ? null : res.json().catch(() => null);
+  }
+
+  async function spotifyDevices() {
+    const d = await spotifyApi("/me/player/devices");
+    return (d && d.devices) || [];
+  }
+
+  async function spotifySearch(q) {
+    if (!q.trim()) return { tracks: [], playlists: [] };
+    const r = await spotifyApi(
+      `/search?${new URLSearchParams({ q, type: "track,playlist", limit: "8" })}`,
+    );
+    return {
+      tracks: (r?.tracks?.items || []).filter(Boolean),
+      playlists: (r?.playlists?.items || []).filter(Boolean),
+    };
+  }
+
+  /**
+   * Starts playback of a track or playlist on a specific device.
+   *
+   * A playlist is a "context" and individual tracks are "uris" -- passing a
+   * playlist in the uris field plays nothing and reports no error, which is a
+   * confusing way to lose ten minutes.
+   *
+   * device_id is passed as a query param rather than in the body. Spotify
+   * accepts it either way, but the query form also transfers playback to that
+   * device, which is what makes "play to the room" work when the desktop app
+   * is idle and something else was last active.
+   */
+  async function spotifyPlayItem(uri, deviceId) {
+    const qs = deviceId ? `?device_id=${encodeURIComponent(deviceId)}` : "";
+    const body = uri.includes(":playlist:") || uri.includes(":album:") || uri.includes(":artist:")
+      ? { context_uri: uri }
+      : { uris: [uri] };
+    await spotifyApi(`/me/player/play${qs}`, "PUT", body);
   }
 
   let spotifyTimer = null;
@@ -571,6 +616,62 @@
   let host = null, wrap = null, panelEl = null, toolBtn = null, mode = null;
   let noteEl = null, listEl = null, transportEl = null, spotifyEl = null;
   let systemEl = null, deviceSel = null;
+  let spotifyDevSel = null, resultsEl = null;
+
+  async function refreshSpotifyDevices() {
+    if (!spotifyDevSel) return;
+    try {
+      const devs = await spotifyDevices();
+      const prev = spotifyDevSel.value;
+      spotifyDevSel.textContent = "";
+      if (!devs.length) {
+        spotifyDevSel.append(el("option", { value: "", textContent: "no devices — open Spotify" }));
+        return;
+      }
+      for (const d of devs) {
+        spotifyDevSel.append(el("option", {
+          value: d.id,
+          textContent: `${d.name}${d.is_active ? " (active)" : ""}`,
+        }));
+      }
+      // Prefer whatever Spotify says is active; otherwise keep the prior pick.
+      const active = devs.find((d) => d.is_active);
+      spotifyDevSel.value = devs.some((d) => d.id === prev) ? prev
+        : (active ? active.id : devs[0].id);
+    } catch (err) {
+      spotifyDevSel.textContent = "";
+      spotifyDevSel.append(el("option", { value: "", textContent: err.message }));
+    }
+  }
+
+  function renderResults(tracks, playlists) {
+    if (!resultsEl) return;
+    resultsEl.textContent = "";
+    const add = (label, uri, sub) => {
+      const li = el("li", {});
+      const nm = el("span", { className: "nm" });
+      nm.append(el("span", { textContent: label }));
+      if (sub) nm.append(el("span", { className: "muted", textContent: "  " + sub }));
+      nm.onclick = async () => {
+        try {
+          await spotifyPlayItem(uri, spotifyDevSel.value || undefined);
+          setNote(`Playing: ${label}`);
+          setTimeout(spotifyPoll, 600);
+        } catch (err) {
+          setNote(`Play failed: ${err.message}`, true);
+        }
+      };
+      li.append(nm);
+      resultsEl.append(li);
+    };
+    for (const p of playlists) add("▤ " + p.name, p.uri, `playlist · ${p.owner?.display_name || ""}`);
+    for (const t of tracks) {
+      add("♪ " + t.name, t.uri, (t.artists || []).map((a) => a.name).join(", "));
+    }
+    if (!playlists.length && !tracks.length) {
+      resultsEl.append(el("li", { className: "muted", textContent: "no results" }));
+    }
+  }
 
   function renderSystem() {
     if (!systemEl) return;
@@ -823,6 +924,31 @@
       return b;
     };
 
+    // --- device picker: which Spotify device playback lands on
+    spotifyDevSel = el("select", {});
+    const devRescan = el("button", { className: "act", textContent: "⟳" });
+    devRescan.onclick = () => refreshSpotifyDevices();
+
+    // --- search: the only way to start a SPECIFIC song or playlist
+    const searchBox = el("input", { type: "text", placeholder: "search tracks and playlists" });
+    const searchBtn = el("button", { className: "act", textContent: "Search" });
+    resultsEl = el("ul", { className: "list" });
+
+    const doSearch = async () => {
+      const q = searchBox.value.trim();
+      if (!q) return;
+      setNote("Searching…");
+      try {
+        const { tracks, playlists } = await spotifySearch(q);
+        renderResults(tracks, playlists);
+        setNote(`${tracks.length} track(s), ${playlists.length} playlist(s).`);
+      } catch (err) {
+        setNote(`Search failed: ${err.message}`, true);
+      }
+    };
+    searchBtn.onclick = doSearch;
+    searchBox.onkeydown = (e) => { if (e.key === "Enter") doSearch(); };
+
     // --- system capture: the path that actually gets Spotify into the room
     deviceSel = el("select", {});
     const sysBtn = el("button", { className: "act sysbtn", textContent: "Start capture" });
@@ -854,8 +980,13 @@
       el("div", { className: "row" }, idBox, connect),
       spotifyEl,
       el("div", { className: "row" }, mk("⏮", "prev"), mk("▶", "play"), mk("⏸", "pause"), mk("⏭", "next")),
+      el("div", { className: "row" }, el("span", { className: "muted", textContent: "Device" }), spotifyDevSel, devRescan),
+      el("div", { className: "row" }, searchBox, searchBtn),
+      resultsEl,
       el("div", { className: "muted", textContent:
-        "Transport for your own Spotify playback. Independent of capture above." }),
+        "Searching plays on the selected device — point that at the desktop app " +
+        "feeding gather_music and the room hears it. Premium is required to " +
+        "start playback via the API." }),
     );
 
     tabLocal.onclick = () => {
@@ -866,7 +997,7 @@
       tabSpotify.classList.add("on"); tabLocal.classList.remove("on");
       bodySpotify.classList.add("on"); bodyLocal.classList.remove("on");
       refreshDevices();
-      if (spotifyCfg().token) spotifyPoll();
+      if (spotifyCfg().token) { spotifyPoll(); refreshSpotifyDevices(); }
     };
 
     noteEl = el("div", { className: "note", textContent: "Ready." });
