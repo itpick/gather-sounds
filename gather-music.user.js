@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gather Music
 // @namespace    lucas.local
-// @version      1.0.0
+// @version      1.1.0
 // @description  Play music into a Gather call — to yourself, to the room, or both. Plus a Spotify remote for your own playback.
 // @author       Lucas
 // @match        https://app.gather.town/*
@@ -43,16 +43,32 @@
  * script deliberately does the same thing rather than trying to share a bus --
  * a shared global would couple three independently-versioned scripts together.
  *
- * What Spotify can and cannot do here
- * -----------------------------------
- * The Spotify tab is a REMOTE, not a source. Spotify's Web Playback SDK decodes
- * through EME/Widevine, so its samples live in the browser's protected media
- * path: createMediaElementSource() on it returns silence and captureStream()
- * returns nothing. There is no way to route Spotify audio into the graph above,
- * and that is what the DRM is for. So the tab controls playback on whatever
- * device you already own, and the room hears nothing from it.
+ * Getting Spotify into the room
+ * -----------------------------
+ * Not through the browser. Spotify's Web Playback SDK decodes through
+ * EME/Widevine, so its samples sit in the protected media path:
+ * createMediaElementSource() returns silence and captureStream() returns
+ * nothing. No amount of page-side code changes that -- it is precisely what the
+ * DRM is there to prevent.
  *
- * To feed the room, use the Local tab -- files you pick, or a direct audio URL.
+ * The DESKTOP app is a different story. It decodes to an ordinary audio device
+ * like any other program, so the audio is capturable by the OS long before any
+ * browser is involved. Point it at a dedicated sink, capture that sink's
+ * monitor as an input device, and it joins roomGain like any other source:
+ *
+ *     spotify (desktop) --> gather_music sink --> .monitor --> roomGain --> room
+ *                                     |
+ *                                     +--> loopback --> your speakers
+ *
+ * The dedicated sink matters. Capturing the DEFAULT sink's monitor would also
+ * scoop up Gather's own output and send every remote participant's voice back
+ * to them. See "Routing Spotify into the room" in README for the two pactl
+ * commands that set this up.
+ *
+ * Rebroadcasting a Spotify stream is against their terms of use. The capture
+ * path is source-agnostic -- it will carry whatever you route into that sink.
+ *
+ * The Local tab remains the simplest route for files you already have.
  */
 
 (function () {
@@ -190,6 +206,12 @@
     return out;
   }
 
+  // The UNPATCHED getUserMedia, captured before we replace it. System-audio
+  // capture has to go through this: calling the patched one would route the
+  // monitor stream back through tapStream, mixing the capture into the very
+  // bus it is feeding -- a loop that builds on itself until it clips.
+  /** @type {Function|null} */ let origGetUserMedia = null;
+
   function installMicPatch() {
     const md = navigator.mediaDevices;
     if (!md || typeof md.getUserMedia !== "function") {
@@ -197,6 +219,7 @@
       return;
     }
     const orig = md.getUserMedia.bind(md);
+    origGetUserMedia = orig;
     md.getUserMedia = async function (constraints) {
       const stream = await orig(constraints);
       if (!constraints || !constraints.audio) return stream;
@@ -211,6 +234,73 @@
   }
 
   installMicPatch();
+
+  // ---------------------------------------------------------------------------
+  // System-audio capture
+  //
+  // This is how Spotify reaches the room. Its web player decodes through
+  // EME/Widevine and cannot be read from the page, but the DESKTOP app decodes
+  // to a normal audio device like any other program. On Linux a PipeWire null
+  // sink fed only by Spotify gives a monitor source carrying just that audio --
+  // no Gather output, so no feedback loop -- and the browser sees that monitor
+  // as an ordinary input device.
+  //
+  // Setup is documented in README under "Routing Spotify into the room".
+  // Note that rebroadcasting a Spotify stream is against their terms of use;
+  // the mechanism is yours to point wherever you like.
+  // ---------------------------------------------------------------------------
+
+  /** @type {MediaStream|null} */ let sysStream = null;
+  /** @type {MediaStreamAudioSourceNode|null} */ let sysNode = null;
+
+  async function listInputDevices() {
+    if (!navigator.mediaDevices?.enumerateDevices) return [];
+    const all = await navigator.mediaDevices.enumerateDevices();
+    return all.filter((d) => d.kind === "audioinput");
+  }
+
+  async function startSystemCapture(deviceId) {
+    stopSystemCapture();
+    ensureGraph();
+    if (ctx.state === "suspended") await ctx.resume();
+
+    // Every bit of voice processing off. These are tuned for speech and they
+    // wreck music: AGC pumps on sustained notes, noise suppression eats reverb
+    // tails, and echo cancellation will gate the whole thing against whatever
+    // Gather is playing.
+    const constraints = {
+      audio: {
+        deviceId: deviceId ? { exact: deviceId } : undefined,
+        echoCancellation: false,
+        noiseSuppression: false,
+        autoGainControl: false,
+        channelCount: 2,
+      },
+    };
+
+    const get = origGetUserMedia || navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+    sysStream = await get(constraints);
+    sysNode = ctx.createMediaStreamSource(sysStream);
+    sysNode.connect(roomGain);
+    // Deliberately NOT connected to meGain. On the intended setup you already
+    // hear this through the PipeWire loopback, and monitoring it again here
+    // would double it against itself with a few ms of offset.
+    setNote(`Capturing “${labelForDevice(deviceId)}” → room.`);
+    renderSystem();
+    return sysStream;
+  }
+
+  function stopSystemCapture() {
+    if (sysNode) { try { sysNode.disconnect(); } catch (_) {} sysNode = null; }
+    if (sysStream) { sysStream.getTracks().forEach((t) => t.stop()); sysStream = null; }
+    renderSystem();
+  }
+
+  let deviceCache = [];
+  function labelForDevice(id) {
+    const d = deviceCache.find((x) => x.deviceId === id);
+    return d ? d.label || d.deviceId : "device";
+  }
 
   // ---------------------------------------------------------------------------
   // Playback
@@ -469,12 +559,49 @@
     .note { padding: 7px 11px; font-size: 12px; color: #9a9ba3; border-top: 1px solid #34363d; }
     .note.err { color: #ff9c9c; }
     .seek { width: 100%; }
+    select {
+      flex: 1; min-width: 0; background: #14151a; border: 1px solid #3a3c44;
+      color: #e8e8ea; border-radius: 6px; padding: 5px 7px; font: inherit;
+    }
+    hr { border: none; border-top: 1px solid #34363d; margin: 11px 0; }
     .muted { color: #9a9ba3; font-size: 12px; }
     .np { font-weight: 600; margin-bottom: 2px; }
   `;
 
   let host = null, wrap = null, panelEl = null, toolBtn = null, mode = null;
   let noteEl = null, listEl = null, transportEl = null, spotifyEl = null;
+  let systemEl = null, deviceSel = null;
+
+  function renderSystem() {
+    if (!systemEl) return;
+    const on = !!sysStream;
+    systemEl.querySelector(".sysbtn").textContent = on ? "Stop capture" : "Start capture";
+    const st = systemEl.querySelector(".sysstate");
+    st.textContent = on ? "● capturing → room" : "○ idle";
+    st.style.color = on ? "#7ee787" : "#9a9ba3";
+  }
+
+  async function refreshDevices() {
+    if (!deviceSel) return;
+    deviceCache = await listInputDevices();
+    const prev = deviceSel.value;
+    deviceSel.textContent = "";
+    if (!deviceCache.length) {
+      deviceSel.append(el("option", { value: "", textContent: "no input devices" }));
+      return;
+    }
+    for (const d of deviceCache) {
+      // Labels are empty until the page has been granted mic permission once.
+      // In Gather that has already happened, so monitors show their real names.
+      const label = d.label || `input ${d.deviceId.slice(0, 8)}`;
+      deviceSel.append(el("option", { value: d.deviceId, textContent: label }));
+    }
+    // Preselect anything that looks like a loopback/monitor source.
+    const guess = deviceCache.find((d) => /monitor|loopback|gather_music/i.test(d.label || ""));
+    deviceSel.value = prev && deviceCache.some((d) => d.deviceId === prev)
+      ? prev
+      : (guess ? guess.deviceId : deviceCache[0].deviceId);
+  }
 
   function setNote(msg, isErr) {
     if (!noteEl) return;
@@ -696,13 +823,39 @@
       return b;
     };
 
+    // --- system capture: the path that actually gets Spotify into the room
+    deviceSel = el("select", {});
+    const sysBtn = el("button", { className: "act sysbtn", textContent: "Start capture" });
+    sysBtn.onclick = async () => {
+      if (sysStream) { stopSystemCapture(); setNote("Capture stopped."); return; }
+      try {
+        await startSystemCapture(deviceSel.value || undefined);
+      } catch (err) {
+        setNote(`Capture failed: ${err.message}`, true);
+      }
+    };
+    const rescan = el("button", { className: "act", textContent: "⟳" });
+    rescan.onclick = () => refreshDevices().then(() => setNote("Device list refreshed."));
+
+    systemEl = el("div", {},
+      el("div", { className: "row" }, deviceSel, rescan),
+      el("div", { className: "row" }, sysBtn, el("span", { className: "sysstate muted", textContent: "○ idle" })),
+    );
+
     bodySpotify.append(
+      el("div", { className: "np", textContent: "Spotify → room" }),
+      el("div", { className: "muted", textContent:
+        "Pick the monitor source your Spotify desktop app feeds (gather_music.monitor " +
+        "on the documented setup) and start capture. The web player will NOT work — it " +
+        "decodes through DRM and the page cannot read it. The desktop app can." }),
+      systemEl,
+      el("hr", {}),
+      el("div", { className: "np", textContent: "Remote control" }),
       el("div", { className: "row" }, idBox, connect),
       spotifyEl,
       el("div", { className: "row" }, mk("⏮", "prev"), mk("▶", "play"), mk("⏸", "pause"), mk("⏭", "next")),
       el("div", { className: "muted", textContent:
-        "Controls playback on your own Spotify device. Its audio cannot reach the room — " +
-        "Spotify decodes through DRM, so the Web Audio graph never sees it. Use the Local tab for that." }),
+        "Transport for your own Spotify playback. Independent of capture above." }),
     );
 
     tabLocal.onclick = () => {
@@ -712,6 +865,7 @@
     tabSpotify.onclick = () => {
       tabSpotify.classList.add("on"); tabLocal.classList.remove("on");
       bodySpotify.classList.add("on"); bodyLocal.classList.remove("on");
+      refreshDevices();
       if (spotifyCfg().token) spotifyPoll();
     };
 

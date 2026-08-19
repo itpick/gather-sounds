@@ -65,6 +65,41 @@ Filenames set both label and order. `z-` and `zz-` are sort-position prefixes
 stripped from the label: plain names first, `z-` after them, `zz-` last. Digits
 sort *before* letters, so a `99-` prefix would put a sound first, not last.
 
+## Routing Spotify into the room
+
+The Spotify **web player cannot be captured**. It decodes through EME/Widevine,
+so `createMediaElementSource()` on it yields silence and `captureStream()` yields
+nothing — that is exactly what the DRM exists to prevent, and no userscript gets
+around it.
+
+The **desktop app** is capturable, because it decodes to an ordinary audio
+device before any browser is involved:
+
+    spotify (desktop) --> gather_music sink --> .monitor --> roomGain --> room
+                                    |
+                                    +--> loopback --> your speakers
+
+Setup, on PipeWire or PulseAudio:
+
+    ./tools/spotify-bridge.sh
+
+That creates a null sink named `gather_music` plus a loopback to your real
+output, so you still hear what the room hears. Then move Spotify onto it —
+`pavucontrol`'s Playback tab, or `pactl move-sink-input <id> gather_music`
+(Spotify must already be playing for its stream to exist). Finally, in the music
+panel's Spotify tab, pick **Monitor of GatherMusic** and hit Start capture.
+
+**Use the dedicated sink, not the default one.** The default sink's monitor
+carries Gather's own output too, so capturing it sends every remote
+participant's voice back to them — a feedback loop that worsens with each
+person in the room.
+
+The modules do not survive a reboot; re-run the script. Tear down with
+`./tools/spotify-bridge.sh --down`.
+
+Capture is source-agnostic — anything routed to that sink is carried. Note that
+rebroadcasting a Spotify stream is against Spotify's terms of use.
+
 ## Tools
 
 | Script | What it does |
@@ -73,6 +108,7 @@ sort *before* letters, so a `99-` prefix would put a sound first, not last.
 | `tools/fetch-free-sounds.mjs` | Same, from Wikimedia Commons. Low yield — see below. |
 | `tools/merge-manifest.mjs` | Folds `sfx/_pending.json` into `manifest.json`. |
 | `tools/detect-beep.mjs` | Measures the leading beep on sourced clips, writes `startMs`. |
+| `tools/spotify-bridge.sh` | Creates the dedicated sink for capturing desktop audio. |
 
 All of them shell out to ffmpeg and fall back to `nix run nixpkgs#ffmpeg` when
 it isn't on PATH.
