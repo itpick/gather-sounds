@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gather Farts
 // @namespace    lucas.local
-// @version      1.15.0
+// @version      1.16.0
 // @description  Soundboard that plays through your microphone in Gather, so the whole room hears it.
 // @author       Lucas
 // @match        https://app.gather.town/*
@@ -67,6 +67,11 @@
         label: s.label || s.id,
         url: REMOTE_BASE + s.file,
         sortKey: s.sortKey || s.id,
+        // Seconds to skip at the head of the clip. Many of the sourced clips
+        // open with a ~400 Hz beep from the site they came from; startMs is
+        // where speech actually begins, measured per-clip by
+        // tools/detect-beep.mjs. Absent on clips that have no beep.
+        startOffset: s.startMs ? s.startMs / 1000 : 0,
         searchOnly: !!(groups[s.group] && groups[s.group].searchOnly),
       }));
       log(
@@ -204,6 +209,19 @@
     src.buffer = buf;
     src.loop = loop;
 
+    // Skip any leading beep. Clamped so a bad measurement can never seek past
+    // the end and play nothing at all -- a clip that starts late is a bug worth
+    // hearing, a clip that is silent just looks broken.
+    const offset = Math.min(Math.max(sound.startOffset || 0, 0), Math.max(0, buf.duration - 0.05));
+
+    // A looping source restarts at loopStart, not at the play offset, so
+    // without this the beep would be skipped on the first pass and then heard
+    // on every repeat after it.
+    if (loop) {
+      src.loopStart = offset;
+      src.loopEnd = buf.duration;
+    }
+
     // Out to the room.
     src.connect(fxGain);
 
@@ -225,10 +243,12 @@
       if (activeSources.get(sound.id) === handle) activeSources.delete(sound.id);
       renderSound(sound.id);
     };
-    src.start();
+    src.start(0, offset);
     activeSources.set(sound.id, handle);
     renderSound(sound.id);
-    return buf.duration;
+    // Audible length, not buffer length: callers use this for repeat timing, so
+    // returning the full duration would leave a gap the size of the skipped beep.
+    return buf.duration - offset;
   }
 
   function stop(soundId) {

@@ -157,7 +157,8 @@
    "file": "trump/35.ogg",
    "group": "trump",
    "ms": 1793,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 860
   },
   {
    "id": "45",
@@ -173,7 +174,8 @@
    "file": "trump/50-percent.ogg",
    "group": "trump",
    "ms": 1976,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 900
   },
   {
    "id": "5th-avenue",
@@ -181,7 +183,8 @@
    "file": "trump/5th-avenue.ogg",
    "group": "trump",
    "ms": 1560,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 640
   },
   {
    "id": "9",
@@ -189,7 +192,8 @@
    "file": "trump/9.ogg",
    "group": "trump",
    "ms": 1832,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 840
   },
   {
    "id": "9-years",
@@ -197,7 +201,8 @@
    "file": "trump/9-years.ogg",
    "group": "trump",
    "ms": 3392,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 840
   },
   {
    "id": "thomas-the-tank-engine-ft-donald-trump-bing-bong-original-so",
@@ -205,7 +210,8 @@
    "file": "trump/thomas-the-tank-engine-ft-donald-trump-bing-bong-original-so.ogg",
    "group": "trump",
    "ms": 42728,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1460
   },
   {
    "id": "a-woman-that-looks-like-that-has-to-have-special-scent",
@@ -229,7 +235,8 @@
    "file": "trump/ah-no.ogg",
    "group": "trump",
    "ms": 1558,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "america",
@@ -237,7 +244,8 @@
    "file": "trump/america.ogg",
    "group": "trump",
    "ms": 2523,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1420
   },
   {
    "id": "america-first-trump",
@@ -245,7 +253,8 @@
    "file": "trump/america-first-trump.ogg",
    "group": "trump",
    "ms": 3056,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 620
   },
   {
    "id": "america-great-again",
@@ -253,7 +262,8 @@
    "file": "trump/america-great-again.ogg",
    "group": "trump",
    "ms": 3909,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 200
   },
   {
    "id": "and-i-made-a-lot-of-money-in-atlantic-city-and-i-m-very",
@@ -269,7 +279,8 @@
    "file": "trump/and-i-made-a-lot-of-money-in-atlantic-city-and-i-m-very-prou.ogg",
    "group": "trump",
    "ms": 4109,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 400
   },
   {
    "id": "and-i-will-tell-you-this-and-i-said-it-very-strongly",
@@ -277,7 +288,8 @@
    "file": "trump/and-i-will-tell-you-this-and-i-said-it-very-strongly.ogg",
    "group": "trump",
    "ms": 3839,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "and-it-only-makes-common-sense",
@@ -285,7 +297,8 @@
    "file": "trump/and-it-only-makes-common-sense.ogg",
    "group": "trump",
    "ms": 3629,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "and-now-they-re-beating-us-economically-they-are-not-our-fri",
@@ -293,7 +306,8 @@
    "file": "trump/and-now-they-re-beating-us-economically-they-are-not-our-fri.ogg",
    "group": "trump",
    "ms": 4780,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 580
   },
   {
    "id": "and-some-i-assume-are-good-people",
@@ -301,7 +315,8 @@
    "file": "trump/and-some-i-assume-are-good-people.ogg",
    "group": "trump",
    "ms": 3038,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "and-that-is-a-nation-that-truly-has-no-clue-they-don-t",
@@ -309,7 +324,8 @@
    "file": "trump/and-that-is-a-nation-that-truly-has-no-clue-they-don-t.ogg",
    "group": "trump",
    "ms": 7103,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1780
   },
   {
    "id": "and-that-is-a-nation-that-truly-has-no-clue-they-don-t-know-",
@@ -317,7 +333,8 @@
    "file": "trump/and-that-is-a-nation-that-truly-has-no-clue-they-don-t-know-.ogg",
    "group": "trump",
    "ms": 7303,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2020
   },
   {
    "id": "and-the-answer-is",
@@ -325,7 +342,8 @@
    "file": "trump/and-the-answer-is.ogg",
    "group": "trump",
    "ms": 3184,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "and-the-mexican-government-is-much-smarter-much-sharper-much",
@@ -333,7 +351,8 @@
    "file": "trump/and-the-mexican-government-is-much-smarter-much-sharper-much.ogg",
    "group": "trump",
    "ms": 16742,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1800
   },
   {
    "id": "and-we-need-a-truly-great-leader-now",
@@ -341,7 +360,8 @@
    "file": "trump/and-we-need-a-truly-great-leader-now.ogg",
    "group": "trump",
    "ms": 3369,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "and-we-say-bye-bye",
@@ -349,7 +369,8 @@
    "file": "trump/and-we-say-bye-bye.ogg",
    "group": "trump",
    "ms": 2315,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 820
   },
   {
    "id": "and-we-will-make-america-great-again",
@@ -357,7 +378,8 @@
    "file": "trump/and-we-will-make-america-great-again.ogg",
    "group": "trump",
    "ms": 5771,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "and-we-re-going-to-have-a-lot-of-fun-tonight",
@@ -365,7 +387,8 @@
    "file": "trump/and-we-re-going-to-have-a-lot-of-fun-tonight.ogg",
    "group": "trump",
    "ms": 2960,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "and-we-re-going-to-load-it-up-with-some-bad-dudes",
@@ -373,7 +396,8 @@
    "file": "trump/and-we-re-going-to-load-it-up-with-some-bad-dudes.ogg",
    "group": "trump",
    "ms": 5005,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "and-yes",
@@ -381,7 +405,8 @@
    "file": "trump/and-yes.ogg",
    "group": "trump",
    "ms": 1688,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "and-yes-2",
@@ -389,7 +414,8 @@
    "file": "trump/and-yes-2.ogg",
    "group": "trump",
    "ms": 1688,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 780
   },
   {
    "id": "any-guy-that-can-do-a-body-slam-is-my-kind-of-guy-trump-slam",
@@ -397,7 +423,8 @@
    "file": "trump/any-guy-that-can-do-a-body-slam-is-my-kind-of-guy-trump-slam.ogg",
    "group": "trump",
    "ms": 11857,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "are-there-any-russians-here-tonight-collusion-russians-campa",
@@ -405,7 +432,8 @@
    "file": "trump/are-there-any-russians-here-tonight-collusion-russians-campa.ogg",
    "group": "trump",
    "ms": 17865,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2200
   },
   {
    "id": "are-you-running-are-you-not-running",
@@ -413,7 +441,8 @@
    "file": "trump/are-you-running-are-you-not-running.ogg",
    "group": "trump",
    "ms": 3717,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "aroused-aroused-to-get-it-aroused",
@@ -421,7 +450,8 @@
    "file": "trump/aroused-aroused-to-get-it-aroused.ogg",
    "group": "trump",
    "ms": 9647,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1020
   },
   {
    "id": "bad-for-me-to-say-that",
@@ -429,7 +459,8 @@
    "file": "trump/bad-for-me-to-say-that.ogg",
    "group": "trump",
    "ms": 2829,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 820
   },
   {
    "id": "bank-of-america",
@@ -437,7 +468,8 @@
    "file": "trump/bank-of-america.ogg",
    "group": "trump",
    "ms": 9200,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 840
   },
   {
    "id": "barack-obama",
@@ -453,7 +485,8 @@
    "file": "trump/barbie-girl-donald-trump-song.ogg",
    "group": "trump",
    "ms": 15873,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 900
   },
   {
    "id": "be-a-judge",
@@ -461,7 +494,8 @@
    "file": "trump/be-a-judge.ogg",
    "group": "trump",
    "ms": 7376,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1980
   },
   {
    "id": "be-poker-players",
@@ -469,7 +503,8 @@
    "file": "trump/be-poker-players.ogg",
    "group": "trump",
    "ms": 4404,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1420
   },
   {
    "id": "beat-mexico-at-the-border-they-re-laughing-at-us-at-our-stup",
@@ -493,7 +528,8 @@
    "file": "trump/beating-us.ogg",
    "group": "trump",
    "ms": 5015,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 740
   },
   {
    "id": "because-our-leaders-are-stupid-our-politicians-are-stupid",
@@ -541,7 +577,8 @@
    "file": "trump/billions-and-billions-lot.ogg",
    "group": "trump",
    "ms": 35753,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "bing-bong-remix",
@@ -549,7 +586,8 @@
    "file": "trump/bing-bong-remix.ogg",
    "group": "trump",
    "ms": 11057,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1200
   },
   {
    "id": "bomb-those-suckers",
@@ -557,7 +595,8 @@
    "file": "trump/bomb-those-suckers.ogg",
    "group": "trump",
    "ms": 58296,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1880
   },
   {
    "id": "boy-is-she-smart",
@@ -565,7 +604,8 @@
    "file": "trump/boy-is-she-smart.ogg",
    "group": "trump",
    "ms": 1811,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 400
   },
   {
    "id": "build-a-wall",
@@ -573,7 +613,8 @@
    "file": "trump/build-a-wall.ogg",
    "group": "trump",
    "ms": 5903,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 720
   },
   {
    "id": "build-a-wall-pt2",
@@ -589,7 +630,8 @@
    "file": "trump/bullshit.ogg",
    "group": "trump",
    "ms": 2136,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1240
   },
   {
    "id": "burny-sanders",
@@ -597,7 +639,8 @@
    "file": "trump/burny-sanders.ogg",
    "group": "trump",
    "ms": 1723,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 660
   },
   {
    "id": "but-actually-i-am",
@@ -605,7 +648,8 @@
    "file": "trump/but-actually-i-am.ogg",
    "group": "trump",
    "ms": 3028,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "but-if-i-get-elected-president",
@@ -613,7 +657,8 @@
    "file": "trump/but-if-i-get-elected-president.ogg",
    "group": "trump",
    "ms": 4194,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2000
   },
   {
    "id": "but-if-i-get-elected-president-i-will-bring-it-back-bigger-a",
@@ -621,7 +666,8 @@
    "file": "trump/but-if-i-get-elected-president-i-will-bring-it-back-bigger-a.ogg",
    "group": "trump",
    "ms": 15943,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 440
   },
   {
    "id": "but-mr-trump-you-re-not-a-nice-person",
@@ -629,7 +675,8 @@
    "file": "trump/but-mr-trump-you-re-not-a-nice-person.ogg",
    "group": "trump",
    "ms": 4325,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "but-we-don-t-know",
@@ -653,7 +700,8 @@
    "file": "trump/buy-american-and-hire-american.ogg",
    "group": "trump",
    "ms": 4422,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 980
   },
   {
    "id": "canada",
@@ -669,7 +717,8 @@
    "file": "trump/check-out-the-ratings-to-be-true-ratings.ogg",
    "group": "trump",
    "ms": 2238,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "china",
@@ -677,7 +726,8 @@
    "file": "trump/china.ogg",
    "group": "trump",
    "ms": 3437,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "china-china-china",
@@ -685,7 +735,8 @@
    "file": "trump/china-china-china.ogg",
    "group": "trump",
    "ms": 3264,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1460
   },
   {
    "id": "china-trump-know-china-very-well",
@@ -709,7 +760,8 @@
    "file": "trump/close-to-death-pt1.ogg",
    "group": "trump",
    "ms": 3936,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 220
   },
   {
    "id": "close-to-death-pt2",
@@ -733,7 +785,8 @@
    "file": "trump/complete-and-total-disaster-and-total-disaster.ogg",
    "group": "trump",
    "ms": 4353,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "congratulations",
@@ -741,7 +794,8 @@
    "file": "trump/congratulations.ogg",
    "group": "trump",
    "ms": 2706,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1460
   },
   {
    "id": "dialogue",
@@ -749,7 +803,8 @@
    "file": "trump/dialogue.ogg",
    "group": "trump",
    "ms": 3256,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "disgraced-himself",
@@ -765,7 +820,8 @@
    "file": "trump/do-it-yourself.ogg",
    "group": "trump",
    "ms": 2176,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1060
   },
   {
    "id": "do-you-want-to-set-up-the-meeting",
@@ -773,7 +829,8 @@
    "file": "trump/do-you-want-to-set-up-the-meeting.ogg",
    "group": "trump",
    "ms": 1741,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "don-t-be-rude",
@@ -789,7 +846,8 @@
    "file": "trump/don-t-beat-pt1.ogg",
    "group": "trump",
    "ms": 2943,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 280
   },
   {
    "id": "don-t-beat-pt2",
@@ -797,7 +855,8 @@
    "file": "trump/don-t-beat-pt2.ogg",
    "group": "trump",
    "ms": 7784,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2000
   },
   {
    "id": "don-t-beat-pt3",
@@ -805,7 +864,8 @@
    "file": "trump/don-t-beat-pt3.ogg",
    "group": "trump",
    "ms": 3988,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 260
   },
   {
    "id": "don-t-beat-pt4",
@@ -821,7 +881,8 @@
    "file": "trump/don-t-beat-pt5.ogg",
    "group": "trump",
    "ms": 3988,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 300
   },
   {
    "id": "don-t-believe-the-five-point-six",
@@ -829,7 +890,8 @@
    "file": "trump/don-t-believe-the-five-point-six.ogg",
    "group": "trump",
    "ms": 2820,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "don-t-know-what-there-doing",
@@ -837,7 +899,8 @@
    "file": "trump/don-t-know-what-there-doing.ogg",
    "group": "trump",
    "ms": 2959,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 980
   },
   {
    "id": "don-t-vote-for",
@@ -845,7 +908,8 @@
    "file": "trump/don-t-vote-for.ogg",
    "group": "trump",
    "ms": 3047,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 200
   },
   {
    "id": "don-t-wanna-tell-you-everything",
@@ -853,7 +917,8 @@
    "file": "trump/don-t-wanna-tell-you-everything.ogg",
    "group": "trump",
    "ms": 3204,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "donald-trump",
@@ -861,7 +926,8 @@
    "file": "trump/donald-trump.ogg",
    "group": "trump",
    "ms": 17632,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 580
   },
   {
    "id": "donald-trump-2",
@@ -869,7 +935,8 @@
    "file": "trump/donald-trump-2.ogg",
    "group": "trump",
    "ms": 1645,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "donald-trump-jobs-jobs-jobs",
@@ -877,7 +944,8 @@
    "file": "trump/donald-trump-jobs-jobs-jobs.ogg",
    "group": "trump",
    "ms": 4344,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "donald-trump-mistakes-turn-around",
@@ -885,7 +953,8 @@
    "file": "trump/donald-trump-mistakes-turn-around.ogg",
    "group": "trump",
    "ms": 19590,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "donald-trump-ringtone",
@@ -893,7 +962,8 @@
    "file": "trump/donald-trump-ringtone.ogg",
    "group": "trump",
    "ms": 7840,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1000
   },
   {
    "id": "donald-trump-wrong",
@@ -909,7 +979,8 @@
    "file": "trump/donald-trump-2-2.ogg",
    "group": "trump",
    "ms": 2056,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 980
   },
   {
    "id": "donald-trump-discusses-locker-room-banter-commen",
@@ -917,7 +988,8 @@
    "file": "trump/donald-trump-discusses-locker-room-banter-commen.ogg",
    "group": "trump",
    "ms": 4353,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "donald-trump-has-small-hands",
@@ -925,7 +997,8 @@
    "file": "trump/donald-trump-has-small-hands.ogg",
    "group": "trump",
    "ms": 2950,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "donald-trump-havana-song",
@@ -941,7 +1014,8 @@
    "file": "trump/donald-trump-lol-mix-song.ogg",
    "group": "trump",
    "ms": 104270,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1460
   },
   {
    "id": "donald-trump-remix",
@@ -949,7 +1023,8 @@
    "file": "trump/donald-trump-remix.ogg",
    "group": "trump",
    "ms": 19452,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 540
   },
   {
    "id": "donald-trump-singing-the-pokemon-theme-song-trump",
@@ -965,7 +1040,8 @@
    "file": "trump/donald-trump-lie-to-the-fbi.ogg",
    "group": "trump",
    "ms": 10796,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1040
   },
   {
    "id": "donnie-done",
@@ -973,7 +1049,8 @@
    "file": "trump/donnie-done.ogg",
    "group": "trump",
    "ms": 2202,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "don-t-be-afraid-of-it-be-afraid-of-it-let-it-dominate-you-19",
@@ -989,7 +1066,8 @@
    "file": "trump/drain-the-swamp-drump-to-drain-the-swamp-in-washington-dc.ogg",
    "group": "trump",
    "ms": 7931,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1420
   },
   {
    "id": "eight-billion-seven-hundred-and-thirty-seven-million-fi",
@@ -997,7 +1075,8 @@
    "file": "trump/eight-billion-seven-hundred-and-thirty-seven-million-fi.ogg",
    "group": "trump",
    "ms": 7077,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1820
   },
   {
    "id": "eight-billion-seven-hundred-and-thirty-seven-million-five-hu",
@@ -1005,7 +1084,8 @@
    "file": "trump/eight-billion-seven-hundred-and-thirty-seven-million-five-hu.ogg",
    "group": "trump",
    "ms": 5677,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "enter-legally",
@@ -1013,7 +1093,8 @@
    "file": "trump/enter-legally.ogg",
    "group": "trump",
    "ms": 7802,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "eric",
@@ -1021,7 +1102,8 @@
    "file": "trump/eric.ogg",
    "group": "trump",
    "ms": 1200,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 620
   },
   {
    "id": "everything-s-computer-donald-trump",
@@ -1037,7 +1119,8 @@
    "file": "trump/fake-news-news-fake-news.ogg",
    "group": "trump",
    "ms": 6269,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "fantastic",
@@ -1061,7 +1144,8 @@
    "file": "trump/five-billion-we-spend-on-a-web-site.ogg",
    "group": "trump",
    "ms": 3681,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1800
   },
   {
    "id": "for-many-many-many-many-years-to-come",
@@ -1069,7 +1153,8 @@
    "file": "trump/for-many-many-many-many-years-to-come.ogg",
    "group": "trump",
    "ms": 5885,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1020
   },
   {
    "id": "for-many-many-years-to-come",
@@ -1077,7 +1162,8 @@
    "file": "trump/for-many-many-years-to-come.ogg",
    "group": "trump",
    "ms": 4118,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 780
   },
   {
    "id": "four",
@@ -1093,7 +1179,8 @@
    "file": "trump/free-trade-can-be-wonderful-if-you-have-smart-people.ogg",
    "group": "trump",
    "ms": 5866,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1980
   },
   {
    "id": "friends-1",
@@ -1101,7 +1188,8 @@
    "file": "trump/friends-1.ogg",
    "group": "trump",
    "ms": 3792,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1180
   },
   {
    "id": "friends-pt2",
@@ -1125,7 +1213,8 @@
    "file": "trump/full-force.ogg",
    "group": "trump",
    "ms": 128840,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 300
   },
   {
    "id": "gabe-the-dog-mario",
@@ -1133,7 +1222,8 @@
    "file": "trump/gabe-the-dog-mario.ogg",
    "group": "trump",
    "ms": 32198,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2020
   },
   {
    "id": "get-that-sob-off-the-field-he-s-fired-football-big-game",
@@ -1165,7 +1255,8 @@
    "file": "trump/god-bless-the-united-states-speech.ogg",
    "group": "trump",
    "ms": 5249,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1200
   },
   {
    "id": "good-evening",
@@ -1197,7 +1288,8 @@
    "file": "trump/grab-them-by-the-pussy.ogg",
    "group": "trump",
    "ms": 2167,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "great-company",
@@ -1205,7 +1297,8 @@
    "file": "trump/great-company.ogg",
    "group": "trump",
    "ms": 8280,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 680
   },
   {
    "id": "great-great-wall",
@@ -1213,7 +1306,8 @@
    "file": "trump/great-great-wall.ogg",
    "group": "trump",
    "ms": 9088,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1840
   },
   {
    "id": "great-job-job-work-job-for-you-you-are-doing-great",
@@ -1221,7 +1315,8 @@
    "file": "trump/great-job-job-work-job-for-you-you-are-doing-great.ogg",
    "group": "trump",
    "ms": 4456,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "hair-pt1",
@@ -1229,7 +1324,8 @@
    "file": "trump/hair-pt1.ogg",
    "group": "trump",
    "ms": 7617,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1380
   },
   {
    "id": "hair-pt2",
@@ -1261,7 +1357,8 @@
    "file": "trump/have-to-make-deals.ogg",
    "group": "trump",
    "ms": 16240,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1000
   },
   {
    "id": "he-can-t-run",
@@ -1277,7 +1374,8 @@
    "file": "trump/he-did-a-great-job-trump-job.ogg",
    "group": "trump",
    "ms": 4361,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "he-has-been-very-threatening-trump-jong-un-korea",
@@ -1285,7 +1383,8 @@
    "file": "trump/he-has-been-very-threatening-trump-jong-un-korea.ogg",
    "group": "trump",
    "ms": 5738,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 500
   },
   {
    "id": "he-is-a-sick-puppy",
@@ -1293,7 +1392,8 @@
    "file": "trump/he-is-a-sick-puppy.ogg",
    "group": "trump",
    "ms": 2002,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "he-laughs",
@@ -1301,7 +1401,8 @@
    "file": "trump/he-laughs.ogg",
    "group": "trump",
    "ms": 2497,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "healthcare-is-going-up-25-35-50",
@@ -1309,7 +1410,8 @@
    "file": "trump/healthcare-is-going-up-25-35-50.ogg",
    "group": "trump",
    "ms": 6851,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 980
   },
   {
    "id": "hello-everyone",
@@ -1317,7 +1419,8 @@
    "file": "trump/hello-everyone.ogg",
    "group": "trump",
    "ms": 1688,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "hi-dani-done",
@@ -1333,7 +1436,8 @@
    "file": "trump/hi-this-is-trump-pt1.ogg",
    "group": "trump",
    "ms": 5780,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 980
   },
   {
    "id": "hi-this-is-trump-pt2",
@@ -1341,7 +1445,8 @@
    "file": "trump/hi-this-is-trump-pt2.ogg",
    "group": "trump",
    "ms": 14855,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 220
   },
   {
    "id": "hi-this-is-trump-pt3",
@@ -1349,7 +1454,8 @@
    "file": "trump/hi-this-is-trump-pt3.ogg",
    "group": "trump",
    "ms": 4649,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 660
   },
   {
    "id": "hillary",
@@ -1357,7 +1463,8 @@
    "file": "trump/hillary.ogg",
    "group": "trump",
    "ms": 896,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "hmm-that-s-strange",
@@ -1381,7 +1488,8 @@
    "file": "trump/how-is-the-situation-in-russia.ogg",
    "group": "trump",
    "ms": 1950,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "how-stupid-are-these-politicians-to-allow-this-to-happe",
@@ -1389,7 +1497,8 @@
    "file": "trump/how-stupid-are-these-politicians-to-allow-this-to-happe.ogg",
    "group": "trump",
    "ms": 5737,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 800
   },
   {
    "id": "how-stupid-are-these-politicians-to-allow-this-to-happen",
@@ -1405,7 +1514,8 @@
    "file": "trump/how-we-doing-in-syria.ogg",
    "group": "trump",
    "ms": 2532,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "huh",
@@ -1421,7 +1531,8 @@
    "file": "trump/i-am-huge-fan-of-your-mother-trump-a-huge-fan-of-your-mother.ogg",
    "group": "trump",
    "ms": 3570,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 240
   },
   {
    "id": "i-am-officially-running",
@@ -1429,7 +1540,8 @@
    "file": "trump/i-am-officially-running.ogg",
    "group": "trump",
    "ms": 2585,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 600
   },
   {
    "id": "i-am-officially-running-for-president-of-the-united-sta",
@@ -1445,7 +1557,8 @@
    "file": "trump/i-am-officially-running-for-president-of-the-united-states.ogg",
    "group": "trump",
    "ms": 5337,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "i-am-the-chosen-one-one-had-to-do-it-one",
@@ -1453,7 +1566,8 @@
    "file": "trump/i-am-the-chosen-one-one-had-to-do-it-one.ogg",
    "group": "trump",
    "ms": 5849,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "i-beat-china-all-the-time",
@@ -1477,7 +1591,8 @@
    "file": "trump/i-built-a-net-worth-of-more-than-ten-billion-dollars-i.ogg",
    "group": "trump",
    "ms": 8723,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1220
   },
   {
    "id": "i-built-a-net-worth-of-more-than-ten-billion-dollars-i-have-",
@@ -1485,7 +1600,8 @@
    "file": "trump/i-built-a-net-worth-of-more-than-ten-billion-dollars-i-have-.ogg",
    "group": "trump",
    "ms": 7723,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 260
   },
   {
    "id": "i-could-shoot-somebody-and-not-lose-voters-avenue-voters-tru",
@@ -1493,7 +1609,8 @@
    "file": "trump/i-could-shoot-somebody-and-not-lose-voters-avenue-voters-tru.ogg",
    "group": "trump",
    "ms": 8540,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1920
   },
   {
    "id": "i-don-t-believe-i-ve-ever-met-him",
@@ -1501,7 +1618,8 @@
    "file": "trump/i-don-t-believe-i-ve-ever-met-him.ogg",
    "group": "trump",
    "ms": 4841,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 400
   },
   {
    "id": "i-don-t-care",
@@ -1525,7 +1643,8 @@
    "file": "trump/i-don-t-give-a-damn.ogg",
    "group": "trump",
    "ms": 1846,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 260
   },
   {
    "id": "i-don-t-give-out-my-number-to-anybody",
@@ -1533,7 +1652,8 @@
    "file": "trump/i-don-t-give-out-my-number-to-anybody.ogg",
    "group": "trump",
    "ms": 3655,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "i-don-t-hold-grudges-against-anybody",
@@ -1541,7 +1661,8 @@
    "file": "trump/i-don-t-hold-grudges-against-anybody.ogg",
    "group": "trump",
    "ms": 3300,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "i-don-t-know",
@@ -1549,7 +1670,8 @@
    "file": "trump/i-don-t-know.ogg",
    "group": "trump",
    "ms": 2800,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1060
   },
   {
    "id": "i-don-t-like-her",
@@ -1557,7 +1679,8 @@
    "file": "trump/i-don-t-like-her.ogg",
    "group": "trump",
    "ms": 1462,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 580
   },
   {
    "id": "i-don-t-like-her-pt2",
@@ -1573,7 +1696,8 @@
    "file": "trump/i-don-t-like-her-pt3.ogg",
    "group": "trump",
    "ms": 3518,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 220
   },
   {
    "id": "i-don-t-mind-having-a-big-beautiful-door-in-that-wall-s",
@@ -1589,7 +1713,8 @@
    "file": "trump/i-don-t-mind-having-a-big-beautiful-door-in-that-wall-so-tha.ogg",
    "group": "trump",
    "ms": 7810,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "i-don-t-really-care-about-offending-people-care-craps-given-",
@@ -1597,7 +1722,8 @@
    "file": "trump/i-don-t-really-care-about-offending-people-care-craps-given-.ogg",
    "group": "trump",
    "ms": 4744,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "i-don-t-remember",
@@ -1613,7 +1739,8 @@
    "file": "trump/i-don-t-remember-maybe-that-s-what-i-said.ogg",
    "group": "trump",
    "ms": 4256,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "i-don-t-think-it-s-going-to-happen",
@@ -1629,7 +1756,8 @@
    "file": "trump/i-don-t-think-so.ogg",
    "group": "trump",
    "ms": 2123,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 940
   },
   {
    "id": "i-don-t-think-so-darling-think-so-gonna-happen",
@@ -1637,7 +1765,8 @@
    "file": "trump/i-don-t-think-so-darling-think-so-gonna-happen.ogg",
    "group": "trump",
    "ms": 2732,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "i-don-t-think-they-like-me-very-much",
@@ -1645,7 +1774,8 @@
    "file": "trump/i-don-t-think-they-like-me-very-much.ogg",
    "group": "trump",
    "ms": 2202,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "i-don-t-wanna-tell-you",
@@ -1653,7 +1783,8 @@
    "file": "trump/i-don-t-wanna-tell-you.ogg",
    "group": "trump",
    "ms": 7496,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1380
   },
   {
    "id": "i-don-t-wanna-tell-you-pt2",
@@ -1661,7 +1792,8 @@
    "file": "trump/i-don-t-wanna-tell-you-pt2.ogg",
    "group": "trump",
    "ms": 10081,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1780
   },
   {
    "id": "i-don-t-wanna-tell-you-pt3",
@@ -1669,7 +1801,8 @@
    "file": "trump/i-don-t-wanna-tell-you-pt3.ogg",
    "group": "trump",
    "ms": 22568,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 800
   },
   {
    "id": "i-don-t-wear-a-toupe",
@@ -1677,7 +1810,8 @@
    "file": "trump/i-don-t-wear-a-toupe.ogg",
    "group": "trump",
    "ms": 2446,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "i-fully-understand",
@@ -1685,7 +1819,8 @@
    "file": "trump/i-fully-understand.ogg",
    "group": "trump",
    "ms": 2628,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "i-gotta-win",
@@ -1693,7 +1828,8 @@
    "file": "trump/i-gotta-win.ogg",
    "group": "trump",
    "ms": 4169,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1460
   },
   {
    "id": "i-had-1-beer-ford-beer",
@@ -1701,7 +1837,8 @@
    "file": "trump/i-had-1-beer-ford-beer.ogg",
    "group": "trump",
    "ms": 6242,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "i-had-someone-behind-me-who-was-mumbling-distracting-pelosi",
@@ -1709,7 +1846,8 @@
    "file": "trump/i-had-someone-behind-me-who-was-mumbling-distracting-pelosi.ogg",
    "group": "trump",
    "ms": 17047,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "i-hate-to-break-it-to-you-guys",
@@ -1717,7 +1855,8 @@
    "file": "trump/i-hate-to-break-it-to-you-guys.ogg",
    "group": "trump",
    "ms": 2167,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "i-have-really-nothing-better-to-do",
@@ -1733,7 +1872,8 @@
    "file": "trump/i-have-so-many-friends.ogg",
    "group": "trump",
    "ms": 1960,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 400
   },
   {
    "id": "i-have-the-best-words-know-words-went-to-an-ivy-league-schoo",
@@ -1741,7 +1881,8 @@
    "file": "trump/i-have-the-best-words-know-words-went-to-an-ivy-league-schoo.ogg",
    "group": "trump",
    "ms": 7949,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "i-hear-covfefe-teaser-house-do-you-hear-hear-hear-covfefe",
@@ -1749,7 +1890,8 @@
    "file": "trump/i-hear-covfefe-teaser-house-do-you-hear-hear-hear-covfefe.ogg",
    "group": "trump",
    "ms": 2847,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 640
   },
   {
    "id": "i-hire-people-they-do-a-web-site-it-costs-me-3-dollar",
@@ -1757,7 +1899,8 @@
    "file": "trump/i-hire-people-they-do-a-web-site-it-costs-me-3-dollar.ogg",
    "group": "trump",
    "ms": 4014,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 200
   },
   {
    "id": "i-hire-people-they-do-a-web-site-it-costs-me-3-dollars",
@@ -1773,7 +1916,8 @@
    "file": "trump/i-just-don-t-want-a-poor-person-does-that-make-sense.ogg",
    "group": "trump",
    "ms": 3125,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "i-just-sold-an-apartment-for-fifteen-million-dollars-to",
@@ -1781,7 +1925,8 @@
    "file": "trump/i-just-sold-an-apartment-for-fifteen-million-dollars-to.ogg",
    "group": "trump",
    "ms": 5789,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "i-just-sold-an-apartment-for-fifteen-million-dollars-to-some",
@@ -1789,7 +1934,8 @@
    "file": "trump/i-just-sold-an-apartment-for-fifteen-million-dollars-to-some.ogg",
    "group": "trump",
    "ms": 6789,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "i-just-want-them-to-suffer",
@@ -1797,7 +1943,8 @@
    "file": "trump/i-just-want-them-to-suffer.ogg",
    "group": "trump",
    "ms": 3864,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1820
   },
   {
    "id": "i-know-that",
@@ -1805,7 +1952,8 @@
    "file": "trump/i-know-that.ogg",
    "group": "trump",
    "ms": 1784,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "i-know-words-i-have-the-best-words",
@@ -1813,7 +1961,8 @@
    "file": "trump/i-know-words-i-have-the-best-words.ogg",
    "group": "trump",
    "ms": 3194,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "i-like-china",
@@ -1821,7 +1970,8 @@
    "file": "trump/i-like-china.ogg",
    "group": "trump",
    "ms": 2297,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "i-like-debate-pt2",
@@ -1829,7 +1979,8 @@
    "file": "trump/i-like-debate-pt2.ogg",
    "group": "trump",
    "ms": 5259,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "i-like-debates-1",
@@ -1837,7 +1988,8 @@
    "file": "trump/i-like-debates-1.ogg",
    "group": "trump",
    "ms": 5872,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "i-like-debates-pt3",
@@ -1845,7 +1997,8 @@
    "file": "trump/i-like-debates-pt3.ogg",
    "group": "trump",
    "ms": 8802,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1180
   },
   {
    "id": "i-love-china",
@@ -1861,7 +2014,8 @@
    "file": "trump/i-love-it.ogg",
    "group": "trump",
    "ms": 20368,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "i-love-mexicans",
@@ -1869,7 +2023,8 @@
    "file": "trump/i-love-mexicans.ogg",
    "group": "trump",
    "ms": 7427,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "i-love-my-life-i-have-a-wonderful-family",
@@ -1877,7 +2032,8 @@
    "file": "trump/i-love-my-life-i-have-a-wonderful-family.ogg",
    "group": "trump",
    "ms": 5709,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "i-love-the-mexican-people-and-their-spirit",
@@ -1885,7 +2041,8 @@
    "file": "trump/i-love-the-mexican-people-and-their-spirit.ogg",
    "group": "trump",
    "ms": 2777,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 420
   },
   {
    "id": "i-love-the-poorly-educated",
@@ -1909,7 +2066,8 @@
    "file": "trump/i-love-you.ogg",
    "group": "trump",
    "ms": 1984,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "i-mention-foodstamps",
@@ -1917,7 +2075,8 @@
    "file": "trump/i-mention-foodstamps.ogg",
    "group": "trump",
    "ms": 8845,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1380
   },
   {
    "id": "i-never-heard-that-one-before",
@@ -1925,7 +2084,8 @@
    "file": "trump/i-never-heard-that-one-before.ogg",
    "group": "trump",
    "ms": 4517,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1740
   },
   {
    "id": "i-own-a-big-chunk-of-the-bank-of-america-building-in-twelve-",
@@ -1933,7 +2093,8 @@
    "file": "trump/i-own-a-big-chunk-of-the-bank-of-america-building-in-twelve-.ogg",
    "group": "trump",
    "ms": 8829,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 660
   },
   {
    "id": "i-run-i-win",
@@ -1957,7 +2118,8 @@
    "file": "trump/i-say-it-all-the-time.ogg",
    "group": "trump",
    "ms": 3384,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1900
   },
   {
    "id": "i-spent-a-long-time-making-my-shoes-beautiful",
@@ -1989,7 +2151,8 @@
    "file": "trump/i-think-the-big-problem-this-country-has-is-being-politicall.ogg",
    "group": "trump",
    "ms": 6764,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1200
   },
   {
    "id": "i-understand",
@@ -2005,7 +2168,8 @@
    "file": "trump/i-understand-that-you-re-building-a-nice-two-point-five-bill.ogg",
    "group": "trump",
    "ms": 8715,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 860
   },
   {
    "id": "i-want-nothing-quid-pro-pro-trump-have-the-cameras-rolling",
@@ -2013,7 +2177,8 @@
    "file": "trump/i-want-nothing-quid-pro-pro-trump-have-the-cameras-rolling.ogg",
    "group": "trump",
    "ms": 5738,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "i-want-to-build-a-wall",
@@ -2021,7 +2186,8 @@
    "file": "trump/i-want-to-build-a-wall.ogg",
    "group": "trump",
    "ms": 2002,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "i-want-to-build-a-wall-i-m-going-to-build-a-wall",
@@ -2029,7 +2195,8 @@
    "file": "trump/i-want-to-build-a-wall-i-m-going-to-build-a-wall.ogg",
    "group": "trump",
    "ms": 2307,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "i-want-to-go-to-the-toilet-and-do-a-poo-poo",
@@ -2045,7 +2212,8 @@
    "file": "trump/i-want-to-run-as-the-republican-nominee.ogg",
    "group": "trump",
    "ms": 3073,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 820
   },
   {
    "id": "i-want-to-win-i-want-to-make-our-country-great",
@@ -2053,7 +2221,8 @@
    "file": "trump/i-want-to-win-i-want-to-make-our-country-great.ogg",
    "group": "trump",
    "ms": 4160,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2060
   },
   {
    "id": "i-was-not-expecting-that-reaction-was-not-expecting-that-rea",
@@ -2069,7 +2238,8 @@
    "file": "trump/i-wasn-t-sure-if-i-was-going-to-like-it.ogg",
    "group": "trump",
    "ms": 1846,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "i-went-to-an-ivy-league-school",
@@ -2077,7 +2247,8 @@
    "file": "trump/i-went-to-an-ivy-league-school.ogg",
    "group": "trump",
    "ms": 2464,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 460
   },
   {
    "id": "i-will-be",
@@ -2093,7 +2264,8 @@
    "file": "trump/i-will-be-president-for-many-many-many-many-years-to-come.ogg",
    "group": "trump",
    "ms": 7923,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 420
   },
   {
    "id": "i-will-be-president-for-many-many-years-to-come",
@@ -2101,7 +2273,8 @@
    "file": "trump/i-will-be-president-for-many-many-years-to-come.ogg",
    "group": "trump",
    "ms": 6208,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 240
   },
   {
    "id": "i-will-be-the-greatest-jobs-president-that-god-ever-cre",
@@ -2109,7 +2282,8 @@
    "file": "trump/i-will-be-the-greatest-jobs-president-that-god-ever-cre.ogg",
    "group": "trump",
    "ms": 7348,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "i-will-be-the-greatest-jobs-president-that-god-ever-created",
@@ -2125,7 +2299,8 @@
    "file": "trump/i-will-be-the-greatest-president-for-many-many-many-many-yea.ogg",
    "group": "trump",
    "ms": 10281,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "i-will-be-the-greatest-president-for-many-many-years-to",
@@ -2133,7 +2308,8 @@
    "file": "trump/i-will-be-the-greatest-president-for-many-many-years-to.ogg",
    "group": "trump",
    "ms": 7192,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "i-will-be-the-greatest-president-for-many-many-years-to-come",
@@ -2141,7 +2317,8 @@
    "file": "trump/i-will-be-the-greatest-president-for-many-many-years-to-come.ogg",
    "group": "trump",
    "ms": 8592,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1780
   },
   {
    "id": "i-will-be-the-greatest-president-that-god-ever-created",
@@ -2149,7 +2326,8 @@
    "file": "trump/i-will-be-the-greatest-president-that-god-ever-created.ogg",
    "group": "trump",
    "ms": 6337,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1380
   },
   {
    "id": "i-will-bring-it-back",
@@ -2157,7 +2335,8 @@
    "file": "trump/i-will-bring-it-back.ogg",
    "group": "trump",
    "ms": 2176,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "i-will-build-a-great-great-wall-on-our-southern-border-and-i",
@@ -2165,7 +2344,8 @@
    "file": "trump/i-will-build-a-great-great-wall-on-our-southern-border-and-i.ogg",
    "group": "trump",
    "ms": 8036,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 800
   },
   {
    "id": "i-will-destroy-isis-pt1",
@@ -2173,7 +2353,8 @@
    "file": "trump/i-will-destroy-isis-pt1.ogg",
    "group": "trump",
    "ms": 1915,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 420
   },
   {
    "id": "i-will-destroy-isis-pt2",
@@ -2181,7 +2362,8 @@
    "file": "trump/i-will-destroy-isis-pt2.ogg",
    "group": "trump",
    "ms": 3082,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 620
   },
   {
    "id": "i-will-destroy-isis-pt3",
@@ -2189,7 +2371,8 @@
    "file": "trump/i-will-destroy-isis-pt3.ogg",
    "group": "trump",
    "ms": 4909,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1180
   },
   {
    "id": "i-will-fight-for-you-with-every-breath-in-my-body-and-i-will",
@@ -2197,7 +2380,8 @@
    "file": "trump/i-will-fight-for-you-with-every-breath-in-my-body-and-i-will.ogg",
    "group": "trump",
    "ms": 9794,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1180
   },
   {
    "id": "i-will-immediately-terminate-president-obama-s-illegal",
@@ -2205,7 +2389,8 @@
    "file": "trump/i-will-immediately-terminate-president-obama-s-illegal.ogg",
    "group": "trump",
    "ms": 10073,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1380
   },
   {
    "id": "i-will-immediately-terminate-president-obama-s-illegal-execu",
@@ -2221,7 +2406,8 @@
    "file": "trump/i-will-tell-you-this-is-going-to-be-something-special.ogg",
    "group": "trump",
    "ms": 3221,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "i-will-win",
@@ -2237,7 +2423,8 @@
    "file": "trump/i-will-win-long.ogg",
    "group": "trump",
    "ms": 24944,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 240
   },
   {
    "id": "i-will-win-short",
@@ -2269,7 +2456,8 @@
    "file": "trump/i-would-just-bomb-those-suckers-it-up.ogg",
    "group": "trump",
    "ms": 12642,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "i-would-say-he-s-incompetent-but-i-don-t-want-to-do-tha",
@@ -2277,7 +2465,8 @@
    "file": "trump/i-would-say-he-s-incompetent-but-i-don-t-want-to-do-tha.ogg",
    "group": "trump",
    "ms": 5310,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1020
   },
   {
    "id": "i-would-say-he-s-incompetent-but-i-don-t-want-to-do-that-bec",
@@ -2285,7 +2474,8 @@
    "file": "trump/i-would-say-he-s-incompetent-but-i-don-t-want-to-do-that-bec.ogg",
    "group": "trump",
    "ms": 5310,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1040
   },
   {
    "id": "i-d-be-china-all-the-time",
@@ -2293,7 +2483,8 @@
    "file": "trump/i-d-be-china-all-the-time.ogg",
    "group": "trump",
    "ms": 3342,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1180
   },
   {
    "id": "i-d-love-that",
@@ -2301,7 +2492,8 @@
    "file": "trump/i-d-love-that.ogg",
    "group": "trump",
    "ms": 1393,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 340
   },
   {
    "id": "i-ll-do-the-next-best-thing",
@@ -2317,7 +2509,8 @@
    "file": "trump/i-m-a-nationalist.ogg",
    "group": "trump",
    "ms": 8437,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "i-m-a-nice-guy",
@@ -2325,7 +2518,8 @@
    "file": "trump/i-m-a-nice-guy.ogg",
    "group": "trump",
    "ms": 3054,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "i-m-donald-trump-and-i-approve-this-message",
@@ -2333,7 +2527,8 @@
    "file": "trump/i-m-donald-trump-and-i-approve-this-message.ogg",
    "group": "trump",
    "ms": 5206,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1020
   },
   {
    "id": "i-m-far-too-busy-a-fan-of-that-time-out",
@@ -2341,7 +2536,8 @@
    "file": "trump/i-m-far-too-busy-a-fan-of-that-time-out.ogg",
    "group": "trump",
    "ms": 13069,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 520
   },
   {
    "id": "i-m-gonna-bomb-the-sh-t-out-of-them",
@@ -2349,7 +2545,8 @@
    "file": "trump/i-m-gonna-bomb-the-sh-t-out-of-them.ogg",
    "group": "trump",
    "ms": 3256,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "i-m-gonna-sign-on-this-bill-bill-act-dollars",
@@ -2365,7 +2562,8 @@
    "file": "trump/i-m-gonna-tell-you-a-couple-of-stores.ogg",
    "group": "trump",
    "ms": 3116,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "i-m-important-lip-reading-trump",
@@ -2373,7 +2571,8 @@
    "file": "trump/i-m-important-lip-reading-trump.ogg",
    "group": "trump",
    "ms": 9543,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "i-m-no-fan",
@@ -2381,7 +2580,8 @@
    "file": "trump/i-m-no-fan.ogg",
    "group": "trump",
    "ms": 1340,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "i-m-really-getting-used-to-being-president",
@@ -2389,7 +2589,8 @@
    "file": "trump/i-m-really-getting-used-to-being-president.ogg",
    "group": "trump",
    "ms": 3933,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1980
   },
   {
    "id": "i-m-really-rich",
@@ -2397,7 +2598,8 @@
    "file": "trump/i-m-really-rich.ogg",
    "group": "trump",
    "ms": 1819,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "i-m-really-smart",
@@ -2405,7 +2607,8 @@
    "file": "trump/i-m-really-smart.ogg",
    "group": "trump",
    "ms": 1236,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "i-m-sorry",
@@ -2413,7 +2616,8 @@
    "file": "trump/i-m-sorry.ogg",
    "group": "trump",
    "ms": 1758,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "i-m-very-intelligent-trump-league",
@@ -2421,7 +2625,8 @@
    "file": "trump/i-m-very-intelligent-trump-league.ogg",
    "group": "trump",
    "ms": 21654,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "i-ve-been-a-fan-of-yours-for-a-long-time-fan-like-you-are-aw",
@@ -2429,7 +2634,8 @@
    "file": "trump/i-ve-been-a-fan-of-yours-for-a-long-time-fan-like-you-are-aw.ogg",
    "group": "trump",
    "ms": 6747,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "i-ve-been-very-nice-to-you-although-i-could-probably-not-be",
@@ -2437,7 +2643,8 @@
    "file": "trump/i-ve-been-very-nice-to-you-although-i-could-probably-not-be.ogg",
    "group": "trump",
    "ms": 6311,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "i-ve-been-watching-you-for-the-last-couple-of-weeks",
@@ -2445,7 +2652,8 @@
    "file": "trump/i-ve-been-watching-you-for-the-last-couple-of-weeks.ogg",
    "group": "trump",
    "ms": 3352,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "i-ve-dealt-with-russia",
@@ -2453,7 +2661,8 @@
    "file": "trump/i-ve-dealt-with-russia.ogg",
    "group": "trump",
    "ms": 2063,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "i-ve-gotta-come-over-and-see-the-fake-news-news-story",
@@ -2461,7 +2670,8 @@
    "file": "trump/i-ve-gotta-come-over-and-see-the-fake-news-news-story.ogg",
    "group": "trump",
    "ms": 6153,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2100
   },
   {
    "id": "i-ve-just-received-a-call-from-secretary-clinton-donald-trum",
@@ -2477,7 +2687,8 @@
    "file": "trump/i-ve-loved-doing-it.ogg",
    "group": "trump",
    "ms": 10535,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 980
   },
   {
    "id": "if-it-weren-t-for-me-you-wouldn-t-even-be-talking-about-ille",
@@ -2485,7 +2696,8 @@
    "file": "trump/if-it-weren-t-for-me-you-wouldn-t-even-be-talking-about-ille.ogg",
    "group": "trump",
    "ms": 6564,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1020
   },
   {
    "id": "if-ivanka-weren-t-my-daughter",
@@ -2493,7 +2705,8 @@
    "file": "trump/if-ivanka-weren-t-my-daughter.ogg",
    "group": "trump",
    "ms": 3856,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "if-that-s-ok",
@@ -2501,7 +2714,8 @@
    "file": "trump/if-that-s-ok.ogg",
    "group": "trump",
    "ms": 1828,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "if-you-believe-that",
@@ -2517,7 +2731,8 @@
    "file": "trump/if-you-keep-talking-i-ll-leave-talking.ogg",
    "group": "trump",
    "ms": 9447,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 920
   },
   {
    "id": "im-with-you",
@@ -2525,7 +2740,8 @@
    "file": "trump/im-with-you.ogg",
    "group": "trump",
    "ms": 10582,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "in-texas",
@@ -2541,7 +2757,8 @@
    "file": "trump/in-this-room-it-s-so-hot-maybe-i-ll-start-to-believe-it.ogg",
    "group": "trump",
    "ms": 4718,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "in-this-room-it-s-so-hot-maybe-i-ll-start-to-believe-it-myse",
@@ -2557,7 +2774,8 @@
    "file": "trump/is-dead.ogg",
    "group": "trump",
    "ms": 2202,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1000
   },
   {
    "id": "isis",
@@ -2565,7 +2783,8 @@
    "file": "trump/isis.ogg",
    "group": "trump",
    "ms": 2532,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1220
   },
   {
    "id": "isis-can-t-cut-off-our-peoples-head",
@@ -2573,7 +2792,8 @@
    "file": "trump/isis-can-t-cut-off-our-peoples-head.ogg",
    "group": "trump",
    "ms": 6680,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1980
   },
   {
    "id": "isis-how-you-going-to-defeat-isis",
@@ -2589,7 +2809,8 @@
    "file": "trump/it-can-happen.ogg",
    "group": "trump",
    "ms": 2123,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 980
   },
   {
    "id": "it-comes-from-china-virus-19",
@@ -2597,7 +2818,8 @@
    "file": "trump/it-comes-from-china-virus-19.ogg",
    "group": "trump",
    "ms": 3342,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "it-does-take-guts",
@@ -2613,7 +2835,8 @@
    "file": "trump/it-doesn-t-exist-folks.ogg",
    "group": "trump",
    "ms": 3333,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1420
   },
   {
    "id": "it-don-t-matter",
@@ -2629,7 +2852,8 @@
    "file": "trump/it-don-t-matter-2.ogg",
    "group": "trump",
    "ms": 2472,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1320
   },
   {
    "id": "it-was-terrifiic",
@@ -2637,7 +2861,8 @@
    "file": "trump/it-was-terrifiic.ogg",
    "group": "trump",
    "ms": 9088,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "it-s-all-right",
@@ -2645,7 +2870,8 @@
    "file": "trump/it-s-all-right.ogg",
    "group": "trump",
    "ms": 2393,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 880
   },
   {
    "id": "it-s-been-a-great-success",
@@ -2653,7 +2879,8 @@
    "file": "trump/it-s-been-a-great-success.ogg",
    "group": "trump",
    "ms": 1558,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "it-s-coming-from-all-over-south-and-latin-america-and-i",
@@ -2661,7 +2888,8 @@
    "file": "trump/it-s-coming-from-all-over-south-and-latin-america-and-i.ogg",
    "group": "trump",
    "ms": 9837,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2020
   },
   {
    "id": "it-s-coming-from-all-over-south-and-latin-america-and-it-s-c",
@@ -2685,7 +2913,8 @@
    "file": "trump/it-s-not-easy-doing-what-i-do-trump-an-easy-job-job.ogg",
    "group": "trump",
    "ms": 4449,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "i-m-speaking-and-a-woman-is-mumbling-terribly-behind-me-pelo",
@@ -2701,7 +2930,8 @@
    "file": "trump/japan.ogg",
    "group": "trump",
    "ms": 3437,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1980
   },
   {
    "id": "just-like-i-promised-right",
@@ -2709,7 +2939,8 @@
    "file": "trump/just-like-i-promised-right.ogg",
    "group": "trump",
    "ms": 2498,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 780
   },
   {
    "id": "just-sold",
@@ -2717,7 +2948,8 @@
    "file": "trump/just-sold.ogg",
    "group": "trump",
    "ms": 6656,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1440
   },
   {
    "id": "kiss-my-robustly-healthy-asscheeks-until-they-re-raw-and-ble",
@@ -2725,7 +2957,8 @@
    "file": "trump/kiss-my-robustly-healthy-asscheeks-until-they-re-raw-and-ble.ogg",
    "group": "trump",
    "ms": 6392,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1440
   },
   {
    "id": "komatsu-tractor-are-high-cost-much-money",
@@ -2741,7 +2974,8 @@
    "file": "trump/ladies-and-gentlemen-i-am-officially-running-for-presi.ogg",
    "group": "trump",
    "ms": 20087,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "ladies-and-gentlemen-i-am-officially-running-for-president-o",
@@ -2765,7 +2999,8 @@
    "file": "trump/lisa.ogg",
    "group": "trump",
    "ms": 2245,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1200
   },
   {
    "id": "little-rocket-man",
@@ -2781,7 +3016,8 @@
    "file": "trump/london-radicalised.ogg",
    "group": "trump",
    "ms": 12303,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 600
   },
   {
    "id": "look-at-my-african-american-here-rally",
@@ -2789,7 +3025,8 @@
    "file": "trump/look-at-my-african-american-here-rally.ogg",
    "group": "trump",
    "ms": 30022,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "look-at-our-economy",
@@ -2797,7 +3034,8 @@
    "file": "trump/look-at-our-economy.ogg",
    "group": "trump",
    "ms": 10980,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "look-at-this-country",
@@ -2805,7 +3043,8 @@
    "file": "trump/look-at-this-country.ogg",
    "group": "trump",
    "ms": 23832,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1200
   },
   {
    "id": "look-at-this-guy",
@@ -2837,7 +3076,8 @@
    "file": "trump/love-my-life-i-have-a-wonderful-family.ogg",
    "group": "trump",
    "ms": 5866,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2020
   },
   {
    "id": "love-the-competition",
@@ -2845,7 +3085,8 @@
    "file": "trump/love-the-competition.ogg",
    "group": "trump",
    "ms": 2240,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 880
   },
   {
    "id": "made-money",
@@ -2853,7 +3094,8 @@
    "file": "trump/made-money.ogg",
    "group": "trump",
    "ms": 4849,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "maga-loves-black-people-america-great-again-american-trump",
@@ -2861,7 +3103,8 @@
    "file": "trump/maga-loves-black-people-america-great-again-american-trump.ogg",
    "group": "trump",
    "ms": 11250,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "make-sure-you-get-out-and-vote",
@@ -2869,7 +3112,8 @@
    "file": "trump/make-sure-you-get-out-and-vote.ogg",
    "group": "trump",
    "ms": 2767,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "making-our-product-s-stealing-our-companies-and-destro",
@@ -2893,7 +3137,8 @@
    "file": "trump/malania-trump-says-hello.ogg",
    "group": "trump",
    "ms": 4387,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "maybe-four",
@@ -2901,7 +3146,8 @@
    "file": "trump/maybe-four.ogg",
    "group": "trump",
    "ms": 2498,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 860
   },
   {
    "id": "mexico",
@@ -2917,7 +3163,8 @@
    "file": "trump/mexico-1.ogg",
    "group": "trump",
    "ms": 2254,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1080
   },
   {
    "id": "mexico-at-the-border",
@@ -2933,7 +3180,8 @@
    "file": "trump/mexico-behave.ogg",
    "group": "trump",
    "ms": 10943,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "mexico-sending-rapists",
@@ -2949,7 +3197,8 @@
    "file": "trump/mexico-will-start-behaving.ogg",
    "group": "trump",
    "ms": 10548,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "michelle",
@@ -2965,7 +3214,8 @@
    "file": "trump/mmm-hmm-hmm.ogg",
    "group": "trump",
    "ms": 1654,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "most-amazing-experience",
@@ -2973,7 +3223,8 @@
    "file": "trump/most-amazing-experience.ogg",
    "group": "trump",
    "ms": 7809,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1200
   },
   {
    "id": "mr-tough-guy",
@@ -2981,7 +3232,8 @@
    "file": "trump/mr-tough-guy.ogg",
    "group": "trump",
    "ms": 2549,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "muslim-ban",
@@ -2997,7 +3249,8 @@
    "file": "trump/mussolini-is-mussolini.ogg",
    "group": "trump",
    "ms": 3576,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "my-call-was-perfect-call-call",
@@ -3005,7 +3258,8 @@
    "file": "trump/my-call-was-perfect-call-call.ogg",
    "group": "trump",
    "ms": 3855,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "my-friend-snoop-dog",
@@ -3013,7 +3267,8 @@
    "file": "trump/my-friend-snoop-dog.ogg",
    "group": "trump",
    "ms": 3394,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1240
   },
   {
    "id": "my-friend-snoop-dog-2",
@@ -3021,7 +3276,8 @@
    "file": "trump/my-friend-snoop-dog-2.ogg",
    "group": "trump",
    "ms": 2784,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 640
   },
   {
    "id": "nasty-guy",
@@ -3029,7 +3285,8 @@
    "file": "trump/nasty-guy.ogg",
    "group": "trump",
    "ms": 2873,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "nasty-person",
@@ -3037,7 +3294,8 @@
    "file": "trump/nasty-person.ogg",
    "group": "trump",
    "ms": 2767,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1320
   },
   {
    "id": "need-to-laugh",
@@ -3053,7 +3311,8 @@
    "file": "trump/net-worth.ogg",
    "group": "trump",
    "ms": 7456,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 980
   },
   {
    "id": "never-seen-that",
@@ -3061,7 +3320,8 @@
    "file": "trump/never-seen-that.ogg",
    "group": "trump",
    "ms": 2167,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "new-2",
@@ -3069,7 +3329,8 @@
    "file": "trump/new-2.ogg",
    "group": "trump",
    "ms": 2567,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1060
   },
   {
    "id": "new-to-this",
@@ -3077,7 +3338,8 @@
    "file": "trump/new-to-this.ogg",
    "group": "trump",
    "ms": 3463,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2040
   },
   {
    "id": "new-york-city",
@@ -3085,7 +3347,8 @@
    "file": "trump/new-york-city.ogg",
    "group": "trump",
    "ms": 1752,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 660
   },
   {
    "id": "nine-billion-two-hundred-and-forty-million-dollars",
@@ -3125,7 +3388,8 @@
    "file": "trump/no-better-word-trump-better-word-than-stupid-smart-dead.ogg",
    "group": "trump",
    "ms": 5562,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "no-i-didn-t-say-that-at-all-i-don-t-think-you-understo",
@@ -3133,7 +3397,8 @@
    "file": "trump/no-i-didn-t-say-that-at-all-i-don-t-think-you-understo.ogg",
    "group": "trump",
    "ms": 4161,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "no-i-didn-t-say-that-at-all-i-don-t-think-you-understood-wha",
@@ -3157,7 +3422,8 @@
    "file": "trump/no-pt4.ogg",
    "group": "trump",
    "ms": 1920,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 660
   },
   {
    "id": "nobody-can-do-that",
@@ -3165,7 +3431,8 @@
    "file": "trump/nobody-can-do-that.ogg",
    "group": "trump",
    "ms": 3224,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1460
   },
   {
    "id": "nobody-can-do-that-like-maine",
@@ -3173,7 +3440,8 @@
    "file": "trump/nobody-can-do-that-like-maine.ogg",
    "group": "trump",
    "ms": 3934,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1380
   },
   {
    "id": "nobody-would-be-tougher-on-isis-than-donald-trump",
@@ -3181,7 +3449,8 @@
    "file": "trump/nobody-would-be-tougher-on-isis-than-donald-trump.ogg",
    "group": "trump",
    "ms": 4962,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "nope",
@@ -3197,7 +3466,8 @@
    "file": "trump/north-korea-best-not-make-any-more-threats-to-the-united-sta.ogg",
    "group": "trump",
    "ms": 15636,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2040
   },
   {
    "id": "not-vote-for-him",
@@ -3205,7 +3475,8 @@
    "file": "trump/not-vote-for-him.ogg",
    "group": "trump",
    "ms": 2533,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 640
   },
   {
    "id": "not-you",
@@ -3229,7 +3500,8 @@
    "file": "trump/obama-care.ogg",
    "group": "trump",
    "ms": 35125,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "obama-reply",
@@ -3237,7 +3509,8 @@
    "file": "trump/obama-reply.ogg",
    "group": "trump",
    "ms": 30416,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1420
   },
   {
    "id": "obama-roast",
@@ -3245,7 +3518,8 @@
    "file": "trump/obama-roast.ogg",
    "group": "trump",
    "ms": 149877,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 260
   },
   {
    "id": "obamacare",
@@ -3253,7 +3527,8 @@
    "file": "trump/obamacare.ogg",
    "group": "trump",
    "ms": 1314,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 340
   },
   {
    "id": "obamna",
@@ -3261,7 +3536,8 @@
    "file": "trump/obamna.ogg",
    "group": "trump",
    "ms": 2384,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 980
   },
   {
    "id": "of-course-i-m-joking",
@@ -3269,7 +3545,8 @@
    "file": "trump/of-course-i-m-joking.ogg",
    "group": "trump",
    "ms": 2704,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 980
   },
   {
    "id": "oil",
@@ -3277,7 +3554,8 @@
    "file": "trump/oil.ogg",
    "group": "trump",
    "ms": 2123,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1040
   },
   {
    "id": "oil-roberts-university",
@@ -3285,7 +3563,8 @@
    "file": "trump/oil-roberts-university.ogg",
    "group": "trump",
    "ms": 3463,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2020
   },
   {
    "id": "okahomma",
@@ -3293,7 +3572,8 @@
    "file": "trump/okahomma.ogg",
    "group": "trump",
    "ms": 2480,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1400
   },
   {
    "id": "okay",
@@ -3301,7 +3581,8 @@
    "file": "trump/okay.ogg",
    "group": "trump",
    "ms": 1070,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 600
   },
   {
    "id": "on-new-years-eve",
@@ -3317,7 +3598,8 @@
    "file": "trump/one-point-three-trillion-dollars.ogg",
    "group": "trump",
    "ms": 3334,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "our-country-is-in-serious-trouble",
@@ -3325,7 +3607,8 @@
    "file": "trump/our-country-is-in-serious-trouble.ogg",
    "group": "trump",
    "ms": 3822,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "our-country-needs-a-truly-great-leader",
@@ -3333,7 +3616,8 @@
    "file": "trump/our-country-needs-a-truly-great-leader.ogg",
    "group": "trump",
    "ms": 6076,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "our-enemies-are-getting-stronger-and-stronger-by-the-da",
@@ -3341,7 +3625,8 @@
    "file": "trump/our-enemies-are-getting-stronger-and-stronger-by-the-da.ogg",
    "group": "trump",
    "ms": 10647,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "our-enemies-are-getting-stronger-and-stronger-by-the-day-and",
@@ -3349,7 +3634,8 @@
    "file": "trump/our-enemies-are-getting-stronger-and-stronger-by-the-day-and.ogg",
    "group": "trump",
    "ms": 10047,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1380
   },
   {
    "id": "paris",
@@ -3365,7 +3651,8 @@
    "file": "trump/part-of-the-reason-i-m-here-is-that-i-know-how-to-take.ogg",
    "group": "trump",
    "ms": 4214,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "part-of-the-reason-i-m-here-is-that-i-know-how-to-take-a-jok",
@@ -3381,7 +3668,8 @@
    "file": "trump/pay-for-the-wall.ogg",
    "group": "trump",
    "ms": 1941,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 440
   },
   {
    "id": "people-don-t-know-how-great-you-are",
@@ -3413,7 +3701,8 @@
    "file": "trump/picture-of-me-from-behind.ogg",
    "group": "trump",
    "ms": 5755,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "political-bullshit",
@@ -3421,7 +3710,8 @@
    "file": "trump/political-bullshit.ogg",
    "group": "trump",
    "ms": 3177,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 800
   },
   {
    "id": "politicians",
@@ -3429,7 +3719,8 @@
    "file": "trump/politicians.ogg",
    "group": "trump",
    "ms": 28669,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 580
   },
   {
    "id": "politicians-are-all-talk-and-no-action",
@@ -3437,7 +3728,8 @@
    "file": "trump/politicians-are-all-talk-and-no-action.ogg",
    "group": "trump",
    "ms": 4815,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1260
   },
   {
    "id": "politicians-are-all-talk-no-action-nothing-is-going-to",
@@ -3445,7 +3737,8 @@
    "file": "trump/politicians-are-all-talk-no-action-nothing-is-going-to.ogg",
    "group": "trump",
    "ms": 9865,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 220
   },
   {
    "id": "politicians-are-all-talk-no-action-nothing-is-going-to-get-d",
@@ -3453,7 +3746,8 @@
    "file": "trump/politicians-are-all-talk-no-action-nothing-is-going-to-get-d.ogg",
    "group": "trump",
    "ms": 9865,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 260
   },
   {
    "id": "poor-guy",
@@ -3469,7 +3763,8 @@
    "file": "trump/president-obama.ogg",
    "group": "trump",
    "ms": 2332,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "president-trump",
@@ -3477,7 +3772,8 @@
    "file": "trump/president-trump.ogg",
    "group": "trump",
    "ms": 3263,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "prime-minister-of-canada",
@@ -3493,7 +3789,8 @@
    "file": "trump/prison-soccer.ogg",
    "group": "trump",
    "ms": 41576,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 980
   },
   {
    "id": "proud-of-myself",
@@ -3501,7 +3798,8 @@
    "file": "trump/proud-of-myself.ogg",
    "group": "trump",
    "ms": 3296,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 260
   },
   {
    "id": "putin",
@@ -3517,7 +3815,8 @@
    "file": "trump/question.ogg",
    "group": "trump",
    "ms": 4377,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "question-pt2",
@@ -3525,7 +3824,8 @@
    "file": "trump/question-pt2.ogg",
    "group": "trump",
    "ms": 4151,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1800
   },
   {
    "id": "quiet-quiet",
@@ -3533,7 +3833,8 @@
    "file": "trump/quiet-quiet.ogg",
    "group": "trump",
    "ms": 2602,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "quiet-quiet-quiet-quiet-talking-up",
@@ -3541,7 +3842,8 @@
    "file": "trump/quiet-quiet-quiet-quiet-talking-up.ogg",
    "group": "trump",
    "ms": 5467,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "rocket-man",
@@ -3549,7 +3851,8 @@
    "file": "trump/rocket-man.ogg",
    "group": "trump",
    "ms": 1323,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "run-for-president",
@@ -3565,7 +3868,8 @@
    "file": "trump/russia-if-you-re-listening.ogg",
    "group": "trump",
    "ms": 2716,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "saddam-hussein-pt1",
@@ -3589,7 +3893,8 @@
    "file": "trump/saddam-hussein-pt3.ogg",
    "group": "trump",
    "ms": 9576,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "see-what-happens",
@@ -3597,7 +3902,8 @@
    "file": "trump/see-what-happens.ogg",
    "group": "trump",
    "ms": 4064,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1420
   },
   {
    "id": "see-ya",
@@ -3605,7 +3911,8 @@
    "file": "trump/see-ya.ogg",
    "group": "trump",
    "ms": 1862,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 980
   },
   {
    "id": "self-funding",
@@ -3613,7 +3920,8 @@
    "file": "trump/self-funding.ogg",
    "group": "trump",
    "ms": 2072,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 500
   },
   {
    "id": "send-pt2",
@@ -3621,7 +3929,8 @@
    "file": "trump/send-pt2.ogg",
    "group": "trump",
    "ms": 5483,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1860
   },
   {
    "id": "send-pt3",
@@ -3629,7 +3938,8 @@
    "file": "trump/send-pt3.ogg",
    "group": "trump",
    "ms": 4664,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2080
   },
   {
    "id": "send-pt4",
@@ -3637,7 +3947,8 @@
    "file": "trump/send-pt4.ogg",
    "group": "trump",
    "ms": 6371,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1840
   },
   {
    "id": "sends-pt1",
@@ -3645,7 +3956,8 @@
    "file": "trump/sends-pt1.ogg",
    "group": "trump",
    "ms": 5198,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "sends-pt5",
@@ -3653,7 +3965,8 @@
    "file": "trump/sends-pt5.ogg",
    "group": "trump",
    "ms": 8984,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1260
   },
   {
    "id": "sends-pt6",
@@ -3661,7 +3974,8 @@
    "file": "trump/sends-pt6.ogg",
    "group": "trump",
    "ms": 16144,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 480
   },
   {
    "id": "sergeant-burgdoll",
@@ -3669,7 +3983,8 @@
    "file": "trump/sergeant-burgdoll.ogg",
    "group": "trump",
    "ms": 2255,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "she-choked-artist-trump-under-pressure",
@@ -3677,7 +3992,8 @@
    "file": "trump/she-choked-artist-trump-under-pressure.ogg",
    "group": "trump",
    "ms": 15749,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2780
   },
   {
    "id": "she-s-asking-a-question-don-t-be-rude",
@@ -3685,7 +4001,8 @@
    "file": "trump/she-s-asking-a-question-don-t-be-rude.ogg",
    "group": "trump",
    "ms": 2081,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "should-i-tell-you",
@@ -3693,7 +4010,8 @@
    "file": "trump/should-i-tell-you.ogg",
    "group": "trump",
    "ms": 4247,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "slap-trump-mcmahon-down-face",
@@ -3701,7 +4019,8 @@
    "file": "trump/slap-trump-mcmahon-down-face.ogg",
    "group": "trump",
    "ms": 11553,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "sleepy-joe-joe-known-for-being-one-of-the-smart-ones-was-wea",
@@ -3709,7 +4028,8 @@
    "file": "trump/sleepy-joe-joe-known-for-being-one-of-the-smart-ones-was-wea.ogg",
    "group": "trump",
    "ms": 14157,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "sleepy-joe-joe-trump-biden",
@@ -3725,7 +4045,8 @@
    "file": "trump/small-potatoes.ogg",
    "group": "trump",
    "ms": 3411,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "smart-person-person-me",
@@ -3733,7 +4054,8 @@
    "file": "trump/smart-person-person-me.ogg",
    "group": "trump",
    "ms": 3856,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "snoop-dog",
@@ -3741,7 +4063,8 @@
    "file": "trump/snoop-dog.ogg",
    "group": "trump",
    "ms": 1480,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 300
   },
   {
    "id": "so-probably-i-will-sue-her-because-it-would-be-fun",
@@ -3757,7 +4080,8 @@
    "file": "trump/so-shiny.ogg",
    "group": "trump",
    "ms": 3829,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "socialist-slash-communist",
@@ -3765,7 +4089,8 @@
    "file": "trump/socialist-slash-communist.ogg",
    "group": "trump",
    "ms": 37880,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1460
   },
   {
    "id": "somebody-s-doing-the-raping",
@@ -3773,7 +4098,8 @@
    "file": "trump/somebody-s-doing-the-raping.ogg",
    "group": "trump",
    "ms": 4857,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1240
   },
   {
    "id": "something-different-for-our-country",
@@ -3797,7 +4123,8 @@
    "file": "trump/space-force.ogg",
    "group": "trump",
    "ms": 11064,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1940
   },
   {
    "id": "star-wars-donald-trump",
@@ -3805,7 +4132,8 @@
    "file": "trump/star-wars-donald-trump.ogg",
    "group": "trump",
    "ms": 116497,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 320
   },
   {
    "id": "stop-now",
@@ -3837,7 +4165,8 @@
    "file": "trump/stupid-people.ogg",
    "group": "trump",
    "ms": 1871,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 780
   },
   {
    "id": "surprise-isis",
@@ -3845,7 +4174,8 @@
    "file": "trump/surprise-isis.ogg",
    "group": "trump",
    "ms": 5083,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1380
   },
   {
    "id": "syrians",
@@ -3853,7 +4183,8 @@
    "file": "trump/syrians.ogg",
    "group": "trump",
    "ms": 38304,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1920
   },
   {
    "id": "take-back-the-oil",
@@ -3861,7 +4192,8 @@
    "file": "trump/take-back-the-oil.ogg",
    "group": "trump",
    "ms": 10448,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "tell-you-stories",
@@ -3869,7 +4201,8 @@
    "file": "trump/tell-you-stories.ogg",
    "group": "trump",
    "ms": 3344,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 880
   },
   {
    "id": "texas",
@@ -3893,7 +4226,8 @@
    "file": "trump/thank-you.ogg",
    "group": "trump",
    "ms": 1923,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 820
   },
   {
    "id": "thank-you-anthony-weiner",
@@ -3901,7 +4235,8 @@
    "file": "trump/thank-you-anthony-weiner.ogg",
    "group": "trump",
    "ms": 3446,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "thank-you-darling",
@@ -3909,7 +4244,8 @@
    "file": "trump/thank-you-darling.ogg",
    "group": "trump",
    "ms": 1445,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 440
   },
   {
    "id": "thank-you-fellas",
@@ -3925,7 +4261,8 @@
    "file": "trump/thank-you-very-much.ogg",
    "group": "trump",
    "ms": 3384,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "thank-you-very-much-that-s-really-nice-thank-you",
@@ -3933,7 +4270,8 @@
    "file": "trump/thank-you-very-much-that-s-really-nice-thank-you.ogg",
    "group": "trump",
    "ms": 3308,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "thank-you-very-much-appreciate-it",
@@ -3941,7 +4279,8 @@
    "file": "trump/thank-you-very-much-appreciate-it.ogg",
    "group": "trump",
    "ms": 3106,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "that-call-was-perfect-call",
@@ -3957,7 +4296,8 @@
    "file": "trump/that-would-be-amazing.ogg",
    "group": "trump",
    "ms": 3360,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1180
   },
   {
    "id": "that-s-beautiful-wow",
@@ -3973,7 +4313,8 @@
    "file": "trump/that-s-true.ogg",
    "group": "trump",
    "ms": 1105,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "the-american-dream",
@@ -3981,7 +4322,8 @@
    "file": "trump/the-american-dream.ogg",
    "group": "trump",
    "ms": 3986,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "the-american-dream-is-dead",
@@ -3989,7 +4331,8 @@
    "file": "trump/the-american-dream-is-dead.ogg",
    "group": "trump",
    "ms": 5101,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1000
   },
   {
    "id": "the-american-dream-is-dead-hope",
@@ -3997,7 +4340,8 @@
    "file": "trump/the-american-dream-is-dead-hope.ogg",
    "group": "trump",
    "ms": 5032,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "the-greatest-president-that-god-ever-created",
@@ -4013,7 +4357,8 @@
    "file": "trump/the-likes-of-which-the-world-has-never-seen-before.ogg",
    "group": "trump",
    "ms": 5798,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 600
   },
   {
    "id": "the-man-of-the-toupe",
@@ -4021,7 +4366,8 @@
    "file": "trump/the-man-of-the-toupe.ogg",
    "group": "trump",
    "ms": 2447,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 220
   },
   {
    "id": "the-mexican-government",
@@ -4029,7 +4375,8 @@
    "file": "trump/the-mexican-government.ogg",
    "group": "trump",
    "ms": 1689,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "the-system-is-rigged",
@@ -4037,7 +4384,8 @@
    "file": "trump/the-system-is-rigged.ogg",
    "group": "trump",
    "ms": 2349,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "the-systems-is-totally-rigged",
@@ -4053,7 +4401,8 @@
    "file": "trump/the-u-s-has-become-a-dumping-ground-for-everybody-elses.ogg",
    "group": "trump",
    "ms": 6643,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 440
   },
   {
    "id": "the-u-s-has-become-a-dumping-ground-for-everybody-elses-prob",
@@ -4061,7 +4410,8 @@
    "file": "trump/the-u-s-has-become-a-dumping-ground-for-everybody-elses-prob.ogg",
    "group": "trump",
    "ms": 8243,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2080
   },
   {
    "id": "the-united-states-of-america",
@@ -4069,7 +4419,8 @@
    "file": "trump/the-united-states-of-america.ogg",
    "group": "trump",
    "ms": 3002,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "the-world-is-waiting-for-you-to-be-president",
@@ -4077,7 +4428,8 @@
    "file": "trump/the-world-is-waiting-for-you-to-be-president.ogg",
    "group": "trump",
    "ms": 2603,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 200
   },
   {
    "id": "then-there-s-something-wrong-with-you-you-certainly-not",
@@ -4085,7 +4437,8 @@
    "file": "trump/then-there-s-something-wrong-with-you-you-certainly-not.ogg",
    "group": "trump",
    "ms": 3221,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 420
   },
   {
    "id": "then-there-s-something-wrong-with-you-you-certainly-not-very",
@@ -4093,7 +4446,8 @@
    "file": "trump/then-there-s-something-wrong-with-you-you-certainly-not-very.ogg",
    "group": "trump",
    "ms": 3621,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 840
   },
   {
    "id": "there-s-something-happening",
@@ -4101,7 +4455,8 @@
    "file": "trump/there-s-something-happening.ogg",
    "group": "trump",
    "ms": 4824,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 620
   },
   {
    "id": "these-are-corrupt-people",
@@ -4109,7 +4464,8 @@
    "file": "trump/these-are-corrupt-people.ogg",
    "group": "trump",
    "ms": 6467,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2000
   },
   {
    "id": "they-are-not-our-friend-believe-maine",
@@ -4117,7 +4473,8 @@
    "file": "trump/they-are-not-our-friend-believe-maine.ogg",
    "group": "trump",
    "ms": 3394,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "they-are-rapists",
@@ -4125,7 +4482,8 @@
    "file": "trump/they-are-rapists.ogg",
    "group": "trump",
    "ms": 1654,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "they-call-her-pocahontas",
@@ -4141,7 +4499,8 @@
    "file": "trump/they-can-t-even-count-their-votes-in-iowa-clue-rally.ogg",
    "group": "trump",
    "ms": 8253,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1340
   },
   {
    "id": "they-don-t-have-my-talent-my-money-or-especially-my-goo",
@@ -4165,7 +4524,8 @@
    "file": "trump/they-don-t-like-me.ogg",
    "group": "trump",
    "ms": 2240,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 300
   },
   {
    "id": "they-send-their-cars-over-by-the-millions",
@@ -4173,7 +4533,8 @@
    "file": "trump/they-send-their-cars-over-by-the-millions.ogg",
    "group": "trump",
    "ms": 4371,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 420
   },
   {
    "id": "they-will-be-met-with-fire-and-fury-korea",
@@ -4181,7 +4542,8 @@
    "file": "trump/they-will-be-met-with-fire-and-fury-korea.ogg",
    "group": "trump",
    "ms": 8845,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1540
   },
   {
    "id": "they-re-bringing-crime",
@@ -4189,7 +4551,8 @@
    "file": "trump/they-re-bringing-crime.ogg",
    "group": "trump",
    "ms": 1715,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "they-re-bringing-drugs-they-re-bringing-crime-their-rapists",
@@ -4205,7 +4568,8 @@
    "file": "trump/they-re-bringing-drugs-they-re-bringing-crime.ogg",
    "group": "trump",
    "ms": 4789,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "they-re-bringing-drugs-they-re-bringing-crime-they-re-rapist",
@@ -4213,7 +4577,8 @@
    "file": "trump/they-re-bringing-drugs-they-re-bringing-crime-they-re-rapist.ogg",
    "group": "trump",
    "ms": 4589,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 220
   },
   {
    "id": "they-re-rapists",
@@ -4221,7 +4586,8 @@
    "file": "trump/they-re-rapists.ogg",
    "group": "trump",
    "ms": 1928,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 860
   },
   {
    "id": "they-re-sending-people-that-have-lots-of-problems-and-t",
@@ -4245,7 +4611,8 @@
    "file": "trump/they-ve-done-so-much-to-ridicule-me-over-the-years.ogg",
    "group": "trump",
    "ms": 3352,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 380
   },
   {
    "id": "this-great-country",
@@ -4253,7 +4620,8 @@
    "file": "trump/this-great-country.ogg",
    "group": "trump",
    "ms": 13696,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "this-is-a-different-panel-than-i-ve-everything-s-computer-do",
@@ -4261,7 +4629,8 @@
    "file": "trump/this-is-a-different-panel-than-i-ve-everything-s-computer-do.ogg",
    "group": "trump",
    "ms": 4361,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1280
   },
   {
    "id": "this-was-an-attempted-overthrow-overthrow",
@@ -4269,7 +4638,8 @@
    "file": "trump/this-was-an-attempted-overthrow-overthrow.ogg",
    "group": "trump",
    "ms": 5162,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "this-was-locker-room-talk-room-trump",
@@ -4277,7 +4647,8 @@
    "file": "trump/this-was-locker-room-talk-room-trump.ogg",
    "group": "trump",
    "ms": 3333,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "tiffany",
@@ -4285,7 +4656,8 @@
    "file": "trump/tiffany.ogg",
    "group": "trump",
    "ms": 1593,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 600
   },
   {
    "id": "to-somebody-from-china",
@@ -4293,7 +4665,8 @@
    "file": "trump/to-somebody-from-china.ogg",
    "group": "trump",
    "ms": 2689,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "today",
@@ -4301,7 +4674,8 @@
    "file": "trump/today.ogg",
    "group": "trump",
    "ms": 1158,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 420
   },
   {
    "id": "tough-situation",
@@ -4309,7 +4683,8 @@
    "file": "trump/tough-situation.ogg",
    "group": "trump",
    "ms": 5353,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1200
   },
   {
    "id": "traitor",
@@ -4317,7 +4692,8 @@
    "file": "trump/traitor.ogg",
    "group": "trump",
    "ms": 3751,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1440
   },
   {
    "id": "trump",
@@ -4333,7 +4709,8 @@
    "file": "trump/trump-pick-up-the-phone.ogg",
    "group": "trump",
    "ms": 11093,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 200
   },
   {
    "id": "trump-very-stupid-people",
@@ -4349,7 +4726,8 @@
    "file": "trump/trump-america-first.ogg",
    "group": "trump",
    "ms": 8340,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1000
   },
   {
    "id": "trump-bing-bong-mario",
@@ -4357,7 +4735,8 @@
    "file": "trump/trump-bing-bong-mario.ogg",
    "group": "trump",
    "ms": 10649,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 320
   },
   {
    "id": "trump-build-that-wall-chant",
@@ -4365,7 +4744,8 @@
    "file": "trump/trump-build-that-wall-chant.ogg",
    "group": "trump",
    "ms": 13042,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "trump-get-em-outta-here",
@@ -4373,7 +4753,8 @@
    "file": "trump/trump-get-em-outta-here.ogg",
    "group": "trump",
    "ms": 11267,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 420
   },
   {
    "id": "trump-global-warming",
@@ -4389,7 +4770,8 @@
    "file": "trump/trump-happy.ogg",
    "group": "trump",
    "ms": 3108,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "trump-hiss-at-reporters",
@@ -4405,7 +4787,8 @@
    "file": "trump/trump-i-am-going-to-build-a-wall-around-mexico.ogg",
    "group": "trump",
    "ms": 6946,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1800
   },
   {
    "id": "trump-is-focused-like-a-laser-beam-on-the-deficit",
@@ -4413,7 +4796,8 @@
    "file": "trump/trump-is-focused-like-a-laser-beam-on-the-deficit.ogg",
    "group": "trump",
    "ms": 6278,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 520
   },
   {
    "id": "trump-is-focused-like-a-laser-beam-on-the-deficit-2",
@@ -4429,7 +4813,8 @@
    "file": "trump/trump-loves-puerto-rico-rico.ogg",
    "group": "trump",
    "ms": 14453,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "trump-mexico-border",
@@ -4445,7 +4830,8 @@
    "file": "trump/trump-obama-cheerleader.ogg",
    "group": "trump",
    "ms": 13575,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "trump-saying-china",
@@ -4453,7 +4839,8 @@
    "file": "trump/trump-saying-china.ogg",
    "group": "trump",
    "ms": 1984,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 600
   },
   {
    "id": "trump-says-puerto-rico-rico",
@@ -4461,7 +4848,8 @@
    "file": "trump/trump-says-puerto-rico-rico.ogg",
    "group": "trump",
    "ms": 3733,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "trump-takes-down-cnn-news-slam",
@@ -4469,7 +4857,8 @@
    "file": "trump/trump-takes-down-cnn-news-slam.ogg",
    "group": "trump",
    "ms": 11457,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1780
   },
   {
    "id": "trump-you-be-in-jail",
@@ -4477,7 +4866,8 @@
    "file": "trump/trump-you-be-in-jail.ogg",
    "group": "trump",
    "ms": 2629,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 780
   },
   {
    "id": "trump-i-am-going-to-build-a-wall-around-mexico-2",
@@ -4485,7 +4875,8 @@
    "file": "trump/trump-i-am-going-to-build-a-wall-around-mexico-2.ogg",
    "group": "trump",
    "ms": 6920,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1800
   },
   {
    "id": "turn-them-off",
@@ -4501,7 +4892,8 @@
    "file": "trump/two.ogg",
    "group": "trump",
    "ms": 1740,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "two-hundred-and-forty",
@@ -4509,7 +4901,8 @@
    "file": "trump/two-hundred-and-forty.ogg",
    "group": "trump",
    "ms": 3577,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1200
   },
   {
    "id": "two-thousand-and-four",
@@ -4517,7 +4910,8 @@
    "file": "trump/two-thousand-and-four.ogg",
    "group": "trump",
    "ms": 1428,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 200
   },
   {
    "id": "two-thousand-and-seventeen",
@@ -4533,7 +4927,8 @@
    "file": "trump/two-thousand-three-hundred.ogg",
    "group": "trump",
    "ms": 4143,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1360
   },
   {
    "id": "two-weeks-later-the-place-was-blown-up",
@@ -4549,7 +4944,8 @@
    "file": "trump/very-verry-unfair-process.ogg",
    "group": "trump",
    "ms": 3316,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "very-very-large-a-brain-very-large-brain-respect",
@@ -4557,7 +4953,8 @@
    "file": "trump/very-very-large-a-brain-very-large-brain-respect.ogg",
    "group": "trump",
    "ms": 8167,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "waste-of-time-waste-of-time",
@@ -4565,7 +4962,8 @@
    "file": "trump/waste-of-time-waste-of-time.ogg",
    "group": "trump",
    "ms": 4954,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "we-appreciate-it-very-much-tim-apple-apple-cook-trump-name",
@@ -4573,7 +4971,8 @@
    "file": "trump/we-appreciate-it-very-much-tim-apple-apple-cook-trump-name.ogg",
    "group": "trump",
    "ms": 2542,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 460
   },
   {
    "id": "we-can-t-beat-mexico-at-the-border-or-in-trade",
@@ -4581,7 +4980,8 @@
    "file": "trump/we-can-t-beat-mexico-at-the-border-or-in-trade.ogg",
    "group": "trump",
    "ms": 4405,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 820
   },
   {
    "id": "we-can-t-do-anything-right-our-military-has-to-be-stren",
@@ -4589,7 +4989,8 @@
    "file": "trump/we-can-t-do-anything-right-our-military-has-to-be-stren.ogg",
    "group": "trump",
    "ms": 14173,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "we-can-t-do-anything-right-our-military-has-to-be-strengthen",
@@ -4597,7 +4998,8 @@
    "file": "trump/we-can-t-do-anything-right-our-military-has-to-be-strengthen.ogg",
    "group": "trump",
    "ms": 13173,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 980
   },
   {
    "id": "we-did-keep-the-oil-the-oil-the-oil-oil-trump-kept-the-oil",
@@ -4605,7 +5007,8 @@
    "file": "trump/we-did-keep-the-oil-the-oil-the-oil-oil-trump-kept-the-oil.ogg",
    "group": "trump",
    "ms": 4849,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "we-don-t-be-china-in-trade",
@@ -4621,7 +5024,8 @@
    "file": "trump/we-don-t-beat-japan-with-their-millions-and-millions-of.ogg",
    "group": "trump",
    "ms": 5633,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 220
   },
   {
    "id": "we-don-t-beat-japan-with-their-millions-and-millions-of-cars",
@@ -4629,7 +5033,8 @@
    "file": "trump/we-don-t-beat-japan-with-their-millions-and-millions-of-cars.ogg",
    "group": "trump",
    "ms": 6033,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 620
   },
   {
    "id": "we-don-t-have-victories-anymore",
@@ -4637,7 +5042,8 @@
    "file": "trump/we-don-t-have-victories-anymore.ogg",
    "group": "trump",
    "ms": 4666,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "we-don-t-know-what-s-happening",
@@ -4645,7 +5051,8 @@
    "file": "trump/we-don-t-know-what-s-happening.ogg",
    "group": "trump",
    "ms": 3211,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "we-don-t-win",
@@ -4653,7 +5060,8 @@
    "file": "trump/we-don-t-win.ogg",
    "group": "trump",
    "ms": 2402,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 700
   },
   {
    "id": "we-don-t-win-anymore",
@@ -4661,7 +5069,8 @@
    "file": "trump/we-don-t-win-anymore.ogg",
    "group": "trump",
    "ms": 1793,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 260
   },
   {
    "id": "we-don-t-know-3",
@@ -4669,7 +5078,8 @@
    "file": "trump/we-don-t-know-3.ogg",
    "group": "trump",
    "ms": 4184,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2060
   },
   {
    "id": "we-have-a-president-who-doesn-t-have-a-clue",
@@ -4677,7 +5087,8 @@
    "file": "trump/we-have-a-president-who-doesn-t-have-a-clue.ogg",
    "group": "trump",
    "ms": 4596,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "we-have-losers-we-have-losers-we-have-people-that-don-t",
@@ -4693,7 +5104,8 @@
    "file": "trump/we-have-losers-we-have-losers-we-have-people-that-don-t-have.ogg",
    "group": "trump",
    "ms": 11319,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 460
   },
   {
    "id": "we-have-losers-we-have-losers",
@@ -4701,7 +5113,8 @@
    "file": "trump/we-have-losers-we-have-losers.ogg",
    "group": "trump",
    "ms": 3334,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 820
   },
   {
    "id": "we-have-people-in-washington-that-don-t-know-what-they",
@@ -4709,7 +5122,8 @@
    "file": "trump/we-have-people-in-washington-that-don-t-know-what-they.ogg",
    "group": "trump",
    "ms": 5136,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "we-have-people-in-washington-that-don-t-know-what-they-re-do",
@@ -4725,7 +5139,8 @@
    "file": "trump/we-have-people-that-are-morally-corrupt-we-have-people-that-.ogg",
    "group": "trump",
    "ms": 6765,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 580
   },
   {
    "id": "we-have-people-that-are-stupid",
@@ -4733,7 +5148,8 @@
    "file": "trump/we-have-people-that-are-stupid.ogg",
    "group": "trump",
    "ms": 3552,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 580
   },
   {
    "id": "we-must-protect-our-borders-from-the-ravages-of-other-c",
@@ -4741,7 +5157,8 @@
    "file": "trump/we-must-protect-our-borders-from-the-ravages-of-other-c.ogg",
    "group": "trump",
    "ms": 5754,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "we-must-protect-our-borders-from-the-ravages-of-other-countr",
@@ -4757,7 +5174,8 @@
    "file": "trump/we-need-energy-quickness-and-brains.ogg",
    "group": "trump",
    "ms": 6476,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1840
   },
   {
    "id": "we-need-money",
@@ -4781,7 +5199,8 @@
    "file": "trump/we-need-somebody-that-literally-will-take-this-country-and-m.ogg",
    "group": "trump",
    "ms": 9872,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1840
   },
   {
    "id": "we-need-to-build-a-wall-and-it-has-to-be-built-quickly",
@@ -4797,7 +5216,8 @@
    "file": "trump/we-owe-china.ogg",
    "group": "trump",
    "ms": 4824,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 260
   },
   {
    "id": "we-owe-china-one-point-three-trillion-dollars",
@@ -4805,7 +5225,8 @@
    "file": "trump/we-owe-china-one-point-three-trillion-dollars.ogg",
    "group": "trump",
    "ms": 5345,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 800
   },
   {
    "id": "we-owe-japan-more-than-that",
@@ -4813,7 +5234,8 @@
    "file": "trump/we-owe-japan-more-than-that.ogg",
    "group": "trump",
    "ms": 3621,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 820
   },
   {
    "id": "we-owe-japan-pt2",
@@ -4821,7 +5243,8 @@
    "file": "trump/we-owe-japan-pt2.ogg",
    "group": "trump",
    "ms": 3482,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 520
   },
   {
    "id": "we-re-not-getting-any-help",
@@ -4829,7 +5252,8 @@
    "file": "trump/we-re-not-getting-any-help.ogg",
    "group": "trump",
    "ms": 1680,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 480
   },
   {
    "id": "we-really-do-have-to-get-going",
@@ -4837,7 +5261,8 @@
    "file": "trump/we-really-do-have-to-get-going.ogg",
    "group": "trump",
    "ms": 5056,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "we-want-deal",
@@ -4845,7 +5270,8 @@
    "file": "trump/we-want-deal.ogg",
    "group": "trump",
    "ms": 1854,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 580
   },
   {
    "id": "we-want-trump",
@@ -4853,7 +5279,8 @@
    "file": "trump/we-want-trump.ogg",
    "group": "trump",
    "ms": 9116,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "we-will-have-a-space-force-force",
@@ -4861,7 +5288,8 @@
    "file": "trump/we-will-have-a-space-force-force.ogg",
    "group": "trump",
    "ms": 11048,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1940
   },
   {
    "id": "we-will-make-america-great-again",
@@ -4869,7 +5297,8 @@
    "file": "trump/we-will-make-america-great-again.ogg",
    "group": "trump",
    "ms": 5849,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "we-will-make-america-proud-again",
@@ -4877,7 +5306,8 @@
    "file": "trump/we-will-make-america-proud-again.ogg",
    "group": "trump",
    "ms": 3926,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "we-will-make-america-safe-again",
@@ -4885,7 +5315,8 @@
    "file": "trump/we-will-make-america-safe-again.ogg",
    "group": "trump",
    "ms": 3569,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "we-will-make-america-strong-again",
@@ -4893,7 +5324,8 @@
    "file": "trump/we-will-make-america-strong-again.ogg",
    "group": "trump",
    "ms": 4769,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1980
   },
   {
    "id": "we-will-make-america-wealthy-again",
@@ -4901,7 +5333,8 @@
    "file": "trump/we-will-make-america-wealthy-again.ogg",
    "group": "trump",
    "ms": 4926,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "we-re-dying-we-re-dying",
@@ -4909,7 +5342,8 @@
    "file": "trump/we-re-dying-we-re-dying.ogg",
    "group": "trump",
    "ms": 3464,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 740
   },
   {
    "id": "we-re-not-getting-any-help-2",
@@ -4917,7 +5351,8 @@
    "file": "trump/we-re-not-getting-any-help-2.ogg",
    "group": "trump",
    "ms": 2272,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1080
   },
   {
    "id": "well-i-don-t-have-to-really-get-into-specifics",
@@ -4925,7 +5360,8 @@
    "file": "trump/well-i-don-t-have-to-really-get-into-specifics.ogg",
    "group": "trump",
    "ms": 4386,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "well-i-was-at-the-border-last-week",
@@ -4933,7 +5369,8 @@
    "file": "trump/well-i-was-at-the-border-last-week.ogg",
    "group": "trump",
    "ms": 3829,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "well-the-pope-believes-in-global-warming-you-do-know-t",
@@ -4941,7 +5378,8 @@
    "file": "trump/well-the-pope-believes-in-global-warming-you-do-know-t.ogg",
    "group": "trump",
    "ms": 3970,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 580
   },
   {
    "id": "well-the-pope-believes-in-global-warming-you-do-know-that-ri",
@@ -4957,7 +5395,8 @@
    "file": "trump/wet-racoon-pt1.ogg",
    "group": "trump",
    "ms": 8278,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1820
   },
   {
    "id": "wet-racoon-pt2",
@@ -4965,7 +5404,8 @@
    "file": "trump/wet-racoon-pt2.ogg",
    "group": "trump",
    "ms": 6816,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1260
   },
   {
    "id": "what-a-beautiful-baby-trump",
@@ -4981,7 +5421,8 @@
    "file": "trump/what-i-say-is-what-i-sayu.ogg",
    "group": "trump",
    "ms": 4013,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 920
   },
   {
    "id": "what-the-hell-was-that-all-about-was-that-trump",
@@ -4989,7 +5430,8 @@
    "file": "trump/what-the-hell-was-that-all-about-was-that-trump.ogg",
    "group": "trump",
    "ms": 3959,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "what-you-tell-me-doesn-t-necessarily-make-it-fact-hall-news-",
@@ -4997,7 +5439,8 @@
    "file": "trump/what-you-tell-me-doesn-t-necessarily-make-it-fact-hall-news-.ogg",
    "group": "trump",
    "ms": 4170,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "what-s-going-on",
@@ -5005,7 +5448,8 @@
    "file": "trump/what-s-going-on.ogg",
    "group": "trump",
    "ms": 4569,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1920
   },
   {
    "id": "what-s-the-difference-between-a-wet-raccoon-and-donald-trump",
@@ -5013,7 +5457,8 @@
    "file": "trump/what-s-the-difference-between-a-wet-raccoon-and-donald-trump.ogg",
    "group": "trump",
    "ms": 13957,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "when-do-we-beat-mexico-at-the-border-there-laughing-at-us-at",
@@ -5029,7 +5474,8 @@
    "file": "trump/when-do-we-beat-mexico-at-the-border-they-re-laughing.ogg",
    "group": "trump",
    "ms": 4831,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "when-do-we-beat-mexico-at-the-border-they-re-laughing-at-us",
@@ -5045,7 +5491,8 @@
    "file": "trump/when-mexico-sends-its-people-they-re-not-sending-their.ogg",
    "group": "trump",
    "ms": 5815,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1420
   },
   {
    "id": "when-mexico-sends-its-people-they-re-not-sending-their-best",
@@ -5053,7 +5500,8 @@
    "file": "trump/when-mexico-sends-its-people-they-re-not-sending-their-best.ogg",
    "group": "trump",
    "ms": 5415,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1040
   },
   {
    "id": "when-was-the-last-time-anybody-saw-us-beating-let-s-say",
@@ -5061,7 +5509,8 @@
    "file": "trump/when-was-the-last-time-anybody-saw-us-beating-let-s-say.ogg",
    "group": "trump",
    "ms": 8827,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1760
   },
   {
    "id": "when-was-the-last-time-anybody-saw-us-beating-let-s-say-chin",
@@ -5077,7 +5526,8 @@
    "file": "trump/when-was-the-last-time-you-saw-chevrolet-in-tokyo.ogg",
    "group": "trump",
    "ms": 7251,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 2000
   },
   {
    "id": "when-was-the-last-time-you-saw-chevrolet-in-tokyo-2",
@@ -5085,7 +5535,8 @@
    "file": "trump/when-was-the-last-time-you-saw-chevrolet-in-tokyo-2.ogg",
    "group": "trump",
    "ms": 5789,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "where-s-nick-pt3",
@@ -5093,7 +5544,8 @@
    "file": "trump/where-s-nick-pt3.ogg",
    "group": "trump",
    "ms": 15298,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 780
   },
   {
    "id": "where-s-nick-pt2",
@@ -5101,7 +5553,8 @@
    "file": "trump/where-s-nick-pt2.ogg",
    "group": "trump",
    "ms": 2568,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 680
   },
   {
    "id": "where-s-nick-wellard",
@@ -5109,7 +5562,8 @@
    "file": "trump/where-s-nick-wellard.ogg",
    "group": "trump",
    "ms": 2664,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 700
   },
   {
    "id": "where-s-nick-pt3-2",
@@ -5117,7 +5571,8 @@
    "file": "trump/where-s-nick-pt3-2.ogg",
    "group": "trump",
    "ms": 14696,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 220
   },
   {
    "id": "who-s-number-one-with-hispanics",
@@ -5125,7 +5580,8 @@
    "file": "trump/who-s-number-one-with-hispanics.ogg",
    "group": "trump",
    "ms": 2759,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 800
   },
   {
    "id": "whoever-put-this-microphone-system-in",
@@ -5133,7 +5589,8 @@
    "file": "trump/whoever-put-this-microphone-system-in.ogg",
    "group": "trump",
    "ms": 4571,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "why",
@@ -5141,7 +5598,8 @@
    "file": "trump/why.ogg",
    "group": "trump",
    "ms": 1653,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "win-pt2",
@@ -5157,7 +5615,8 @@
    "file": "trump/win-so-much-you-may-even-get-tired-of-winning-trump.ogg",
    "group": "trump",
    "ms": 10544,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 180
   },
   {
    "id": "windows-xp-trump-xp",
@@ -5165,7 +5624,8 @@
    "file": "trump/windows-xp-trump-xp.ogg",
    "group": "trump",
    "ms": 3551,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "worst-trade-deal-ever-signed-deal-deal-dice-deal-ever-trump",
@@ -5173,7 +5633,8 @@
    "file": "trump/worst-trade-deal-ever-signed-deal-deal-dice-deal-ever-trump.ogg",
    "group": "trump",
    "ms": 5198,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 560
   },
   {
    "id": "wouldn-t-that-be-embarrasing",
@@ -5181,7 +5642,8 @@
    "file": "trump/wouldn-t-that-be-embarrasing.ogg",
    "group": "trump",
    "ms": 2020,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "wrong",
@@ -5205,7 +5667,8 @@
    "file": "trump/wrong-with-you.ogg",
    "group": "trump",
    "ms": 3152,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 260
   },
   {
    "id": "wrong-wrong",
@@ -5213,7 +5676,8 @@
    "file": "trump/wrong-wrong.ogg",
    "group": "trump",
    "ms": 4971,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "yeah",
@@ -5229,7 +5693,8 @@
    "file": "trump/yello.ogg",
    "group": "trump",
    "ms": 1427,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "yes",
@@ -5237,7 +5702,8 @@
    "file": "trump/yes.ogg",
    "group": "trump",
    "ms": 870,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 440
   },
   {
    "id": "you-are-a-rude-terrible-person-trump-person",
@@ -5245,7 +5711,8 @@
    "file": "trump/you-are-a-rude-terrible-person-trump-person.ogg",
    "group": "trump",
    "ms": 2751,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "you-are-fake-news",
@@ -5253,7 +5720,8 @@
    "file": "trump/you-are-fake-news.ogg",
    "group": "trump",
    "ms": 1680,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "you-are-fired",
@@ -5269,7 +5737,8 @@
    "file": "trump/you-are-the-most-amazing-guy.ogg",
    "group": "trump",
    "ms": 2802,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "you-gotta-get-out-to-vote",
@@ -5277,7 +5746,8 @@
    "file": "trump/you-gotta-get-out-to-vote.ogg",
    "group": "trump",
    "ms": 3576,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1900
   },
   {
    "id": "you-have-a-hard-time-convincing-people-that-you-re-smart",
@@ -5293,7 +5763,8 @@
    "file": "trump/you-have-everything-going-the-world-is-waiting-for-you.ogg",
    "group": "trump",
    "ms": 5118,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "you-have-everything-going-the-world-is-waiting-for-you-to-be",
@@ -5301,7 +5772,8 @@
    "file": "trump/you-have-everything-going-the-world-is-waiting-for-you-to-be.ogg",
    "group": "trump",
    "ms": 5918,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1980
   },
   {
    "id": "you-know-what-i-said",
@@ -5309,7 +5781,8 @@
    "file": "trump/you-know-what-i-said.ogg",
    "group": "trump",
    "ms": 2454,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1160
   },
   {
    "id": "you-know-you-re-really-beautiful",
@@ -5317,7 +5790,8 @@
    "file": "trump/you-know-you-re-really-beautiful.ogg",
    "group": "trump",
    "ms": 1715,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 200
   },
   {
    "id": "you-think-biden-could-get-into-that-car",
@@ -5325,7 +5799,8 @@
    "file": "trump/you-think-biden-could-get-into-that-car.ogg",
    "group": "trump",
    "ms": 3570,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 440
   },
   {
    "id": "you-won-t-report-that",
@@ -5333,7 +5808,8 @@
    "file": "trump/you-won-t-report-that.ogg",
    "group": "trump",
    "ms": 5544,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1260
   },
   {
    "id": "you-d-probably-be-the-last-person-on-earth-i-d-tell-telling-",
@@ -5349,7 +5825,8 @@
    "file": "trump/you-re-boy-scouts-but-you-know-life.ogg",
    "group": "trump",
    "ms": 3509,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "you-re-brilliant-you-re-handsome-you-re-rich",
@@ -5365,7 +5842,8 @@
    "file": "trump/you-re-fired.ogg",
    "group": "trump",
    "ms": 1314,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 360
   },
   {
    "id": "you-re-going-to-have-to-do-something-with-china",
@@ -5373,7 +5851,8 @@
    "file": "trump/you-re-going-to-have-to-do-something-with-china.ogg",
    "group": "trump",
    "ms": 27281,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1960
   },
   {
    "id": "you-re-gonna-be-happy",
@@ -5381,7 +5860,8 @@
    "file": "trump/you-re-gonna-be-happy.ogg",
    "group": "trump",
    "ms": 1706,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 440
   },
   {
    "id": "you-re-not-a-nice-person",
@@ -5405,7 +5885,8 @@
    "file": "trump/you-ve-been-mean.ogg",
    "group": "trump",
    "ms": 7844,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 1040
   },
   {
    "id": "your-organisation-is-terrible",
@@ -5413,7 +5894,8 @@
    "file": "trump/your-organisation-is-terrible.ogg",
    "group": "trump",
    "ms": 6042,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 960
   },
   {
    "id": "your-organization-s-terrible",
@@ -5421,7 +5903,8 @@
    "file": "trump/your-organization-s-terrible.ogg",
    "group": "trump",
    "ms": 2498,
-   "kbps": 24
+   "kbps": 24,
+   "startMs": 760
   },
   {
    "id": "yuge",
