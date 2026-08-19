@@ -5972,6 +5972,870 @@
    "file": "sfx/cash-register.ogg",
    "group": "sfx",
    "kbps": 24
+  },
+  {
+   "id": "rimshot-sweet",
+   "sortKey": "rimshot-sweet",
+   "label": "Rimshot Sweet (24k)",
+   "file": "sfx/rimshot-sweet.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "sting-rimshot-drum-roll-smooth",
+   "sortKey": "sting-rimshot-drum-roll-smooth",
+   "label": "Sting Rimshot Drum Roll Smooth (24k)",
+   "file": "sfx/sting-rimshot-drum-roll-smooth.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "ludwig-black-beauty-snare-drum-open-rimshot-unpr",
+   "sortKey": "ludwig-black-beauty-snare-drum-open-rimshot-unpr",
+   "label": "Ludwig Black Beauty Snare Drum Open Rimshot Unpr (24k)",
+   "file": "sfx/ludwig-black-beauty-snare-drum-open-rimshot-unpr.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "timbales-high-rimshot-macho",
+   "sortKey": "timbales-high-rimshot-macho",
+   "label": "Timbales High Rimshot Macho (24k)",
+   "file": "sfx/timbales-high-rimshot-macho.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "rimshot-f2",
+   "sortKey": "rimshot-f2",
+   "label": "Rimshot F2 (24k)",
+   "file": "sfx/rimshot-f2.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "rimshot-f",
+   "sortKey": "rimshot-f",
+   "label": "Rimshot F (24k)",
+   "file": "sfx/rimshot-f.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "samba-caixa-rimshot",
+   "sortKey": "samba-caixa-rimshot",
+   "label": "Samba Caixa Rimshot (24k)",
+   "file": "sfx/samba-caixa-rimshot.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "acoustic-snare-hard-hit-rimshot-vintage-hip-hop",
+   "sortKey": "acoustic-snare-hard-hit-rimshot-vintage-hip-hop",
+   "label": "Acoustic Snare Hard Hit Rimshot Vintage Hip Hop (24k)",
+   "file": "sfx/acoustic-snare-hard-hit-rimshot-vintage-hip-hop.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "timpani-rimshot-4",
+   "sortKey": "timpani-rimshot-4",
+   "label": "Timpani Rimshot 4 (24k)",
+   "file": "sfx/timpani-rimshot-4.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "rimshot-3",
+   "sortKey": "rimshot-3",
+   "label": "Rimshot 3 (24k)",
+   "file": "sfx/rimshot-3.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "crushed-rimshot-005",
+   "sortKey": "crushed-rimshot-005",
+   "label": "Crushed Rimshot 005 (24k)",
+   "file": "sfx/crushed-rimshot-005.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "studio-rimshot",
+   "sortKey": "studio-rimshot",
+   "label": "Studio Rimshot (24k)",
+   "file": "sfx/studio-rimshot.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "rimshot-2",
+   "sortKey": "rimshot-2",
+   "label": "Rimshot 2 (24k)",
+   "file": "sfx/rimshot-2.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "korg-mini-pops-rimshot-open-hihat2",
+   "sortKey": "korg-mini-pops-rimshot-open-hihat2",
+   "label": "Korg Mini Pops Rimshot Open Hihat2 (24k)",
+   "file": "sfx/korg-mini-pops-rimshot-open-hihat2.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "the-exponent-rimshot-02",
+   "sortKey": "the-exponent-rimshot-02",
+   "label": "The Exponent Rimshot 02 (24k)",
+   "file": "sfx/the-exponent-rimshot-02.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "the-exponent-rimshot-03",
+   "sortKey": "the-exponent-rimshot-03",
+   "label": "The Exponent Rimshot 03 (24k)",
+   "file": "sfx/the-exponent-rimshot-03.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "the-exponent-rimshot-01",
+   "sortKey": "the-exponent-rimshot-01",
+   "label": "The Exponent Rimshot 01 (24k)",
+   "file": "sfx/the-exponent-rimshot-01.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "rimshot-1",
+   "sortKey": "rimshot-1",
+   "label": "Rimshot 1 (24k)",
+   "file": "sfx/rimshot-1.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "korg-mini-pops-rimshot-open-hihat",
+   "sortKey": "korg-mini-pops-rimshot-open-hihat",
+   "label": "Korg Mini Pops Rimshot Open Hihat (24k)",
+   "file": "sfx/korg-mini-pops-rimshot-open-hihat.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "ll-q1860-eng-flame-not-lame-sad-trombone",
+   "sortKey": "ll-q1860-eng-flame-not-lame-sad-trombone",
+   "label": "Ll Q1860 Eng Flame Not Lame Sad Trombone (24k)",
+   "file": "sfx/ll-q1860-eng-flame-not-lame-sad-trombone.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "wah-wah-sad-trombone",
+   "sortKey": "wah-wah-sad-trombone",
+   "label": "Wah Wah Sad Trombone (24k)",
+   "file": "sfx/wah-wah-sad-trombone.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "horn-fail-wahwah-1",
+   "sortKey": "horn-fail-wahwah-1",
+   "label": "Horn Fail Wahwah 1 (24k)",
+   "file": "sfx/horn-fail-wahwah-1.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "drum-roll",
+   "sortKey": "drum-roll",
+   "label": "Drum Roll (24k)",
+   "file": "sfx/drum-roll.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "13-drum-roll-01",
+   "sortKey": "13-drum-roll-01",
+   "label": "13 Drum Roll 01 (24k)",
+   "file": "sfx/13-drum-roll-01.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "custom-snare-lex-trap-drum-roll-8-count-nova-sou",
+   "sortKey": "custom-snare-lex-trap-drum-roll-8-count-nova-sou",
+   "label": "Custom Snare Lex Trap Drum Roll 8 Count Nova Sou (24k)",
+   "file": "sfx/custom-snare-lex-trap-drum-roll-8-count-nova-sou.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "buzz-roll",
+   "sortKey": "buzz-roll",
+   "label": "Buzz Roll (24k)",
+   "file": "sfx/buzz-roll.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "drumroll",
+   "sortKey": "drumroll",
+   "label": "Drumroll (24k)",
+   "file": "sfx/drumroll.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "crashb",
+   "sortKey": "crashb",
+   "label": "Crashb (24k)",
+   "file": "sfx/crashb.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "crasha",
+   "sortKey": "crasha",
+   "label": "Crasha (24k)",
+   "file": "sfx/crasha.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "roll",
+   "sortKey": "roll",
+   "label": "Roll (24k)",
+   "file": "sfx/roll.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "tom14-4",
+   "sortKey": "tom14-4",
+   "label": "Tom14 4 (24k)",
+   "file": "sfx/tom14-4.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "trash-can-timpani-2",
+   "sortKey": "trash-can-timpani-2",
+   "label": "Trash Can Timpani 2 (24k)",
+   "file": "sfx/trash-can-timpani-2.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "snare-roll",
+   "sortKey": "snare-roll",
+   "label": "Snare Roll (24k)",
+   "file": "sfx/snare-roll.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "tom13-4",
+   "sortKey": "tom13-4",
+   "label": "Tom13 4 (24k)",
+   "file": "sfx/tom13-4.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "record-scratch-4",
+   "sortKey": "record-scratch-4",
+   "label": "Record Scratch 4 (24k)",
+   "file": "sfx/record-scratch-4.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "record-scratch-2",
+   "sortKey": "record-scratch-2",
+   "label": "Record Scratch 2 (24k)",
+   "file": "sfx/record-scratch-2.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "record-scratch-5",
+   "sortKey": "record-scratch-5",
+   "label": "Record Scratch 5 (24k)",
+   "file": "sfx/record-scratch-5.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "record-scratch-3",
+   "sortKey": "record-scratch-3",
+   "label": "Record Scratch 3 (24k)",
+   "file": "sfx/record-scratch-3.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "record-scratch",
+   "sortKey": "record-scratch",
+   "label": "Record Scratch (24k)",
+   "file": "sfx/record-scratch.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "record-scratch-voice",
+   "sortKey": "record-scratch-voice",
+   "label": "Record Scratch Voice (24k)",
+   "file": "sfx/record-scratch-voice.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "scratch-g-004",
+   "sortKey": "scratch-g-004",
+   "label": "Scratch G 004 (24k)",
+   "file": "sfx/scratch-g-004.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "snapcracklepop",
+   "sortKey": "snapcracklepop",
+   "label": "Snapcracklepop (24k)",
+   "file": "sfx/snapcracklepop.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "head-hair-scratching",
+   "sortKey": "head-hair-scratching",
+   "label": "Head Hair Scratching (24k)",
+   "file": "sfx/head-hair-scratching.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "slide-whistle-1",
+   "sortKey": "slide-whistle-1",
+   "label": "Slide Whistle 1 (24k)",
+   "file": "sfx/slide-whistle-1.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "slide-whistle-6",
+   "sortKey": "slide-whistle-6",
+   "label": "Slide Whistle 6 (24k)",
+   "file": "sfx/slide-whistle-6.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "slide-whistle-3",
+   "sortKey": "slide-whistle-3",
+   "label": "Slide Whistle 3 (24k)",
+   "file": "sfx/slide-whistle-3.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "toonmisc-cu-spin-slide-whistle-windy-swooshes-ni",
+   "sortKey": "toonmisc-cu-spin-slide-whistle-windy-swooshes-ni",
+   "label": "Toonmisc Cu Spin Slide Whistle Windy Swooshes Ni (24k)",
+   "file": "sfx/toonmisc-cu-spin-slide-whistle-windy-swooshes-ni.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "classic-dizzy-take-slide-whistle",
+   "sortKey": "classic-dizzy-take-slide-whistle",
+   "label": "Classic Dizzy Take Slide Whistle (24k)",
+   "file": "sfx/classic-dizzy-take-slide-whistle.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "bird-1-a",
+   "sortKey": "bird-1-a",
+   "label": "Bird 1 A (24k)",
+   "file": "sfx/bird-1-a.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "bird-3-f",
+   "sortKey": "bird-3-f",
+   "label": "Bird 3 F (24k)",
+   "file": "sfx/bird-3-f.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "bird-3-d",
+   "sortKey": "bird-3-d",
+   "label": "Bird 3 D (24k)",
+   "file": "sfx/bird-3-d.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "slide-whistle",
+   "sortKey": "slide-whistle",
+   "label": "Slide Whistle (24k)",
+   "file": "sfx/slide-whistle.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "bird-3-e",
+   "sortKey": "bird-3-e",
+   "label": "Bird 3 E (24k)",
+   "file": "sfx/bird-3-e.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "bird-3-c",
+   "sortKey": "bird-3-c",
+   "label": "Bird 3 C (24k)",
+   "file": "sfx/bird-3-c.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "bird-3-a",
+   "sortKey": "bird-3-a",
+   "label": "Bird 3 A (24k)",
+   "file": "sfx/bird-3-a.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "brewer-harp",
+   "sortKey": "brewer-harp",
+   "label": "Brewer Harp (24k)",
+   "file": "sfx/brewer-harp.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "boing-spring-mouth-harp-downward-1",
+   "sortKey": "boing-spring-mouth-harp-downward-1",
+   "label": "Boing Spring Mouth Harp Downward 1 (24k)",
+   "file": "sfx/boing-spring-mouth-harp-downward-1.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "boing",
+   "sortKey": "boing",
+   "label": "Boing (24k)",
+   "file": "sfx/boing.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "boing-spring-mouth-harp-04-20-13-4",
+   "sortKey": "boing-spring-mouth-harp-04-20-13-4",
+   "label": "Boing Spring Mouth Harp 04 20 13 4 (24k)",
+   "file": "sfx/boing-spring-mouth-harp-04-20-13-4.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "funny-boing",
+   "sortKey": "funny-boing",
+   "label": "Funny Boing (24k)",
+   "file": "sfx/funny-boing.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "m-tyre-boing-3",
+   "sortKey": "m-tyre-boing-3",
+   "label": "M Tyre Boing 3 (24k)",
+   "file": "sfx/m-tyre-boing-3.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "boing-2",
+   "sortKey": "boing-2",
+   "label": "Boing 2 (24k)",
+   "file": "sfx/boing-2.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "boing-box-01",
+   "sortKey": "boing-box-01",
+   "label": "Boing Box 01 (24k)",
+   "file": "sfx/boing-box-01.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "ll-q809-pol-gower-bo",
+   "sortKey": "ll-q809-pol-gower-bo",
+   "label": "Ll Q809 Pol Gower Bo (24k)",
+   "file": "sfx/ll-q809-pol-gower-bo.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "ll-q9043-nor-telaneo-bo",
+   "sortKey": "ll-q9043-nor-telaneo-bo",
+   "label": "Ll Q9043 Nor Telaneo Bo (24k)",
+   "file": "sfx/ll-q9043-nor-telaneo-bo.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "ll-q809-pol-olaf-bo-ja-wiem",
+   "sortKey": "ll-q809-pol-olaf-bo-ja-wiem",
+   "label": "Ll Q809 Pol Olaf Bo Ja Wiem (24k)",
+   "file": "sfx/ll-q809-pol-olaf-bo-ja-wiem.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "ll-q809-pol-poemat-kwiecie-plecie-bo-przeplata-t",
+   "sortKey": "ll-q809-pol-poemat-kwiecie-plecie-bo-przeplata-t",
+   "label": "Ll Q809 Pol Poemat Kwiecie Plecie Bo Przeplata T (24k)",
+   "file": "sfx/ll-q809-pol-poemat-kwiecie-plecie-bo-przeplata-t.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "boing-oing-oing-oing",
+   "sortKey": "boing-oing-oing-oing",
+   "label": "Boing Oing Oing Oing (24k)",
+   "file": "sfx/boing-oing-oing-oing.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "warm-boing-spring",
+   "sortKey": "warm-boing-spring",
+   "label": "Warm Boing Spring (24k)",
+   "file": "sfx/warm-boing-spring.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "frozen-boing-in-alaska",
+   "sortKey": "frozen-boing-in-alaska",
+   "label": "Frozen Boing In Alaska (24k)",
+   "file": "sfx/frozen-boing-in-alaska.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "nl-boing",
+   "sortKey": "nl-boing",
+   "label": "Nl Boing (24k)",
+   "file": "sfx/nl-boing.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "cash-register-beep-sound",
+   "sortKey": "cash-register-beep-sound",
+   "label": "Cash Register Beep Sound (24k)",
+   "file": "sfx/cash-register-beep-sound.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "cash-register-sound-effect",
+   "sortKey": "cash-register-sound-effect",
+   "label": "Cash Register Sound Effect (24k)",
+   "file": "sfx/cash-register-sound-effect.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "cash-register-print-n-rip-b2",
+   "sortKey": "cash-register-print-n-rip-b2",
+   "label": "Cash Register Print N Rip B2 (24k)",
+   "file": "sfx/cash-register-print-n-rip-b2.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "cash-register-chching",
+   "sortKey": "cash-register-chching",
+   "label": "Cash Register Chching (24k)",
+   "file": "sfx/cash-register-chching.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "cash-register-print-n-rip-a1",
+   "sortKey": "cash-register-print-n-rip-a1",
+   "label": "Cash Register Print N Rip A1 (24k)",
+   "file": "sfx/cash-register-print-n-rip-a1.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "mechanical1",
+   "sortKey": "mechanical1",
+   "label": "Mechanical1 (24k)",
+   "file": "sfx/mechanical1.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "cash-drawer-and-receipt",
+   "sortKey": "cash-drawer-and-receipt",
+   "label": "Cash Drawer And Receipt (24k)",
+   "file": "sfx/cash-drawer-and-receipt.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "cymbal-reversed-glassy-resonance",
+   "sortKey": "cymbal-reversed-glassy-resonance",
+   "label": "Cymbal Reversed Glassy Resonance (24k)",
+   "file": "sfx/cymbal-reversed-glassy-resonance.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "crash-china-cymbal-1",
+   "sortKey": "crash-china-cymbal-1",
+   "label": "Crash China Cymbal 1 (24k)",
+   "file": "sfx/crash-china-cymbal-1.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "drums-crash-cymbol",
+   "sortKey": "drums-crash-cymbol",
+   "label": "Drums Crash Cymbol (24k)",
+   "file": "sfx/drums-crash-cymbol.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "cymbal",
+   "sortKey": "cymbal",
+   "label": "Cymbal (24k)",
+   "file": "sfx/cymbal.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "rpeople-revcrash2",
+   "sortKey": "rpeople-revcrash2",
+   "label": "Rpeople Revcrash2 (24k)",
+   "file": "sfx/rpeople-revcrash2.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "crash-fast-16-paiste-signature",
+   "sortKey": "crash-fast-16-paiste-signature",
+   "label": "Crash Fast 16 Paiste Signature (24k)",
+   "file": "sfx/crash-fast-16-paiste-signature.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "crash-1960-sub-basic",
+   "sortKey": "crash-1960-sub-basic",
+   "label": "Crash 1960 Sub Basic (24k)",
+   "file": "sfx/crash-1960-sub-basic.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "crash1",
+   "sortKey": "crash1",
+   "label": "Crash1 (24k)",
+   "file": "sfx/crash1.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "crash",
+   "sortKey": "crash",
+   "label": "Crash (24k)",
+   "file": "sfx/crash.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "8-bit-soft-cymbal",
+   "sortKey": "8-bit-soft-cymbal",
+   "label": "8 Bit Soft Cymbal (24k)",
+   "file": "sfx/8-bit-soft-cymbal.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "fill-16sh-crash",
+   "sortKey": "fill-16sh-crash",
+   "label": "Fill 16sh Crash (24k)",
+   "file": "sfx/fill-16sh-crash.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "crash-a-ms1",
+   "sortKey": "crash-a-ms1",
+   "label": "Crash A Ms1 (24k)",
+   "file": "sfx/crash-a-ms1.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "b8-18in-crash",
+   "sortKey": "b8-18in-crash",
+   "label": "B8 18in Crash (24k)",
+   "file": "sfx/b8-18in-crash.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "ride-n1",
+   "sortKey": "ride-n1",
+   "label": "Ride N1 (24k)",
+   "file": "sfx/ride-n1.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "tada-fanfare-a",
+   "sortKey": "tada-fanfare-a",
+   "label": "Tada Fanfare A (24k)",
+   "file": "sfx/tada-fanfare-a.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "tada-fanfare-f",
+   "sortKey": "tada-fanfare-f",
+   "label": "Tada Fanfare F (24k)",
+   "file": "sfx/tada-fanfare-f.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "funny-fanfare-1",
+   "sortKey": "funny-fanfare-1",
+   "label": "Funny Fanfare 1 (24k)",
+   "file": "sfx/funny-fanfare-1.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "fasching-fanfare-karnevals-tusch-tataa-short",
+   "sortKey": "fasching-fanfare-karnevals-tusch-tataa-short",
+   "label": "Fasching Fanfare Karnevals Tusch Tataa Short (24k)",
+   "file": "sfx/fasching-fanfare-karnevals-tusch-tataa-short.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "fasching-fanfare-karnevals-tusch-tataa-long",
+   "sortKey": "fasching-fanfare-karnevals-tusch-tataa-long",
+   "label": "Fasching Fanfare Karnevals Tusch Tataa Long (24k)",
+   "file": "sfx/fasching-fanfare-karnevals-tusch-tataa-long.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "ant-fanfare-1",
+   "sortKey": "ant-fanfare-1",
+   "label": "Ant Fanfare 1 (24k)",
+   "file": "sfx/ant-fanfare-1.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "game-success-fanfare",
+   "sortKey": "game-success-fanfare",
+   "label": "Game Success Fanfare (24k)",
+   "file": "sfx/game-success-fanfare.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "game-success-fanfare-short",
+   "sortKey": "game-success-fanfare-short",
+   "label": "Game Success Fanfare Short (24k)",
+   "file": "sfx/game-success-fanfare-short.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "oboe-fanfare",
+   "sortKey": "oboe-fanfare",
+   "label": "Oboe Fanfare (24k)",
+   "file": "sfx/oboe-fanfare.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "french-horn-fanfare",
+   "sortKey": "french-horn-fanfare",
+   "label": "French Horn Fanfare (24k)",
+   "file": "sfx/french-horn-fanfare.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "fanfare-4-rpg",
+   "sortKey": "fanfare-4-rpg",
+   "label": "Fanfare 4 Rpg (24k)",
+   "file": "sfx/fanfare-4-rpg.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "buzzer-classic-fanfare-10",
+   "sortKey": "buzzer-classic-fanfare-10",
+   "label": "Buzzer Classic Fanfare 10 (24k)",
+   "file": "sfx/buzzer-classic-fanfare-10.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "buzzer-classic-fanfare-9",
+   "sortKey": "buzzer-classic-fanfare-9",
+   "label": "Buzzer Classic Fanfare 9 (24k)",
+   "file": "sfx/buzzer-classic-fanfare-9.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "buzzer-classic-fanfare-4-alt",
+   "sortKey": "buzzer-classic-fanfare-4-alt",
+   "label": "Buzzer Classic Fanfare 4 Alt (24k)",
+   "file": "sfx/buzzer-classic-fanfare-4-alt.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "buzzer-classic-fanfare-7",
+   "sortKey": "buzzer-classic-fanfare-7",
+   "label": "Buzzer Classic Fanfare 7 (24k)",
+   "file": "sfx/buzzer-classic-fanfare-7.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "buzzer-classic-fanfare-2",
+   "sortKey": "buzzer-classic-fanfare-2",
+   "label": "Buzzer Classic Fanfare 2 (24k)",
+   "file": "sfx/buzzer-classic-fanfare-2.ogg",
+   "group": "sfx",
+   "kbps": 24
   }
  ],
  "encoding": {

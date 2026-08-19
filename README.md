@@ -36,8 +36,8 @@ the copy it actually installed, so the old local copy will never see updates.
 | `sounds/` | the two clips embedded in the script |
 | `core/` | clips fetched for the default button list |
 | `trump/` | 666 clips, search-only |
-| `sfx/` | CC0 / public-domain effects, search-only |
-| `tools/` | `fetch-free-sounds.mjs` (source from Commons), `merge-manifest.mjs` |
+| `sfx/` | 112 CC0 / public-domain effects, search-only ([credits](sfx/CREDITS.md)) |
+| `tools/` | sourcing and maintenance scripts — see below |
 | `manifest.json` | the index the script reads at startup |
 | `test.html` | loopback harness on localhost:8777 |
 
@@ -64,6 +64,32 @@ version bump.
 Filenames set both label and order. `z-` and `zz-` are sort-position prefixes
 stripped from the label: plain names first, `z-` after them, `zz-` last. Digits
 sort *before* letters, so a `99-` prefix would put a sound first, not last.
+
+## Tools
+
+| Script | What it does |
+|---|---|
+| `tools/fetch-openverse.mjs` | Sources CC0 clips via Openverse (indexes Freesound). No API key. |
+| `tools/fetch-free-sounds.mjs` | Same, from Wikimedia Commons. Low yield — see below. |
+| `tools/merge-manifest.mjs` | Folds `sfx/_pending.json` into `manifest.json`. |
+| `tools/detect-beep.mjs` | Measures the leading beep on sourced clips, writes `startMs`. |
+
+All of them shell out to ffmpeg and fall back to `nix run nixpkgs#ffmpeg` when
+it isn't on PATH.
+
+**Openverse is the source that works.** Commons was tried first and returned 4
+usable clips from 110 candidates: its audio is mostly long-form field
+recordings, music and pronunciation clips, so almost nothing survives a
+12-second gate. Openverse surfaces Freesound's CC0 library, which is short
+effects by design — 108 of 110 survived. It also returns `duration` in the
+search payload, so over-length results are dropped before any bytes move.
+
+**`startMs` skips a leading beep.** Many of the sourced clips open with a tone
+from the site they came from. `detect-beep.mjs` measures where it ends per clip
+and records it; the userscript seeks past it at playback. Nothing is
+re-encoded — note that `-ss` with `-c copy` on Ogg Opus does *not* trim audio,
+it only rewrites the container duration, so a trim would mean a real re-encode
+and a lost generation.
 
 ## Encoding
 
