@@ -45,7 +45,16 @@ const SILENCE_RMS = 200; // below this a frame counts as silence
 // single outlier like that drags SD past any sane threshold -- an earlier
 // version used SD and missed the very clip this was built for.
 const ATTACK_FRAMES = 2; // ignore the onset transient when judging tonality
-const TONE_ZCR_MAD = 150; // ZCR median-abs-deviation under this == tonal
+
+// Tonality is the median FRAME-TO-FRAME change in ZCR, not its spread about a
+// mean. Some beeps are two-tone chimes: we-need-money holds ZCR at 1650 Hz then
+// steps to 1100 Hz, and both halves are perfectly steady. Deviation-about-a-
+// median sees that step as noise (MAD 250) and calls it speech, which is how
+// that clip was missed. Consecutive-difference stays near zero through both
+// halves and spikes only at the single transition, so it reads what matters:
+// is the pitch HOLDING, wherever it happens to sit.
+const TONE_ZCR_STEP = 150; // median |zcr[i]-zcr[i-1]| under this == tonal
+const MIN_GAP_FRAMES = 3; // a beep is followed by a pause before content
 const MAX_BEEP_S = 0.8; // a leading tone longer than this is probably content
 const PREROLL_S = 0.04; // start a hair early so the first phoneme is intact
 
@@ -89,12 +98,6 @@ const median = (xs) => {
   return s.length % 2 ? s[(s.length - 1) / 2] : (s[s.length / 2 - 1] + s[s.length / 2]) / 2;
 };
 
-// Median absolute deviation: unlike stdev, one wild frame cannot move it.
-const mad = (xs) => {
-  if (xs.length < 2) return Infinity;
-  const m = median(xs);
-  return median(xs.map((x) => Math.abs(x - m)));
-};
 
 /**
  * Returns { startMs, reason }. startMs is 0 when no leading beep is found --
@@ -116,13 +119,21 @@ function analyse(fr) {
 
   const body = fr.slice(i + ATTACK_FRAMES, j).map((f) => f.zcr);
   if (body.length < 3) return { startMs: 0, reason: "run too short to judge" };
-  const dev = mad(body);
-  if (dev > TONE_ZCR_MAD) return { startMs: 0, reason: `no beep (zcr mad ${dev | 0})` };
+  const steps = body.slice(1).map((z, n) => Math.abs(z - body[n]));
+  const dev = median(steps);
+  if (dev > TONE_ZCR_STEP) return { startMs: 0, reason: `no beep (zcr step ${dev | 0})` };
 
   // Tonal run confirmed. Speech is the next loud run after it.
   let k = j;
   while (k < fr.length && !loud(k)) k++;
   if (k >= fr.length) return { startMs: 0, reason: "beep but nothing after" };
+
+  // A beep is followed by a pause. Requiring one guards against clipping the
+  // front of a clip that simply opens on a held vowel or a sustained note --
+  // those run straight into the rest of the audio with no gap.
+  if (k - j < MIN_GAP_FRAMES) {
+    return { startMs: 0, reason: `tonal but no gap after (${k - j} frames)` };
+  }
 
   const startS = Math.max(0, k * 0.02 - PREROLL_S);
   return {
