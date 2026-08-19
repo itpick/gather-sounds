@@ -1,26 +1,38 @@
 # gather-sounds
 
-The [Gather Farts](gather-farts.user.js) userscript and the audio it plays.
-A soundboard that routes clips through your microphone in Gather, so the whole
-room hears them.
+Two Gather userscripts and the audio they play.
+
+[Gather Farts](gather-farts.user.js) is a soundboard that routes clips through
+your microphone, so the whole room hears them. [Gather Mic DVR](gather-mic-dvr.user.js)
+is a rolling recorder for the same call — scrub back through the last two
+minutes of your mic or everyone else's, and re-send a chunk to the room.
 
 ## Install
 
-Open this in a browser with Tampermonkey installed:
+Open either of these in a browser with Tampermonkey installed:
 
-**https://raw.githubusercontent.com/itpick/gather-sounds/main/gather-farts.user.js**
+- Soundboard — **https://raw.githubusercontent.com/itpick/gather-sounds/main/gather-farts.user.js**
+- Mic DVR — **https://raw.githubusercontent.com/itpick/gather-sounds/main/gather-mic-dvr.user.js**
 
-It carries `@updateURL`/`@downloadURL`, so Tampermonkey will offer updates when
+They are independent; install one or both. The soundboard adds a 💨 button to
+Gather's bottom control bar and the DVR adds a 🎧 beside it.
+
+Both carry `@updateURL`/`@downloadURL`, so Tampermonkey will offer updates when
 `@version` is bumped. That only works because this repo is public — Tampermonkey
 fetches those URLs unauthenticated.
+
+If you installed either script from a local file before it was hosted here,
+reinstall once from the URL above. Tampermonkey only follows the update URL of
+the copy it actually installed, so the old local copy will never see updates.
 
 ## Layout
 
 | Path | What |
 |---|---|
-| `gather-farts.user.js` | the built script — install this, do not edit it |
-| `src/userscript.template.js` | the source; **edit this** |
+| `gather-farts.user.js` | the built soundboard — install this, do not edit it |
+| `src/userscript.template.js` | the soundboard source; **edit this** |
 | `build.mjs` | embeds `sounds/` into the template as base64 |
+| `gather-mic-dvr.user.js` | the DVR — standalone, no build step, edit it directly |
 | `sounds/` | the two clips embedded in the script |
 | `core/` | clips fetched for the default button list |
 | `trump/` | 666 clips, search-only |

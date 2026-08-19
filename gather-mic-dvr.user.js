@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gather Mic DVR
 // @namespace    lucas.local
-// @version      1.2.0
+// @version      1.3.0
 // @description  Rolling recorder for a Gather call — your mic and/or everyone else. Scrub back through the last two minutes and re-send a chunk to the room.
 // @author       Lucas
 // @match        https://app.gather.town/*
@@ -9,6 +9,13 @@
 // @match        http://localhost:8777/*
 // @run-at       document-start
 // @grant        none
+// @homepageURL  https://github.com/itpick/gather-sounds
+// @supportURL   https://github.com/itpick/gather-sounds/issues
+// Auto-update. These only work because the script lives in a PUBLIC repo --
+// Tampermonkey fetches them unauthenticated. Bump @version or Tampermonkey
+// will not take the new build.
+// @updateURL    https://raw.githubusercontent.com/itpick/gather-sounds/main/gather-mic-dvr.user.js
+// @downloadURL  https://raw.githubusercontent.com/itpick/gather-sounds/main/gather-mic-dvr.user.js
 // ==/UserScript==
 
 /*
