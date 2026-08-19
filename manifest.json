@@ -8,6 +8,10 @@
   "core": {
    "title": "Bundled",
    "searchOnly": false
+  },
+  "sfx": {
+   "title": "Sound Effects",
+   "searchOnly": true
   }
  },
  "sounds": [
@@ -5425,6 +5429,38 @@
    "file": "trump/yuge.ogg",
    "group": "trump",
    "ms": 8131,
+   "kbps": 24
+  },
+  {
+   "id": "drum-roll-intro",
+   "sortKey": "drum-roll-intro",
+   "label": "Drum Roll Intro (24k)",
+   "file": "sfx/drum-roll-intro.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "scratching-ones-head",
+   "sortKey": "scratching-ones-head",
+   "label": "Scratching Ones Head (24k)",
+   "file": "sfx/scratching-ones-head.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "deep-twang-of-loose-bow-string",
+   "sortKey": "deep-twang-of-loose-bow-string",
+   "label": "Deep Twang Of Loose Bow String (24k)",
+   "file": "sfx/deep-twang-of-loose-bow-string.ogg",
+   "group": "sfx",
+   "kbps": 24
+  },
+  {
+   "id": "cash-register",
+   "sortKey": "cash-register",
+   "label": "Cash Register (24k)",
+   "file": "sfx/cash-register.ogg",
+   "group": "sfx",
    "kbps": 24
   }
  ],

@@ -36,6 +36,8 @@ the copy it actually installed, so the old local copy will never see updates.
 | `sounds/` | the two clips embedded in the script |
 | `core/` | clips fetched for the default button list |
 | `trump/` | 666 clips, search-only |
+| `sfx/` | CC0 / public-domain effects, search-only |
+| `tools/` | `fetch-free-sounds.mjs` (source from Commons), `merge-manifest.mjs` |
 | `manifest.json` | the index the script reads at startup |
 | `test.html` | loopback harness on localhost:8777 |
 

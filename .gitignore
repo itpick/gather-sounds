@@ -1,1 +1,4 @@
 node_modules/
+
+# Provenance intermediate; CREDITS.md is the durable record.
+sfx/_pending.json
