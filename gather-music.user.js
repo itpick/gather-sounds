@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gather Music
 // @namespace    lucas.local
-// @version      1.2.0
+// @version      1.2.1
 // @description  Play music into a Gather call — to yourself, to the room, or both. Plus a Spotify remote for your own playback.
 // @author       Lucas
 // @match        https://app.gather.town/*
@@ -697,8 +697,22 @@
       const label = d.label || `input ${d.deviceId.slice(0, 8)}`;
       deviceSel.append(el("option", { value: d.deviceId, textContent: label }));
     }
-    // Preselect anything that looks like a loopback/monitor source.
-    const guess = deviceCache.find((d) => /monitor|loopback|gather_music/i.test(d.label || ""));
+    // Preselect in priority order. A flat /monitor|loopback/ match is actively
+    // wrong on a real machine: it picks "Loopback Analog Stereo", which is the
+    // snd_aloop card's INPUT side and carries nothing, over "Monitor of
+    // GatherMusic". Our own sink wins, then any true monitor, and a bare
+    // "loopback" is never matched at all -- an input named loopback is a
+    // capture device, not a monitor of anything.
+    const byRank = [
+      /gather_?music/i,     // the sink spotify-bridge.sh creates
+      /^monitor of /i,      // any genuine monitor source
+      /\bmonitor\b/i,
+    ];
+    let guess = null;
+    for (const re of byRank) {
+      guess = deviceCache.find((d) => re.test(d.label || ""));
+      if (guess) break;
+    }
     deviceSel.value = prev && deviceCache.some((d) => d.deviceId === prev)
       ? prev
       : (guess ? guess.deviceId : deviceCache[0].deviceId);
