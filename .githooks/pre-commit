@@ -1,0 +1,11 @@
+#!/bin/sh
+# Refuse to commit Gather Whisper transcripts. logs/ is gitignored, but
+# `git add -f` or a renamed path would get past that; this would not.
+# Enable once per clone:  git config core.hooksPath .githooks
+bad=$(git diff --cached --name-only --diff-filter=ACMR | grep -E '(^|/)logs/|gather-transcript-.*\.md$')
+if [ -n "$bad" ]; then
+  echo "pre-commit: refusing to commit transcripts:" >&2
+  echo "$bad" | sed 's/^/  /' >&2
+  echo "unstage them: git restore --staged <path>" >&2
+  exit 1
+fi

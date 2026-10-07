@@ -6,6 +6,8 @@ Two Gather userscripts and the audio they play.
 your microphone, so the whole room hears them. [Gather Mic DVR](gather-mic-dvr.user.js)
 is a rolling recorder for the same call — scrub back through the last two
 minutes of your mic or everyone else's, and re-send a chunk to the room.
+[Gather Whisper](gather-whisper.user.js) runs Whisper in the browser for live
+captions, a transcript, and sounds triggered by words people say.
 
 ## Install
 
@@ -13,6 +15,7 @@ Open either of these in a browser with Tampermonkey installed:
 
 - Soundboard — **https://raw.githubusercontent.com/itpick/gather-sounds/main/gather-farts.user.js**
 - Mic DVR — **https://raw.githubusercontent.com/itpick/gather-sounds/main/gather-mic-dvr.user.js**
+- Whisper — **https://raw.githubusercontent.com/itpick/gather-sounds/main/gather-whisper.user.js**
 
 They are independent; install one or both. The soundboard adds a 💨 button to
 Gather's bottom control bar and the DVR adds a 🎧 beside it.
@@ -40,6 +43,36 @@ the copy it actually installed, so the old local copy will never see updates.
 | `tools/` | sourcing and maintenance scripts — see below |
 | `manifest.json` | the index the script reads at startup |
 | `test.html` | loopback harness on localhost:8777 |
+| `gather-whisper.user.js` | captions / transcript / keyword sounds — standalone, edit it directly |
+| `tools/transcript-log-server.mjs` | optional: writes Whisper transcripts into `logs/` |
+| `logs/` | transcripts — **gitignored, and the pre-commit hook refuses them** |
+| `.githooks/` | versioned hooks; enable once with `git config core.hooksPath .githooks` |
+
+## Gather Whisper
+
+Adds a 💬 button. Whisper (via Transformers.js) runs in a worker in the tab, on
+WebGPU when there is a real GPU (`small.en`) and WASM otherwise (`tiny.en`);
+no audio leaves the page. The first load downloads the model (~250 MB for
+`small.en`), cached by the browser after that.
+
+- **Per person / Me vs Them** — each remote track transcribed separately, or all
+  of them mixed into one "Them" stream (lighter). Remote speakers show as
+  Guest 1, 2… and can be renamed in the panel for the session.
+- **Keyword sounds** — phrase → sound → room or just you, triggered by others
+  only or by anyone. Sounds come from `manifest.json` plus two built-ins.
+- **Transcript** — memory-only; *Download .md* saves it. Ticking **save to logs/**
+  (off by default) also appends every line to `logs/<date>-<time>-<room>.md`
+  while `node tools/transcript-log-server.mjs` is running (127.0.0.1:8779, only
+  Gather's origin is accepted). Brave may ask once to let Gather reach the
+  local network — that's this server.
+
+It transcribes everyone you can hear; tell the room. If the status line says
+`wasm · software GPU ignored`, the browser has no hardware WebGPU — check
+`brave://gpu`.
+
+**Transcripts never go in git.** `logs/` is gitignored and `.githooks/pre-commit`
+rejects any staged path under it, including `git add -f`. Enable the hook in
+each clone: `git config core.hooksPath .githooks`.
 
 ## Why the split
 
