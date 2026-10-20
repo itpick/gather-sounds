@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gather Whisper
 // @namespace    lucas.local
-// @version      0.5.1
+// @version      0.5.2
 // @description  Live captions, a meeting transcript and keyword-triggered sounds for a Gather call. Whisper runs in your browser -- no audio leaves the page.
 // @author       Lucas
 // @match        https://app.gather.town/*
@@ -427,6 +427,7 @@
   // A name or a track->player link arrived: move tracks onto their player's
   // channel and put real names on channels nobody has renamed by hand.
   function relabelRemotes() {
+    let changed = false;
     for (const [trackId, r] of remotes) {
       const key = keyFor(trackId);
       if (key === r.key) continue;
@@ -434,13 +435,19 @@
       r.key = key;
       routeRemote(trackId);
       dropChannelIfUnused(old);
+      changed = true;
     }
     for (const ch of channels.values()) {
       if (ch.kind !== "remote" || ch.renamed || !ch.id.startsWith("p:")) continue;
       const name = nameFor(ch.id.slice(2));
-      if (name) ch.label = name;
+      if (name && name !== ch.label) {
+        ch.label = name;
+        changed = true;
+      }
     }
-    renderSpeakers();
+    // Only redraw on a change: this also runs on a timer, and a redraw
+    // would take focus from a speaker box someone is typing in.
+    if (changed) renderSpeakers();
   }
 
   // Gather doesn't always end a track it stops consuming; sweep dead ones.
@@ -455,6 +462,8 @@
       renderSpeakers();
       renderStatus();
     }
+    // Names from window.game (original Gather) arrive without any event we see.
+    if (gameApi()) relabelRemotes();
   }, 5000);
 
   function detachRemote(trackId) {
@@ -542,7 +551,29 @@
   const accountName = new Map();
   const pendingConsume = new Map(); // socket.io ack id -> player id
 
+  // The original Gather (app.gather.town, not app.v2) keeps every player on
+  // a global: game.players[uid].name, with uids the same Firebase ids the
+  // SFU uses as srcId. Its game socket is protobuf, which we don't decode.
+  function gameApi() {
+    const g = window.game;
+    return g && typeof g === "object" && (g.players || typeof g.getPlayer === "function") ? g : null;
+  }
+
+  function gameName(playerId) {
+    const g = gameApi();
+    if (!g) return null;
+    let p = null;
+    try {
+      p = (g.players && g.players[playerId]) || (typeof g.getPlayer === "function" && g.getPlayer(playerId)) || null;
+    } catch (_) {
+      /* Gather internals moved */
+    }
+    return p && typeof p.name === "string" && p.name.trim() ? p.name.trim() : null;
+  }
+
   function nameFor(playerId) {
+    const fromGame = gameName(playerId);
+    if (fromGame) return fromGame;
     const space = playerName.get(playerId);
     // Gather shows "Anonymous" for members who never set a space name.
     if (space && space !== "Anonymous") return space;
@@ -742,40 +773,59 @@
         data instanceof ArrayBuffer ? new Uint8Array(data)
           : ArrayBuffer.isView(data) ? new Uint8Array(data.buffer, data.byteOffset, data.byteLength)
             : null;
-      function PatchedWS(...args) {
-        const ws = new OrigWS(...args);
-        let url = String(args[0]);
+      const watched = new WeakMap(); // socket -> stats
+
+      // Start reading a socket. Idempotent: called from the constructor for
+      // sockets made after we loaded, and from send() for the rest.
+      const watch = (ws) => {
+        let st = watched.get(ws);
+        if (st) return st;
+        let url = String(ws.url || "");
         try {
           const u = new URL(url, location.href);
           url = u.host + u.pathname;
         } catch (_) {
           /* keep as given */
         }
-        const st = { url, texts: 0, bins: 0, events: {}, models: {}, kinds: {} };
+        st = { url, texts: 0, bins: 0, events: {}, models: {}, kinds: {} };
+        watched.set(ws, st);
         if (wsStats.length < 30) wsStats.push(st);
-        const onBytes = (dir, data) => {
-          const b = bytesNow(data);
-          if (b) onWsBinary(dir, b, st);
-          else if (data instanceof Blob) data.arrayBuffer().then((ab) => onWsBinary(dir, new Uint8Array(ab), st)).catch(() => {});
-        };
-        ws.addEventListener("message", (ev) => {
+        EventTarget.prototype.addEventListener.call(ws, "message", (ev) => {
           try {
             if (typeof ev.data === "string") onWsText("in", ev.data, st);
-            else onBytes("in", ev.data);
+            else onBytes("in", ev.data, st);
           } catch (_) {
             /* never break Gather's socket */
           }
         });
-        const send = ws.send;
-        ws.send = function (data) {
-          try {
-            if (typeof data === "string") onWsText("out", data, st);
-            else onBytes("out", data);
-          } catch (_) {
-            /* never break Gather's socket */
-          }
-          return send.apply(this, arguments);
-        };
+        return st;
+      };
+      const onBytes = (dir, data, st) => {
+        const b = bytesNow(data);
+        if (b) onWsBinary(dir, b, st);
+        else if (data instanceof Blob) data.arrayBuffer().then((ab) => onWsBinary(dir, new Uint8Array(ab), st)).catch(() => {});
+      };
+
+      // Libraries such as socket.io keep their own reference to WebSocket,
+      // taken when Gather's bundle first ran -- which can be before
+      // Tampermonkey injects us, so the constructor patch below never sees
+      // those sockets. The prototype is shared however the socket was made,
+      // so send() is hooked there and the first send starts reading.
+      const protoSend = OrigWS.prototype.send;
+      OrigWS.prototype.send = function (data) {
+        try {
+          const st = watch(this);
+          if (typeof data === "string") onWsText("out", data, st);
+          else onBytes("out", data, st);
+        } catch (_) {
+          /* never break Gather's socket */
+        }
+        return protoSend.apply(this, arguments);
+      };
+
+      function PatchedWS(...args) {
+        const ws = new OrigWS(...args);
+        watch(ws);
         return ws;
       }
       PatchedWS.prototype = OrigWS.prototype;
@@ -793,6 +843,7 @@
         version: typeof GM_info !== "undefined" ? GM_info.script.version : "?",
         mapped: trackPlayer.size, consumeSent, consumeAcked, pendingConsume: pendingConsume.size,
         spaceNames: playerName.size, accountNames: accountName.size,
+        game: gameApi() ? { players: gameApi().players ? Object.keys(gameApi().players).length : "getPlayer()", named: [...new Set([...remotes.values()].map((r) => r.key))].filter((k) => k.startsWith("p:") && gameName(k.slice(2))).length } : null,
         sockets: wsStats.map((s) => ({ ...s, events: top(s.events, 30), models: top(s.models, 20), kinds: top(s.kinds, 10) })),
         tracks: [...remotes].map(([id, r]) => ({ id, streams: r.streamIds, key: r.key, state: r.track.readyState })),
       },
