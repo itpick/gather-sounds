@@ -56,8 +56,12 @@ no audio leaves the page. The first load downloads the model (~250 MB for
 `small.en`), cached by the browser after that.
 
 - **Per person / Me vs Them** — each remote track transcribed separately, or all
-  of them mixed into one "Them" stream (lighter). Remote speakers show as
-  Guest 1, 2… and can be renamed in the panel for the session.
+  of them mixed into one "Them" stream (lighter). Remote speakers are named
+  from Gather itself: the script reads which player each audio track belongs
+  to off the SFU socket and their space name off the game socket, so a person
+  stays one speaker however often Gather re-creates their track. Anyone it
+  can't place shows as Guest N. A name you type in the panel wins over
+  Gather's, and is saved as a suggestion for next time.
 - **Keyword sounds** — phrase → sound → room or just you, triggered by others
   only or by anyone. Sounds come from `manifest.json` plus two built-ins.
   **Fuzzy** (the default for new rules; shown as `~`) also fires on Whisper's
