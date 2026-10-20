@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gather Whisper
 // @namespace    lucas.local
-// @version      0.2.0
+// @version      0.3.0
 // @description  Live captions, a meeting transcript and keyword-triggered sounds for a Gather call. Whisper runs in your browser -- no audio leaves the page.
 // @author       Lucas
 // @match        https://app.gather.town/*
@@ -118,7 +118,7 @@
     captions: saved.captions !== false,
     // Off unless ticked: writes transcripts to disk via the local log server.
     logToDisk: saved.logToDisk === true,
-    /** @type {{id:string, phrase:string, sound:string, dest:"room"|"me", who:"others"|"anyone"}[]} */
+    /** @type {{id:string, phrase:string, sound:string, dest:"room"|"me", who:"others"|"anyone", match?:"exact"|"fuzzy"}[]} */
     rules: Array.isArray(saved.rules) ? saved.rules : [],
     // Names typed into the speaker boxes. Remote tracks carry no stable
     // identity across reloads, so this is a pick-list, not an auto-mapping.
@@ -657,6 +657,42 @@
     renderCaptions();
   }
 
+  // Fuzzy matching, for Whisper's near-misses ("profanaty", "you're" for
+  // "your", "sun flower" for "sunflower"). Spaces are dropped before comparing
+  // so split and merged words cost nothing; windows one word shorter and
+  // longer than the phrase catch the same thing at the word level.
+  const FUZZY_MIN_SIM = 0.8; // ~1 wrong letter per 5
+  const FUZZY_MIN_CHARS = 6; // shorter phrases match exactly: "money" ≠ "honey"
+
+  function levenshtein(a, b) {
+    let prev = Array.from({ length: b.length + 1 }, (_, j) => j);
+    for (let i = 1; i <= a.length; i++) {
+      const cur = [i];
+      for (let j = 1; j <= b.length; j++) {
+        cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+      }
+      prev = cur;
+    }
+    return prev[b.length];
+  }
+
+  /** The words in `hay` (already norm()ed) that match `phrase`, or null. */
+  function fuzzyFind(hay, phrase) {
+    const p = norm(phrase).trim().split(" ");
+    const target = p.join("").replace(/'/g, "");
+    if (target.length < FUZZY_MIN_CHARS) return hay.includes(norm(phrase)) ? phrase : null;
+    const words = hay.trim().split(" ");
+    const slack = Math.floor(target.length * (1 - FUZZY_MIN_SIM));
+    for (let n = Math.max(1, p.length - 1); n <= p.length + 1; n++) {
+      for (let i = 0; i + n <= words.length; i++) {
+        const cand = words.slice(i, i + n).join("").replace(/'/g, "");
+        if (Math.abs(cand.length - target.length) > slack) continue;
+        if (1 - levenshtein(cand, target) / Math.max(cand.length, target.length) >= FUZZY_MIN_SIM) return words.slice(i, i + n).join(" ");
+      }
+    }
+    return null;
+  }
+
   const lastFire = new Map(); // rule id -> timestamp
   const RULE_COOLDOWN_MS = 4000;
 
@@ -666,11 +702,12 @@
       if (!rule.phrase) continue;
       if (rule.who !== "anyone" && ch.kind === "me") continue;
       if (ch.segId === segId && ch.fired.has(rule.id)) continue;
-      if (!hay.includes(norm(rule.phrase))) continue;
+      const heard = rule.match === "fuzzy" ? fuzzyFind(hay, rule.phrase) : hay.includes(norm(rule.phrase)) && rule.phrase;
+      if (!heard) continue;
       if (Date.now() - (lastFire.get(rule.id) || 0) < RULE_COOLDOWN_MS) continue;
       if (ch.segId === segId) ch.fired.add(rule.id);
       lastFire.set(rule.id, Date.now());
-      log(`rule "${rule.phrase}" fired on ${ch.label} -> ${rule.sound} (${rule.dest})`);
+      log(`rule "${rule.phrase}" fired on ${ch.label}${heard !== rule.phrase ? ` (heard "${heard}")` : ""} -> ${rule.sound} (${rule.dest})`);
       playSound(rule.sound, rule.dest).catch((e) => console.warn("[whisper] sound failed", e));
       flashRule(rule.id);
     }
@@ -1052,7 +1089,7 @@
       });
       if (rule.id === editingId) row.classList.add("editing");
       row.append(
-        el("span", "p", `"${rule.phrase}"`),
+        el("span", "p", `${rule.match === "fuzzy" ? "~" : ""}"${rule.phrase}"`),
         el("span", "m", `${soundLabel(rule.sound)} → ${rule.dest === "room" ? "room" : "me"} · ${rule.who === "anyone" ? "anyone" : "others"}`),
         test,
         edit,
@@ -1079,9 +1116,11 @@
       soundOptions(f.snd, rule.sound);
       f.dest.value = rule.dest;
       f.who.value = rule.who;
+      f.match.value = rule.match === "fuzzy" ? "fuzzy" : "exact";
       f.phrase.focus();
     } else {
       f.phrase.value = "";
+      f.match.value = "fuzzy";
     }
     f.addBtn.textContent = rule ? "Save" : "Add";
     f.cancel.style.display = rule ? "" : "none";
@@ -1305,6 +1344,10 @@
     dest.append(new Option("→ me", "me"), new Option("→ room", "room"));
     const who = el("select");
     who.append(new Option("others say it", "others"), new Option("anyone says it", "anyone"));
+    // Rules saved before fuzzy existed have no `match` and stay exact.
+    const match = el("select");
+    match.append(new Option("fuzzy", "fuzzy"), new Option("exact", "exact"));
+    match.title = "Fuzzy also fires on near-misses (~1 wrong letter in 5); phrases under 6 letters always match exactly";
     const addBtn = el("button", "txtbtn", "Add");
     const cancel = el("button", "txtbtn", "Cancel");
     cancel.style.display = "none";
@@ -1312,7 +1355,7 @@
     addBtn.addEventListener("click", () => {
       const p = phrase.value.trim();
       if (!p) return;
-      const fields = { phrase: p, sound: snd.value, dest: dest.value, who: who.value };
+      const fields = { phrase: p, sound: snd.value, dest: dest.value, who: who.value, match: match.value };
       const existing = editingId && settings.rules.find((r) => r.id === editingId);
       if (existing) Object.assign(existing, fields);
       else settings.rules.push({ id: Math.random().toString(36).slice(2, 10), ...fields });
@@ -1323,8 +1366,8 @@
       if (e.key === "Enter") addBtn.click();
       else if (e.key === "Escape" && editingId) editRule(null);
     });
-    add.append(phrase, snd, dest, who, addBtn, cancel);
-    ruleForm = { phrase, snd, dest, who, addBtn, cancel };
+    add.append(phrase, snd, dest, who, match, addBtn, cancel);
+    ruleForm = { phrase, snd, dest, who, match, addBtn, cancel };
 
     body.append(
       statusEl, bar, row1, row2,
