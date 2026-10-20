@@ -56,12 +56,28 @@
    "kbps": 65
   },
   {
+   "id": "pick-another-senator",
+   "sortKey": "pick-another-senator",
+   "label": "Pick Another Senator (65k)",
+   "file": "core/pick-another-senator.mp3",
+   "group": "core",
+   "kbps": 65
+  },
+  {
    "id": "that-was-easy",
    "sortKey": "that-was-easy",
    "label": "That Was Easy (353k)",
    "file": "core/that-was-easy.wav",
    "group": "core",
    "kbps": 353
+  },
+  {
+   "id": "watch-your-profanity",
+   "sortKey": "watch-your-profanity",
+   "label": "Watch Your Profanity (68k)",
+   "file": "core/watch-your-profanity.mp3",
+   "group": "core",
+   "kbps": 68
   },
   {
    "id": "when-my-work-is-finished",
