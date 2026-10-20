@@ -60,6 +60,10 @@ no audio leaves the page. The first load downloads the model (~250 MB for
   Guest 1, 2… and can be renamed in the panel for the session.
 - **Keyword sounds** — phrase → sound → room or just you, triggered by others
   only or by anyone. Sounds come from `manifest.json` plus two built-ins.
+  **Fuzzy** (the default for new rules; shown as `~`) also fires on Whisper's
+  near-misses — about one wrong letter in five, split or merged words
+  included. Phrases under 6 letters always match exactly, or "money" would
+  fire on "honey".
 - **Transcript** — memory-only; *Download .md* saves it. Ticking **save to logs/**
   (off by default) also appends every line to `logs/<date>-<time>-<room>.md`
   while `node tools/transcript-log-server.mjs` is running (127.0.0.1:8779, only
