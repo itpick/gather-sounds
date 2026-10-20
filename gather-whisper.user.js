@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gather Whisper
 // @namespace    lucas.local
-// @version      0.4.0
+// @version      0.5.0
 // @description  Live captions, a meeting transcript and keyword-triggered sounds for a Gather call. Whisper runs in your browser -- no audio leaves the page.
 // @author       Lucas
 // @match        https://app.gather.town/*
@@ -124,6 +124,12 @@
     // identity across reloads, so this is a pick-list, not an auto-mapping.
     /** @type {string[]} */
     names: Array.isArray(saved.names) ? saved.names : [],
+    // Channel keys marked "several people on this mic" (a conference room).
+    /** @type {string[]} */
+    multi: Array.isArray(saved.multi) ? saved.multi : [],
+    // Named voices per channel key, so a room's regulars are recognised next time.
+    /** @type {Record<string, {label:string, n:number, v:number[]}[]>} */
+    voices: saved.voices && typeof saved.voices === "object" ? saved.voices : {},
   };
 
   // ---------------------------------------------------------------------------
@@ -276,6 +282,10 @@
       if (speech < MIN_SPEECH_S) {
         this.partial = "";
         renderCaptions();
+        return;
+      }
+      if (isMulti(this) && diarState === "ready") {
+        diarize(this, audio, segId, at);
         return;
       }
       transcribe(audio, true).then((text) => {
@@ -851,6 +861,239 @@
   }
 
   // ---------------------------------------------------------------------------
+  // Several people on one mic (a conference room)
+  // ---------------------------------------------------------------------------
+  //
+  // A channel marked 👥 has each finished utterance cut into 2 s windows (1 s
+  // hop), embedded by WeSpeaker (6.7 MB, its own worker, loaded only once
+  // something is marked), and each window matched to that channel's voices by
+  // cosine similarity. Runs of one voice become turns, transcribed separately.
+  //
+  // Tuned on JFK / MLK / TED clips spliced A|B|A|C: 2 s windows at a 0.3 join
+  // threshold recovered all four turns with 3 voices; only windows straddling
+  // a change were wrong. 1 s and 1.5 s windows were too noisy (same-speaker
+  // median similarity 0.27 / 0.39, against 0.45 at 2 s). A room mic with
+  // reverb will do worse than clean clips; renaming two voices to the same
+  // name merges them, which is the fix when one person splits in two.
+
+  const DIAR_MODEL = "onnx-community/wespeaker-voxceleb-resnet34-LM";
+  const DIAR_WIN_S = 2;
+  const DIAR_HOP_S = 1;
+  const DIAR_JOIN = 0.3; // min cosine similarity to an existing voice
+  const DIAR_MIN_TURN_S = 0.8; // shorter turns are folded into a neighbour
+  const DIAR_MAX_N = 50; // centroid weight cap, so voices keep adapting
+
+  const DIAR_SRC = `
+    let proc = null, model = null;
+    const send = (m) => postMessage(m);
+    self.onmessage = async ({ data }) => {
+      if (data.type === "init") {
+        try {
+          const src = await (await fetch(data.tjsUrl)).text();
+          const { AutoProcessor, AutoModel, env } = await import(URL.createObjectURL(new Blob([src], { type: "text/javascript" })));
+          env.allowLocalModels = false;
+          proc = await AutoProcessor.from_pretrained(data.model);
+          model = await AutoModel.from_pretrained(data.model, { dtype: "q8", device: "wasm" });
+          send({ type: "ready" });
+        } catch (e) { send({ type: "error", error: String(e && e.message || e) }); }
+        return;
+      }
+      if (data.type === "embed") {
+        try {
+          const vectors = [];
+          for (const w of data.windows) {
+            const o = await model(await proc(w));
+            const v = Float32Array.from((o.embeddings || o[Object.keys(o)[0]]).data);
+            let n = 0;
+            for (const x of v) n += x * x;
+            n = Math.sqrt(n) || 1;
+            for (let i = 0; i < v.length; i++) v[i] /= n;
+            vectors.push(v);
+          }
+          send({ type: "embedded", id: data.id, vectors });
+        } catch (e) { send({ type: "embedded", id: data.id, vectors: null, error: String(e && e.message || e) }); }
+      }
+    };
+    send({ type: "booted" });
+  `;
+
+  let diar = null;
+  let diarState = "off"; // off | loading | ready | error
+  const diarPending = new Map();
+  let diarNextId = 1;
+
+  function isMulti(ch) {
+    return ch.kind !== "me" && settings.multi.includes(ch.id);
+  }
+
+  function startDiar() {
+    if (diar) return;
+    diarState = "loading";
+    diar = new Worker(URL.createObjectURL(new Blob([DIAR_SRC], { type: "text/javascript" })), { type: "module" });
+    diar.onmessage = ({ data }) => {
+      if (data.type === "booted") diar.postMessage({ type: "init", tjsUrl: TJS_URL, model: DIAR_MODEL });
+      else if (data.type === "ready") {
+        diarState = "ready";
+        log("voice model ready");
+      } else if (data.type === "error") {
+        diarState = "error";
+        console.error("[whisper] voice model failed:", data.error);
+      } else if (data.type === "embedded") {
+        const resolve = diarPending.get(data.id);
+        diarPending.delete(data.id);
+        if (data.error) console.warn("[whisper] voice embed failed:", data.error);
+        if (resolve) resolve(data.vectors);
+      }
+      renderStatus();
+    };
+    diar.onerror = (e) => {
+      diarState = "error";
+      console.error("[whisper] voice worker crashed:", e.message);
+      renderStatus();
+    };
+  }
+
+  function embedWindows(windows) {
+    if (diarState !== "ready") return Promise.resolve(null);
+    const id = diarNextId++;
+    return new Promise((resolve) => {
+      diarPending.set(id, resolve);
+      diar.postMessage({ type: "embed", id, windows }, windows.map((w) => w.buffer));
+    });
+  }
+
+  const dot = (a, b) => {
+    let s = 0;
+    for (let i = 0; i < a.length; i++) s += a[i] * b[i];
+    return s;
+  };
+
+  /** A channel's voices: [{label, letter, v: Float32Array (unit), n, named}] */
+  function voicesOf(ch) {
+    if (!ch.voices) {
+      ch.voices = (settings.voices[ch.id] || []).map((s) => ({ label: s.label, letter: "", v: Float32Array.from(s.v), n: s.n, named: true }));
+      ch.voiceSeq = 0;
+    }
+    return ch.voices;
+  }
+
+  function voiceLabel(ch, x) {
+    return x.named ? x.label : `${ch.label} · ${x.letter}`;
+  }
+
+  function saveVoices(ch) {
+    if (!ch.id.startsWith("p:")) return; // only player ids survive a reload
+    const named = voicesOf(ch).filter((x) => x.named);
+    if (named.length) {
+      settings.voices[ch.id] = named.map((x) => ({ label: x.label, n: x.n, v: Array.from(x.v, (f) => Math.round(f * 1e4) / 1e4) }));
+    } else delete settings.voices[ch.id];
+    saveUi({ voices: settings.voices });
+  }
+
+  function fold(into, from) {
+    const v = into.v, n = into.n + from.n;
+    let len = 0;
+    for (let i = 0; i < v.length; i++) {
+      v[i] = (v[i] * into.n + from.v[i] * from.n) / n;
+      len += v[i] * v[i];
+    }
+    len = Math.sqrt(len) || 1;
+    for (let i = 0; i < v.length; i++) v[i] /= len;
+    into.n = Math.min(n, DIAR_MAX_N);
+  }
+
+  /** The voice `e` belongs to, creating one if none is close enough. */
+  function assignVoice(ch, e) {
+    const voices = voicesOf(ch);
+    let best = null, bestSim = -2;
+    for (const x of voices) {
+      const s = dot(x.v, e);
+      if (s > bestSim) {
+        bestSim = s;
+        best = x;
+      }
+    }
+    if (bestSim < DIAR_JOIN) {
+      best = { label: "", letter: String.fromCharCode(65 + (ch.voiceSeq++ % 26)), v: Float32Array.from(e), n: 1, named: false };
+      voices.push(best);
+      renderSpeakers();
+      return best;
+    }
+    fold(best, { v: e, n: 1 });
+    return best;
+  }
+
+  function renameVoice(ch, voice, label) {
+    voice.label = label;
+    voice.named = true;
+    // Same name as another voice: they are one person the clustering split.
+    const twin = voicesOf(ch).find((x) => x !== voice && x.label === label);
+    if (twin) {
+      fold(twin, voice);
+      twin.named = true;
+      ch.voices = ch.voices.filter((x) => x !== voice);
+    }
+    saveVoices(ch);
+    rememberName(label);
+    renderSpeakers();
+  }
+
+  async function diarize(ch, audio, segId, at) {
+    const dur = audio.length / SR;
+    const starts = [];
+    if (dur <= DIAR_WIN_S) starts.push(0);
+    else {
+      for (let s = 0; s + DIAR_WIN_S <= dur + 1e-6; s += DIAR_HOP_S) starts.push(s);
+      const tail = dur - DIAR_WIN_S;
+      if (tail - starts[starts.length - 1] > 0.25) starts.push(tail); // cover the end
+    }
+    const win = Math.min(DIAR_WIN_S, dur);
+    const windows = starts.map((s) => audio.slice(Math.round(s * SR), Math.round((s + win) * SR)));
+    const vectors = await embedWindows(windows);
+    if (!vectors) {
+      // Voice model unavailable: fall back to one line for the whole channel.
+      transcribe(audio, true).then((text) => text != null && onText(ch, text, true, segId, at));
+      return;
+    }
+    let labels = vectors.map((v) => assignVoice(ch, v));
+    // A lone window between two of the same voice is noise, not a turn.
+    labels = labels.map((l, i) => (i > 0 && i < labels.length - 1 && labels[i - 1] === labels[i + 1] ? labels[i - 1] : l));
+
+    // Turns: split between window centres where the voice changes.
+    const turns = [];
+    for (let i = 0; i < labels.length; i++) {
+      if (turns.length && turns[turns.length - 1].voice === labels[i]) continue;
+      const cut = i === 0 ? 0 : (starts[i - 1] + starts[i]) / 2 + win / 2;
+      if (turns.length) turns[turns.length - 1].end = cut;
+      turns.push({ voice: labels[i], start: cut, end: dur });
+    }
+    for (let i = 0; i < turns.length; i++) {
+      if (turns.length > 1 && turns[i].end - turns[i].start < DIAR_MIN_TURN_S) {
+        const into = i > 0 ? turns[i - 1] : turns[i + 1];
+        into.start = Math.min(into.start, turns[i].start);
+        into.end = Math.max(into.end, turns[i].end);
+        turns.splice(i--, 1);
+      }
+    }
+    const texts = await Promise.all(turns.map((t) => transcribe(audio.slice(Math.round(t.start * SR), Math.round(t.end * SR)), true)));
+    turns.forEach((t, i) => {
+      if (texts[i] == null) return;
+      onText(ch, texts[i], true, segId, new Date((at ? at.getTime() : Date.now()) + t.start * 1000), voiceLabel(ch, t.voice));
+    });
+  }
+
+  function toggleMulti(ch) {
+    if (isMulti(ch)) settings.multi = settings.multi.filter((k) => k !== ch.id);
+    else {
+      settings.multi.push(ch.id);
+      startDiar();
+    }
+    saveUi({ multi: settings.multi });
+    renderSpeakers();
+    renderStatus();
+  }
+
+  // ---------------------------------------------------------------------------
   // Text: captions, transcript, keyword rules
   // ---------------------------------------------------------------------------
 
@@ -912,12 +1155,13 @@
     flushLog();
   }
 
-  function onText(ch, raw, final, segId, at) {
+  /** `who` overrides the channel label: a voice within a multi-person channel. */
+  function onText(ch, raw, final, segId, at, who) {
     const text = clean(raw);
     if (final) {
       ch.partial = "";
       if (text) {
-        const entry = { at: at || new Date(), who: ch.label, text };
+        const entry = { at: at || new Date(), who: who || ch.label, text };
         transcript.push(entry);
         logLine(entry);
         renderTranscript();
@@ -1126,6 +1370,10 @@
     h4 { margin: 4px 0 0; font-size: 11px; text-transform: uppercase; letter-spacing: .6px; color: #8b7fa8; }
     .speakers { display: flex; flex-wrap: wrap; gap: 6px; }
     .speakers input { flex: 0 1 110px; }
+    .speakers .spk { display: inline-flex; align-items: center; }
+    .speakers .x.on { color: #a78bfa; }
+    .speakers .voices { flex: 1 0 100%; display: flex; flex-wrap: wrap; gap: 4px; padding-left: 14px; border-left: 2px solid rgba(167,139,250,0.4); }
+    .speakers .voices input { flex: 0 1 120px; font-size: 11px; }
     .speakers .talk { outline: 2px solid #a78bfa; }
     .log {
       flex: 0 0 auto; min-height: 140px; max-height: 220px; overflow: auto; background: rgba(0,0,0,0.3); border-radius: 8px;
@@ -1211,7 +1459,8 @@
     } else if (workerState === "ready") {
       const people = new Set([...remotes.values()].map((r) => r.key)).size;
       const who = [micLive ? "mic" : null, people ? `${people} remote` : null].filter(Boolean).join(" + ") || "no audio yet — reload if Gather was already live";
-      line2.textContent = `ready · ${who}${lastMs ? ` · last ${lastMs} ms` : ""}`;
+      const voices = settings.multi.length ? ` · voices ${diarState === "ready" ? "on" : diarState}` : "";
+      line2.textContent = `ready · ${who}${lastMs ? ` · last ${lastMs} ms` : ""}${voices}`;
     } else {
       line2.textContent = "off";
     }
@@ -1230,19 +1479,49 @@
     if (!speakersEl) return;
     speakersEl.innerHTML = "";
     for (const ch of channels.values()) {
+      const group = el("span", "spk");
       const input = el("input");
       input.type = "text";
       input.value = ch.label;
       input.title = ch.kind === "remote" ? "Rename this speaker; names you use are saved for next time" : ch.label;
       input.disabled = ch.kind !== "remote";
       input.setAttribute("list", "gw-names");
+      input.dataset.ch = ch.id;
       if (ch.speaking) input.classList.add("talk");
       input.addEventListener("change", () => {
         ch.label = input.value.trim() || ch.label;
         ch.renamed = true; // keep it over the Gather name from here on
         if (!/^Guest \d+$/.test(ch.label)) rememberName(ch.label);
+        renderSpeakers(); // unnamed voices are labelled after the channel
       });
-      speakersEl.appendChild(input);
+      group.appendChild(input);
+      if (ch.kind !== "me") {
+        const multi = el("button", "x" + (isMulti(ch) ? " on" : ""), "👥");
+        multi.title = isMulti(ch)
+          ? "Several people on this mic: splitting by voice. Click to stop."
+          : "Several people on this mic (a conference room)? Split them by voice";
+        multi.addEventListener("click", () => toggleMulti(ch));
+        group.appendChild(multi);
+      }
+      speakersEl.appendChild(group);
+      if (!isMulti(ch)) continue;
+      const vs = el("div", "voices");
+      for (const voice of voicesOf(ch)) {
+        const vi = el("input");
+        vi.type = "text";
+        vi.value = voiceLabel(ch, voice);
+        vi.title = "Name this voice. Give two voices the same name to merge them.";
+        vi.setAttribute("list", "gw-names");
+        vi.addEventListener("change", () => {
+          const label = vi.value.trim();
+          if (label && label !== voiceLabel(ch, voice)) renameVoice(ch, voice, label);
+        });
+        vs.appendChild(vi);
+      }
+      if (!voicesOf(ch).length) {
+        vs.appendChild(el("span", "hint", diarState === "ready" ? "Voices appear as people talk." : diarState === "error" ? "Voice model failed to load." : "Loading voice model…"));
+      }
+      speakersEl.appendChild(vs);
     }
     if (!channels.size) speakersEl.appendChild(el("span", "hint", "No audio yet."));
     renderNames();
@@ -1675,8 +1954,10 @@
       renderCaptions();
       if (speakersEl) {
         // Cheap: only the "talking" outline changes between full renders.
-        const inputs = speakersEl.querySelectorAll("input");
-        [...channels.values()].forEach((ch, i) => inputs[i] && inputs[i].classList.toggle("talk", ch.speaking));
+        for (const input of speakersEl.querySelectorAll("input[data-ch]")) {
+          const ch = channels.get(input.dataset.ch);
+          input.classList.toggle("talk", !!(ch && ch.speaking));
+        }
       }
     }, 250);
 
@@ -1685,6 +1966,7 @@
     renderTranscript();
     renderRules();
     if (settings.enabled) startWorker();
+    if (settings.multi.length) startDiar(); // a room was marked in an earlier session
     log("panel mounted");
   }
 
@@ -1695,5 +1977,5 @@
   }
 
   // Console hooks for poking at it.
-  window.gatherWhisper = { settings, channels, remotes, transcript, playSound, download, trackPlayer, playerName, accountName };
+  window.gatherWhisper = { settings, channels, remotes, transcript, playSound, download, trackPlayer, playerName, accountName, diarize, embedWindows };
 })();

@@ -62,6 +62,14 @@ no audio leaves the page. The first load downloads the model (~250 MB for
   stays one speaker however often Gather re-creates their track. Anyone it
   can't place shows as Guest N. A name you type in the panel wins over
   Gather's, and is saved as a suggestion for next time.
+- **Conference rooms** — 👥 on a speaker marks several people on one mic.
+  Each utterance is split into 2 s windows, matched by voice (WeSpeaker,
+  6.7 MB, loaded only when something is marked), and transcribed per turn
+  as *Room · A*, *Room · B*… Name the voices; giving two the same name
+  merges them (the fix when one person gets split in two). Named voices are
+  saved with that player, so the room's regulars are recognised next time.
+  Expect it to be worse than on clean audio: reverb, distance and people
+  talking over each other all blur voices.
 - **Keyword sounds** — phrase → sound → room or just you, triggered by others
   only or by anyone. Sounds come from `manifest.json` plus two built-ins.
   **Fuzzy** (the default for new rules; shown as `~`) also fires on Whisper's
