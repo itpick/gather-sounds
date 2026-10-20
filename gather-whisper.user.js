@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gather Whisper
 // @namespace    lucas.local
-// @version      0.1.0
+// @version      0.2.0
 // @description  Live captions, a meeting transcript and keyword-triggered sounds for a Gather call. Whisper runs in your browser -- no audio leaves the page.
 // @author       Lucas
 // @match        https://app.gather.town/*
@@ -120,6 +120,10 @@
     logToDisk: saved.logToDisk === true,
     /** @type {{id:string, phrase:string, sound:string, dest:"room"|"me", who:"others"|"anyone"}[]} */
     rules: Array.isArray(saved.rules) ? saved.rules : [],
+    // Names typed into the speaker boxes. Remote tracks carry no stable
+    // identity across reloads, so this is a pick-list, not an auto-mapping.
+    /** @type {string[]} */
+    names: Array.isArray(saved.names) ? saved.names : [],
   };
 
   // ---------------------------------------------------------------------------
@@ -682,13 +686,19 @@
   };
   /** @type {{id:string,label:string,url:string}[]} */
   let library = [];
+  let groupOrder = [];
+  let groupTitles = {};
   const buffers = new Map();
 
   fetch(MANIFEST_URL, { cache: "no-cache" })
     .then((r) => r.json())
     .then((m) => {
-      library = (m.sounds || []).map((s) => ({ id: s.id, label: s.label.replace(/\s*\(\d+k\)$/, ""), url: SOUND_BASE + s.file }));
+      library = (m.sounds || []).map((s) => ({ id: s.id, label: s.label.replace(/\s*\(\d+k\)$/, ""), url: SOUND_BASE + s.file, group: s.group || "" }));
       library.sort((a, b) => a.label.localeCompare(b.label));
+      // Default-list groups (core) first, search-only ones (sfx, trump) after.
+      const groups = m.groups || {};
+      groupOrder = Object.keys(groups).sort((a, b) => !!groups[a].searchOnly - !!groups[b].searchOnly);
+      groupTitles = Object.fromEntries(Object.entries(groups).map(([k, g]) => [k, g.title || k]));
       log(`sound library: ${library.length} clips`);
       renderRules();
     })
@@ -821,6 +831,9 @@
     .rule .m { color: #a89cc4; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 170px; }
     .rule.fired { background: rgba(167,139,250,0.5); transition: background 0s; }
     .rule { transition: background 1.2s; }
+    .rule.editing { outline: 1px solid #a78bfa; }
+    .names { display: flex; flex-wrap: wrap; gap: 4px; }
+    .chip { font-size: 11px; color: #c9bfe0; padding: 1px 2px 1px 7px; border-radius: 10px; background: rgba(255,255,255,0.06); }
     .x { all: unset; cursor: pointer; color: #8b7fa8; padding: 0 4px; }
     .x:hover { color: #f87171; }
     .add input[type=text] { flex: 1 0 100%; }
@@ -845,7 +858,7 @@
   `;
 
   let host = null, wrap = null, toolBtn = null, panel = null, mode = null;
-  let statusEl = null, barEl = null, liveEl = null, speakersEl = null, logEl = null, rulesEl = null;
+  let statusEl = null, barEl = null, liveEl = null, speakersEl = null, namesEl = null, logEl = null, rulesEl = null;
   let capRoot = null;
 
   function el(tag, cls, text) {
@@ -910,17 +923,49 @@
       const input = el("input");
       input.type = "text";
       input.value = ch.label;
-      input.title = ch.kind === "remote" ? "Rename this speaker (this session only)" : ch.label;
+      input.title = ch.kind === "remote" ? "Rename this speaker; names you use are saved for next time" : ch.label;
       input.disabled = ch.kind !== "remote";
+      input.setAttribute("list", "gw-names");
       if (ch.speaking) input.classList.add("talk");
       input.addEventListener("change", () => {
         ch.label = input.value.trim() || ch.label;
         const r = remotes.get(ch.id);
         if (r) r.label = ch.label;
+        if (!/^Guest \d+$/.test(ch.label)) rememberName(ch.label);
       });
       speakersEl.appendChild(input);
     }
     if (!channels.size) speakersEl.appendChild(el("span", "hint", "No audio yet."));
+    renderNames();
+  }
+
+  function rememberName(name) {
+    if (settings.names.includes(name)) return;
+    settings.names.push(name);
+    settings.names.sort((a, b) => a.localeCompare(b));
+    saveUi({ names: settings.names });
+    renderNames();
+  }
+
+  function renderNames() {
+    if (!namesEl) return;
+    const list = host.shadowRoot.getElementById("gw-names");
+    list.innerHTML = "";
+    namesEl.innerHTML = "";
+    for (const name of settings.names) {
+      list.appendChild(new Option(name));
+      const chip = el("span", "chip", name);
+      const x = el("button", "x", "✕");
+      x.title = "Forget this name";
+      x.addEventListener("click", () => {
+        settings.names = settings.names.filter((n) => n !== name);
+        saveUi({ names: settings.names });
+        renderNames();
+      });
+      chip.appendChild(x);
+      namesEl.appendChild(chip);
+    }
+    if (!settings.names.length) namesEl.appendChild(el("span", "hint", "Names you give speakers are saved here."));
   }
 
   function renderTranscript() {
@@ -971,7 +1016,18 @@
   function soundOptions(select, selected) {
     select.innerHTML = "";
     for (const [id, label] of Object.entries(BUILTIN)) select.appendChild(new Option(label, id, false, id === selected));
-    for (const s of library) select.appendChild(new Option(s.label, s.id, false, s.id === selected));
+    // One <optgroup> per manifest group, so the handful of Bundled clips sit
+    // above the hundreds of search-only ones instead of being lost among them.
+    const order = [...groupOrder, ...new Set(library.map((s) => s.group).filter((g) => !groupOrder.includes(g)))];
+    for (const g of order) {
+      const og = el("optgroup");
+      og.label = groupTitles[g] || g || "Other";
+      for (const s of library) if (s.group === g) og.appendChild(new Option(s.label, s.id, false, s.id === selected));
+      if (og.children.length) select.appendChild(og);
+    }
+    // Manifest not loaded (yet): keep a rule's hosted sound selectable, or
+    // editing it would quietly swap it for the first option.
+    if (selected && select.value !== selected) select.appendChild(new Option(soundLabel(selected), selected, false, true));
   }
 
   function renderRules() {
@@ -983,17 +1039,23 @@
       const test = el("button", "x", "▶");
       test.title = "Test this sound";
       test.addEventListener("click", () => playSound(rule.sound, rule.dest).catch((e) => console.warn(e)));
+      const edit = el("button", "x", "✎");
+      edit.title = "Edit rule";
+      edit.addEventListener("click", () => editRule(rule.id));
       const del = el("button", "x", "✕");
       del.title = "Delete rule";
       del.addEventListener("click", () => {
         settings.rules = settings.rules.filter((r) => r !== rule);
         saveUi({ rules: settings.rules });
+        if (editingId === rule.id) editRule(null);
         renderRules();
       });
+      if (rule.id === editingId) row.classList.add("editing");
       row.append(
         el("span", "p", `"${rule.phrase}"`),
         el("span", "m", `${soundLabel(rule.sound)} → ${rule.dest === "room" ? "room" : "me"} · ${rule.who === "anyone" ? "anyone" : "others"}`),
         test,
+        edit,
         del,
       );
       rulesEl.appendChild(row);
@@ -1001,6 +1063,29 @@
     if (!settings.rules.length) rulesEl.appendChild(el("div", "hint", "No keyword rules yet."));
     const sel = host && host.shadowRoot.querySelector(".add .snd");
     if (sel) soundOptions(sel, sel.value || "builtin:ding");
+  }
+
+  // The add form doubles as the editor: editRule(id) loads that rule into it
+  // and Save writes back in place, keeping the id (and so its cooldown).
+  let editingId = null;
+  let ruleForm = null; // { phrase, snd, dest, who, addBtn, cancel }
+
+  function editRule(id) {
+    const rule = id && settings.rules.find((r) => r.id === id);
+    editingId = rule ? id : null;
+    const f = ruleForm;
+    if (rule) {
+      f.phrase.value = rule.phrase;
+      soundOptions(f.snd, rule.sound);
+      f.dest.value = rule.dest;
+      f.who.value = rule.who;
+      f.phrase.focus();
+    } else {
+      f.phrase.value = "";
+    }
+    f.addBtn.textContent = rule ? "Save" : "Add";
+    f.cancel.style.display = rule ? "" : "none";
+    renderRules();
   }
 
   function download() {
@@ -1191,6 +1276,9 @@
     );
 
     speakersEl = el("div", "speakers");
+    namesEl = el("div", "names");
+    const namesList = el("datalist");
+    namesList.id = "gw-names";
 
     logEl = el("div", "log");
     const row3 = el("div", "row");
@@ -1218,20 +1306,29 @@
     const who = el("select");
     who.append(new Option("others say it", "others"), new Option("anyone says it", "anyone"));
     const addBtn = el("button", "txtbtn", "Add");
+    const cancel = el("button", "txtbtn", "Cancel");
+    cancel.style.display = "none";
+    cancel.addEventListener("click", () => editRule(null));
     addBtn.addEventListener("click", () => {
       const p = phrase.value.trim();
       if (!p) return;
-      settings.rules.push({ id: Math.random().toString(36).slice(2, 10), phrase: p, sound: snd.value, dest: dest.value, who: who.value });
+      const fields = { phrase: p, sound: snd.value, dest: dest.value, who: who.value };
+      const existing = editingId && settings.rules.find((r) => r.id === editingId);
+      if (existing) Object.assign(existing, fields);
+      else settings.rules.push({ id: Math.random().toString(36).slice(2, 10), ...fields });
       saveUi({ rules: settings.rules });
-      phrase.value = "";
-      renderRules();
+      editRule(null);
     });
-    phrase.addEventListener("keydown", (e) => e.key === "Enter" && addBtn.click());
-    add.append(phrase, snd, dest, who, addBtn);
+    phrase.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") addBtn.click();
+      else if (e.key === "Escape" && editingId) editRule(null);
+    });
+    add.append(phrase, snd, dest, who, addBtn, cancel);
+    ruleForm = { phrase, snd, dest, who, addBtn, cancel };
 
     body.append(
       statusEl, bar, row1, row2,
-      el("h4", null, "Speakers"), speakersEl,
+      el("h4", null, "Speakers"), speakersEl, namesEl, namesList,
       el("h4", null, "Transcript"), logEl, row3,
       el("h4", null, "Keyword sounds"), rulesEl, add,
       el("div", "hint", "Runs Whisper in this tab; no audio leaves the page. Transcript is memory-only until downloaded."),
