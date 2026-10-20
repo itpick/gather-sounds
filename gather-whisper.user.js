@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gather Whisper
 // @namespace    lucas.local
-// @version      0.5.0
+// @version      0.5.1
 // @description  Live captions, a meeting transcript and keyword-triggered sounds for a Gather call. Whisper runs in your browser -- no audio leaves the page.
 // @author       Lucas
 // @match        https://app.gather.town/*
@@ -480,11 +480,11 @@
     renderSpeakers();
   }
 
-  function attachRemote(track) {
+  function attachRemote(track, streams) {
     if (remotes.has(track.id)) return;
     ensureGraph();
     const key = keyFor(track.id);
-    remotes.set(track.id, { track, src: ctx.createMediaStreamSource(new MediaStream([track])), key });
+    remotes.set(track.id, { track, src: ctx.createMediaStreamSource(new MediaStream([track])), key, streamIds: (streams || []).map((x) => x.id) });
     routeRemote(track.id);
     log("remote track", track.id, "->", key, (channels.get(key) || {}).label || "");
     renderStatus();
@@ -501,7 +501,7 @@
       function Patched(...args) {
         const pc = new Orig(...args);
         pc.addEventListener("track", (ev) => {
-          if (ev.track && ev.track.kind === "audio") attachRemote(ev.track);
+          if (ev.track && ev.track.kind === "audio") attachRemote(ev.track, ev.streams);
         });
         return pc;
       }
@@ -629,19 +629,21 @@
     return false;
   }
 
-  function onGameFrame(buf) {
-    if (!mentions(buf)) return;
-    let msg;
-    try {
-      msg = unpack(buf);
-    } catch (_) {
-      return; // not msgpack, or a format we don't know
-    }
+  // What the sniffers have seen, for gatherWhisper.debug(): counts and the
+  // names of events and models only, never frame contents.
+  /** @type {{url:string, texts:number, bins:number, events:Object, models:Object, kinds:Object}[]} */
+  const wsStats = [];
+  const bump = (o, k) => (o[k] = (o[k] || 0) + 1);
+  let consumeSent = 0, consumeAcked = 0;
+
+  function readPatches(msg, st) {
     let changed = false;
     for (const list of [msg && msg.patches, msg && msg.fullStatePatches]) {
       if (!Array.isArray(list)) continue;
       for (const patch of list) {
-        const d = patch && patch.data;
+        if (!patch) continue;
+        if (st && typeof patch.model === "string") bump(st.models, patch.model);
+        const d = patch.data;
         if (!d) continue;
         if (patch.model === "SpaceUser" && typeof d.name === "string" && d.name && d.userAccountId) {
           changed = playerName.get(d.userAccountId) !== d.name || changed;
@@ -655,54 +657,111 @@
     if (changed) relabelRemotes();
   }
 
-  // socket.io v4 over engine.io: "42" event, "43" ack, optional "/nsp," and ack id.
-  const SIO = /^4([23])(?:\/[^,]*,)?(\d*)(\[[\s\S]*)$/;
-
-  function onSfuSent(text) {
-    const m = SIO.exec(text);
-    if (!m || m[1] !== "2" || !m[2] || !m[3].startsWith('["consume"')) return;
-    try {
-      const [, payload] = JSON.parse(m[3]);
+  // A socket.io packet from either parser: {type: 2 event | 3 ack, id, data: [...]}.
+  function onSioPacket(dir, pkt) {
+    if (!pkt || !Array.isArray(pkt.data) || pkt.id == null) return;
+    const id = String(pkt.id);
+    if (pkt.type === 2 && dir === "out" && pkt.data[0] === "consume") {
+      const payload = pkt.data[1];
       const data = (payload && payload.zodData) || payload;
-      if (data && data.srcId) pendingConsume.set(m[2], data.srcId);
-    } catch (_) {
-      /* not ours */
-    }
-  }
-
-  function onSfuReceived(text) {
-    const m = SIO.exec(text);
-    if (!m || m[1] !== "3" || !pendingConsume.has(m[2])) return;
-    const player = pendingConsume.get(m[2]);
-    pendingConsume.delete(m[2]);
-    try {
-      const [res] = JSON.parse(m[3]);
+      if (data && data.srcId) {
+        pendingConsume.set(id, data.srcId);
+        consumeSent++;
+      }
+    } else if (pkt.type === 3 && dir === "in" && pendingConsume.has(id)) {
+      const player = pendingConsume.get(id);
+      pendingConsume.delete(id);
+      consumeAcked++;
+      const res = pkt.data[0];
       if (res && res.id && (!res.kind || res.kind === "audio")) {
         trackPlayer.set(res.id, player);
         if (remotes.has(res.id)) relabelRemotes();
       }
-    } catch (_) {
-      /* not ours */
     }
+  }
+
+  // socket.io v4 text: "42" event / "43" ack, optional "/nsp," and ack id.
+  const SIO = /^4([23])(?:\/[^,]*,)?(\d*)(\[[\s\S]*)$/;
+
+  function onWsText(dir, text, st) {
+    st.texts++;
+    const m = SIO.exec(text);
+    if (!m) return bump(st.kinds, "text:" + text.slice(0, 2));
+    bump(st.kinds, "socket.io-text");
+    const name = m[1] === "2" && /^\["([^"]{1,40})"/.exec(m[3]);
+    if (name) bump(st.events, dir + ":" + name[1]);
+    // Only parse what we use: our consume requests and their acks.
+    if ((name && name[1] === "consume" && dir === "out") || (m[1] === "3" && dir === "in" && pendingConsume.has(m[2]))) {
+      try {
+        onSioPacket(dir, { type: +m[1], id: m[2], data: JSON.parse(m[3]) });
+      } catch (_) {
+        /* not ours */
+      }
+    }
+  }
+
+  function onWsBinary(dir, buf, st) {
+    st.bins++;
+    if (!buf.length) return;
+    // Small msgpack maps: either a socket.io-msgpack-parser packet
+    // ({type, data, nsp, id}) or a small game-state message.
+    if (buf.length < 65536 && ((buf[0] & 0xf0) === 0x80 || buf[0] === 0xde)) {
+      let msg = null;
+      try {
+        msg = unpack(buf);
+      } catch (_) {
+        /* fall through */
+      }
+      if (msg && typeof msg.type === "number" && "nsp" in msg) {
+        bump(st.kinds, "socket.io-msgpack");
+        if (msg.type === 2 && Array.isArray(msg.data)) bump(st.events, dir + ":" + msg.data[0]);
+        onSioPacket(dir, msg);
+        return;
+      }
+      if (msg && typeof msg === "object") {
+        bump(st.kinds, "msgpack{" + Object.keys(msg).slice(0, 3).join(",") + "}");
+        readPatches(msg, st);
+        return;
+      }
+    }
+    if (!mentions(buf)) return bump(st.kinds, buf.length >= 65536 ? "large" : "other:0x" + buf[0].toString(16));
+    let msg;
+    try {
+      msg = unpack(buf);
+    } catch (_) {
+      return bump(st.kinds, "undecodable");
+    }
+    bump(st.kinds, "msgpack-large");
+    readPatches(msg, st);
   }
 
   {
     const OrigWS = window.WebSocket;
     if (OrigWS) {
-      const toBytes = (data) =>
-        data instanceof ArrayBuffer ? Promise.resolve(new Uint8Array(data))
-          : ArrayBuffer.isView(data) ? Promise.resolve(new Uint8Array(data.buffer, data.byteOffset, data.byteLength))
-            : data instanceof Blob ? data.arrayBuffer().then((b) => new Uint8Array(b))
-              : null;
+      const bytesNow = (data) =>
+        data instanceof ArrayBuffer ? new Uint8Array(data)
+          : ArrayBuffer.isView(data) ? new Uint8Array(data.buffer, data.byteOffset, data.byteLength)
+            : null;
       function PatchedWS(...args) {
         const ws = new OrigWS(...args);
+        let url = String(args[0]);
+        try {
+          const u = new URL(url, location.href);
+          url = u.host + u.pathname;
+        } catch (_) {
+          /* keep as given */
+        }
+        const st = { url, texts: 0, bins: 0, events: {}, models: {}, kinds: {} };
+        if (wsStats.length < 30) wsStats.push(st);
+        const onBytes = (dir, data) => {
+          const b = bytesNow(data);
+          if (b) onWsBinary(dir, b, st);
+          else if (data instanceof Blob) data.arrayBuffer().then((ab) => onWsBinary(dir, new Uint8Array(ab), st)).catch(() => {});
+        };
         ws.addEventListener("message", (ev) => {
           try {
-            if (typeof ev.data === "string") onSfuReceived(ev.data);
-            else {
-              const p = toBytes(ev.data);
-              if (p) p.then(onGameFrame).catch(() => {});
-            }
+            if (typeof ev.data === "string") onWsText("in", ev.data, st);
+            else onBytes("in", ev.data);
           } catch (_) {
             /* never break Gather's socket */
           }
@@ -710,7 +769,8 @@
         const send = ws.send;
         ws.send = function (data) {
           try {
-            if (typeof data === "string") onSfuSent(data);
+            if (typeof data === "string") onWsText("out", data, st);
+            else onBytes("out", data);
           } catch (_) {
             /* never break Gather's socket */
           }
@@ -723,6 +783,24 @@
       window.WebSocket = PatchedWS;
       log("WebSocket patched (speaker names)");
     }
+  }
+
+  /** Paste-able report of what the name sniffers saw. Counts and names only. */
+  function debug() {
+    const top = (o, n) => Object.fromEntries(Object.entries(o).sort((a, b) => b[1] - a[1]).slice(0, n));
+    const report = JSON.stringify(
+      {
+        version: typeof GM_info !== "undefined" ? GM_info.script.version : "?",
+        mapped: trackPlayer.size, consumeSent, consumeAcked, pendingConsume: pendingConsume.size,
+        spaceNames: playerName.size, accountNames: accountName.size,
+        sockets: wsStats.map((s) => ({ ...s, events: top(s.events, 30), models: top(s.models, 20), kinds: top(s.kinds, 10) })),
+        tracks: [...remotes].map(([id, r]) => ({ id, streams: r.streamIds, key: r.key, state: r.track.readyState })),
+      },
+      null,
+      1,
+    );
+    console.log(report);
+    return report;
   }
 
   // ---------------------------------------------------------------------------
@@ -1977,5 +2055,5 @@
   }
 
   // Console hooks for poking at it.
-  window.gatherWhisper = { settings, channels, remotes, transcript, playSound, download, trackPlayer, playerName, accountName, diarize, embedWindows };
+  window.gatherWhisper = { settings, channels, remotes, transcript, playSound, download, trackPlayer, playerName, accountName, diarize, embedWindows, debug };
 })();
