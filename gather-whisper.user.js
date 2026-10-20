@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gather Whisper
 // @namespace    lucas.local
-// @version      0.3.0
+// @version      0.4.0
 // @description  Live captions, a meeting transcript and keyword-triggered sounds for a Gather call. Whisper runs in your browser -- no audio leaves the page.
 // @author       Lucas
 // @match        https://app.gather.town/*
@@ -369,8 +369,35 @@
   // Everyone else
   // ---------------------------------------------------------------------------
 
-  /** Remote track id -> { src, label } */
+  /**
+   * Remote track id -> { track, src, key }. `key` is the channel id: the
+   * Gather player when known, so a person whose track is torn down and
+   * re-consumed (walking in and out of range, mute, reconnect) stays one
+   * speaker instead of becoming Guest 2, 3, 4...
+   */
   const remotes = new Map();
+  const guestLabels = new Map(); // channel key -> "Guest N", stable per key
+
+  function keyFor(trackId) {
+    const player = trackPlayer.get(trackId);
+    return player ? "p:" + player : "t:" + trackId;
+  }
+
+  function defaultLabel(key) {
+    const name = key.startsWith("p:") && nameFor(key.slice(2));
+    if (name) return name;
+    if (!guestLabels.has(key)) guestLabels.set(key, `Guest ${++guestCount}`);
+    return guestLabels.get(key);
+  }
+
+  function dropChannelIfUnused(key) {
+    if ([...remotes.values()].some((r) => r.key === key)) return;
+    const ch = channels.get(key);
+    if (ch && ch.kind === "remote") {
+      ch.destroy();
+      channels.delete(key);
+    }
+  }
 
   function routeRemote(trackId) {
     const r = remotes.get(trackId);
@@ -383,8 +410,53 @@
     if (settings.mode === "me-them") {
       r.src.connect(getChannel("them", "Them", "them").input);
     } else {
-      r.src.connect(getChannel(trackId, r.label, "remote").input);
+      r.src.connect(getChannel(r.key, defaultLabel(r.key), "remote").input);
     }
+  }
+
+  // A name or a track->player link arrived: move tracks onto their player's
+  // channel and put real names on channels nobody has renamed by hand.
+  function relabelRemotes() {
+    for (const [trackId, r] of remotes) {
+      const key = keyFor(trackId);
+      if (key === r.key) continue;
+      const old = r.key;
+      r.key = key;
+      routeRemote(trackId);
+      dropChannelIfUnused(old);
+    }
+    for (const ch of channels.values()) {
+      if (ch.kind !== "remote" || ch.renamed || !ch.id.startsWith("p:")) continue;
+      const name = nameFor(ch.id.slice(2));
+      if (name) ch.label = name;
+    }
+    renderSpeakers();
+  }
+
+  // Gather doesn't always end a track it stops consuming; sweep dead ones.
+  setInterval(() => {
+    let changed = false;
+    for (const [trackId, r] of remotes) {
+      if (r.track.readyState !== "ended") continue;
+      detachRemote(trackId);
+      changed = true;
+    }
+    if (changed) {
+      renderSpeakers();
+      renderStatus();
+    }
+  }, 5000);
+
+  function detachRemote(trackId) {
+    const r = remotes.get(trackId);
+    if (!r) return;
+    try {
+      r.src.disconnect();
+    } catch (_) {
+      /* already disconnected */
+    }
+    remotes.delete(trackId);
+    dropChannelIfUnused(r.key);
   }
 
   function applyMode() {
@@ -401,25 +473,13 @@
   function attachRemote(track) {
     if (remotes.has(track.id)) return;
     ensureGraph();
-    const label = `Guest ${++guestCount}`;
-    remotes.set(track.id, { src: ctx.createMediaStreamSource(new MediaStream([track])), label });
+    const key = keyFor(track.id);
+    remotes.set(track.id, { track, src: ctx.createMediaStreamSource(new MediaStream([track])), key });
     routeRemote(track.id);
-    log("remote track", track.id, "->", label);
+    log("remote track", track.id, "->", key, (channels.get(key) || {}).label || "");
     renderStatus();
     track.addEventListener("ended", () => {
-      const r = remotes.get(track.id);
-      if (!r) return;
-      try {
-        r.src.disconnect();
-      } catch (_) {
-        /* already disconnected */
-      }
-      remotes.delete(track.id);
-      const ch = channels.get(track.id);
-      if (ch) {
-        ch.destroy();
-        channels.delete(track.id);
-      }
+      detachRemote(track.id);
       renderSpeakers();
       renderStatus();
     });
@@ -440,6 +500,218 @@
       window.RTCPeerConnection = Patched;
       if (window.webkitRTCPeerConnection) window.webkitRTCPeerConnection = Patched;
       log("RTCPeerConnection patched");
+    }
+  }
+
+  // ---------------------------------------------------------------------------
+  // Who is who: Gather player names for remote tracks
+  // ---------------------------------------------------------------------------
+  //
+  // A remote track carries no identity, but two of Gather's sockets do, and
+  // both are readable from a WebSocket patch:
+  //
+  //   SFU (socket.io JSON)   42N["consume",{zodData:{srcId:<player>}}]
+  //                          43N[{id:<consumer id>, ...}]       <- ack N
+  //     mediasoup uses the consumer id as the remote track's id, so this
+  //     gives track id -> player id. The player id is a UserAccount id.
+  //
+  //   game (msgpack binary)  {patches:[{op, model:"SpaceUser",
+  //                                     data:{name, userAccountId}}]}
+  //                          {patches:[{model:"UserAccount",
+  //                                     data:{id, externalUserDisplayName}}]}
+  //     gives player id -> the name shown in the space.
+  //
+  // Read from Gather 2.0 (app.v2.gather.town) traffic. If Gather changes
+  // either format the maps stay empty and speakers fall back to "Guest N".
+
+  /** consumer (= remote track) id -> player id */
+  const trackPlayer = new Map();
+  /** player (UserAccount) id -> in-space name */
+  const playerName = new Map();
+  /** player id -> account display name (fallback when no SpaceUser name) */
+  const accountName = new Map();
+  const pendingConsume = new Map(); // socket.io ack id -> player id
+
+  function nameFor(playerId) {
+    const space = playerName.get(playerId);
+    // Gather shows "Anonymous" for members who never set a space name.
+    if (space && space !== "Anonymous") return space;
+    return accountName.get(playerId) || space || null;
+  }
+
+  // Just enough msgpack to read Gather's patches. Ext types (Gather's dates
+  // and nulls) decode to null; we only need strings.
+  function unpack(buf) {
+    const v = new DataView(buf.buffer, buf.byteOffset, buf.byteLength);
+    const td = new TextDecoder();
+    let p = 0;
+    const str = (n) => td.decode(buf.subarray(p, (p += n)));
+    const arr = (n) => {
+      const a = new Array(n);
+      for (let i = 0; i < n; i++) a[i] = read();
+      return a;
+    };
+    const map = (n) => {
+      const o = {};
+      for (let i = 0; i < n; i++) {
+        const k = read();
+        o[k] = read();
+      }
+      return o;
+    };
+    const ext = (n) => ((p += 1 + n), null);
+    function read() {
+      const b = buf[p++];
+      if (b <= 0x7f) return b;
+      if (b <= 0x8f) return map(b & 0x0f);
+      if (b <= 0x9f) return arr(b & 0x0f);
+      if (b <= 0xbf) return str(b & 0x1f);
+      if (b >= 0xe0) return b - 0x100;
+      let r;
+      switch (b) {
+        case 0xc0: return null;
+        case 0xc2: return false;
+        case 0xc3: return true;
+        case 0xc4: return (r = buf[p]), (p += 1 + r), null;
+        case 0xc5: return (r = v.getUint16(p)), (p += 2 + r), null;
+        case 0xc6: return (r = v.getUint32(p)), (p += 4 + r), null;
+        case 0xc7: return (r = buf[p]), (p += 1), ext(r);
+        case 0xc8: return (r = v.getUint16(p)), (p += 2), ext(r);
+        case 0xc9: return (r = v.getUint32(p)), (p += 4), ext(r);
+        case 0xca: return (r = v.getFloat32(p)), (p += 4), r;
+        case 0xcb: return (r = v.getFloat64(p)), (p += 8), r;
+        case 0xcc: return buf[p++];
+        case 0xcd: return (r = v.getUint16(p)), (p += 2), r;
+        case 0xce: return (r = v.getUint32(p)), (p += 4), r;
+        case 0xcf: return (r = Number(v.getBigUint64(p))), (p += 8), r;
+        case 0xd0: return (r = v.getInt8(p)), (p += 1), r;
+        case 0xd1: return (r = v.getInt16(p)), (p += 2), r;
+        case 0xd2: return (r = v.getInt32(p)), (p += 4), r;
+        case 0xd3: return (r = Number(v.getBigInt64(p))), (p += 8), r;
+        case 0xd4: return ext(1);
+        case 0xd5: return ext(2);
+        case 0xd6: return ext(4);
+        case 0xd7: return ext(8);
+        case 0xd8: return ext(16);
+        case 0xd9: return (r = buf[p++]), str(r);
+        case 0xda: return (r = v.getUint16(p)), (p += 2), str(r);
+        case 0xdb: return (r = v.getUint32(p)), (p += 4), str(r);
+        case 0xdc: return (r = v.getUint16(p)), (p += 2), arr(r);
+        case 0xdd: return (r = v.getUint32(p)), (p += 4), arr(r);
+        case 0xde: return (r = v.getUint16(p)), (p += 2), map(r);
+        case 0xdf: return (r = v.getUint32(p)), (p += 4), map(r);
+        default: throw new Error("msgpack: bad byte 0x" + b.toString(16));
+      }
+    }
+    return read();
+  }
+
+  // Most game frames are movement; only decode ones that mention a model we read.
+  const NEEDLES = ["SpaceUser", "UserAccount"].map((s) => new TextEncoder().encode(s));
+  function mentions(buf) {
+    for (const n of NEEDLES) {
+      for (let i = buf.indexOf(n[0]); i !== -1 && i <= buf.length - n.length; i = buf.indexOf(n[0], i + 1)) {
+        let j = 1;
+        while (j < n.length && buf[i + j] === n[j]) j++;
+        if (j === n.length) return true;
+      }
+    }
+    return false;
+  }
+
+  function onGameFrame(buf) {
+    if (!mentions(buf)) return;
+    let msg;
+    try {
+      msg = unpack(buf);
+    } catch (_) {
+      return; // not msgpack, or a format we don't know
+    }
+    let changed = false;
+    for (const list of [msg && msg.patches, msg && msg.fullStatePatches]) {
+      if (!Array.isArray(list)) continue;
+      for (const patch of list) {
+        const d = patch && patch.data;
+        if (!d) continue;
+        if (patch.model === "SpaceUser" && typeof d.name === "string" && d.name && d.userAccountId) {
+          changed = playerName.get(d.userAccountId) !== d.name || changed;
+          playerName.set(d.userAccountId, d.name);
+        } else if (patch.model === "UserAccount" && d.id && typeof d.externalUserDisplayName === "string" && d.externalUserDisplayName) {
+          changed = accountName.get(d.id) !== d.externalUserDisplayName || changed;
+          accountName.set(d.id, d.externalUserDisplayName);
+        }
+      }
+    }
+    if (changed) relabelRemotes();
+  }
+
+  // socket.io v4 over engine.io: "42" event, "43" ack, optional "/nsp," and ack id.
+  const SIO = /^4([23])(?:\/[^,]*,)?(\d*)(\[[\s\S]*)$/;
+
+  function onSfuSent(text) {
+    const m = SIO.exec(text);
+    if (!m || m[1] !== "2" || !m[2] || !m[3].startsWith('["consume"')) return;
+    try {
+      const [, payload] = JSON.parse(m[3]);
+      const data = (payload && payload.zodData) || payload;
+      if (data && data.srcId) pendingConsume.set(m[2], data.srcId);
+    } catch (_) {
+      /* not ours */
+    }
+  }
+
+  function onSfuReceived(text) {
+    const m = SIO.exec(text);
+    if (!m || m[1] !== "3" || !pendingConsume.has(m[2])) return;
+    const player = pendingConsume.get(m[2]);
+    pendingConsume.delete(m[2]);
+    try {
+      const [res] = JSON.parse(m[3]);
+      if (res && res.id && (!res.kind || res.kind === "audio")) {
+        trackPlayer.set(res.id, player);
+        if (remotes.has(res.id)) relabelRemotes();
+      }
+    } catch (_) {
+      /* not ours */
+    }
+  }
+
+  {
+    const OrigWS = window.WebSocket;
+    if (OrigWS) {
+      const toBytes = (data) =>
+        data instanceof ArrayBuffer ? Promise.resolve(new Uint8Array(data))
+          : ArrayBuffer.isView(data) ? Promise.resolve(new Uint8Array(data.buffer, data.byteOffset, data.byteLength))
+            : data instanceof Blob ? data.arrayBuffer().then((b) => new Uint8Array(b))
+              : null;
+      function PatchedWS(...args) {
+        const ws = new OrigWS(...args);
+        ws.addEventListener("message", (ev) => {
+          try {
+            if (typeof ev.data === "string") onSfuReceived(ev.data);
+            else {
+              const p = toBytes(ev.data);
+              if (p) p.then(onGameFrame).catch(() => {});
+            }
+          } catch (_) {
+            /* never break Gather's socket */
+          }
+        });
+        const send = ws.send;
+        ws.send = function (data) {
+          try {
+            if (typeof data === "string") onSfuSent(data);
+          } catch (_) {
+            /* never break Gather's socket */
+          }
+          return send.apply(this, arguments);
+        };
+        return ws;
+      }
+      PatchedWS.prototype = OrigWS.prototype;
+      Object.setPrototypeOf(PatchedWS, OrigWS);
+      window.WebSocket = PatchedWS;
+      log("WebSocket patched (speaker names)");
     }
   }
 
@@ -937,7 +1209,8 @@
     } else if (workerState === "loading") {
       line2.textContent = total ? `loading model ${pct}% (${(loaded / 1e6) | 0}/${(total / 1e6) | 0} MB)` : "loading model…";
     } else if (workerState === "ready") {
-      const who = [micLive ? "mic" : null, remotes.size ? `${remotes.size} remote` : null].filter(Boolean).join(" + ") || "no audio yet — reload if Gather was already live";
+      const people = new Set([...remotes.values()].map((r) => r.key)).size;
+      const who = [micLive ? "mic" : null, people ? `${people} remote` : null].filter(Boolean).join(" + ") || "no audio yet — reload if Gather was already live";
       line2.textContent = `ready · ${who}${lastMs ? ` · last ${lastMs} ms` : ""}`;
     } else {
       line2.textContent = "off";
@@ -966,8 +1239,7 @@
       if (ch.speaking) input.classList.add("talk");
       input.addEventListener("change", () => {
         ch.label = input.value.trim() || ch.label;
-        const r = remotes.get(ch.id);
-        if (r) r.label = ch.label;
+        ch.renamed = true; // keep it over the Gather name from here on
         if (!/^Guest \d+$/.test(ch.label)) rememberName(ch.label);
       });
       speakersEl.appendChild(input);
@@ -1423,5 +1695,5 @@
   }
 
   // Console hooks for poking at it.
-  window.gatherWhisper = { settings, channels, remotes, transcript, playSound, download };
+  window.gatherWhisper = { settings, channels, remotes, transcript, playSound, download, trackPlayer, playerName, accountName };
 })();
